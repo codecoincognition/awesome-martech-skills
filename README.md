@@ -37,18 +37,18 @@ No API keys. No MCP connectors. Just CSV in, results out.
 | [Social](skills/social/) | 12 | Content calendars, engagement analysis, short-form video, social commerce |
 | [Ads](skills/ads/) | 12 | Google/Meta/LinkedIn ads, copy generation, budget optimization |
 | [Analytics](skills/analytics/) | 10 | GA4 setup, dashboards, attribution, funnel analysis |
-| [CRM](skills/crm/) | 9 | Lead scoring, segmentation, pipeline analysis, lifecycle management |
+| [CRM](skills/crm/) | 9 | Lead scoring, data hygiene, enrichment prioritization, lifecycle management |
 | [CRO](skills/cro/) | 9 | A/B testing, landing pages, form optimization, friction detection |
 | [Content](skills/content/) | 12 | Blog outlines, content repurposing, editorial calendars, SEO writing |
 | [PR & Events](skills/pr-events/) | 8 | Press releases, media lists, event planning, crisis comms |
-| [MarTech Ops](skills/martech-ops/) | 8 | UTM tracking, stack audits, automation debugging, vendor comparison |
+| [MarTech Ops](skills/martech-ops/) | 8 | UTM tracking, compliance, contracts, vendor scoring, SLA docs |
 | [Video & Podcast](skills/video-podcast/) | 10 | Scripts, YouTube SEO, show notes, short-form video |
 | [Growth](skills/growth/) | 9 | Experiments, channel mix, personas, GTM planning, referral programs |
-| [Insights](skills/insights/) | 11 | Voice of customer, competitive positioning, trend radar, creative concepts |
+| [Insights](skills/insights/) | 11 | Voice of customer, win/loss analysis, competitive positioning, trend radar |
 | [AI Marketing](skills/ai-marketing/) | 7 | AI image prompts, personalization, prompt libraries, content quality |
-| [B2B & ABM](skills/b2b/) | 6 | Account selection, persona mapping, sales enablement, intent analysis |
+| [B2B & ABM](skills/b2b/) | 6 | Account research, buying committees, sales decks, RFP responses |
 
-## Built Skills (30)
+## Built Skills (52)
 
 ### Phase 1 — Foundation (15 skills)
 
@@ -89,6 +89,33 @@ No API keys. No MCP connectors. Just CSV in, results out.
 | [positioning-whitespace-finder](skills/insights/positioning-whitespace-finder.md) | Insights | Find unclaimed positioning territory |
 | [hook-stress-tester](skills/insights/hook-stress-tester.md) | Insights | Score headlines and generate improved variants |
 | [campaign-angle-generator](skills/insights/campaign-angle-generator.md) | Insights | Generate campaign angles across persuasion lenses |
+
+### Phase 3 — Expansion (22 skills)
+
+| Skill | Category | Description |
+|---|---|---|
+| [brand-asset-compliance-checker](skills/martech-ops/brand-asset-compliance-checker.md) | MarTech Ops | Audit marketing assets against brand guidelines |
+| [digital-asset-audit-report](skills/martech-ops/digital-asset-audit-report.md) | MarTech Ops | Audit DAM inventory for naming issues, duplicates, metadata gaps |
+| [content-changelog-generator](skills/martech-ops/content-changelog-generator.md) | MarTech Ops | Compare document versions and generate change logs |
+| [marketing-compliance-pre-checker](skills/martech-ops/marketing-compliance-pre-checker.md) | MarTech Ops | Pre-screen marketing content for FTC/FDA/CAN-SPAM compliance |
+| [contract-clause-extractor](skills/martech-ops/contract-clause-extractor.md) | MarTech Ops | Extract and analyze key clauses from vendor contracts |
+| [vendor-performance-scorecard](skills/martech-ops/vendor-performance-scorecard.md) | MarTech Ops | Score vendors across delivery, cost, quality, and strategic value |
+| [sla-document-generator](skills/martech-ops/sla-document-generator.md) | MarTech Ops | Generate marketing-sales SLA documents |
+| [approval-bottleneck-analyzer](skills/martech-ops/approval-bottleneck-analyzer.md) | MarTech Ops | Analyze approval cycle times to find bottlenecks |
+| [crm-data-hygiene-auditor](skills/crm/crm-data-hygiene-auditor.md) | CRM | Audit CRM data for duplicates, stale records, and formatting issues |
+| [data-enrichment-prioritizer](skills/crm/data-enrichment-prioritizer.md) | CRM | Prioritize which CRM records to enrich first |
+| [account-research-synthesizer](skills/b2b/account-research-synthesizer.md) | B2B & ABM | Synthesize firmographic and intent signals into account briefs |
+| [buying-committee-mapper](skills/b2b/buying-committee-mapper.md) | B2B & ABM | Map buying committee roles, decision criteria, and engagement strategy |
+| [sales-deck-assembler](skills/b2b/sales-deck-assembler.md) | B2B & ABM | Assemble customized sales presentations for specific prospects |
+| [rfp-response-builder](skills/b2b/rfp-response-builder.md) | B2B & ABM | Generate structured RFP/RFI responses from product knowledge |
+| [sales-content-usage-analyzer](skills/b2b/sales-content-usage-analyzer.md) | B2B & ABM | Analyze which sales content gets used and wins deals |
+| [event-logistics-coordinator](skills/pr-events/event-logistics-coordinator.md) | PR & Events | Create comprehensive event logistics plans |
+| [event-attendee-matcher](skills/pr-events/event-attendee-matcher.md) | PR & Events | Match attendees to sessions, networking groups, and sales reps |
+| [webinar-technical-runbook](skills/pr-events/webinar-technical-runbook.md) | PR & Events | Generate complete webinar runbooks with troubleshooting guides |
+| [budget-variance-analyzer](skills/analytics/budget-variance-analyzer.md) | Analytics | Compare planned vs. actual marketing spend with root cause analysis |
+| [dashboard-requirement-gatherer](skills/analytics/dashboard-requirement-gatherer.md) | Analytics | Gather KPI definitions and data sources for dashboard builds |
+| [campaign-brief-synthesizer](skills/content/campaign-brief-synthesizer.md) | Content | Synthesize multi-stakeholder inputs into unified campaign briefs |
+| [win-loss-interview-analyzer](skills/insights/win-loss-interview-analyzer.md) | Insights | Analyze win/loss interview transcripts for patterns and recommendations |
 
 ## Workflow Chains
 
