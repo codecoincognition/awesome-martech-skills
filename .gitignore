@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python (if running eval scripts)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Office lock files
+.~lock.*
+
+# Internal planning docs (not for public repo)
+*-plan.md
