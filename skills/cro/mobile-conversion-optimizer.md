@@ -15,7 +15,7 @@ Optimizes mobile web and app experiences for higher conversion rates through mob
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing, add 1-2 weeks for design and development changes. Input is mobile analytics data and current mobile experience details. Output is Markdown optimization plan with mobile-specific fixes.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min implementing in your testing tool / CMS. If implementing, add 1-2 weeks for design and development changes. Input is mobile analytics data and current mobile experience details. Output is Markdown optimization plan with mobile-specific fixes.
 
 ## User Intent Mapping
 
@@ -127,8 +127,7 @@ Optimizes mobile web and app experiences for higher conversion rates through mob
 ### ⚠️ Human Checkpoint
 > Test all mobile changes on actual devices (iOS and Android, multiple screen sizes). Browser dev tools mobile emulation misses real-world issues like touch behavior, keyboard interactions, and network conditions. Get QA to test on the 5 most common devices in your analytics.
 
-> **Benchmark Context**: Mobile commerce accounts for 60%+ of e-commerce traffic but only 40-45% of revenue — the conversion gap is real and fixable. 53% of mobile users abandon sites that take longer than 3 seconds to load. Mobile cart abandonment rate averages 85% vs. 70% on desktop. Every 0.1s improvement in mobile page speed increases conversion by 8%. Mobile-optimized checkout with express payment options increases conversion by 20-35%.
-
+> **Benchmark Context**: Mobile commerce accounts for 60%+ of e-commerce traffic but only 40-45% of revenue — the conversion gap is real and fixable (Unbounce 2024 Conversion Benchmark Report). 53% of mobile users abandon sites that take longer than 3 seconds to load. Mobile cart abandonment rate averages 85% vs (Baymard Institute 2024 Cart Abandonment Statistics). 70% on desktop. Every 0.1s improvement in mobile page speed increases conversion by 8% (Unbounce 2024 Conversion Benchmark Report). Mobile-optimized checkout with express payment options increases conversion by 20-35% (Baymard Institute 2024 Cart Abandonment Statistics). (Baymard Institute 2024 Cart Abandonment Statistics).
 ## Output Contract
 
 ### Deliverable: Markdown Mobile Optimization Plan
@@ -209,3 +208,10 @@ Optimizes mobile web and app experiences for higher conversion rates through mob
 **Input**: "Mobile conversion optimization for our e-commerce site. Desktop conversion: 3.2%, mobile conversion: 1.1% (65% gap). Mobile traffic is 68% of total. Mobile bounce rate: 62% (desktop: 38%). Lighthouse mobile score: 45. Checkout is 4 steps on mobile. No express checkout options."
 
 **Output**: Critical gap: mobile converts at 34% of desktop rate with 68% of traffic — fixing this is highest-ROI project available. Priority fixes: (1) P0 — Speed (Lighthouse 45 is poor): compress images (saves ~40% page weight), defer non-critical JS, implement lazy loading. Target: Lighthouse 75+ in 2 weeks. Expected: bounce rate drop from 62% to 45-50%. (2) P0 — Add Apple Pay + Google Pay to checkout. Single-tap checkout eliminates 3 of 4 checkout steps for 30-40% of mobile users. Expected: 20-30% conversion lift on mobile checkout. (3) P1 — Consolidate 4-step checkout to 2 steps (shipping + payment on one page, confirmation on second). Add progress indicator. Expected: 15-20% reduction in checkout abandonment. (4) P1 — Sticky "Add to Cart" button on product pages (currently scrolls off screen). Expected: 10-15% more add-to-cart on mobile. (5) P2 — Implement bottom sheet for product variants instead of dropdown selectors. Combined expected impact: mobile conversion from 1.1% to 2.0-2.5% within 8 weeks, representing significant revenue increase given 68% mobile traffic share.
+
+## Related Skills
+
+- **checkout-funnel-optimizer** (./checkout-funnel-optimizer.md) — Optimize mobile checkout specifically; use to address friction points in mobile payment flows.
+- **ab-test-designer** (./ab-test-designer.md) — Design A/B tests for mobile changes (button placement, form fields, page speed improvements); validate mobile optimizations with statistical testing.
+- **heatmap-analysis-toolkit** (./heatmap-analysis-toolkit.md) — Analyze mobile user behavior with heatmaps; use to identify specific mobile UX friction points.
+- **form-optimization-toolkit** (./form-optimization-toolkit.md) — Optimize mobile forms specifically; reduce fields and improve mobile-specific interactions (input types, keyboard handling).

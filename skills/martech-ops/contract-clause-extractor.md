@@ -16,7 +16,7 @@ Extracts key clauses from marketing vendor, agency, and partner contracts, provi
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is pasted contract text. Output is a Markdown summary. No legal database needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min implementing in your MarTech stack.** If implementing output in a platform, add 10-20 min for setup. Input is pasted contract text. Output is a Markdown summary. No legal database needed.
 
 ## User Intent Mapping
 
@@ -109,8 +109,7 @@ For CRITICAL and HIGH risk clauses, provide:
 > This is contract analysis assistance, NOT legal advice. Have qualified legal counsel review any contract before signing. Do not rely solely on this analysis for legal decisions.
 
 
-> **Benchmark Context**: Average enterprise has 91 marketing tools in its stack. Brand compliance violations occur in 60% of co-branded partner materials. UTM tracking is implemented on only 40-50% of marketing URLs on average.
-
+> **Benchmark Context**: Average enterprise has 91 marketing tools in its stack. Brand compliance violations occur in 60% of co-branded partner materials (Gartner 2024 Marketing Technology Survey). UTM tracking is implemented on only 40-50% of marketing URLs on average. (Gartner 2024 Marketing Technology Survey).
 ## Output Contract
 
 ### Deliverable: Markdown Contract Summary
@@ -196,3 +195,10 @@ Contract analysis assistance only. Consult legal counsel before signing.
 **Input**: 12-page SaaS vendor contract for marketing automation platform, $2,400/month.
 
 **Output**: 2 CRITICAL flags (auto-renewal with only 30-day notice window, vendor retains perpetual license to all data uploaded), 1 HIGH (99.5% uptime SLA with credits capped at 1 month's fees), 2 MEDIUM (annual 8% price escalation, broad non-compete preventing use of similar tools). Key deadline: renewal notice due November 1st. Top negotiation priority: change data license from perpetual to term-limited, extend renewal notice to 90 days.
+
+## Related Skills
+
+- **[Vendor Performance Scorecard](./vendor-performance-scorecard.md)** — Use contract terms extracted to track contract compliance and SLA performance.
+- **[SLA Document Generator](./sla-document-generator.md)** — Create internal SLAs based on contract terms learned from external agreements.
+- **[Marketing Compliance Pre-Checker](./marketing-compliance-pre-checker.md)** — Review contracts for compliance clauses that affect marketing activities.
+- **[Approval Bottleneck Analyzer](./approval-bottleneck-analyzer.md)** — Track approval clauses and requirements found in contracts.

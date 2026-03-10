@@ -17,7 +17,7 @@ Design complete multi-step email sequences for any purpose: nurture, onboarding,
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is sequence purpose + audience context. Output is a complete email sequence with full copy. No integrations needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-45 min setup in Mailchimp / Klaviyo / HubSpot.** If implementing output in a platform, add 10-20 min for setup. Input is sequence purpose + audience context. Output is a complete email sequence with full copy. No integrations needed.
 
 ## User Intent Mapping
 
@@ -108,10 +108,10 @@ Trigger when the user says:
 6. **Generate output** — Full sequence document with all copy + CSV for platform import.
 
 
-> **Benchmark Context**: Average B2B email open rate is 21.3%, click rate 2.6%. Welcome emails average 50-60% open rates — the highest of any email type. Segmented campaigns see 14% higher open rates than non-segmented. Best send times: B2B Tuesday-Thursday 9-11 AM local time.
+> **Benchmark Context**: Average B2B email open rate is 21.3%, click rate 2 (Mailchimp 2024 Email Marketing Benchmarks). 6% (Mailchimp 2024 Email Marketing Benchmarks) Welcome emails average 50-60% open rates — the highest of any email type (Mailchimp 2024 Email Marketing Benchmarks) Segmented campaigns see 14% higher open rates than non-segmented (Mailchimp 2024 Email Marketing Benchmarks) Best send times: B2B Tuesday-Thursday 9-11 AM local time (Campaign Monitor 2024 Email Benchmarks) (Mailchimp 2024 Email Marketing Benchmarks)
 
 
-### Confidence & Sample Size
+### Confidence & Sample Size.
 > **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract
@@ -256,3 +256,10 @@ Trigger → Email 1 (Day 0) → Wait 3 days → Email 2 (Day 3) → ...
 > - If no opens after email 5 → add to "Cold re-engagement" list
 >
 > Want me to generate the full copy for all 5 emails?
+
+## Related Skills
+
+- **[Email Copywriting Framework](./email-copywriting-framework.md)** — Use to write compelling copy for each email in your sequence.
+- **[Email List Segmentation](./email-list-segmentation.md)** — Use to create targeted sequences for specific audience segments identified in your segmentation strategy.
+- **[Email Automation Workflow](./email-automation-workflow.md)** — Use to translate your sequences into triggered automation workflows with branching logic.
+- **[Email Performance Analyzer](./email-performance-analyzer.md)** — Use after sequences launch to analyze performance and optimize future sequences.

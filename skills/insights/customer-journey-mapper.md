@@ -15,7 +15,7 @@ Maps customer journeys across touchpoints, identifies friction points and drop-o
 
 ## Granularity Check
 
-> **Session time**: ~10 min context gathering + ~15 min Claude session. If implementing, add 1-2 weeks for data collection and validation. Input is customer data, touchpoint inventory, and conversion metrics. Output is Markdown journey map with optimization plan.
+> **Time**: ~10 min data prep → ~15 min Claude session → ~30-60 min synthesizing into your strategy deck. If implementing, add 1-2 weeks for data collection and validation. Input is customer data, touchpoint inventory, and conversion metrics. Output is Markdown journey map with optimization plan.
 
 ## User Intent Mapping
 
@@ -206,3 +206,10 @@ Per friction point:
 **Input**: "Map the customer journey for our B2B SaaS. Sales cycle: 30-60 days. Touchpoints: website, blog, demo request form, sales calls, free trial, email nurture. Problems: 60% of demo requests don't show up, 40% of free trial users never log in after day 1. 2,000 monthly website visitors, 3% demo request rate."
 
 **Output**: Journey map reveals 2 critical gaps: (1) Demo no-show (60%): gap between request and demo. Currently: form → confirmation email → demo 3-5 days later. Fix: add instant calendar booking (reduce to same-day or next-day), send 3-email confirmation sequence (immediate confirmation with prep materials, 24-hour reminder with social proof, 1-hour reminder with meeting link), add SMS reminder option. Expected: reduce no-shows from 60% to 25-30%. (2) Trial abandonment (40% never return after day 1): no onboarding guidance. Fix: add in-app onboarding checklist, send Day 1 email with "3 things to try first," trigger live chat at 5-minute mark for stuck users, send Day 3 email highlighting key feature based on user role. Expected: reduce day-1 abandonment from 40% to 15-20%. Additional findings: blog → demo path is strongest conversion path (5.2% vs. 1.8% from homepage), but blog has no CTA on 60% of posts. Quick win: add contextual CTAs to all blog posts. Journey orchestration: set up behavioral triggers — if trial user completes setup → congratulations email; if trial user stalls → help email at 24 hours; if trial user succeeds → sales outreach at day 7.
+
+## Related Skills
+
+- **[Funnel Drop-off Analyzer](../analytics/funnel-drop-off-analyzer.md)** — Quantify and analyze where customers drop off at each journey stage.
+- **[Audience Persona Builder](./audience-persona-builder.md)** — Create persona-specific journey maps to understand how different segments move through the journey.
+- **[Customer Onboarding Optimizer](../crm/customer-onboarding-optimizer.md)** — Optimize the post-purchase journey stage to reduce early churn.
+- **[Customer Segmentation Engine](../ai-marketing/customer-segmentation-engine.md)** — Layer segments onto journeys to understand if different paths exist for different segments.

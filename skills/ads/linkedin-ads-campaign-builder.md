@@ -15,7 +15,7 @@ Structures complete LinkedIn advertising campaigns with targeting, format select
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing output in LinkedIn Campaign Manager, add 30-45 min for setup. Input is business goals and ICP. Output is Markdown campaign blueprint.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min building in Google Ads / Meta Ads Manager. If implementing output in LinkedIn Campaign Manager, add 30-45 min for setup. Input is business goals and ICP. Output is Markdown campaign blueprint.
 
 ## User Intent Mapping
 
@@ -112,8 +112,7 @@ Audience size guidelines:
 ### ⚠️ Human Checkpoint
 > Review audience targeting for relevance (avoid targeting too broad or too narrow), verify Lead Gen Form fields for GDPR/CCPA compliance, and ensure content offers match the audience's funnel stage.
 
-> **Benchmark Context**: Average LinkedIn ads CTR is 0.4-0.6%. Average CPL is $50-100 for gated content, $100-200 for demo requests. Lead Gen Forms convert 2-3x higher than landing pages. Thought Leader Ads have 2x the CTR of standard Sponsored Content. Document Ads average 3-5x the engagement of single image ads. LinkedIn audience is 4x more likely to be in a buying role than other platforms.
-
+> **Benchmark Context**: Average LinkedIn ads CTR is 0.4-0.6% (LinkedIn 2024 B2B Marketing Benchmark). Average CPL is $50-100 for gated content, $100-200 for demo requests. Lead Gen Forms convert 2-3x higher than landing pages. Thought Leader Ads have 2x the CTR of standard Sponsored Content. Document Ads average 3-5x the engagement of single image ads. LinkedIn audience is 4x more likely to be in a buying role than other platforms. (LinkedIn 2024 B2B Marketing Benchmark).
 ## Output Contract
 
 ### Deliverable: Markdown Campaign Blueprint
@@ -194,3 +193,10 @@ Audience size guidelines:
 **Input**: "LinkedIn ads for a cybersecurity SaaS. Target: CISOs and VP Security at mid-market companies (500-5000 employees). Objective: lead gen for demo requests. Budget: $6,000/month. Have a threat assessment whitepaper and product demo video."
 
 **Output**: 3-campaign structure: (1) Awareness — Video ad (product demo, 30s cut) to CISO + VP Security audience, $1,500/mo; (2) Lead Gen — Document Ad (whitepaper as carousel) with Lead Gen Form (4 fields: name, email, company size, biggest security concern), $3,000/mo; (3) Retargeting — Single image ad with demo CTA to whitepaper downloaders + website visitors, $1,500/mo. Audience: Job Titles (CISO, VP Security, Director Information Security) + Company Size (500-5000) + Industries (Technology, Financial Services, Healthcare). Estimated audience: 45,000. Lead Gen Form fields: Name (pre-filled), Work Email (pre-filled), Company Size (dropdown), "What's your biggest security challenge in 2026?" (open text). Expected CPL: $75-120 for whitepaper, $150-250 for demo. 4-week optimization plan included.
+
+## Related Skills
+
+- **[ad-copy-generator](./ad-copy-generator.md)** — Generate LinkedIn-specific ad copy and testimonial variations that convert B2B audiences.
+- **[audience-targeting-builder](./audience-targeting-builder.md)** — Build and refine LinkedIn audience segments with layered targeting criteria.
+- **[ad-performance-analyzer](./ad-performance-analyzer.md)** — Analyze LinkedIn campaign performance to optimize targeting and creative.
+- **[account-research-synthesizer](../b2b/account-research-synthesizer.md)** — Research target accounts to inform LinkedIn ABM campaign strategy and messaging.

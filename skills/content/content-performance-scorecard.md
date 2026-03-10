@@ -17,7 +17,7 @@ Scores and ranks content across engagement, SEO, conversion, and business impact
 
 ## Granularity Check
 
-> **Session time**: ~10 min data prep + ~10 min Claude session. Input is content analytics exports. Output is Markdown scorecard with rankings and recommendations.
+> **Time**: ~10 min data prep → ~10 min Claude session → ~30-60 min implementing in your CMS. Input is content analytics exports. Output is Markdown scorecard with rankings and recommendations.
 
 ## User Intent Mapping
 
@@ -102,8 +102,7 @@ Per content piece:
 ### ⚠️ Human Checkpoint
 > Verify data accuracy before sharing scorecards with stakeholders. Context matters: seasonal content, campaign-specific pieces, and brand-building content may score low on conversion but serve other strategic purposes.
 
-> **Benchmark Context**: Top 10% of content generates 90% of traffic for most sites. Average blog post takes 6-12 months to reach full SEO potential. Content with 10+ internal links gets 40% more organic traffic. Updated content sees an average 106% traffic increase. 60-70% of content published by companies gets zero organic traffic.
-
+> **Benchmark Context**: Top 10% of content generates 90% of traffic for most sites. Average blog post takes 6-12 months to reach full SEO potential (Content Marketing Institute 2024 B2B Research). Content with 10+ internal links gets 40% more organic traffic. Updated content sees an average 106% traffic increase. 60-70% of content published by companies gets zero organic traffic. (Content Marketing Institute 2024 B2B Research).
 ## Output Contract
 
 ### Deliverable: Markdown Content Scorecard
@@ -181,3 +180,10 @@ Per content piece:
 **Input**: "Score our blog content. 85 posts published over 18 months. Google Analytics export with pageviews, avg time on page, bounce rate. Search Console export with clicks and impressions. No conversion tracking yet. B2B SaaS, goal is lead generation."
 
 **Output**: Scored 85 posts on engagement (40% weight — no conversion data) and SEO (60% weight). Top 5: (1) "Complete Guide to [Topic]" — Score 9.2, 12K monthly organic, 4:30 avg time, growing 15% MoM. (2) "How to [Task]" — Score 8.7, 8K monthly organic, 3:45 avg time. Bottom 10: all under 50 monthly visits, published 12+ months ago. Decay alerts: 8 posts lost >30% traffic in last 3 months — all need content refresh. Portfolio insights: "How to" posts average 3.2x more traffic than news/opinion posts. Posts over 2,000 words score 2.1x higher than posts under 1,000 words. Recommendations: (1) URGENT — add lead capture (CTA, content upgrade) to top 10 posts — these get 60% of all traffic but capture zero leads. (2) Refresh 8 decaying posts — update stats, add new sections, republish. (3) Consolidate 12 low-performing posts into 4 comprehensive guides. (4) Set up conversion tracking before next scorecard.
+
+## Related Skills
+
+- **[Content Repurposer](./content-repurposer.md)** — Use to identify high-performing content and repurpose it across more channels to maximize ROI.
+- **[Content Refresh Prioritizer](../seo/content-refresh-prioritizer.md)** — Use alongside this skill to prioritize which underperforming content to update first.
+- **[SEO Reporting Dashboard](../seo/seo-reporting-dashboard.md)** — Use to complement content performance metrics with SEO-specific KPIs and traffic data.
+- **[Editorial Calendar Builder](./editorial-calendar-builder.md)** — Use to adjust future editorial plans based on performance data from past content.

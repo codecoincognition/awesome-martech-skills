@@ -15,7 +15,7 @@ Designs structured growth experiments with clear hypotheses, success metrics, IC
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing experiments, add variable time per experiment. Input is growth goals and current metrics. Output is Markdown experiment backlog with prioritized experiments.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~60-120 min implementing in your product / tools. If implementing experiments, add variable time per experiment. Input is growth goals and current metrics. Output is Markdown experiment backlog with prioritized experiments.
 
 ## User Intent Mapping
 
@@ -119,8 +119,7 @@ For each experiment, define:
 ### ⚠️ Human Checkpoint
 > Review experiment priorities with the team before committing engineering resources. Verify that success metrics are tracked correctly before launch. Ensure experiments don't negatively impact user experience in ways that outweigh potential gains.
 
-> **Benchmark Context**: High-growth companies run 10-30 experiments per month. Average experiment success rate is 20-30%. 1 in 10 experiments produces a 10%+ improvement. Experiment velocity (experiments per week) is a better predictor of growth than any single experiment result. The best growth teams have a 4:1 ratio of quick tests to big bets.
-
+> **Benchmark Context**: High-growth companies run 10-30 experiments per month (ProfitWell 2024 SaaS Benchmarks). Average experiment success rate is 20-30%. 1 in 10 experiments produces a 10%+ improvement. Experiment velocity (experiments per week) is a better predictor of growth than any single experiment result. The best growth teams have a 4:1 ratio of quick tests to big bets (ProfitWell 2024 SaaS Benchmarks). (ProfitWell 2024 SaaS Benchmarks).
 ## Output Contract
 
 ### Deliverable: Markdown Experiment Backlog
@@ -197,3 +196,10 @@ For each experiment, define:
 **Input**: "Growth experiments for a B2B SaaS. Current funnel: 10K monthly visitors → 500 signups (5%) → 100 activated (20%) → 20 paid (4%). North star: monthly activated users. Biggest drop: signup to activation (20%)."
 
 **Output**: 12 experiments prioritized by ICE score. Top 5: (1) Onboarding checklist with progress bar (ICE 8.3) — hypothesis: gamified onboarding increases activation from 20% to 30%; (2) Time-to-value optimization — reduce steps to first aha moment from 8 to 3 (ICE 7.7); (3) Personalized onboarding flow by use case (ICE 7.3); (4) In-app welcome video replacing email drip (ICE 7.0); (5) Proactive chat trigger at activation drop-off point (ICE 6.7). Sprint 1 plan: experiments 1 and 2 (both targeting activation). Sprint 2: experiments 3 and 4. Testing framework: minimum 250 users per variant, 14-day test duration, 95% confidence threshold. Expected combined impact if top 3 succeed: activation rate from 20% to 28-32%.
+
+## Related Skills
+
+- **[retention-analysis-framework](./retention-analysis-framework.md)** — Use retention analysis to identify and prioritize experiments.
+- **[onboarding-flow-optimizer](./onboarding-flow-optimizer.md)** — Design experiments to improve user activation and time-to-value.
+- **[customer-persona-builder](./customer-persona-builder.md)** — Segment experiments by persona for persona-specific optimization.
+- **[ab-test-result-analyzer](../analytics/ab-test-result-analyzer.md)** — Analyze experiment results with statistical rigor.

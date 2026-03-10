@@ -15,7 +15,7 @@ Optimizes e-commerce SEO across product pages, category pages, site architecture
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing, add 4-10 hours for site-wide changes. Input is product data and site structure. Output is Markdown optimization plan with template recommendations.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min implementation in Google Search Console / CMS. If implementing, add 4-10 hours for site-wide changes. Input is product data and site structure. Output is Markdown optimization plan with template recommendations.
 
 ## User Intent Mapping
 
@@ -108,8 +108,7 @@ Optimizes e-commerce SEO across product pages, category pages, site architecture
 ### ⚠️ Human Checkpoint
 > Review product data accuracy before implementing schema (price, availability, ratings). Verify faceted navigation changes don't break user experience. Ensure product descriptions are accurate and compliant with regulations.
 
-> **Benchmark Context**: E-commerce category pages rank for 3x more keywords than product pages. Product pages with unique descriptions rank 83% better than those using manufacturer copy. Product schema increases CTR by 30% via rich results (price, availability, stars). Sites with optimized faceted navigation see 20-40% more indexed pages. 70% of e-commerce clicks go to the first page of results.
-
+> **Benchmark Context**: E-commerce category pages rank for 3x more keywords than product pages (Semrush 2024 State of Search). Product pages with unique descriptions rank 83% better than those using manufacturer copy (Semrush 2024 State of Search). Product schema increases CTR by 30% via rich results (price, availability, stars. Sites with optimized faceted navigation see 20-40% more indexed pages. 70% of e-commerce clicks go to the first page of results. (Ahrefs 2024 Search Traffic Study).
 ## Output Contract
 
 ### Deliverable: Markdown E-commerce SEO Plan
@@ -191,3 +190,10 @@ Optimizes e-commerce SEO across product pages, category pages, site architecture
 **Input**: "E-commerce SEO for a Shopify fashion store. 2,000 products, 25 collections. Faceted filters: size, color, price range, brand. Product descriptions are mostly manufacturer copy. No schema markup."
 
 **Output**: Architecture: current 2-level (collection → product) is good; add subcollections for "Women's Tops → T-Shirts, Blouses, Tank Tops" to target specific keywords. Category pages: add unique 200-word descriptions to all 25 collections — prioritize top 10 by traffic. Product pages: rewrite descriptions for top 100 products (highest traffic + highest revenue); use formula: opening benefit statement + 3 feature bullets + sizing/material details. Faceted navigation: make size and brand filter URLs indexable (/collections/womens-tops/brand-nike, /collections/jeans/size-32), noindex color and price filters (low search volume). Schema: add Product schema to all product pages via JSON-LD for SEO app (covers price, availability, reviews), BreadcrumbList to all pages. Quick wins: (1) install JSON-LD schema app (30 min, affects all 2,000 products), (2) write top 10 collection descriptions (2 hours), (3) add alt text to product images using formula "Brand + Product + Color" (batch via CSV import).
+
+## Related Skills
+
+- **[On Page SEO Auditor](./on-page-seo-auditor.md)** — Use to audit and optimize individual product and category page elements before implementing site-wide changes.
+- **[Technical SEO Auditor](./technical-seo-auditor.md)** — Use to ensure e-commerce site architecture, faceted navigation, and structured data are technically sound.
+- **[Page Speed Optimizer](./page-speed-optimizer.md)** — Use to optimize product page load speeds and Core Web Vitals, critical for e-commerce conversion rates.
+- **[Content Repurposer](../content/content-repurposer.md)** — Use to turn product descriptions and reviews into multi-channel marketing content.

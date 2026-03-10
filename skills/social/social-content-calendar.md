@@ -125,10 +125,10 @@ Visual Style: Bright, natural photography, minimalist design, green/cream color 
    - Generate accompanying strategy document
 
 
-> **Benchmark Context**: Average LinkedIn engagement rate is 0.35-0.50%. Instagram average engagement rate is 0.60-0.80% (declining from 1.2% in 2022). Posting frequency sweet spot: LinkedIn 3-5x/week, Instagram 3-7x/week. Video content gets 2-3x more engagement than static images.
+> **Benchmark Context**: Average LinkedIn engagement rate is 0.35-0.50% (LinkedIn 2024 B2B Marketing Benchmark) Instagram average engagement rate is 0.60-0.80% (declining from 1.2% in 2022) (Sprout Social 2024 Index) Posting frequency sweet spot: LinkedIn 3-5x/week, Instagram 3-7x/week (Buffer 2024 State of Social) Video content gets 2-3x more engagement than static images (Sprout Social 2024 Index) (LinkedIn 2024 B2B Marketing Benchmark)
 
 
-### Confidence & Sample Size
+### Confidence & Sample Size.
 > **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract
@@ -501,3 +501,10 @@ Key Dates:
 - Assign engagement monitoring owner
 - Establish daily review cadence (10 min) for comments/DMs
 - Monitor performance mid-month (Apr 15) for optimization
+
+## Related Skills
+
+- **[Content Pillar Strategy](../content/content-pillar-strategy.md)** — Use to ensure social content aligns with your broader topic cluster and content strategy.
+- **[Content Repurposer](../content/content-repurposer.md)** — Use to identify pieces of content to repurpose into social posts for your calendar.
+- **[Social Engagement Analyzer](./social-engagement-analyzer.md)** — Use to review past performance and adjust future calendar based on what works best.
+- **[Editorial Calendar Builder](../content/editorial-calendar-builder.md)** — Use to align social content planning with your broader editorial calendar.

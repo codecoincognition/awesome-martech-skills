@@ -15,7 +15,7 @@ Analyzes and optimizes checkout and purchase funnels to reduce abandonment, elim
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing, add 1-3 weeks for UX and development. Input is checkout analytics and current flow. Output is Markdown optimization plan with prioritized fixes.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min implementing in your testing tool / CMS. If implementing, add 1-3 weeks for UX and development. Input is checkout analytics and current flow. Output is Markdown optimization plan with prioritized fixes.
 
 ## User Intent Mapping
 
@@ -119,8 +119,7 @@ Analyzes and optimizes checkout and purchase funnels to reduce abandonment, elim
 ### ⚠️ Human Checkpoint
 > Have QA test entire checkout flow on all devices before launching changes. Verify payment processing works correctly after any checkout modifications. Review abandonment email content for accuracy (pricing, product images, links).
 
-> **Benchmark Context**: Average cart abandonment rate is 70%. Top reason for abandonment: unexpected shipping costs (48%). Guest checkout increases conversion 14% vs. required account creation. Express checkout (Apple Pay, etc.) increases mobile conversion by 20-30%. Cart abandonment emails recover 5-15% of abandoned carts. BNPL increases AOV by 20-30% and conversion by 20%.
-
+> **Benchmark Context**: Average cart abandonment rate is 70% (Baymard Institute 2024 Cart Abandonment Statistics). Top reason for abandonment: unexpected shipping costs (48%). Guest checkout increases conversion 14% vs (Baymard Institute 2024 Cart Abandonment Statistics). required account creation. Express checkout (Apple Pay, etc.) increases mobile conversion by 20-30% (Unbounce 2024 Conversion Benchmark Report). Cart abandonment emails recover 5-15% of abandoned carts (Baymard Institute 2024 Cart Abandonment Statistics). BNPL increases AOV by 20-30% and conversion by 20% (Unbounce 2024 Conversion Benchmark Report). (Unbounce 2024 Conversion Benchmark Report).
 ## Output Contract
 
 ### Deliverable: Markdown Checkout Optimization Plan
@@ -201,3 +200,10 @@ Analyzes and optimizes checkout and purchase funnels to reduce abandonment, elim
 **Input**: "Checkout optimization for DTC furniture brand. Shopify Plus. AOV: $850. Cart abandonment: 78%. 4-step checkout (info → shipping → payment → review). Mobile: 65% of traffic but only 1.2% conversion (vs. 3.1% desktop). No express checkout, no BNPL."
 
 **Output**: Critical issues: 78% cart abandonment (8 points above average, 18 points above best-in-class for high-AOV). Root causes: (1) No BNPL — at $850 AOV, monthly payments are essential. Adding Affirm/Klarna expected to increase conversion 20-30% and AOV 15%. (2) No express checkout — mobile 1.2% conversion is 60% below desktop; Apple Pay/Google Pay expected to lift mobile 25-35%. (3) 4-step checkout — consolidate to 2 steps (info+shipping → payment+review). (4) Shipping costs shown late — $99 shipping appearing at step 2 causes sticker shock. Fix: show shipping estimate on product page and cart. Phase 1 (week 1): enable Shop Pay + Apple Pay + Google Pay (Shopify Plus built-in). Add Affirm BNPL. Expected lift: mobile conversion 1.2% → 1.8%. Phase 2 (week 2): consolidate checkout to 2 steps. Add shipping estimate on cart page. Expected lift: overall conversion 2.0% → 2.6%. Phase 3 (week 3): cart abandonment email + SMS sequence via Klaviyo (1hr, 24hr, 72hr). Expected recovery: 8-12% of abandoned carts. Revenue impact: at current traffic, improving conversion from 2.0% to 2.6% + recovering 10% of abandoned carts = estimated $180K additional annual revenue.
+
+## Related Skills
+
+- **ab-test-designer** (./ab-test-designer.md) — Design A/B tests for checkout changes (new payment methods, form field reductions, flow steps); use to validate which optimizations drive highest lift.
+- **landing-page-optimizer** (./landing-page-optimizer.md) — Design post-purchase confirmation pages and cart summary messaging; use to build confidence and reduce purchase anxiety.
+- **retargeting-campaign-builder** (../ads/retargeting-campaign-builder.md) — Build abandonment recovery campaigns with retargeting ads; use to recover lost carts through dynamic product ads.
+- **funnel-drop-off-analyzer** (../analytics/funnel-drop-off-analyzer.md) — Analyze where users drop off in your checkout funnel; use to prioritize optimization opportunities.

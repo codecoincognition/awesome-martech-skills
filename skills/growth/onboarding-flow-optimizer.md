@@ -15,7 +15,7 @@ Analyzes and optimizes user onboarding flows to reduce time-to-value, increase a
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing output, add 1-4 weeks for development. Input is current onboarding flow and activation data. Output is Markdown optimization plan with redesigned flow.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~60-120 min implementing in your product / tools. If implementing output, add 1-4 weeks for development. Input is current onboarding flow and activation data. Output is Markdown optimization plan with redesigned flow.
 
 ## User Intent Mapping
 
@@ -103,8 +103,7 @@ Principles:
 ### ⚠️ Human Checkpoint
 > Review redesigned flow with actual users (5 user tests minimum) before full rollout. Verify that removed steps don't break downstream features. Ensure onboarding emails comply with CAN-SPAM/GDPR. Test on mobile if applicable.
 
-> **Benchmark Context**: Average SaaS activation rate is 20-40%. Top products achieve 60%+. Reducing onboarding from 8 steps to 3 increases completion by 50-100%. Personalized onboarding flows convert 2x better than generic. Onboarding emails have 4x the engagement rate of regular marketing emails. 86% of users say they'd be more likely to stay loyal to a product that invests in onboarding.
-
+> **Benchmark Context**: Average SaaS activation rate is 20-40% (ProfitWell 2024 SaaS Benchmarks) Top products achieve 60%+. . Reducing onboarding from 8 steps to 3 increases completion by 50-100% (OpenView 2024 Product Benchmarks) Personalized onboarding flows convert 2x better than generic (OpenView 2024 Product Benchmarks) Onboarding emails have 4x the engagement rate of regular marketing emails (OpenView 2024 Product Benchmarks) 86% of users say they'd be more likely to stay loyal to a product that invests in onboarding (OpenView 2024 Product Benchmarks) (ProfitWell 2024 SaaS Benchmarks).
 ## Output Contract
 
 ### Deliverable: Markdown Optimization Plan
@@ -181,3 +180,10 @@ Principles:
 **Input**: "Optimize onboarding for a CRM tool. Current flow: signup → verify email → company info form (12 fields) → invite team → import contacts → set up pipeline → create first deal. Activation: 'Create first deal.' Current activation rate: 18%. Time to activation: 4.2 days."
 
 **Output**: Problem: 7 steps before value, 12-field form is a wall. Aha moment confirmed: users who create a deal in day 1 retain 4x better. Optimized flow: (1) Signup (email only) → (2) "What do you sell?" (1 question, auto-generates sample pipeline) → (3) Create first deal (guided, with sample data pre-filled) → aha moment reached in <3 minutes. Deferred: email verification (to day 2), company info (progressive, collect over first week), team invite (prompt after 3rd deal), contact import (prompt after pipeline is set up). Email sequence: Day 0 — welcome + quick win tip; Day 1 — "Import your contacts in 60 seconds"; Day 3 — "Invite your team"; Day 7 — success story from similar company. Expected impact: activation rate from 18% to 35-45%, time to activation from 4.2 days to <1 hour.
+
+## Related Skills
+
+- **[customer-persona-builder](./customer-persona-builder.md)** — Create persona-specific onboarding flows to improve activation rates.
+- **[retention-analysis-framework](./retention-analysis-framework.md)** — Track how onboarding improvements affect retention and churn.
+- **[growth-experiment-designer](./growth-experiment-designer.md)** — Design A/B tests to validate onboarding optimizations.
+- **[ga4-event-setup-guide](../analytics/ga4-event-setup-guide.md)** — Set up activation events to measure onboarding success.

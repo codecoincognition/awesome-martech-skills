@@ -14,7 +14,7 @@ Optimizes social proof elements across websites, landing pages, and marketing ma
 
 ## Granularity Check
 
-> **Session time**: ~5 min context gathering + ~10 min Claude session. If implementing, add 1-3 days for design and content collection. Input is current social proof inventory and page context. Output is Markdown optimization plan with placement strategy and collection framework.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min implementing in your testing tool / CMS. If implementing, add 1-3 days for design and content collection. Input is current social proof inventory and page context. Output is Markdown optimization plan with placement strategy and collection framework.
 
 ## User Intent Mapping
 
@@ -122,8 +122,7 @@ High-converting testimonials include:
 ### ⚠️ Human Checkpoint
 > Verify all testimonials have documented permission from the customer. Ensure trust badges represent current, valid certifications. Check that usage stats are accurate and updated regularly. Review FOMO notifications for authenticity — fake activity notifications erode trust if discovered.
 
-> **Benchmark Context**: 92% of consumers read reviews before purchasing. Products with 5+ reviews are 270% more likely to be purchased than those with none. Testimonials with photos are 34% more effective than text-only. Displaying trust seals near checkout increases conversion by 42%. Case studies with specific metrics are 68% more persuasive than those without. Social proof is 12x more trusted than manufacturer descriptions.
-
+> **Benchmark Context**: 92% of consumers read reviews before purchasing. Products with 5+ reviews are 270% more likely to be purchased than those with none. Testimonials with photos are 34% more effective than text-only (VWO 2024 A/B Testing Report). Displaying trust seals near checkout increases conversion by 42% (Baymard Institute 2024 Cart Abandonment Statistics). Case studies with specific metrics are 68% more persuasive than those without. Social proof is 12x more trusted than manufacturer descriptions (Contentsquare 2024 Digital Experience Benchmark). (Contentsquare 2024 Digital Experience Benchmark).
 ## Output Contract
 
 ### Deliverable: Markdown Social Proof Plan
@@ -205,3 +204,10 @@ High-converting testimonials include:
 **Input**: "Social proof optimization for a B2B SaaS pricing page. Currently have a logo bar with 6 client logos and one generic testimonial ('Great product — love it!'). Pricing page gets 8K monthly visits, 1.2% conversion to trial. We have 200+ customers including some recognizable brands."
 
 **Output**: Problems: (1) Generic testimonial adds no credibility — doesn't address pricing objections. (2) Logo bar is good but underutilized. (3) No proof near the CTA or pricing cards. Fixes: (1) Replace generic testimonial with 3 specific testimonials addressing top pricing objections — "ROI paid for itself in 2 months" (value), "Switched from [competitor] and saved 40%" (comparison), "Implementation took 1 day, not 1 month" (ease). Place one testimonial per pricing tier, from a customer of similar size. (2) Expand logo bar to 12+ logos and add "Trusted by 200+ companies" counter. Move above pricing cards. (3) Add trust elements near CTA: "14-day free trial • No credit card required • Cancel anytime." (4) Add G2 rating badge (if 4.0+) next to pricing section header. (5) Add "Most Popular" badge on recommended plan (social proof + anchoring). Expected: pricing page conversion from 1.2% to 2-3% (social proof + trust elements addressing specific objections). A/B test: current page vs. page with 3 specific testimonials + trust elements near CTA.
+
+## Related Skills
+
+- **landing-page-optimizer** (./landing-page-optimizer.md) — Audit landing page copy context where social proof sits; ensure value proposition gives social proof credibility.
+- **pricing-page-optimizer** (./pricing-page-optimizer.md) — Add social proof strategy to pricing pages; use testimonials and trust signals to increase plan selection confidence.
+- **cta-optimization-framework** (./cta-optimization-framework.md) — Place social proof near CTAs strategically; combine trust signals with compelling CTA copy for highest impact.
+- **ab-test-designer** (./ab-test-designer.md) — Design A/B tests for social proof elements (testimonial placement, badge visibility, FOMO notifications); validate proof impact with testing.

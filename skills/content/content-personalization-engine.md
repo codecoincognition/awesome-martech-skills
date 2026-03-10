@@ -16,7 +16,7 @@ Designs content personalization strategies with audience segmentation, dynamic c
 
 ## Granularity Check
 
-> **Session time**: ~10 min context gathering + ~15 min Claude session. If implementing, add 2-4 weeks for platform setup. Input is audience data, content inventory, and technology stack. Output is Markdown personalization strategy with rules and implementation plan.
+> **Time**: ~10 min data prep → ~15 min Claude session → ~30-60 min implementing in your CMS. If implementing, add 2-4 weeks for platform setup. Input is audience data, content inventory, and technology stack. Output is Markdown personalization strategy with rules and implementation plan.
 
 ## User Intent Mapping
 
@@ -204,3 +204,10 @@ Per content touchpoint:
 **Input**: "Content personalization strategy for a B2B SaaS. 3 personas: startup founders, enterprise IT directors, agency owners. Website gets 50K monthly visitors. Using HubSpot CMS and CRM. Currently no personalization."
 
 **Output**: Maturity: Level 0 → target Level 2 within 6 months. Priority personalization rules: (1) Homepage hero — change headline, subheadline, and CTA based on industry (detected from CRM data for known contacts, from referral source and content consumption for anonymous). 3 variants needed + default. Expected: 25-35% conversion lift on homepage. (2) Case studies page — show industry-relevant case studies first (if startup → show startup stories, if enterprise → show enterprise stories). HubSpot smart content handles this natively. (3) Pricing page — show relevant plan recommendation and social proof by company size (startup: "1,000+ startups trust us"; enterprise: "trusted by Fortune 500"). (4) Blog sidebar CTA — dynamic CTA based on content topic and visitor funnel stage (new visitor → educational resource; returning → product demo). Content requirements: 12 content variants total for Phase 1 (3 personas × 4 touchpoints). Implementation: Phase 1 (month 1-2) — homepage and pricing personalization using HubSpot smart content. Phase 2 (month 3-4) — case study and blog CTA personalization. Phase 3 (month 5-6) — behavioral triggers (content consumption patterns → persona assignment). Expected ROI: 15-25% increase in MQL conversion rate.
+
+## Related Skills
+
+- **[Customer Persona Builder](../insights/customer-persona-builder.md)** — Use to define audience segments that will drive your personalization rules and dynamic content strategy.
+- **[Content Pillar Strategy](./content-pillar-strategy.md)** — Use to structure content in ways that support personalization (different content paths for different personas).
+- **[Content Distribution Strategy](./content-distribution-strategy.md)** — Use to deliver personalized content through the right channels at the right time for each segment.
+- **[Segmentation Rule Builder](../crm/segmentation-rule-builder.md)** — Use to define the audience segments that trigger your personalization rules.

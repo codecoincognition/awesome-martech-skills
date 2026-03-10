@@ -17,7 +17,7 @@ Analyzes ad campaign performance data across platforms to identify top performer
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing output in a platform, add 10-15 min for adjustments. Input is campaign performance CSV export. Output is Markdown analysis report with prioritized recommendations.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min building in Google Ads / Meta Ads Manager. If implementing output in a platform, add 10-15 min for adjustments. Input is campaign performance CSV export. Output is Markdown analysis report with prioritized recommendations.
 
 ## User Intent Mapping
 
@@ -96,8 +96,7 @@ Prioritized action list:
 ### ⚠️ Human Checkpoint
 > Review pause/scale recommendations against business context — some campaigns serve strategic goals (brand, new market entry) that CPA alone doesn't capture. Verify attribution model consistency across platforms before comparing cross-channel performance.
 
-> **Benchmark Context**: Average Google Search ads CTR is 3-5%, Display is 0.5-1%. Average Meta ads CTR is 1-2%. Top 10% of ads outperform median by 3-5x. Creative refreshes typically needed every 2-4 weeks. A 20% CPA variance week-over-week is normal; investigate sustained 4+ week trends.
-
+> **Benchmark Context**: Average Google Search ads CTR is 3-5%, Display is 0 (WordStream 2024 Industry Benchmarks). 5-1% (WordStream 2024 Industry Benchmarks) Average Meta ads CTR is 1-2% (Meta 2024 Advertising Benchmarks) Top 10% of ads outperform median by 3-5x. . Creative refreshes typically needed every 2-4 weeks. . A 20% CPA variance week-over-week is normal; investigate sustained 4+ week trends. . (Meta 2024 Advertising Benchmarks).
 ## Output Contract
 
 ### Deliverable: Markdown Analysis Report
@@ -173,3 +172,10 @@ Prioritized action list:
 **Input**: CSV with 8 campaigns across Google Search, Google Display, and Meta over 30 days. Total spend: $12,000. Target CPA: $40.
 
 **Output**: Executive summary: 342 conversions at $35 blended CPA (12% below target). Top performers: Google Brand Search ($12 CPA, 89 conversions — scaling opportunity) and Meta Prospecting Campaign A ($32 CPA, 78 conversions — increase budget 20%). Underperformers: Google Display Campaign ($85 CPA, 22 conversions — pause non-converting placements, test responsive display ads), Meta Prospecting Campaign C ($62 CPA, 18 conversions — creative fatigue detected, refresh needed). Recommendations: (1) Immediately increase Brand Search budget by 30% (impression share only 62%); (2) Pause Google Display placements with <0.3% CTR; (3) Refresh Meta Campaign C creative within 1 week; (4) Test new Meta lookalike audience (1% based on top 50 customers) within 2 weeks.
+
+## Related Skills
+
+- **[ad-budget-optimizer](./ad-budget-optimizer.md)** — Use after analysis to reallocate budget to top performers based on your performance findings.
+- **[ad-creative-testing-framework](./ad-creative-testing-framework.md)** — Design tests for underperforming creatives to improve performance.
+- **[campaign-performance-benchmarker](../analytics/campaign-performance-benchmarker.md)** — Compare your performance metrics against industry benchmarks for deeper insights.
+- **[attribution-model-builder](../analytics/attribution-model-builder.md)** — Build a consistent attribution model to ensure accurate cross-platform performance comparisons.

@@ -15,7 +15,7 @@ Transforms a flat list of keywords into organized topical clusters, each with a 
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is a CSV, output is an XLSX with clusters. No external API calls needed — clustering is done via semantic similarity analysis.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min implementation in Google Search Console / CMS.** If implementing output in a platform, add 10-20 min for setup. Input is a CSV, output is an XLSX with clusters. No external API calls needed — clustering is done via semantic similarity analysis.
 
 ## User Intent Mapping
 
@@ -102,10 +102,10 @@ project management methodology comparison,880,28,1.20,
 7. **Add content recommendations** — For each cluster, suggest content type (blog post, landing page, comparison page, guide), target word count, and priority level.
 
 
-> **Benchmark Context**: Average time to rank on page 1 for a new page is 3-6 months. Long-tail keywords (3+ words) have 3-5% CTR vs. 1-2% for head terms. The #1 organic result gets ~27.6% of clicks. Content updates on existing pages show ranking improvements within 2-4 weeks.
+> **Benchmark Context**: Average time to rank on page 1 for a new page is 3-6 months (Semrush 2024 State of Search). Long-tail keywords (3+ words) have 3-5% CTR vs (Ahrefs 2024 Search Traffic Study). 1-2% for head terms. The #1 organic result gets ~27.6% of clicks. Content updates on existing pages show ranking improvements within 2-4 weeks (Semrush 2024 State of Search). (Ahrefs 2024 Search Traffic Study)
 
 
-### Confidence & Sample Size
+### Confidence & Sample Size.
 > **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract
@@ -217,3 +217,10 @@ project management methodology comparison,880,28,1.20,
 > Do these groupings look right? I'd recommend starting with "PM Software Reviews" (highest volume, commercial intent) as a pillar page, with the others as supporting content.
 
 **Then generates XLSX with both sheets for download.**
+
+## Related Skills
+
+- **[SEO Content Strategy](./seo-content-strategy.md)** — Use after clustering keywords to build your content strategy around the clusters you've identified.
+- **[Content Brief Generator](../content/content-brief-writer.md)** — Use to create SEO-optimized briefs for each cluster's primary keyword and content type.
+- **[Content Pillar Strategy](../content/content-pillar-strategy.md)** — Use to structure your clusters into a pillar-cluster content architecture.
+- **[SEO Competitor Analysis](./seo-competitor-analysis.md)** — Use alongside clustering to identify competitor keywords and gaps in your cluster strategy.

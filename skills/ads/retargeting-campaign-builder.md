@@ -15,7 +15,7 @@ Designs multi-platform retargeting campaigns with audience segmentation by inten
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing output in ad platforms, add 30-45 min for audience and campaign setup. Input is website traffic data and conversion funnel info. Output is Markdown retargeting blueprint.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min building in Google Ads / Meta Ads Manager. If implementing output in ad platforms, add 30-45 min for audience and campaign setup. Input is website traffic data and conversion funnel info. Output is Markdown retargeting blueprint.
 
 ## User Intent Mapping
 
@@ -107,8 +107,7 @@ Design creative per segment and time window:
 ### ⚠️ Human Checkpoint
 > Review audience exclusions to avoid annoying converted customers. Verify frequency caps are set to prevent ad fatigue. Check creative for compliance with platform policies and privacy regulations (GDPR/CCPA consent requirements for retargeting).
 
-> **Benchmark Context**: Retargeting CTR is 10x higher than prospecting display ads. Cart abandonment retargeting recovers 10-15% of abandoned carts. Retargeting converts 70% of visitors who would otherwise leave forever. Optimal retargeting window is 7-14 days for e-commerce, 14-30 days for B2B. Ad fatigue sets in after 5-7 impressions per user without creative rotation.
-
+> **Benchmark Context**: Retargeting CTR is 10x higher than prospecting display ads (WordStream 2024 Industry Benchmarks) Cart abandonment retargeting recovers 10-15% of abandoned carts. . Retargeting converts 70% of visitors who would otherwise leave forever. . Optimal retargeting window is 7-14 days for e-commerce, 14-30 days for B2B. . Ad fatigue sets in after 5-7 impressions per user without creative rotation (WordStream 2024 Industry Benchmarks) (WordStream 2024 Industry Benchmarks).
 ## Output Contract
 
 ### Deliverable: Markdown Retargeting Blueprint
@@ -183,3 +182,10 @@ Design creative per segment and time window:
 **Input**: "Retargeting for a SaaS product. Funnel: homepage → features page → pricing page → free trial signup. 15,000 monthly visitors, 2% conversion rate. Platforms: Google + Meta. Budget: $2,000/month for retargeting."
 
 **Output**: 4 audience segments: (1) Pricing page visitors, no signup — 7-day window, ~450/month, highest priority; (2) Features page visitors — 14-day window, ~1,200/month; (3) Homepage only — 30-day window, ~3,000/month; (4) Trial users who didn't convert to paid — 30-day window, from CRM list. Creative sequence: Day 1-3 (reminder + key benefit), Day 4-7 (customer testimonial), Day 8-14 (extended trial offer or demo CTA). Budget: Pricing viewers $800/mo (40%), Features viewers $600/mo (30%), Homepage $400/mo (20%), Testing $200/mo (10%). Platforms: Meta for pricing + features retargeting (visual ads), Google RLSA for branded search bid boost on all segments. Frequency cap: 3/day on Meta, 5/day on Google Display. Exclusions: converted trial users, existing paid customers.
+
+## Related Skills
+
+- **audience-targeting-builder** (./audience-targeting-builder.md) — Segment your website visitors into retargeting audiences; use this skill to define audience rules before setting up campaigns.
+- **ad-copy-generator** (./ad-copy-generator.md) — Generate compelling copy for each stage of the retargeting sequence (reminder, social proof, incentive, value prop); essential for creative effectiveness.
+- **ad-creative-testing-framework** (./ad-creative-testing-framework.md) — Test which retargeting creative sequences drive highest conversion rates; use to optimize frequency and messaging.
+- **marketing-roi-calculator** (../analytics/marketing-roi-calculator.md) — Calculate the ROAS of your retargeting campaigns and allocate budget across segments; cross-category analytics for performance measurement.

@@ -16,7 +16,7 @@ Assembles a customized sales presentation by selecting relevant slides and tailo
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is prospect context + available slide topics. Output is a Markdown slide outline with speaker notes. No design tool access needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min customizing for your prospect.** If implementing output in a platform, add 10-20 min for setup. Input is prospect context + available slide topics. Output is a Markdown slide outline with speaker notes. No design tool access needed.
 
 ## User Intent Mapping
 
@@ -116,8 +116,7 @@ Add transition guidance:
 > Review the assembled outline before building the actual slides. Verify case studies are appropriate (no competitor conflicts), pricing is current, and claims are approved by marketing.
 
 
-> **Benchmark Context**: Average B2B sales cycle is 102 days. Win rates average 20-30% for qualified opportunities. Top-performing sales orgs use 5-7 pieces of content per deal cycle. Sales reps spend ~30% of their time searching for content.
-
+> **Benchmark Context**: Average B2B sales cycle is 102 days. Win rates average 20-30% for qualified opportunities (Gartner 2024 B2B Buying Journey Report). Top-performing sales orgs use 5-7 pieces of content per deal cycle (Gartner 2024 B2B Buying Journey Report). Sales reps spend ~30% of their time searching for content (Gartner 2024 B2B Buying Journey Report). (Gartner 2024 B2B Buying Journey Report).
 ## Output Contract
 
 ### Deliverable: Markdown Slide Outline
@@ -197,3 +196,10 @@ If no CRM is available:
 **Input**: Prospect: "RetailMax" (mid-market e-commerce, 200 employees). Meeting: demo with VP Marketing + Marketing Ops Manager. Pain point: "We're drowning in manual reporting — takes 2 days every week." Your product: marketing analytics platform. Competitor: Google Analytics (free) + manual spreadsheets. 30 minutes.
 
 **Output**: 8-slide deck outline. Opens with "RetailMax is spending 104 days/year on manual reporting" (their pain quantified). Slides tailored: automated dashboard demo (for VP — time savings), integration architecture with Shopify (for Ops Manager — technical fit), e-commerce case study (similar company saved 15 hours/week). Speaker notes include: "After slide 4, ask 'Walk me through your current reporting process' — this validates the pain and creates buy-in." Backup slide: pricing (include only if they ask). Skip slide 7 (roadmap) if running short.
+
+## Related Skills
+
+- **[Buying Committee Mapper](./buying-committee-mapper.md)** — Map decision makers before assembling decks to customize messaging per role.
+- **[Account Research Synthesizer](./account-research-synthesizer.md)** — Research the target account first to identify their specific pain points and industry context.
+- **[Campaign Angle Generator](../insights/campaign-angle-generator.md)** — Generate compelling value propositions and angles tailored to the prospect's situation.
+- **[Sales Content Usage Analyzer](./sales-content-usage-analyzer.md)** — Use data on which slides and content get used most to prioritize slide selection.

@@ -16,7 +16,7 @@ Pre-screens marketing content for regulatory compliance issues across FTC, FDA, 
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is marketing copy + industry context. Output is a Markdown compliance report. No legal database access needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min implementing in your MarTech stack.** If implementing output in a platform, add 10-20 min for setup. Input is marketing copy + industry context. Output is a Markdown compliance report. No legal database access needed.
 
 ## User Intent Mapping
 
@@ -102,8 +102,7 @@ For each flagged phrase, provide:
 > This skill provides guidance, NOT legal advice. All CRITICAL and HIGH flags should be reviewed by qualified legal counsel before publishing. Regulations change — verify current rules.
 
 
-> **Benchmark Context**: Average enterprise has 91 marketing tools in its stack. Brand compliance violations occur in 60% of co-branded partner materials. UTM tracking is implemented on only 40-50% of marketing URLs on average.
-
+> **Benchmark Context**: Average enterprise has 91 marketing tools in its stack. Brand compliance violations occur in 60% of co-branded partner materials (Gartner 2024 Marketing Technology Survey). UTM tracking is implemented on only 40-50% of marketing URLs on average. (Gartner 2024 Marketing Technology Survey).
 ## Output Contract
 
 ### Deliverable: Markdown Compliance Report
@@ -186,3 +185,10 @@ Copy-paste your marketing content directly. For landing pages, copy the visible 
 **Input**: Supplement landing page: "Our all-natural formula is clinically proven to boost energy by 300%. Doctors recommend TurboVitamin. Try it risk-free — 100% money-back guarantee! Join 50,000 happy customers. As seen on Dr. Oz."
 
 **Output**: 3 CRITICAL flags ("clinically proven" needs specific study citation, "doctors recommend" implies endorsement without substantiation, "As seen on Dr. Oz" — celebrity endorsement requires disclosure), 2 HIGH flags ("300%" needs substantiation, "all-natural" has FDA-specific definition requirements), 1 MEDIUM ("risk-free" may imply no side effects vs. financial risk-free). Compliant rewrite provided for each. Required disclaimers: FDA structure/function disclaimer, typical results statement, money-back guarantee terms.
+
+## Related Skills
+
+- **[Brand Asset Compliance Checker](./brand-asset-compliance-checker.md)** — Extend compliance reviews to brand guideline compliance in addition to regulatory compliance.
+- **[Ad Compliance Checker](../ads/ad-compliance-checker.md)** — Screen ad copy specifically for FTC and platform compliance rules.
+- **[Email Compliance Checker](../email/email-compliance-checker.md)** — Screen email content for CAN-SPAM, GDPR, and other email-specific compliance requirements.
+- **[Content Governance Framework](../content/content-governance-framework.md)** — Document compliance requirements into governance policies to prevent violations.

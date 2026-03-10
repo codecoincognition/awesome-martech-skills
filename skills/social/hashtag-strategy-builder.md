@@ -15,7 +15,7 @@ Creates platform-specific hashtag strategies with researched sets organized by s
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing output in a platform, add 5-10 min for setup. Input is niche/topic description. Output is Markdown with categorized hashtag sets and rotation plan.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~60-90 min implementing across platforms. If implementing output in a platform, add 5-10 min for setup. Input is niche/topic description. Output is Markdown with categorized hashtag sets and rotation plan.
 
 ## User Intent Mapping
 
@@ -92,8 +92,7 @@ Creates platform-specific hashtag strategies with researched sets organized by s
 ### ⚠️ Human Checkpoint
 > Verify hashtags are not banned, offensive, or associated with content that conflicts with your brand. Search each hashtag manually before using.
 
-> **Benchmark Context**: Instagram posts with 20-30 hashtags get 12.6% more engagement than those with none. TikTok posts with 3-5 hashtags outperform those with 10+. LinkedIn posts with 3 hashtags get the highest reach. Hashtag-driven discovery accounts for 30-40% of Instagram impressions for accounts under 10K followers.
-
+> **Benchmark Context**: Instagram posts with 20-30 hashtags get 12 (Later 2024 Social Media Industry Report). 6% more engagement than those with none (Later 2024 Social Media Industry Report) TikTok posts with 3-5 hashtags outperform those with 10+ (Buffer 2024 State of Social) LinkedIn posts with 3 hashtags get the highest reach. . Hashtag-driven discovery accounts for 30-40% of Instagram impressions for accounts under 10K followers (Later 2024 Social Media Industry Report) (Later 2024 Social Media Industry Report).
 ## Output Contract
 
 ### Deliverable: Markdown Hashtag Strategy
@@ -168,3 +167,10 @@ Creates platform-specific hashtag strategies with researched sets organized by s
 **Input**: "Organic skincare brand on Instagram. Content pillars: ingredients education, behind-the-scenes, product launches."
 
 **Output**: 4 rotation sets of 25 hashtags each. Set A (Education): #skincarescience #ingredientsmatter #cleanbeautyeducation + 22 more. Set B (BTS): #smallbusinesslife #handmadewithcare #behindthebrand + 22 more. Branded: #[BrandName] (all posts), #[Brand]Glow (UGC campaign). Rotation: Week 1 = Set A, Week 2 = Set B, Week 3 = Set C, Week 4 = Set D. Review after 30 days — replace any hashtag driving <100 impressions.
+
+## Related Skills
+
+- **[Social Content Calendar](./social-content-calendar.md)** — Use to apply your hashtag strategy across all posts in your social calendar.
+- **[Instagram Caption Writer](./instagram-caption-writer.md)** — Use to incorporate hashtags into Instagram captions alongside compelling copy.
+- **[Social Engagement Analyzer](./social-engagement-analyzer.md)** — Use to measure hashtag performance and refine your strategy over time.
+- **[Tiktok Content Strategy](./tiktok-content-strategy.md)** — Use to incorporate platform-specific hashtag approaches for TikTok growth.

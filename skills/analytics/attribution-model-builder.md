@@ -19,7 +19,7 @@ Build and compare multiple attribution models (first-touch, last-touch, linear, 
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is conversion path data (CSV). Output is an XLSX model comparison + HTML visualization. Requires ≥50 conversions for statistical significance.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min building in Google Sheets / Looker / GA4.** If implementing output in a platform, add 10-20 min for setup. Input is conversion path data (CSV). Output is an XLSX model comparison + HTML visualization. Requires ≥50 conversions for statistical significance.
 
 ## User Intent Mapping
 
@@ -139,135 +139,15 @@ C003,Direct,4,1000
 
 7. **Generate outputs** — Markdown tables with data ready for spreadsheet pasting + charting instructions.
 
-
-> **Benchmark Context**: Marketing teams typically allocate 5-15% of budget to analytics tools. A well-built dashboard should answer 80% of weekly reporting questions without manual queries. GA4 reports average 24-48 hour data lag for standard processing.
-
-
-### Confidence & Sample Size
-> **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
-
 ## Output Contract
 
-### Output Format
+### Deliverable: Markdown Model Comparison Tables
 
-| Output | Format | Contents |
-|---|---|---|
-| Model comparison | Markdown tables + CSV-ready data | Three data sections: comparison, per-channel detail, paths — paste into Google Sheets or Excel |
-| Visualization | Markdown tables + step-by-step charting instructions | Structured data + guidance for creating charts in Google Sheets |
-| Summary | Markdown | Key insights and model recommendation |
+Provides data ready to paste into Google Sheets, Excel, or any BI tool, plus interpretation guide.
 
-### Sheet 1: Model Comparison
+## Related Skills
 
-| Column | Type | Description |
-|---|---|---|
-| `channel` | string | Marketing channel |
-| `first_touch_revenue` | float | Revenue under first-touch model |
-| `last_touch_revenue` | float | Revenue under last-touch model |
-| `linear_revenue` | float | Revenue under linear model |
-| `time_decay_revenue` | float | Revenue under time-decay model |
-| `position_based_revenue` | float | Revenue under position-based model |
-| `first_vs_last_shift` | float | % change first-touch vs last-touch |
-| `total_spend` | float | Channel spend (if provided) |
-| `linear_roas` | float | ROAS under linear model |
-
-### Sheet 2: Per-Channel Detail
-
-| Column | Type | Description |
-|---|---|---|
-| `channel` | string | Marketing channel |
-| `total_touchpoints` | integer | How often this channel appears |
-| `as_first_touch` | integer | Times appearing first |
-| `as_last_touch` | integer | Times appearing last |
-| `as_assist` | integer | Times appearing in middle |
-| `avg_position_in_path` | float | Average position (1=first) |
-| `conversion_rate` | float | Conversions / touchpoints |
-
-### Sheet 3: Top Conversion Paths
-
-| Column | Type | Description |
-|---|---|---|
-| `path` | string | Channel sequence (e.g., "Organic → Email → Paid") |
-| `conversions` | integer | How many times this path occurred |
-| `avg_value` | float | Average conversion value |
-| `avg_touchpoints` | integer | Average path length |
-
-## Platform Implementation Steps
-
-### Google Analytics 4
-1. Navigate to GA4 → Admin → Data Streams → your stream
-2. Under Events, use "Create Event" for custom events
-3. For dimensions/metrics: Admin → Custom Definitions → Create
-4. Import any CSV data via Data Import: Admin → Data Import → Create
-
-### Looker Studio / Google Data Studio
-1. Open Looker Studio → Create → Report
-2. Add data source (GA4, Google Sheets, BigQuery, etc.)
-3. Paste calculated metric formulas into custom fields
-4. Use the "Blend Data" feature for multi-source reports
-
-### Spreadsheet (Fallback)
-If no BI tool available, create analysis in Google Sheets or Excel:
-1. Import CSV data using File → Import
-2. Use PIVOT tables for aggregation
-3. Create charts using Insert → Chart
-
-## Failure Modes
-
-| Failure | Cause | Recovery |
-|---|---|---|
-| Too few conversions (<50) | Small dataset | Proceed with caveat; recommend collecting more data |
-| All single-touch conversions | No multi-touch paths | First=last for all; recommend better cross-channel tracking |
-| One dominant channel (>80%) | Channel concentration | Note the dominance; compare models for remaining 20% |
-| No conversion values | Leads only, no revenue | Use conversion count instead of revenue; note limitation |
-| Missing timestamps | Can't calculate time-decay | Skip time-decay model; use position-based instead |
-| Aggregated data (Option B) | No path-level data | Build first/last/assisted comparison only; can't do linear or time-decay |
-
-## How to Get Your Data
-
-### From Google Analytics 4
-
-1. GA4 → Advertising → Conversion paths
-2. Set date range and conversion event
-3. Export → CSV (note: GA4 provides path-level data)
-
-### From HubSpot
-
-1. Reports → Attribution Reports
-2. Select "Revenue attribution" or "Contact create attribution"
-3. Export raw data → CSV
-
-### From Google Ads
-
-1. Tools → Attribution → Conversion paths
-2. Export path data → CSV
-
-### Manual Collection
-
-1. Export conversion data from your CRM (conversion ID, date, value)
-2. Export marketing touchpoint data (which channels each contact interacted with, in order)
-3. Merge by contact/conversion ID
-4. Provide to Claude
-
-## Example
-
-**User prompt:** "I have 200 conversions with touchpoint data across 5 channels. Build attribution models and tell me which channels I'm over/under-investing in."
-
-**Claude responds:**
-
-> Analyzed 200 conversions across 5 channels. Average path: 2.8 touchpoints.
->
-> **Credit shift across models:**
->
-> | Channel | First-Touch | Last-Touch | Linear | Position-Based | Shift |
-> |---|---|---|---|---|---|
-> | Organic Search | $82,000 | $41,000 | $58,000 | $62,000 | **Undervalued by last-touch** |
-> | Paid Search | $31,000 | $68,000 | $48,000 | $46,000 | Overvalued by last-touch |
-> | Email | $12,000 | $35,000 | $28,000 | $22,000 | Closing channel |
-> | Social | $45,000 | $18,000 | $26,000 | $32,000 | **Undervalued by last-touch** |
-> | Content | $30,000 | $38,000 | $40,000 | $38,000 | Consistent assist role |
->
-> **Key insight:** Organic Search and Social are generating far more awareness than last-touch shows. If you're using last-touch to allocate budget, you're likely under-investing in these channels by ~35%.
->
-> **Recommended model:** Position-based (40/20/40) — your average path has 2.8 touches, making both awareness and closing important.
->
-> Want me to generate the full XLSX with all models + the interactive visualization?
+- **ad-performance-analyzer** (../ads/ad-performance-analyzer.md) — Analyze individual ad campaign performance; use attribution models to understand contribution to overall conversions.
+- **campaign-performance-benchmarker** (./campaign-performance-benchmarker.md) — Compare attribution results against industry benchmarks; understand if your channel mix is optimal.
+- **marketing-roi-calculator** (./marketing-roi-calculator.md) — Calculate ROI by channel using attribution-informed spend allocation; maximize return on marketing investment.
+- **budget-variance-analyzer** (./budget-variance-analyzer.md) — Reallocate budget based on attribution insights; move spending from undervalued to overvalued channels.

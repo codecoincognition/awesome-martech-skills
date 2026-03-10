@@ -15,7 +15,7 @@ Creates a comprehensive community management playbook with response templates, e
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing output in a platform, add 20-30 min for team training. Input is brand info and community context. Output is a Markdown playbook with templates and workflows.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~20-40 min scheduling in Buffer / Hootsuite / native platform. If implementing output in a platform, add 20-30 min for team training. Input is brand info and community context. Output is a Markdown playbook with templates and workflows.
 
 ## User Intent Mapping
 
@@ -103,8 +103,7 @@ Generate templates for:
 ### ⚠️ Human Checkpoint
 > Review all templates for brand voice alignment, legal compliance (especially in regulated industries), and cultural sensitivity before distributing to your team.
 
-> **Benchmark Context**: Average brand response time on social is 5 hours; top brands respond in under 1 hour. Responding to complaints publicly increases brand favorability by 25%. Communities with active moderation retain 40% more members. 71% of consumers who have a positive social media experience recommend the brand.
-
+> **Benchmark Context**: Average brand response time on social is 5 hours; top brands respond in under 1 hour. Responding to complaints publicly increases brand favorability by 25%. Communities with active moderation retain 40% more members. 71% of consumers who have a positive social media experience recommend the brand (Hootsuite 2024 Social Trends Report). (Hootsuite 2024 Social Trends Report).
 ## Output Contract
 
 ### Deliverable: Markdown Playbook
@@ -190,3 +189,10 @@ Notify: [who]
 **Input**: "Community management playbook for a B2B SaaS company. Platforms: LinkedIn, Twitter, Slack community (500 members). Brand tone: helpful, knowledgeable, slightly informal. Common issues: billing questions, feature requests, integration bugs."
 
 **Output**: Full playbook with 15+ response templates across 4 tiers. Engagement calendar with weekly LinkedIn polls, monthly Slack AMAs, and quarterly community spotlights. Moderation guidelines for Slack (spam, self-promotion limits, off-topic rules). Escalation path: Community Manager → Support Lead → Product Manager → VP of Customer Success. Metrics: response time target <2 hours, community NPS quarterly, engagement rate >15%.
+
+## Related Skills
+
+- **[Social Engagement Analyzer](./social-engagement-analyzer.md)** — Use to understand which community interactions drive the most engagement and value.
+- **[Social Listening Report](./social-listening-report.md)** — Use to monitor brand mentions and identify community feedback for your playbook.
+- **[Social Crisis Response Plan](./social-crisis-response-plan.md)** — Use to prepare response templates for crisis situations within your community management framework.
+- **[Hashtag Strategy Builder](./hashtag-strategy-builder.md)** — Use to recommend hashtags that help community members find and participate in conversations.

@@ -16,7 +16,7 @@ Pre-screens ad copy and creative against platform advertising policies, FTC guid
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~5 min Claude session. No platform implementation needed — output is a compliance report with fix recommendations. Input is ad copy/creative description. Output is Markdown compliance checklist.
+> **Time**: ~5 min data prep → ~5 min Claude session → ~30-60 min building in Google Ads / Meta Ads Manager. No platform implementation needed — output is a compliance report with fix recommendations. Input is ad copy/creative description. Output is Markdown compliance checklist.
 
 ## User Intent Mapping
 
@@ -188,3 +188,10 @@ Flag common violations across all platforms:
 **Input**: "Check this Meta ad: Headline: 'Lose 20 Pounds in 30 Days — Guaranteed!' Body: 'Our supplement is clinically proven to burn fat fast. Before and after photos show real results. Limited time: 50% off.' Industry: dietary supplements. Landing page has testimonials with dramatic weight loss results."
 
 **Output**: ❌ LIKELY REJECTED. Issues found: (1) "Guaranteed" weight loss claim — violates Meta's misleading claims policy AND FTC guidelines. Fix: Remove "guaranteed", use "may help support healthy weight management." (2) "Clinically proven" — requires substantiation documentation. Fix: "Formulated with ingredients studied for metabolism support" with citation. (3) Before/after photos — restricted on Meta; prohibited on Pinterest. Fix: Use lifestyle imagery instead. (4) "Burn fat fast" — prohibited health claim. Fix: "Support your wellness journey." (5) Landing page testimonials with dramatic results — FTC requires "Results not typical" and average results disclosure. Required disclaimer: "These statements have not been evaluated by the FDA. This product is not intended to diagnose, treat, cure, or prevent any disease." Revised headline: "Support Your Weight Management Goals — 50% Off Today."
+
+## Related Skills
+
+- **[ad-copy-generator](./ad-copy-generator.md)** — Use before compliance checking to generate compliant copy variations in the first place.
+- **[ad-creative-testing-framework](./ad-creative-testing-framework.md)** — Test compliant creative variations to find the best-performing approach.
+- **[landing-page-ad-matcher](./landing-page-ad-matcher.md)** — Ensure landing pages align with ad claims to maintain full compliance.
+- **[marketing-compliance-pre-checker](../martech-ops/marketing-compliance-pre-checker.md)** — Expand compliance checks across broader marketing materials and campaigns.

@@ -12,11 +12,11 @@ description: >
 
 # Landing Page Ad Matcher
 
-Audit the message alignment between your ad copy and landing page content. Scores consistency across headlines, keywords, CTAs, and value propositions. Identifies mismatches that hurt quality score and conversion rate.
+Audits the message alignment between your ad copy and landing page content. Scores consistency across headlines, keywords, CTAs, and value propositions. Identifies mismatches that hurt quality score and conversion rate.
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is ad copy + landing page content. Output is a scored alignment audit with specific fixes.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min building in Google Ads / Meta Ads Manager.** If implementing output in a platform, add 10-20 min for setup. Input is ad copy + landing page content. Output is a scored alignment audit with specific fixes.
 
 ## User Intent Mapping
 
@@ -140,10 +140,10 @@ CTA: Start Free Trial
 6. **Generate output** — Audit report with rewrites.
 
 
-> **Benchmark Context**: Average Google Ads CTR across industries is 3.17% (search) and 0.46% (display). B2B averages 2.41% search CTR. Top-performing responsive search ads have 8+ unique headlines. Meta Ads average CTR is 0.90% across industries, with 1.5%+ considered strong.
+> **Benchmark Context**: Average Google Ads CTR across industries is 3.17% (search) and 0.46% (display) (WordStream 2024 Industry Benchmarks). B2B averages 2.41% search CTR (LinkedIn 2024 B2B Marketing Benchmark). Top-performing responsive search ads have 8+ unique headlines.. Meta Ads average CTR is 0.90% across industries, with 1.5%+ considered strong (Meta 2024 Advertising Benchmarks). (Google Ads 2024 Performance Benchmarks)
 
 
-### Confidence & Sample Size
+### Confidence & Sample Size.
 > **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract
@@ -275,3 +275,10 @@ Overall Alignment Score: [X]/100 — [Poor/Fair/Good/Excellent]
 > Implementing these 4 fixes should improve quality score from 5 → 7-8 and reduce CPC by 15-20%.
 >
 > Want me to rewrite all the flagged elements?
+
+## Related Skills
+
+- **[ad-copy-generator](./ad-copy-generator.md)** — Generate ad copy variants that align naturally with your landing page messaging.
+- **[ad-performance-analyzer](./ad-performance-analyzer.md)** — Analyze the performance impact of ad-page alignment mismatches over time.
+- **[cta-optimization-framework](../cro/cta-optimization-framework.md)** — Optimize your landing page CTA to match your ad's conversion intent.
+- **[landing-page-optimizer](../cro/landing-page-optimizer.md)** — Improve overall landing page performance to support ad message alignment.

@@ -15,7 +15,7 @@ Builds a comprehensive event logistics plan including timeline with milestones, 
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is event details. Output is a Markdown logistics plan. No external tool access needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~120-240 min coordinating across vendors.** If implementing output in a platform, add 10-20 min for setup. Input is event details. Output is a Markdown logistics plan. No external tool access needed.
 
 ## User Intent Mapping
 
@@ -116,8 +116,7 @@ For each critical risk:
 > Review the run-of-show with all key stakeholders (venue, AV, speakers) at least 1 week before the event. Walk the venue if possible.
 
 
-> **Benchmark Context**: Average press release pickup rate is 1-3% of targeted journalists. Event email invitation open rates average 20-25%, with 2-5% registration conversion. Best press release send times: Tuesday-Thursday, 9-10 AM in the journalist's time zone.
-
+> **Benchmark Context**: Average press release pickup rate is 1-3% of targeted journalists (Cision 2024 State of the Media Report). Event email invitation open rates average 20-25%, with 2-5% registration conversion (Bizzabo 2024 Event Marketing Report). Best press release send times: Tuesday-Thursday, 9-10 AM in the journalist's time zone (Cision 2024 State of the Media Report). (Cision 2024 State of the Media Report).
 ## Output Contract
 
 ### Deliverable: Markdown Logistics Plan
@@ -207,3 +206,10 @@ No data export needed. Bring:
 **Input**: Product launch event, March 15, 2026, 150 attendees, hotel conference room, $25K budget, 6 staff available. Sessions: keynote, 3 breakout sessions, networking reception. Goal: generate pipeline from prospect attendees.
 
 **Output**: 12-week countdown timeline with 47 tasks. Vendor tracker for catering, AV, signage, photographer. Run-of-show: 8am setup → 9am registration → 9:30 keynote (45 min) → 10:30 breakouts (3 parallel, 40 min each) → 12pm lunch → 1pm demo stations → 2:30pm closing → 3pm networking reception → 5pm teardown. 6 staff assigned across registration (2), speaker liaison (1), AV (1), demo stations (1), photography/social (1). Top 5 contingency plans. Post-event: lead capture sync to CRM within 24 hours, follow-up email sequence within 48 hours.
+
+## Related Skills
+
+- **[Event ROI Calculator](./event-roi-calculator.md)** — After planning logistics, use to track event results and calculate ROI.
+- **[Event Attendee Matcher](./event-attendee-matcher.md)** — Coordinate logistics based on attendee matching results for breakout rooms and networking.
+- **[Webinar Technical Runbook](./webinar-technical-runbook.md)** — Use for virtual event logistics in addition to this skill for in-person events.
+- **[Approval Bottleneck Analyzer](../martech-ops/approval-bottleneck-analyzer.md)** — Track event approval cycles to inform timeline planning for future events.

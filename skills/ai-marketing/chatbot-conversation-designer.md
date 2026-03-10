@@ -15,7 +15,7 @@ Designs conversational AI flows for marketing chatbots — lead qualification pa
 
 ## Granularity Check
 
-> **Session time**: ~5 min context gathering + ~15 min Claude session. If implementing, add 1-2 weeks for platform setup and testing. Input is business goals, audience, and qualification criteria. Output is Markdown conversation flow with scripts and logic.
+> **Time**: ~5 min data prep → ~15 min Claude session → ~30-60 min configuring in your marketing platform. If implementing, add 1-2 weeks for platform setup and testing. Input is business goals, audience, and qualification criteria. Output is Markdown conversation flow with scripts and logic.
 
 ## User Intent Mapping
 
@@ -114,8 +114,7 @@ Designs conversational AI flows for marketing chatbots — lead qualification pa
 ### ⚠️ Human Checkpoint
 > Test all conversation paths end-to-end before go-live. Review scripts for brand voice, accuracy, and edge cases. Verify CRM integration passes correct data. Monitor first 100 conversations for unexpected patterns.
 
-> **Benchmark Context**: Chatbots generate 35-40% more leads than forms on high-intent pages. Average chatbot conversation rate is 5-15% of site visitors. Chatbots reduce lead response time from 42 hours to under 5 minutes. 73% of leads expect a response within 5 minutes. Companies using chatbots report 67% increase in sales-qualified meetings. Chatbot ROI is typically 3-5x within 6 months.
-
+> **Benchmark Context**: Chatbots generate 35-40% more leads than forms on high-intent pages (McKinsey 2024 State of AI Report). Average chatbot conversation rate is 5-15% of site visitors (McKinsey 2024 State of AI Report). Chatbots reduce lead response time from 42 hours to under 5 minutes. 73% of leads expect a response within 5 minutes (McKinsey 2024 State of AI Report). Companies using chatbots report 67% increase in sales-qualified meetings (McKinsey 2024 State of AI Report). Chatbot ROI is typically 3-5x within 6 months (McKinsey 2024 State of AI Report).
 ## Output Contract
 
 ### Deliverable: Markdown Conversation Design
@@ -204,3 +203,10 @@ Designs conversational AI flows for marketing chatbots — lead qualification pa
 **Input**: "Design chatbot for B2B SaaS website. Goal: qualify leads and book demos. ICP: 100+ employees, director+ in marketing. Currently have a demo form with 3% conversion. Want chatbot on homepage and pricing page. Using HubSpot."
 
 **Output**: Two chatbot playbooks: (1) Homepage — trigger after 10 seconds. Greeting: "Hey! Looking for [product category]? I can help you find what you need." → 3 buttons: "See a demo", "Learn more", "Just browsing." Demo path: 3 qualification questions (company size, role, use case) → if qualified, inline calendar booking. Learn more path: "What's your biggest [pain point] challenge?" → route to relevant product page + offer resource download. (2) Pricing page — trigger immediately. "Thinking about [product]? Happy to help you find the right plan." → "Get a custom quote" (qualification flow) or "Compare plans" (self-serve). Qualification: company size (100+ = 10 pts), role (director+ = 10 pts), timeline (this quarter = 10 pts). Score 20+ = book demo immediately. Score 10-19 = offer resource + email capture. Score <10 = self-serve resources. Expected results: chatbot engages 15% of pricing page visitors (vs. 3% form), books 5-8% into demos directly. Net increase: 2-3x more qualified demos from same traffic.
+
+## Related Skills
+
+- **[Lead Scoring Model Builder](../crm/lead-scoring-model-builder.md)** — Integrate lead scoring rules into chatbot qualification flows to identify MQL-ready prospects.
+- **[Automation Workflow Designer](../crm/automation-workflow-designer.md)** — Route chatbot-qualified leads into automated CRM workflows for follow-up.
+- **[Customer Segmentation Engine](./customer-segmentation-engine.md)** — Use segments to show different chatbot paths to different visitor types.
+- **[Personalization & Recommendation Engine](./personalization-recommendation-engine.md)** — Recommend products or content within the chatbot based on conversation context.

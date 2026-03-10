@@ -15,7 +15,7 @@ Compares two versions of a marketing document (landing page, email, blog post, p
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is two text versions. Output is a Markdown changelog. No external tools needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min implementing in your MarTech stack.** If implementing output in a platform, add 10-20 min for setup. Input is two text versions. Output is a Markdown changelog. No external tools needed.
 
 ## User Intent Mapping
 
@@ -90,8 +90,7 @@ Format as a clean, scannable changelog appropriate for the audience.
 > Review any changes flagged as "removed" — especially disclaimers, legal language, or data claims. Removals can carry compliance risk.
 
 
-> **Benchmark Context**: Average enterprise has 91 marketing tools in its stack. Brand compliance violations occur in 60% of co-branded partner materials. UTM tracking is implemented on only 40-50% of marketing URLs on average.
-
+> **Benchmark Context**: Average enterprise has 91 marketing tools in its stack. Brand compliance violations occur in 60% of co-branded partner materials (Gartner 2024 Marketing Technology Survey). UTM tracking is implemented on only 40-50% of marketing URLs on average. (Gartner 2024 Marketing Technology Survey).
 ## Output Contract
 
 ### Deliverable: Markdown Changelog
@@ -166,3 +165,10 @@ Format as a clean, scannable changelog appropriate for the audience.
 **Input**: Version A of pricing page (leads with feature list, "Start Free Trial" CTA, no social proof) → Version B (leads with customer outcome headline, "See It In Action" CTA, added 3 testimonials, removed "unlimited" from free tier description).
 
 **Output**: Changelog with 4 high-impact changes (headline reframed from features to outcomes, CTA changed from trial to demo, social proof added, free tier scope reduced), 1 risk flag (removing "unlimited" from free tier may affect existing customer expectations — verify with legal/support).
+
+## Related Skills
+
+- **[Approval Bottleneck Analyzer](./approval-bottleneck-analyzer.md)** — Track changelog patterns to identify what feedback is causing delays in approvals.
+- **[Editorial Calendar Builder](../content/editorial-calendar-builder.md)** — Track content changes over time to inform calendar planning and version management.
+- **[Content Performance Scorecard](../content/content-performance-scorecard.md)** — Compare performance of versions before/after major changes noted in changelog.
+- **[Content Governance Framework](../content/content-governance-framework.md)** — Use changelog insights to establish change approval and documentation rules.

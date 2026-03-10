@@ -15,7 +15,7 @@ Optimizes pricing page design, layout, psychological triggers, and plan presenta
 
 ## Granularity Check
 
-> **Session time**: ~5 min context gathering + ~10 min Claude session. If implementing, add 2-5 days for design and development. Input is current pricing page and conversion data. Output is Markdown optimization plan with specific design recommendations.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min implementing in your testing tool / CMS. If implementing, add 2-5 days for design and development. Input is current pricing page and conversion data. Output is Markdown optimization plan with specific design recommendations.
 
 ## User Intent Mapping
 
@@ -118,8 +118,7 @@ Optimizes pricing page design, layout, psychological triggers, and plan presenta
 ### ⚠️ Human Checkpoint
 > Verify pricing accuracy before publishing any changes. Review with sales team for enterprise pricing messaging. Test all CTAs lead to correct signup flows. Ensure mobile experience is fully tested.
 
-> **Benchmark Context**: Best-in-class SaaS pricing pages convert at 3-5% of visitors. 80% of SaaS companies use 3 pricing tiers. Showing annual pricing default increases ARPU by 15-25%. "Most Popular" badges increase selection of that plan by 20-30%. Adding a money-back guarantee increases conversion by 15-20%. Pricing pages with customer testimonials convert 34% higher.
-
+> **Benchmark Context**: Best-in-class SaaS pricing pages convert at 3-5% of visitors. 80% of SaaS companies use 3 pricing tiers. Showing annual pricing default increases ARPU by 15-25%. "Most Popular" badges increase selection of that plan by 20-30%. Adding a money-back guarantee increases conversion by 15-20% (Unbounce 2024 Conversion Benchmark Report). Pricing pages with customer testimonials convert 34% higher (VWO 2024 A/B Testing Report).
 ## Output Contract
 
 ### Deliverable: Markdown Pricing Page Optimization
@@ -204,3 +203,10 @@ Optimizes pricing page design, layout, psychological triggers, and plan presenta
 **Input**: "Pricing page optimization. B2B SaaS, 3 plans: Starter ($29/mo), Pro ($79/mo), Enterprise (custom). Pro is our ideal plan but 60% choose Starter. Pricing page gets 2,000 monthly visitors, 2.8% conversion. No annual option. Feature comparison shows 20 features."
 
 **Output**: Issues: (1) No annual billing — missing 15-25% ARPU lift. (2) Pro not visually distinguished — users default to cheapest. (3) 20 features causes decision paralysis. (4) No social proof on pricing page. Fixes: (1) Add annual billing toggle (20% discount, default to annual). (2) Highlight Pro with "Most Popular" badge, larger card, filled CTA button (vs. outlined for Starter). (3) Reduce to 7 differentiating features + "See all features" expandable link. (4) Add 3 customer testimonials mentioning ROI + 6 customer logos. (5) Reframe Starter as limited ("For individuals getting started") and Pro as standard ("For growing teams — everything you need"). (6) Add FAQ: "Can I switch plans?", "Is there a free trial?", "What happens when I hit limits?" Expected results: Pro selection 60% Starter → 50% Pro (plan mix shift). Conversion 2.8% → 3.5-4.2%. Annual billing adoption: 40-50% of new signups. Revenue impact: +$24K ARR from plan mix shift + $18K from annual billing = $42K additional ARR.
+
+## Related Skills
+
+- **social-proof-optimizer** (./social-proof-optimizer.md) — Add social proof elements to your pricing page (testimonials, logos, trust badges); use to build confidence in plan selection.
+- **ab-test-designer** (./ab-test-designer.md) — Design A/B tests for pricing page variations (annual vs. monthly default, plan recommendations, feature lists); validate psychology tactics with testing.
+- **cta-optimization-framework** (./cta-optimization-framework.md) — Optimize CTA buttons on pricing cards; use to make plan selections more compelling and action-oriented.
+- **landing-page-optimizer** (./landing-page-optimizer.md) — Optimize pricing page headline and value proposition; ensure page clearly communicates why each plan is valuable.

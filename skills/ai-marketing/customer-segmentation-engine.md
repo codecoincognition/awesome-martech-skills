@@ -15,7 +15,7 @@ Builds data-driven customer segments using behavioral, demographic, and transact
 
 ## Granularity Check
 
-> **Session time**: ~10 min data prep + ~10 min Claude session. If implementing in CRM/CDP, add 1-2 weeks. Input is customer data exports. Output is Markdown segmentation model with targeting recommendations.
+> **Time**: ~10 min data prep → ~10 min Claude session → ~30-60 min configuring in your marketing platform. If implementing in CRM/CDP, add 1-2 weeks. Input is customer data exports. Output is Markdown segmentation model with targeting recommendations.
 
 ## User Intent Mapping
 
@@ -120,8 +120,7 @@ Per segment:
 ### ⚠️ Human Checkpoint
 > Validate segment definitions with sales and customer success teams. Verify segment sizes are large enough for statistically significant campaigns. Review targeting strategies for fairness and compliance.
 
-> **Benchmark Context**: Segmented email campaigns generate 760% more revenue than non-segmented. Top 20% of customers typically generate 60-80% of revenue. Companies using behavioral segmentation see 20% higher conversion rates. 77% of marketing ROI comes from segmented, targeted campaigns. Customer retention increases by 25-95% when companies focus on their most valuable segments.
-
+> **Benchmark Context**: Segmented email campaigns generate 760% more revenue than non-segmented (Salesforce 2024 State of Marketing) Top 20% of customers typically generate 60-80% of revenue. . Companies using behavioral segmentation see 20% higher conversion rates (McKinsey 2024 State of AI Report). . 77% of marketing ROI comes from segmented, targeted campaigns (Salesforce 2024 State of Marketing) Customer retention increases by 25-95% when companies focus on their most valuable segments. . (Salesforce 2024 State of Marketing).
 ## Output Contract
 
 ### Deliverable: Markdown Segmentation Model
@@ -201,3 +200,10 @@ Per segment:
 **Input**: "Customer segmentation for DTC skincare brand. 25K customers. Have Shopify data: orders, revenue, products purchased. Klaviyo email engagement data. Goal: improve retention and increase repeat purchases."
 
 **Output**: RFM segmentation with 6 segments: (1) Champions (8% of base, 35% of revenue) — bought recently, frequently, high spenders. Strategy: VIP early access, loyalty rewards, referral program, exclusive launches. (2) Loyal Customers (15%, 25% revenue) — regular buyers, moderate-high spend. Strategy: cross-sell new product lines, subscription offers, loyalty tier upgrade. (3) Potential Loyalists (12%, 15% revenue) — recent buyers with 2-3 orders, growing frequency. Strategy: second product education, bundle offers, frequency incentives. (4) New Customers (20%, 10% revenue) — first purchase within 60 days. Strategy: post-purchase onboarding, replenishment reminders, second purchase discount. (5) At Risk (18%, 12% revenue) — haven't purchased in 60-120 days despite previous regular buying. Strategy: win-back email sequence, "we miss you" offer, product recommendation based on past purchases. (6) Dormant (27%, 3% revenue) — no purchase in 120+ days. Strategy: aggressive win-back offer, sunset after 180 days if no response. Implementation: Klaviyo segments with RFM scoring, automated flows per segment. Quick win: target At Risk segment (18% of base) with personalized win-back — recovering 10% would add $45K annual revenue.
+
+## Related Skills
+
+- **[Audience Persona Builder](../insights/audience-persona-builder.md)** — Validate segmentation with data-driven personas to ensure segments map to real customer archetypes.
+- **[Segmentation Rule Builder](../crm/segmentation-rule-builder.md)** — Translate segmentation model into dynamic CRM lists for targeted campaigns.
+- **[Predictive Lead Scoring](./predictive-lead-scoring.md)** — Layer predictive scoring on top of segments to prioritize high-value prospects within each segment.
+- **[Personalization & Recommendation Engine](./personalization-recommendation-engine.md)** — Use segments to deliver tailored product or content recommendations per segment.

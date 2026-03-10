@@ -17,7 +17,7 @@ Analyzes social media mention data to surface sentiment trends, conversation the
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing output in a platform, add 10-20 min for setup. Input is exported mentions CSV. Output is Markdown report with sentiment breakdown and response plan.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~20-40 min scheduling in Buffer / Hootsuite / native platform. If implementing output in a platform, add 10-20 min for setup. Input is exported mentions CSV. Output is Markdown report with sentiment breakdown and response plan.
 
 ## User Intent Mapping
 
@@ -93,8 +93,7 @@ Analyzes social media mention data to surface sentiment trends, conversation the
 ### ⚠️ Human Checkpoint
 > Review sentiment classifications for accuracy — automated sentiment analysis is ~70-80% accurate. Context, sarcasm, and industry jargon can be misclassified.
 
-> **Benchmark Context**: Average brand mention sentiment splits roughly 60% neutral, 25% positive, 15% negative. Response rate to social mentions averages 25% across brands. Responding within 1 hour increases positive sentiment by 20%.
-
+> **Benchmark Context**: Average brand mention sentiment splits roughly 60% neutral, 25% positive, 15% negative. Response rate to social mentions averages 25% across brands (Hootsuite 2024 Social Trends Report). Responding within 1 hour increases positive sentiment by 20%.
 ## Output Contract
 
 ### Deliverable: Markdown Report
@@ -165,3 +164,10 @@ Analyzes social media mention data to surface sentiment trends, conversation the
 **Input**: 340 mentions of "DataSync Pro" across Twitter, LinkedIn, and Reddit over 30 days.
 
 **Output**: Sentiment: 31% positive, 52% neutral, 17% negative. Top theme: "integration issues" (45 mentions, 78% negative) — recommend public response addressing API stability. Hidden gem: 28 organic testimonials on LinkedIn (all positive) — reshare the best 5. Key influencer: @TechReviewerMike (12K followers, 3 positive mentions) — engage for potential partnership. Share of voice vs. CompetitorX: 60/40 in our favor, but CompetitorX dominates "enterprise" conversations.
+
+## Related Skills
+
+- **[Social Engagement Analyzer](./social-engagement-analyzer.md)** — Use alongside listening to understand which conversations drive the most engagement.
+- **[Community Management Playbook](./community-management-playbook.md)** — Use to respond to identified brand mentions and community conversations in your playbook.
+- **[Social Crisis Response Plan](./social-crisis-response-plan.md)** — Use to identify emerging crises and negative sentiment that require immediate response.
+- **[Voice of Customer Miner](../insights/voice-of-customer-miner.md)** — Use to extract customer insights from social listening data.

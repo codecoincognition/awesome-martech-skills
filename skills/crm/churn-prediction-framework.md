@@ -17,7 +17,7 @@ Identifies at-risk customers using engagement, usage, and behavioral signals, th
 
 ## Granularity Check
 
-> **Session time**: ~10 min data prep + ~15 min Claude session. If implementing, add 1-2 weeks for scoring setup and automation. Input is customer data, usage metrics, and churn history. Output is Markdown churn prediction model with health scores and retention playbooks.
+> **Time**: ~10 min data prep → ~15 min Claude session → ~60-120 min building in your CRM. If implementing, add 1-2 weeks for scoring setup and automation. Input is customer data, usage metrics, and churn history. Output is Markdown churn prediction model with health scores and retention playbooks.
 
 ## User Intent Mapping
 
@@ -130,8 +130,7 @@ For churned customers:
 ### ⚠️ Human Checkpoint
 > Validate health scores with CSM team — they often have qualitative insights that data misses (e.g., "this customer is fine, they're just on vacation"). Review retention offers with finance — retention discounts affect margins. Ensure win-back campaigns comply with opt-out preferences.
 
-> **Benchmark Context**: It costs 5-7x more to acquire a new customer than to retain an existing one. A 5% increase in retention increases profits by 25-95%. Companies with proactive churn prediction reduce churn by 10-30%. Average SaaS monthly churn: 3-8% for SMB, 1-2% for enterprise. 67% of churn is preventable with proactive intervention. Customers who receive proactive outreach during at-risk periods retain at 2x the rate of those who don't.
-
+> **Benchmark Context**: It costs 5-7x more to acquire a new customer than to retain an existing one. A 5% increase in retention increases profits by 25-95% (Bain & Company 2024 Customer Loyalty Report). Companies with proactive churn prediction reduce churn by 10-30% (Bain & Company 2024 Customer Loyalty Report). Average SaaS monthly churn: 3-8% for SMB, 1-2% for enterprise (Bain & Company 2024 Customer Loyalty Report). 67% of churn is preventable with proactive intervention (Bain & Company 2024 Customer Loyalty Report). Customers who receive proactive outreach during at-risk periods retain at 2x the rate of those who don't. (Bain & Company 2024 Customer Loyalty Report).
 ## Output Contract
 
 ### Deliverable: Markdown Churn Prediction Plan
@@ -222,3 +221,10 @@ For churned customers:
 **Input**: "Churn prediction for our SaaS. 500 customers, $200/month average. Monthly churn: 5% (25 customers/month). We track: login frequency, feature usage, support tickets, email engagement. No health score currently. Using HubSpot CRM."
 
 **Output**: 5% monthly churn = 46% annual churn — critical. Estimated annual revenue loss: $300K. Health score model: Usage (35% weight): login frequency + feature count + depth of use. Engagement (25%): email opens, event attendance, NPS responses. Support (25%): ticket volume, sentiment, resolution satisfaction. Financial (15%): payment on time, upgrade/downgrade history. Implementation: (1) HubSpot calculated property for health score (0-100). (2) Risk segments: Green (80-100, ~200 customers), Yellow (60-79, ~150 customers), Orange (40-59, ~100 customers), Red (0-39, ~50 customers). (3) Automated interventions: Red score → CSM alert within 24 hours + executive sponsor notification. Orange → CSM outreach within 1 week + usage training offer. Yellow → automated re-engagement email. (4) Expected impact: reducing churn from 5% to 3.5% saves ~$90K/year in lost revenue. Target: intervene with 80% of at-risk customers before they cancel.
+
+## Related Skills
+
+- **[Customer Onboarding Optimizer](./customer-onboarding-optimizer.md)** — Use to reduce early churn by optimizing activation and time-to-value during onboarding.
+- **[Retention Analysis Framework](../growth/retention-analysis-framework.md)** — Conduct deeper analysis of retention cohorts to identify patterns and intervention points.
+- **[Automation Workflow Designer](./automation-workflow-designer.md)** — Create win-back and retention workflows triggered by churn risk signals.
+- **[Customer Journey Mapper](../insights/customer-journey-mapper.md)** — Map at-risk customer journeys to identify where they drop off and design interventions.

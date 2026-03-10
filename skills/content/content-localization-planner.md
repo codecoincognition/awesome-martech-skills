@@ -15,7 +15,7 @@ Plans content localization strategy for international markets — prioritizing w
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing, add variable time for translation/adaptation. Input is content inventory and target markets. Output is Markdown localization plan with prioritization matrix.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min implementing in your CMS. If implementing, add variable time for translation/adaptation. Input is content inventory and target markets. Output is Markdown localization plan with prioritization matrix.
 
 ## User Intent Mapping
 
@@ -191,3 +191,10 @@ Plans content localization strategy for international markets — prioritizing w
 **Input**: "Content localization plan. B2B SaaS with growing DACH and France markets. Currently English-only. 200 blog posts, 15 product pages, help docs. Google Analytics shows 18% traffic from Germany, 8% from France. No localization budget yet."
 
 **Output**: Priority: DACH first (18% traffic, larger addressable market), then France. Approach: Tier 1 (now) — professional translation of 15 product pages + pricing + signup flow into German (est. $8-12K). Use machine translation + human review for top 20 help docs ($2-3K). Tier 2 (quarter 2) — translate top 10 blog posts by German organic traffic potential (native keyword research required). Tier 3 (quarter 3) — begin French localization of Tier 1 content. Cultural notes: DACH — formal tone (Sie, not du), data privacy emphasis (GDPR prominence), local payment methods, case studies from DACH companies. France — formal tone, metric units, French-specific compliance references. Quick win: add German language option with top 15 product pages — expected 25-40% conversion lift from German visitors. Budget: Phase 1 (DACH product pages + help docs) = $10-15K. Full year plan across DACH + France = $40-60K.
+
+## Related Skills
+
+- **[International SEO Strategy](../seo/international-seo-strategy.md)** — Use to plan language-specific SEO strategy and technical implementation for localized content.
+- **[Content Governance Framework](./content-governance-framework.md)** — Use to establish standards and workflows for localizing content across multiple languages and regions.
+- **[Editorial Calendar Builder](./editorial-calendar-builder.md)** — Use to plan content creation and localization timelines for each market.
+- **[Local SEO Optimizer](../seo/local-seo-optimizer.md)** — Use for region-specific optimization of localized content and market targeting.

@@ -125,10 +125,10 @@ R005,33-39,Product Marketing,51-200,MarTech,ROI measurement,Campaign performance
    - Produce implementation guide for marketing use
 
 
-> **Benchmark Context**: Companies with documented buyer personas are 2-4x more effective at content marketing. Average NPS for SaaS is 31. Customer acquisition cost (CAC) benchmarks: B2B SaaS $200-$500 (SMB), $1,000-$5,000 (enterprise).
+> **Benchmark Context**: Companies with documented buyer personas are 2-4x more effective at content marketing. Average NPS for SaaS is 31. Customer acquisition cost (CAC) benchmarks: B2B SaaS $200-$500 (SMB), $1,000-$5,000 (enterprise. (ProfitWell 2024 SaaS Benchmarks)
 
 
-### Confidence & Sample Size
+### Confidence & Sample Size.
 > **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract
@@ -436,3 +436,10 @@ R047,41-50,Director Demand Gen,201-500,B2B SaaS,Lead scoring accuracy,AI-priorit
 - Create persona-specific landing pages
 - Build buying journey content map
 - Revisit personas quarterly as market evolves
+
+## Related Skills
+
+- **[growth-experiment-designer](./growth-experiment-designer.md)** — Design persona-specific experiments for targeting and messaging.
+- **[pricing-page-optimizer](./pricing-page-optimizer.md)** — Tailor pricing page design to different buyer personas.
+- **[gtm-launch-planner](./gtm-launch-planner.md)** — Apply personas to segment launch messaging and channel strategy.
+- **[onboarding-flow-optimizer](./onboarding-flow-optimizer.md)** — Create persona-specific onboarding flows to improve activation.

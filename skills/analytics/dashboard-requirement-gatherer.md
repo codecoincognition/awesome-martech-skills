@@ -16,7 +16,7 @@ Structures the requirements-gathering process for marketing dashboards — defin
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is business context via conversation. Output is a Markdown dashboard spec. No data access needed — this is the planning step.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~60-120 min building in your BI tool.** If implementing output in a platform, add 10-20 min for setup. Input is business context via conversation. Output is a Markdown dashboard spec. No data access needed — this is the planning step.
 
 ## User Intent Mapping
 
@@ -120,8 +120,7 @@ Recommend dashboard structure:
 > Review the KPI framework with stakeholders before building. Dashboards built without stakeholder input get ignored. Ask: "If you could only see 3 numbers every morning, what would they be?"
 
 
-> **Benchmark Context**: Marketing teams typically allocate 5-15% of budget to analytics tools. A well-built dashboard should answer 80% of weekly reporting questions without manual queries. GA4 reports average 24-48 hour data lag for standard processing.
-
+> **Benchmark Context**: Marketing teams typically allocate 5-15% of budget to analytics tools (Google 2024 Marketing Measurement Guide). A well-built dashboard should answer 80% of weekly reporting questions without manual queries (Google 2024 Marketing Measurement Guide). GA4 reports average 24-48 hour data lag for standard processing.
 ## Output Contract
 
 ### Deliverable: Markdown Dashboard Specification
@@ -212,3 +211,10 @@ This skill doesn't need exported data — it needs your thinking:
 **Input**: B2B SaaS company, demand gen team dashboard. Tools: GA4, HubSpot, Google Ads, LinkedIn Ads, Salesforce. Pain point: "We have data everywhere but no single view of pipeline performance."
 
 **Output**: Dashboard spec with 3 audiences (CMO: monthly strategic view, Demand Gen Manager: weekly operational view, paid media specialist: daily tactical view). North star: pipeline generated, CAC, MQL-to-SQL conversion rate. 12 channel KPIs mapped to 5 data sources. Layout: top row = 4 KPI cards (pipeline, MQLs, CAC, conversion rate), second row = pipeline trend line + channel mix donut, third row = campaign performance table with sorting. Filters: date range, channel, campaign. Data source map showing GA4 provides traffic metrics, HubSpot provides lead metrics, Salesforce provides pipeline, ad platforms provide spend. Next step: export HubSpot + Salesforce data as CSV and feed into marketing-dashboard-builder.
+
+## Related Skills
+
+- **[marketing-dashboard-builder](./marketing-dashboard-builder.md)** — Use this skill after gathering requirements to build the interactive dashboard.
+- **[marketing-roi-calculator](./marketing-roi-calculator.md)** — Complement dashboard planning with ROI metric calculations.
+- **[ab-test-result-analyzer](./ab-test-result-analyzer.md)** — Include A/B test results as KPIs in your dashboard requirements.
+- **[growth-experiment-designer](../growth/growth-experiment-designer.md)** — Track experiment metrics defined in dashboard requirements.

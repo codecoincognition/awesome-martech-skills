@@ -17,7 +17,7 @@ Generate 10-20 campaign angles that reframe your product's value through differe
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is product/service context + audience. Output is an angle library document. No external data needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min synthesizing into your strategy deck.** If implementing output in a platform, add 10-20 min for setup. Input is product/service context + audience. Output is an angle library document. No external data needed.
 
 ## User Intent Mapping
 
@@ -152,10 +152,7 @@ Proof points: 34% reduction in missed deadlines, 500+ agencies, NPS 72
 6. **Generate output** — Complete angle library.
 
 
-> **Benchmark Context**: Win/loss analysis requires minimum 20 interviews per segment for reliable patterns. Survey response rates average 10-15% for email surveys, 30-50% for in-app. Qualitative research saturation typically occurs at 12-15 interviews.
-
-
-### Confidence & Sample Size
+> **Benchmark Context**: Win/loss analysis requires minimum 20 interviews per segment for reliable patterns. Survey response rates average 10-15% for email surveys, 30-50% for in-app (McKinsey 2024 State of AI Report). Qualitative research saturation typically occurs at 12-15 interviews (McKinsey 2024 State of AI Report). ### Confidence & Sample Size.
 > **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract
@@ -300,3 +297,10 @@ Total angles: [N]
 > Best for: Competitive landing page, retargeting
 >
 > Full library includes 18 angles across 7 lenses. Feed top picks into hook-stress-tester for headline optimization or ad-copy-generator for platform-ready copy.
+
+## Related Skills
+
+- **[Hook Stress Tester](./hook-stress-tester.md)** — Evaluate and improve the headlines and hooks from generated campaign angles.
+- **[Positioning Whitespace Finder](./positioning-whitespace-finder.md)** — Identify unclaimed positioning territory before generating angles to focus on unique angles.
+- **[Ad Copy Generator](../ads/ad-copy-generator.md)** — Turn validated campaign angles into ad copy variations.
+- **[Voice of Customer Miner](./voice-of-customer-miner.md)** — Ground campaign angles in actual customer language and pain points from Reddit discussions.

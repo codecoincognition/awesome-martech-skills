@@ -15,7 +15,7 @@ Analyzes and optimizes social commerce performance across platforms — product 
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing output in a platform, add 20-30 min for catalog/shop setup. Input is product catalog info and social commerce data. Output is Markdown optimization report with action plan.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~20-40 min scheduling in Buffer / Hootsuite / native platform. If implementing output in a platform, add 20-30 min for catalog/shop setup. Input is product catalog info and social commerce data. Output is Markdown optimization report with action plan.
 
 ## User Intent Mapping
 
@@ -103,8 +103,7 @@ Evaluate current setup per platform:
 ### ⚠️ Human Checkpoint
 > Review product catalog for pricing accuracy, inventory availability, and platform policy compliance (prohibited products vary by platform) before publishing.
 
-> **Benchmark Context**: Social commerce global revenue reached $700B in 2024. Average conversion rate for shoppable posts is 1-3%. Products under $50 convert 2-3x better on TikTok Shop. Instagram Shopping drives 130M product tag taps per month. Live shopping conversion rates are 10-20x higher than traditional e-commerce.
-
+> **Benchmark Context**: Social commerce global revenue reached $700B in 2024. . Average conversion rate for shoppable posts is 1-3% (Buffer 2024 State of Social) Products under $50 convert 2-3x better on TikTok Shop (Buffer 2024 State of Social) Instagram Shopping drives 130M product tag taps per month. . Live shopping conversion rates are 10-20x higher than traditional e-commerce. . (Later 2024 Social Media Industry Report).
 ## Output Contract
 
 ### Deliverable: Markdown Optimization Report
@@ -183,3 +182,10 @@ Evaluate current setup per platform:
 **Input**: "Optimize social commerce for a DTC skincare brand. Platforms: Instagram + TikTok. 15 SKUs, $25-$65 price range. Currently have Instagram Shop set up but low conversion. No TikTok Shop yet."
 
 **Output**: Instagram audit: catalog images are product-only (need lifestyle shots), no collections set up, product tags only on 20% of posts. Recommendations: create 4 collections (Routine Builder, Best Sellers, Gifts, New Arrivals), increase tagging to 80% of posts, add UGC with product tags. TikTok Shop launch plan: register seller account, upload top 5 SKUs, partner with 3-5 micro-influencers for affiliate program, plan weekly LIVE shopping demos. Content calendar: 3 shoppable Reels/week on Instagram, 2 TikTok product videos/week. Quick win: add "Shop the Look" carousel to top 10 performing posts (expected 2x click-through lift).
+
+## Related Skills
+
+- **[Social Content Calendar](./social-content-calendar.md)** — Use to plan product-focused content for shoppable posts and shopping features.
+- **[Ecommerce SEO Optimizer](../seo/ecommerce-seo-optimizer.md)** — Use to optimize product pages and metadata that feed into social commerce platforms.
+- **[Social Engagement Analyzer](./social-engagement-analyzer.md)** — Use to measure conversion rates and engagement from shoppable posts.
+- **[Checkout Funnel Optimizer](../cro/checkout-funnel-optimizer.md)** — Use to optimize the final checkout experience after customers are driven from social shopping features.

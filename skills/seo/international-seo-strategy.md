@@ -15,7 +15,7 @@ Creates international SEO strategies with site structure decisions, hreflang imp
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing, add 5-20 hours for hreflang and content localization. Input is target markets and current site structure. Output is Markdown international SEO plan with technical specifications.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min implementation in Google Search Console / CMS. If implementing, add 5-20 hours for hreflang and content localization. Input is target markets and current site structure. Output is Markdown international SEO plan with technical specifications.
 
 ## User Intent Mapping
 
@@ -107,8 +107,7 @@ Creates international SEO strategies with site structure decisions, hreflang imp
 ### ⚠️ Human Checkpoint
 > Have native speakers review all localized content and keyword targeting. Verify hreflang tags with a validation tool before deployment. Confirm business readiness (payment, legal, support) before launching in new markets.
 
-> **Benchmark Context**: 75% of international SEO implementations have hreflang errors. Localized content (not just translated) ranks 47% better than direct translations. Subfolders consolidate domain authority better than ccTLDs for most businesses. Local link building is 3x more important for international rankings than domestic. Sites with correct hreflang see 25-40% less duplicate content issues in GSC.
-
+> **Benchmark Context**: 75% of international SEO implementations have hreflang errors. Localized content (not just translated) ranks 47% better than direct translations (Semrush 2024 State of Search). Subfolders consolidate domain authority better than ccTLDs for most businesses. Local link building is 3x more important for international rankings than domestic (Semrush 2024 State of Search). Sites with correct hreflang see 25-40% less duplicate content issues in GSC.
 ## Output Contract
 
 ### Deliverable: Markdown International SEO Plan
@@ -188,3 +187,10 @@ Creates international SEO strategies with site structure decisions, hreflang imp
 **Input**: "International SEO strategy for a SaaS product. Currently English-only (US). Want to expand to Germany, France, Japan, and Brazil. 200-page site including 80 blog posts. Subfolder structure preferred."
 
 **Output**: Market priority: Germany (highest SaaS adoption in EU), France, Brazil, Japan (highest localization effort). Structure: subfolders — site.com/de/, site.com/fr/, site.com/ja/, site.com/pt-br/. Phase 1 (months 1-3): Germany — localize top 20 product pages + 10 highest-traffic blog posts; implement full hreflang. Phase 2 (months 3-6): France — same approach. Phase 3 (months 6-9): Brazil and Japan simultaneously. Content approach: keyword-first localization — research German SaaS keywords before translating (e.g., "Projektmanagement-Software" not "project management software"). Hreflang implementation: HTML head tags on all pages, 5 versions per page (en, de, fr, ja, pt-BR + x-default → en). Technical: deploy CDN with edge nodes in Frankfurt, Paris, Tokyo, São Paulo for local page speed. Quick win: add hreflang for existing English pages immediately (establishes x-default before other languages launch).
+
+## Related Skills
+
+- **[Content Localization Planner](../content/content-localization-planner.md)** — Use to plan content translation and cultural adaptation for the international markets in your SEO strategy.
+- **[Technical SEO Auditor](./technical-seo-auditor.md)** — Use to implement hreflang tags, language targeting, and ensure proper multi-language site structure.
+- **[SEO Content Strategy](./seo-content-strategy.md)** — Use to build region-specific content strategies and keyword targeting for different markets.
+- **[Local SEO Optimizer](./local-seo-optimizer.md)** — Use for country-specific local optimization (Google Business Profiles, local citations, geo-targeting).

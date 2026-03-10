@@ -15,7 +15,7 @@ Optimizes web forms for higher completion rates through field reduction, UX impr
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing, add 1-3 days for form redesign. Input is current form design and conversion data. Output is Markdown optimization plan with specific form recommendations.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min implementing in your testing tool / CMS. If implementing, add 1-3 days for form redesign. Input is current form design and conversion data. Output is Markdown optimization plan with specific form recommendations.
 
 ## User Intent Mapping
 
@@ -120,8 +120,7 @@ Structure:
 ### ⚠️ Human Checkpoint
 > Verify that field reductions don't eliminate data needed for lead routing or qualification. Test form changes across devices and browsers. Confirm CRM integration still works after form modifications.
 
-> **Benchmark Context**: Reducing form fields from 11 to 4 increases conversion by 120%. Forms with 3 fields have 25% conversion; forms with 6+ fields have 15% conversion. Multi-step forms convert 300% higher than single-step when fields exceed 5. Inline validation reduces form errors by 22%. "Submit" as CTA text converts 3% lower than action-specific text. Forms above the fold convert 20% higher than below-fold.
-
+> **Benchmark Context**: Reducing form fields from 11 to 4 increases conversion by 120% (Contentsquare 2024 Digital Experience Benchmark). Forms with 3 fields have 25% conversion; forms with 6+ fields have 15% conversion (Contentsquare 2024 Digital Experience Benchmark). Multi-step forms convert 300% higher than single-step when fields exceed 5 (Contentsquare 2024 Digital Experience Benchmark). Inline validation reduces form errors by 22% (Contentsquare 2024 Digital Experience Benchmark). \"Submit\" as CTA text converts 3% lower than action-specific text (Unbounce 2024 Conversion Benchmark Report). Forms above the fold convert 20% higher than below-fold (Contentsquare 2024 Digital Experience Benchmark). (Contentsquare 2024 Digital Experience Benchmark).
 ## Output Contract
 
 ### Deliverable: Markdown Form Optimization Plan
@@ -208,3 +207,10 @@ Structure:
 **Input**: "Form optimization for B2B SaaS demo request form. 9 fields: first name, last name, work email, phone, company, job title, company size, industry, message. Current conversion: 4.2%. Mobile: 2.1%. 500 monthly form views."
 
 **Output**: Problem: 9 fields is 2x the optimal for a demo request. Phone, industry, and message are likely causing friction. Recommended form (4 fields): work email (required), first name (required), company (required), company size (dropdown, required for routing). Removed fields: last name (enrichable from email), phone (ask on demo scheduling page), job title (enrich from LinkedIn/Clearbit), industry (enrich from company domain), message (unnecessary for demo booking). Design: single-column, inline validation, CTA: "Book My Demo — 30 minutes, no commitment." Add below form: "Join 500+ companies using [Product]" with 3 customer logos. Mobile: large input fields, auto-focus first field, numeric keyboard for phone if kept. Progressive profiling: after form submit, redirect to Calendly/Chilipiper scheduling page that captures phone and additional context. Expected results: conversion 4.2% → 9-11% (120-160% improvement). Monthly leads: 21 → 45-55. Lead quality maintained via enrichment (Clearbit or similar auto-fills company size, industry, revenue from email domain).
+
+## Related Skills
+
+- **ab-test-designer** (./ab-test-designer.md) — Design A/B tests for form changes (field count, copy, multi-step vs. single-step); use to validate which optimizations drive highest completion.
+- **cta-optimization-framework** (./cta-optimization-framework.md) — Optimize form button copy and design; use to make form CTAs more compelling and action-oriented.
+- **heatmap-analysis-toolkit** (./heatmap-analysis-toolkit.md) — Analyze where users click, hesitate, and abandon forms using heatmaps; identify which form fields cause friction.
+- **landing-page-optimizer** (./landing-page-optimizer.md) — Optimize form context (headline, copy, social proof above form); use to create compelling form pages that drive completion.

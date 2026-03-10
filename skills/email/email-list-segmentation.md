@@ -16,7 +16,7 @@ Builds email list segmentation strategies using behavioral, demographic, engagem
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing, add 1-3 hours for ESP segment setup. Input is subscriber data and business context. Output is Markdown segmentation framework with implementation plan.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-45 min setup in Mailchimp / Klaviyo / HubSpot. If implementing, add 1-3 hours for ESP segment setup. Input is subscriber data and business context. Output is Markdown segmentation framework with implementation plan.
 
 ## User Intent Mapping
 
@@ -109,8 +109,7 @@ Map segments to content variations:
 ### ⚠️ Human Checkpoint
 > Review segment definitions with your team to ensure alignment with business goals. Verify that segment criteria are technically achievable in your ESP. Check compliance with data privacy regulations (GDPR, CAN-SPAM) for data usage in segmentation.
 
-> **Benchmark Context**: Segmented campaigns generate 760% more revenue than non-segmented. Segmented emails have 14.3% higher open rates and 100% higher click rates. The average marketer uses 3-5 segments. Engagement-based segmentation is the highest-impact first step. Over-emailing is the #1 reason for unsubscribes — segmentation lets you send more to engaged users and less to passive ones.
-
+> **Benchmark Context**: Segmented campaigns generate 760% more revenue than non-segmented. Segmented emails have 14.3% higher open rates and 100% higher click rates (Mailchimp 2024 Email Marketing Benchmarks). The average marketer uses 3-5 segments. Engagement-based segmentation is the highest-impact first step. Over-emailing is the #1 reason for unsubscribes — segmentation lets you send more to engaged users and less to passive ones. (Mailchimp 2024 Email Marketing Benchmarks).
 ## Output Contract
 
 ### Deliverable: Markdown Segmentation Strategy
@@ -196,3 +195,10 @@ Map segments to content variations:
 **Input**: "Email segmentation strategy for a DTC skincare brand. 25K subscribers. Mailchimp. Have purchase data, browse behavior (Shopify), and email engagement. Currently sending same email to everyone."
 
 **Output**: 6 segments recommended: (1) VIP Buyers — purchased 3+ times, opened recent emails (8% of list, 2K) → early access, exclusive bundles, loyalty rewards; (2) One-Time Buyers — purchased once, active on email (15%, 3.75K) → cross-sell, replenishment reminders, education; (3) Browse Abandoners — viewed products, no purchase (12%, 3K) → product-specific triggers, social proof, first-purchase incentive; (4) Engaged Non-Buyers — active on email, never purchased (20%, 5K) → content nurture, samples, introductory offers; (5) Passive — occasional opens, no clicks (30%, 7.5K) → reduced frequency, re-engagement series, best-of content; (6) Inactive — no opens 90+ days (15%, 3.75K) → sunset series, then suppress. Quick wins: (1) Suppress 3.75K inactive subscribers immediately — instant deliverability boost, (2) Create replenishment email for one-time buyers at estimated reorder time (e.g., 45 days for moisturizer), (3) Set up browse abandonment trigger (expected 5-8% conversion rate). Expected impact: 40-60% revenue increase from email within 90 days.
+
+## Related Skills
+
+- **[Email Automation Workflow](./email-automation-workflow.md)** — Use to define the audience segments that trigger different automation paths and branching logic.
+- **[Email Sequence Builder](./email-sequence-builder.md)** — Use to create targeted sequences for each segment identified in your segmentation strategy.
+- **[Segmentation Rule Builder](../crm/segmentation-rule-builder.md)** — Use to define and implement segmentation rules in your CRM or email platform.
+- **[Customer Persona Builder](../insights/customer-persona-builder.md)** — Use to understand the distinct personas you'll segment your list by.

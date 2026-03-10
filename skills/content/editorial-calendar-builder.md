@@ -17,7 +17,7 @@ Plan a multi-week or quarterly editorial calendar for long-form content: blog po
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is strategy context + optional keyword data. Output is an XLSX calendar. No external tools needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min implementing in your CMS.** If implementing output in a platform, add 10-20 min for setup. Input is strategy context + optional keyword data. Output is an XLSX calendar. No external tools needed.
 
 ## User Intent Mapping
 
@@ -108,10 +108,10 @@ Trigger when the user says:
 7. **Generate structured output** with calendar view + topic detail tables in Markdown (ready to paste into Google Sheets or Excel).
 
 
-> **Benchmark Context**: Blog posts averaging 1,500-2,500 words tend to rank highest in search. Content marketing generates 3x more leads than outbound at 62% less cost. Average time to write a 1,500-word blog post is 4-6 hours (research + writing + editing).
+> **Benchmark Context**: Blog posts averaging 1,500-2,500 words tend to rank highest in search (Content Marketing Institute 2024 B2B Research). Content marketing generates 3x more leads than outbound at 62% less cost (Semrush 2024 State of Content Marketing). Average time to write a 1,500-word blog post is 4-6 hours (research + writing + editing. (Semrush 2024 State of Content Marketing)
 
 
-### Confidence & Sample Size
+### Confidence & Sample Size.
 > **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract
@@ -227,3 +227,10 @@ Trigger when the user says:
 > Each topic includes a target keyword, brief description, draft deadline (previous Wednesday), and author assignment.
 >
 > Want me to generate the full XLSX with topic briefs and deadlines?
+
+## Related Skills
+
+- **[Content Pillar Strategy](./content-pillar-strategy.md)** — Use to define the pillar-cluster structure before building your editorial calendar.
+- **[Campaign Brief Synthesizer](./campaign-brief-synthesizer.md)** — Use to gather campaign briefs that inform your calendar and align content with campaigns.
+- **[Content Distribution Strategy](./content-distribution-strategy.md)** — Use to embed distribution timelines and channel requirements into your editorial calendar.
+- **[Social Content Calendar](../social/social-content-calendar.md)** — Use to align social content creation with your broader editorial calendar.

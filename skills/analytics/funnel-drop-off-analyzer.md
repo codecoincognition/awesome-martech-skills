@@ -15,7 +15,7 @@ Diagnoses conversion funnel drop-offs, identifies bottleneck stages, and provide
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing fixes, add 1-4 weeks depending on the stage. Input is funnel stage volumes and conversion rates. Output is Markdown funnel diagnosis with stage-by-stage analysis, root causes, and prioritized fixes.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min building in Google Sheets / Looker / GA4. If implementing fixes, add 1-4 weeks depending on the stage. Input is funnel stage volumes and conversion rates. Output is Markdown funnel diagnosis with stage-by-stage analysis, root causes, and prioritized fixes.
 
 ## User Intent Mapping
 
@@ -221,3 +221,10 @@ Velocity fixes:
 **Input**: "Funnel analysis for our SaaS signup flow. Monthly data: Landing page visitors: 25,000. Started signup: 3,750 (15%). Completed signup: 2,250 (60% of started). Activated (first project created): 675 (30% of signup). Converted to paid: 135 (20% of activated). Overall: 0.54% visitor-to-paid."
 
 **Output**: Funnel diagnosis: your 0.54% visitor-to-paid rate is below SaaS benchmark (2-5%). The biggest opportunity is the activation stage. Stage analysis: (1) Visit → Start signup (15%): Slightly below benchmark (20-25%). Quick wins: stronger CTA, add social proof, reduce perceived commitment. Expected lift: 15% → 20% = +1,250 signups started. (2) Start → Complete signup (60%): This is actually decent for multi-step signups, but below best-in-class (75-85%). Fix: reduce form fields to email + password only, add progress indicator, enable social signup (Google/SSO). Expected lift: 60% → 75% = +375 completed signups. (3) Signup → Activated (30%): This is your biggest bottleneck — benchmark is 40-60%. Users sign up but don't create their first project. P0 fix: implement a guided setup wizard that walks users to their first project within 5 minutes. Add "create your first project" as the immediate post-signup screen (not a dashboard). Send activation email at 24 hours if no project created. Expected lift: 30% → 45% = +337 activated users. (4) Activated → Paid (20%): Below benchmark (25-40%) but acceptable as secondary priority. Fix: in-app upgrade prompts when users hit free tier limits, 14-day trial countdown, comparison of free vs. paid features during usage. Priority order: activation (P0), signup completion (P1), visit-to-signup (P1), activation-to-paid (P2). Fixing activation alone from 30% to 45% would increase paid conversions from 135 to ~202 per month (+50%).
+
+## Related Skills
+
+- **[ab-test-designer](../cro/ab-test-designer.md)** — Test fixes identified in funnel analysis to validate improvements.
+- **[dashboard-requirement-gatherer](./dashboard-requirement-gatherer.md)** — Include funnel metrics in dashboard requirements.
+- **[marketing-roi-calculator](./marketing-roi-calculator.md)** — Calculate impact of funnel optimizations on ROI.
+- **[cohort-analysis-builder](./cohort-analysis-builder.md)** — Analyze funnel performance by user cohort to identify segment-specific issues.

@@ -15,7 +15,7 @@ Interprets video and podcast analytics data to identify performance patterns, au
 
 ## Granularity Check
 
-> **Session time**: ~5 min data export + ~10 min Claude session. If implementing strategy changes, add 2-4 weeks to measure impact. Input is analytics exports or screenshots from video/podcast platforms. Output is Markdown analysis with performance insights, content recommendations, and growth strategy.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min producing / uploading. If implementing strategy changes, add 2-4 weeks to measure impact. Input is analytics exports or screenshots from video/podcast platforms. Output is Markdown analysis with performance insights, content recommendations, and growth strategy.
 
 ## User Intent Mapping
 
@@ -133,8 +133,7 @@ Interprets video and podcast analytics data to identify performance patterns, au
 ### ⚠️ Human Checkpoint
 > Validate analytics insights against your own content knowledge — data alone can miss context like seasonal topics, one-time viral moments, or algorithm experiments. Before making major strategy changes based on data, test with 3-5 videos/episodes to confirm the pattern holds.
 
-> **Benchmark Context**: Average YouTube CTR across all channels is 2-10% depending on category. Average audience retention is 50-60% for videos under 10 minutes and 40-50% for longer content. Channels posting 1-3x per week grow subscribers 2-4x faster than monthly posters. The top 10% of podcast episodes account for 50% of total downloads. 70% of YouTube views come from algorithmic recommendations (Browse, Suggested, Shorts feed), not search.
-
+> **Benchmark Context**: Average YouTube CTR across all channels is 2-10% depending on category (YouTube Creator Academy 2024) Average audience retention is 50-60% for videos under 10 minutes and 40-50% for longer content (Wistia 2024 State of Video) Channels posting 1-3x per week grow subscribers 2-4x faster than monthly posters (YouTube Creator Academy 2024) The top 10% of podcast episodes account for 50% of total downloads (Edison Research 2024 Podcast Consumer Report) 70% of YouTube views come from algorithmic recommendations (Browse, Suggested, Shorts feed), not search (YouTube Creator Academy 2024) (Edison Research 2024 Podcast Consumer Report).
 ## Output Contract
 
 ### Deliverable: Markdown Analytics Report
@@ -218,3 +217,10 @@ Interprets video and podcast analytics data to identify performance patterns, au
 **Input**: "YouTube analytics review for our B2B marketing channel. 45 videos, 2,800 subscribers. Average views: 850. Average CTR: 3.2%. Average retention: 38%. Best video: '5 LinkedIn Ads Mistakes' (12K views, 52% retention, 8.1% CTR). Worst videos: interview-format content (200-400 views, 25% retention). We post 2x/month."
 
 **Output**: Key findings: (1) CTR at 3.2% is below B2B average (4-6%) — thumbnails and titles need work. Your best video at 8.1% CTR proves you can do better. (2) Retention at 38% is concerning — viewers leave before halfway. Your best video at 52% shows tactical, mistake-focused content retains viewers. (3) Interviews underperform significantly — 25% retention means viewers aren't connecting with the format. Recommendations: (1) P0 — Increase posting to weekly. At 2x/month, the algorithm deprioritizes your channel. Expected: 30-50% view increase within 8 weeks. (2) P0 — Double down on the "mistakes/errors" format that drove your best video. Create a series: "X Mistakes in [Channel]" for each marketing platform. (3) P1 — Thumbnail overhaul: use the style from your 8.1% CTR video across all new uploads. Test face + text overlay + high contrast. (4) P1 — Fix retention: restructure video openings — deliver the first insight within 30 seconds (not 2 minutes of intro). Add chapters for longer content. (5) P2 — Pause interviews or restructure them as "rapid fire" format (shorter, more energy, specific tactical questions). (6) P2 — Refresh top 10 performing videos with new thumbnails — YouTube re-tests old content with new thumbnails. Expected growth: subscribers from 2,800 to 5,000+ in 6 months with weekly tactical content and improved CTR/retention.
+
+## Related Skills
+
+- **[Cohort Analysis Builder](../analytics/cohort-analysis-builder.md)** — Analyze video audience cohorts by acquisition source to understand viewing patterns.
+- **[Campaign Performance Benchmarker](../analytics/campaign-performance-benchmarker.md)** — Benchmark video campaign performance against other marketing channels.
+- **[Funnel Drop-off Analyzer](../analytics/funnel-drop-off-analyzer.md)** — Analyze where viewers drop off in video funnels to optimize completion rates.
+- **[Marketing Dashboard Builder](../analytics/marketing-dashboard-builder.md)** — Build dashboards that integrate video analytics with other marketing metrics.

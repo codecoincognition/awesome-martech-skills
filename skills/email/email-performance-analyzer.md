@@ -17,7 +17,7 @@ Analyzes email campaign performance with metric benchmarking, trend identificati
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing recommendations, add 1-3 hours. Input is email performance exports from your ESP. Output is Markdown performance analysis with optimization plan.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-45 min setup in Mailchimp / Klaviyo / HubSpot. If implementing recommendations, add 1-3 hours. Input is email performance exports from your ESP. Output is Markdown performance analysis with optimization plan.
 
 ## User Intent Mapping
 
@@ -104,8 +104,7 @@ Prioritize by impact and effort:
 ### ⚠️ Human Checkpoint
 > Verify data accuracy before sharing reports with stakeholders. Context matters: algorithm changes, seasonal effects, and list growth affect metrics independently of campaign quality.
 
-> **Benchmark Context**: Average email ROI is $36-42 per dollar spent. Top-performing email programs achieve 25%+ open rates and 4%+ click rates. Automated emails outperform campaigns 3x on click rate. Lists that grow organically outperform purchased lists by 5x on engagement. The optimal sending frequency is 1-3 emails per week for most B2C brands.
-
+> **Benchmark Context**: Average email ROI is $36-42 per dollar spent (Litmus 2024 State of Email). Top-performing email programs achieve 25%+ open rates and 4%+ click rates (Mailchimp 2024 Email Marketing Benchmarks). Automated emails outperform campaigns 3x on click rate (Mailchimp 2024 Email Marketing Benchmarks). Lists that grow organically outperform purchased lists by 5x on engagement. The optimal sending frequency is 1-3 emails per week for most B2C brands. (Mailchimp 2024 Email Marketing Benchmarks).
 ## Output Contract
 
 ### Deliverable: Markdown Performance Analysis
@@ -185,3 +184,10 @@ Prioritize by impact and effort:
 **Input**: "Analyze Q4 email performance. E-commerce (home goods). 45 campaigns sent. Average open rate dropped from 28% to 22%. Click rate steady at 3.1%. Revenue from email: $180K. List: 65K subscribers."
 
 **Output**: Health: needs attention — open rate decline is concerning but click rate holding suggests engaged readers are still engaging. Diagnosis: open rate decline likely driven by 3 factors: (1) Apple MPP adoption increasing (estimate 15% of opens are auto-opens), (2) list grew 18% in Q4 from holiday promotions — new subscribers haven't been segmented, (3) increased send frequency (3.5x/week in Q4 vs. 2x in Q3). Top campaigns: Holiday Gift Guide (38% open, 6.2% click, $32K revenue), Black Friday Preview (31% open, 5.8% click, $28K revenue). Bottom: weekly newsletters sent Tuesday had consistently lowest engagement. Revenue per email: $4K average — top quartile campaigns averaged $8.5K. Recommendations: (1) Segment Q4 holiday signups into separate nurture flow (quick win), (2) Reduce sending frequency to 2x/week for non-VIP segments, (3) Shift primary metric from opens to clicks given MPP impact, (4) A/B test send day — current Tuesday performance is 25% below Thursday sends. Q1 targets: click rate 3.5%, email revenue $200K, unsubscribe rate <0.15%.
+
+## Related Skills
+
+- **[Email AB Testing Framework](./email-ab-testing-framework.md)** — Use to analyze test results and extract insights for optimization.
+- **[Email Subject Line Tester](./email-subject-line-tester.md)** — Use to identify underperforming subject lines from your analysis and test improvements.
+- **[Email Sequence Builder](./email-sequence-builder.md)** — Use to adjust sequence strategy based on performance insights from your analysis.
+- **[Marketing ROI Calculator](../analytics/marketing-roi-calculator.md)** — Use to connect email performance to revenue and calculate email marketing ROI.

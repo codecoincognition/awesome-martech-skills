@@ -16,7 +16,7 @@ Designs viral loops and product-led growth mechanics — identifying sharing tri
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing output, add 4-8 hours for engineering and design. Input is product details and current sharing data. Output is Markdown viral loop blueprint with implementation plan.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~60-120 min implementing in your product / tools. If implementing output, add 4-8 hours for engineering and design. Input is product details and current sharing data. Output is Markdown viral loop blueprint with implementation plan.
 
 ## User Intent Mapping
 
@@ -113,8 +113,7 @@ Identify natural moments users want to share:
 ### ⚠️ Human Checkpoint
 > Review sharing mechanics for user experience impact — aggressive invite prompts can damage retention. Ensure sharing doesn't expose private user data. Legal review for incentivized referrals in regulated industries.
 
-> **Benchmark Context**: Average SaaS k-factor is 0.2-0.4. Top viral products achieve k-factor of 0.7-1.5. Personalized invite messages convert 3x better than generic ones. Users who arrive via referral have 25% higher LTV. The best viral loops feel like product features, not marketing — Calendly's scheduling link is both the product and the acquisition channel. Optimal invite prompt timing is at the "aha moment," not at signup.
-
+> **Benchmark Context**: Average SaaS k-factor is 0.2-0.4 (ProfitWell 2024 SaaS Benchmarks) Top viral products achieve k-factor of 0.7-1.5. (First Round 2024 State of Startups). Personalized invite messages convert 3x better than generic ones. . Users who arrive via referral have 25% higher LTV (ProfitWell 2024 SaaS Benchmarks) The best viral loops feel like product features, not marketing — Calendly's scheduling link is both the product and the acquisition channel. . Optimal invite prompt timing is at the "aha moment," not at signup. . (ProfitWell 2024 SaaS Benchmarks).
 ## Output Contract
 
 ### Deliverable: Markdown Viral Loop Blueprint
@@ -194,3 +193,10 @@ Identify natural moments users want to share:
 **Input**: "Design viral loops for a project management tool. Current state: 2,000 users, no sharing mechanics, users collaborate in teams of 3-8. Product type: B2B SaaS. Main value: visual project boards with AI task suggestions."
 
 **Output**: Primary loop: Collaboration Loop (inherent virality — users need teammates to get full value). Secondary loop: Content Loop (shareable project board views). Sharing triggers: (1) When user creates a project → prompt to invite team (collaboration need), (2) When AI suggests tasks → "Share this board with your team" (delight moment), (3) Weekly progress reports → shareable summary link (output moment). K-factor model: Current ~0.1 (no mechanics), target 0.5 in 6 months. Invite flow: user creates project → one-click "Add team" with email import → personalized invite showing the board → recipient sees the board as read-only → signs up to collaborate. Cold start: Free tier for teams ≤5, so the loop works before payment. Quick win: add "Powered by [Product]" watermark on shared board links (embed loop, zero engineering for v1). Implementation roadmap: Phase 1 (2 weeks) — team invite flow at project creation; Phase 2 (4 weeks) — shareable board links with watermark; Phase 3 (6 weeks) — AI-generated progress reports with share buttons.
+
+## Related Skills
+
+- **[referral-program-designer](./referral-program-designer.md)** — Design referral programs that leverage viral mechanics.
+- **[customer-persona-builder](./customer-persona-builder.md)** — Identify which personas are most likely to participate in viral loops.
+- **[growth-experiment-designer](./growth-experiment-designer.md)** — Design A/B tests to optimize viral coefficient and K-factor.
+- **[marketing-mix-modeler](../analytics/marketing-mix-modeler.md)** — Model organic vs. paid acquisition split when viral loops scale.

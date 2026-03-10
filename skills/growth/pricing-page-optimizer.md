@@ -15,7 +15,7 @@ Audits and optimizes pricing page design with plan structure, feature presentati
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing output, add 2-4 hours for page redesign. Input is current pricing page or plan details. Output is Markdown audit with redesigned pricing page recommendations.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~60-120 min implementing in your product / tools. If implementing output, add 2-4 hours for page redesign. Input is current pricing page or plan details. Output is Markdown audit with redesigned pricing page recommendations.
 
 ## User Intent Mapping
 
@@ -105,8 +105,7 @@ Must-have elements:
 ### ⚠️ Human Checkpoint
 > Verify pricing accuracy with finance team before publishing. Review feature comparisons with product team for accuracy. Ensure compliance with any contractual pricing agreements. Test the complete purchase flow after changes.
 
-> **Benchmark Context**: Average SaaS pricing page conversion rate is 2-5%. Highlighting a "recommended" plan increases its selection by 20-30%. Showing annual savings increases annual plan adoption by 15-25%. FAQ sections reduce support inquiries by 20-30%. Mobile pricing page conversion is typically 30-50% lower than desktop — optimize for mobile. 3 plans convert better than 2 or 4+ plans.
-
+> **Benchmark Context**: Average SaaS pricing page conversion rate is 2-5% (ProfitWell 2024 SaaS Benchmarks). Highlighting a "recommended" plan increases its selection by 20-30%. Showing annual savings increases annual plan adoption by 15-25%. FAQ sections reduce support inquiries by 20-30%. Mobile pricing page conversion is typically 30-50% lower than desktop — optimize for mobile. 3 plans convert better than 2 or 4+ plans. (ProfitWell 2024 SaaS Benchmarks).
 ## Output Contract
 
 ### Deliverable: Markdown Pricing Page Audit
@@ -187,3 +186,10 @@ Must-have elements:
 **Input**: "Audit our pricing page: 3 plans — Starter ($19/mo), Professional ($49/mo), Business ($99/mo). Starter gets 50% of signups, Professional 35%, Business 15%. We want more Professional plan signups. Current page has no highlighted plan, generic CTAs ('Get Started'), and a 25-feature comparison table."
 
 **Output**: Issues: (1) No visual anchoring — add "Most Popular" badge to Professional; (2) Generic CTAs — change to "Start Free Trial" (Starter), "Start Free Trial — Most Popular" (Professional), "Contact Sales" (Business); (3) 25-feature table causes analysis paralysis — reduce to top 10 differentiating features, add "See all features" expandable; (4) No annual pricing shown — add toggle with "Save 20%" badge; (5) No social proof — add customer count and 2 testimonials. Pricing psychology: add annual pricing ($15/$39/$79 annually) to make monthly feel expensive by comparison. Reposition plans: Starter → "For individuals", Professional → "For growing teams" (most value), Business → "For organizations." Quick wins: highlight Professional plan (CSS change, 30 min), add annual toggle (2-hour dev), shorten feature table (1 hour). A/B test: current page vs. highlighted Professional plan — expected shift: Professional from 35% to 45-50% of signups.
+
+## Related Skills
+
+- **[customer-persona-builder](./customer-persona-builder.md)** — Tailor pricing messaging to different buyer personas.
+- **[ab-test-designer](../cro/ab-test-designer.md)** — A/B test pricing page elements for conversion optimization.
+- **[gtm-launch-planner](./gtm-launch-planner.md)** — Align pricing page with product launch strategy.
+- **[marketing-roi-calculator](../analytics/marketing-roi-calculator.md)** — Analyze ROI impact of pricing changes.

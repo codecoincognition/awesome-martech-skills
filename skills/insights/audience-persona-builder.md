@@ -15,7 +15,7 @@ Builds data-driven audience personas from multiple data sources for targeted mar
 
 ## Granularity Check
 
-> **Session time**: ~10 min data gathering + ~15 min Claude session. If doing primary research, add 2-4 weeks. Input is customer data, analytics, and qualitative insights. Output is Markdown persona profiles with marketing applications.
+> **Time**: ~10 min data prep → ~15 min Claude session → ~30-60 min synthesizing into your strategy deck. If doing primary research, add 2-4 weeks. Input is customer data, analytics, and qualitative insights. Output is Markdown persona profiles with marketing applications.
 
 ## User Intent Mapping
 
@@ -125,8 +125,7 @@ Per persona:
 ### ⚠️ Human Checkpoint
 > Validate persona profiles with sales team and customer success before using for targeting. Ensure personas represent actual customer patterns, not internal assumptions or wishful thinking. Test persona-based messaging with real customers before full rollout.
 
-> **Benchmark Context**: Companies using personas see 2-5x improvement in email open rates and ad CTR. Persona-based content generates 18x more revenue than broadcast content. 71% of companies that exceed revenue goals have documented personas. Only 44% of B2B marketers actually use their personas for content decisions. Companies with 3-4 active personas outperform those with 1 or 7+.
-
+> **Benchmark Context**: Companies using personas see 2-5x improvement in email open rates and ad CTR (Gartner 2024 Marketing Technology Survey). Persona-based content generates 18x more revenue than broadcast content (Gartner 2024 Marketing Technology Survey). 71% of companies that exceed revenue goals have documented personas (Gartner 2024 Marketing Technology Survey). Only 44% of B2B marketers actually use their personas for content decisions (Gartner 2024 Marketing Technology Survey). Companies with 3-4 active personas outperform those with 1 or 7+ (Gartner 2024 Marketing Technology Survey). (Gartner 2024 Marketing Technology Survey).
 ## Output Contract
 
 ### Deliverable: Markdown Persona Profiles
@@ -222,3 +221,10 @@ Per persona:
 **Input**: "Build buyer personas for our HR tech SaaS. We sell to mid-market companies (100-1,000 employees). Current customers: 60% HR directors, 25% CHROs, 15% People Ops managers. Average deal: $15K/year. Main use case: employee onboarding and offboarding."
 
 **Output**: 3 personas recommended: (1) "Director Dana" (HR Director, 100-500 employees) — 60% of revenue, primary persona. Goal: streamline onboarding to reduce time-to-productivity. Pain: manual processes, compliance risk, scaling hiring. Trigger: new leadership demanding HR efficiency OR compliance audit. Channels: LinkedIn, HR conferences, peer recommendations. Content: ROI calculators, compliance guides, "how we do it" case studies. Messaging: "Onboard in days, not weeks." (2) "CHRO Chris" (CHRO, 500-1,000 employees) — 25% of revenue, highest deal size ($25K avg). Goal: strategic HR transformation. Pain: too much time on operations, not enough on strategy. Trigger: board pressure to modernize HR. Channels: executive events, analyst reports, CHRO communities. Content: strategic whitepapers, analyst endorsements, executive case studies. Messaging: "Automate operations so you can focus on strategy." (3) "People Ops Pat" (People Ops Manager, 100-500 employees) — 15% of revenue, strongest champion. Goal: not get burned by missed steps in onboarding/offboarding. Pain: checklist chaos, no single source of truth. Trigger: a bad offboarding incident. Channels: People Ops communities (Slack, Reddit), product-led growth (free trial). Content: templates, checklists, product tutorials. Messaging: "Never miss a step." Activation: focus 60% of content on Persona 1, use Persona 3 as product-led entry point, create executive-level content for Persona 2 during enterprise deals.
+
+## Related Skills
+
+- **[Customer Segmentation Engine](../ai-marketing/customer-segmentation-engine.md)** — Operationalize personas into data-driven CRM segments for targeted marketing.
+- **[Campaign Angle Generator](./campaign-angle-generator.md)** — Use persona insights to generate messaging angles that resonate with each persona.
+- **[Customer Journey Mapper](./customer-journey-mapper.md)** — Map persona-specific journeys to understand touchpoints and friction by archetype.
+- **[Survey Design Analyzer](./survey-design-analyzer.md)** — Validate personas through primary research with targeted surveys per persona.

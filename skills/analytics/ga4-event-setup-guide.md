@@ -15,7 +15,7 @@ Creates a complete GA4 event tracking implementation guide tailored to a specifi
 
 ## Granularity Check
 
-> **Session time**: ~5 minutes data prep + ~10 minutes Claude session. If implementing output in a platform, add 10-20 minutes for setup. Input is business type + key actions. Output is a Markdown implementation guide with code snippets.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min building in Google Sheets / Looker / GA4. If implementing output in a platform, add 10-20 minutes for setup. Input is business type + key actions. Output is a Markdown implementation guide with code snippets.
 
 ## User Intent Mapping
 
@@ -91,10 +91,7 @@ Creates a complete GA4 event tracking implementation guide tailored to a specifi
 6. **Create QA checklist** — Build a testing checklist to verify each event fires correctly.
 
 
-> **Benchmark Context**: Marketing teams typically allocate 5-15% of budget to analytics tools. A well-built dashboard should answer 80% of weekly reporting questions without manual queries. GA4 reports average 24-48 hour data lag for standard processing.
-
-
-### Confidence & Sample Size
+> **Benchmark Context**: Marketing teams typically allocate 5-15% of budget to analytics tools (Google 2024 Marketing Measurement Guide). A well-built dashboard should answer 80% of weekly reporting questions without manual queries (Google 2024 Marketing Measurement Guide). GA4 reports average 24-48 hour data lag for standard processing. ### Confidence & Sample Size.
 > **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract
@@ -215,3 +212,10 @@ If no BI tool available, create analysis in Google Sheets or Excel:
 > - [ ] Verify parameters appear in DebugView
 > - [ ] Check real-time reports in GA4
 > - [ ] Confirm conversions are marked in GA4 admin
+
+## Related Skills
+
+- **[dashboard-requirement-gatherer](./dashboard-requirement-gatherer.md)** — Plan which GA4 events and metrics to track for your dashboard.
+- **[marketing-dashboard-builder](./marketing-dashboard-builder.md)** — Build dashboards using the GA4 events configured here.
+- **[funnel-drop-off-analyzer](./funnel-drop-off-analyzer.md)** — Use GA4 event setup to track funnel steps.
+- **[growth-experiment-designer](../growth/growth-experiment-designer.md)** — Configure GA4 events to measure experiment success metrics.

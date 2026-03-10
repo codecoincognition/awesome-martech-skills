@@ -15,7 +15,7 @@ Creates high-converting email copy using proven frameworks, persuasion psycholog
 
 ## Granularity Check
 
-> **Session time**: ~5 min context gathering + ~10 min Claude session. Output is ready-to-use email copy or frameworks you can adapt. Input is campaign goals and audience context. Output is Markdown with copy drafts and framework recommendations.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~20-30 min building in your ESP. Output is ready-to-use email copy or frameworks you can adapt. Input is campaign goals and audience context. Output is Markdown with copy drafts and framework recommendations.
 
 ## User Intent Mapping
 
@@ -117,8 +117,7 @@ Formulas that drive opens:
 ### ⚠️ Human Checkpoint
 > Review all email copy for factual accuracy, brand voice alignment, and legal compliance (especially claims, pricing, and deadlines). Ensure urgency and scarcity claims are genuine — false urgency damages trust.
 
-> **Benchmark Context**: Personalized subject lines increase opens by 26%. Emails with a single CTA increase clicks by 371%. Subject lines with 6-10 words get the highest open rates. Using the recipient's first name in the subject line increases opens by 10-14%. Preview text optimization can increase opens by 7%. Emoji in subject lines increases open rates for some audiences and decreases for others — test.
-
+> **Benchmark Context**: Personalized subject lines increase opens by 26% (HubSpot 2024 State of Marketing). Emails with a single CTA increase clicks by 371%. Subject lines with 6-10 words get the highest open rates (HubSpot 2024 State of Marketing). Using the recipient's first name in the subject line increases opens by 10-14% (HubSpot 2024 State of Marketing). Preview text optimization can increase opens by 7%. Emoji in subject lines increases open rates for some audiences and decreases for others — test. (HubSpot 2024 State of Marketing).
 ## Output Contract
 
 ### Deliverable: Markdown Copy Package
@@ -186,3 +185,10 @@ Preview text: [text]
 **Input**: "Write email copy for a SaaS product's annual pricing promotion. 20% off annual plans for a week. Audience: existing monthly subscribers. Tone: friendly, direct, no hype."
 
 **Output**: 3 subject lines: (1) "Your plan, but 20% less" (direct + benefit), (2) "We did the math so you don't have to" (curiosity), (3) "Quick question about your subscription" (curiosity + personal). Preview text: "Switch to annual and save $[amount] this year." Email body (PAS framework): "You're already getting value from [Product] every day. (acknowledge) But paying monthly means you're spending $[monthly×12] per year. (agitate) Switch to annual this week and pay $[annual price] instead — that's $[savings] back in your budget. (solve) [CTA: Switch to Annual — Save 20%] The math: Monthly = $X/year. Annual = $Y/year. You save $Z. That's [relatable comparison — 'enough for X months of coffee']. This offer expires [date]. After that, it's back to full price. — [Name], [Product] Team. P.S. It takes 30 seconds to switch, and your remaining monthly balance is credited automatically. [CTA: Save 20% Now]"
+
+## Related Skills
+
+- **[Email Subject Line Tester](./email-subject-line-tester.md)** — Use to optimize the subject lines that pair with your email copy.
+- **[Email Sequence Builder](./email-sequence-builder.md)** — Use to structure the sequence before writing copy for each email in the flow.
+- **[Email Template Designer](./email-template-designer.md)** — Use to design the visual layout that will showcase your copy effectively.
+- **[Email CTA Optimization](./email-copywriting-framework.md)** — Use to craft high-converting CTAs that support your campaign goals.

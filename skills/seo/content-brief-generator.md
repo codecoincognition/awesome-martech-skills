@@ -16,7 +16,7 @@ Creates a comprehensive content brief that gives a writer everything they need t
 
 ## Granularity Check
 
-> **Session time**: ~5 minutes data prep + ~10 minutes Claude session. If implementing output in a platform, add 10-20 minutes for setup. Input is a keyword + optional context. Output is a structured Markdown brief. Web search may be used for SERP analysis but is optional.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~45-90 min writing in your CMS. If implementing output in a platform, add 10-20 minutes for setup. Input is a keyword + optional context. Output is a structured Markdown brief. Web search may be used for SERP analysis but is optional.
 
 ## User Intent Mapping
 
@@ -96,10 +96,10 @@ Creates a comprehensive content brief that gives a writer everything they need t
 7. **Finalize brief** — Add SEO guidelines, meta description template, and content checklist.
 
 
-> **Benchmark Context**: Average time to rank on page 1 for a new page is 3-6 months. Long-tail keywords (3+ words) have 3-5% CTR vs. 1-2% for head terms. The #1 organic result gets ~27.6% of clicks. Content updates on existing pages show ranking improvements within 2-4 weeks.
+> **Benchmark Context**: Average time to rank on page 1 for a new page is 3-6 months (Semrush 2024 State of Search). Long-tail keywords (3+ words) have 3-5% CTR vs (Ahrefs 2024 Search Traffic Study). 1-2% for head terms. The #1 organic result gets ~27.6% of clicks. Content updates on existing pages show ranking improvements within 2-4 weeks (Semrush 2024 State of Search). (Ahrefs 2024 Search Traffic Study)
 
 
-### Confidence & Sample Size
+### Confidence & Sample Size.
 > **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract
@@ -244,3 +244,10 @@ If you've already run the keyword cluster analyzer, use the primary keyword and 
 > - Keywords: best PM software, top project management tools
 >
 > [... additional H2s for comparison table, selection criteria, FAQ ...]
+
+## Related Skills
+
+- **[Keyword Cluster Analyzer](./keyword-cluster-analyzer.md)** — Use before creating a content brief to organize keywords into topic clusters that define what to write about.
+- **[Content Pillar Strategy](../content/content-pillar-strategy.md)** — Use to position this brief within your broader topic cluster and pillar-cluster content architecture.
+- **[SEO Content Strategy](./seo-content-strategy.md)** — Use to align this individual brief with your overall SEO strategy and content roadmap.
+- **[Blog Outline Generator](../content/blog-outline-generator.md)** — Use immediately after the brief to structure the actual outline writers will follow.

@@ -14,7 +14,7 @@ Generate detailed thumbnail concepts for YouTube, course platforms, and video co
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is video topic and style preferences. Output is a Markdown design brief. No design tools needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min producing / uploading.** If implementing output in a platform, add 10-20 min for setup. Input is video topic and style preferences. Output is a Markdown design brief. No design tools needed.
 
 ## User Intent Mapping
 
@@ -101,8 +101,7 @@ If testing requested, create variant pairs that change only ONE element:
 > These are design briefs, not finished thumbnails. Hand to a designer or use Canva/Photoshop. Test multiple variants — even small changes in text or expression can swing CTR 20%+.
 
 
-> **Benchmark Context**: Average YouTube CTR is 2-10% (4-5% is good for most niches). Videos over 10 minutes can include mid-roll ads. Podcast episode completion rate averages 60-80%. YouTube Shorts average 2-5% CTR. Chapters increase average view duration by 5-10%.
-
+> **Benchmark Context**: Average YouTube CTR is 2-10% (4-5% is good for most niches) (YouTube Creator Academy 2024) Videos over 10 minutes can include mid-roll ads. . Podcast episode completion rate averages 60-80% (Edison Research 2024 Podcast Consumer Report) YouTube Shorts average 2-5% CTR (YouTube Creator Academy 2024) Chapters increase average view duration by 5-10% (Wistia 2024 State of Video) (Edison Research 2024 Podcast Consumer Report).
 ## Output Contract
 
 ### Deliverable: Markdown Thumbnail Brief
@@ -177,3 +176,10 @@ If testing requested, create variant pairs that change only ONE element:
 **Input**: Video titled "I Tried the $1 vs $1000 Marketing Tool", business/review category, presenter on thumbnail, channel brand uses blue + yellow.
 
 **Output**: Concept 1 — "Split composition: face center with shocked expression, left side shows basic tool UI (muted/gray), right side shows premium tool UI (glowing/vibrant). Text: '$1 vs $1000' in bold Impact font, yellow on dark blue. Arrow pointing from cheap to expensive." Concept 2 — "Face left (excited, pointing right), right side shows two price tags ($1 crossed out in red, $1000 in gold). Text: 'WORTH IT?' in white with red underline." Plus A/B variant swapping the expression from shocked to skeptical.
+
+## Related Skills
+
+- **[Video Script Writer](./video-script-writer.md)** — Script video content before generating thumbnails to ensure alignment.
+- **[Hook Stress Tester](../insights/hook-stress-tester.md)** — Stress-test thumbnail text and messaging using the same evaluation framework.
+- **[Short-Form Video Planner](./short-form-video-planner.md)** — Generate thumbnails for all short-form videos in your content plan.
+- **[YouTube SEO Optimizer](./youtube-seo-optimizer.md)** — Optimize thumbnails as part of broader YouTube optimization strategy.

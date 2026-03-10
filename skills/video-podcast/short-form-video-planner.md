@@ -14,7 +14,7 @@ Plan, script, and batch-organize short-form video content (15-90 seconds) for Ti
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is niche + goals. Output is a Markdown content plan with scripts.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min producing / uploading.** If implementing output in a platform, add 10-20 min for setup. Input is niche + goals. Output is a Markdown content plan with scripts.
 
 ## User Intent Mapping
 
@@ -114,8 +114,7 @@ Map videos to calendar with:
 > Trending sounds and formats change weekly. Verify current trends on each platform before filming. Claude suggests evergreen formats and proven structures but cannot see real-time trending audio.
 
 
-> **Benchmark Context**: Average YouTube CTR is 2-10% (4-5% is good for most niches). Videos over 10 minutes can include mid-roll ads. Podcast episode completion rate averages 60-80%. YouTube Shorts average 2-5% CTR. Chapters increase average view duration by 5-10%.
-
+> **Benchmark Context**: Average YouTube CTR is 2-10% (4-5% is good for most niches) (YouTube Creator Academy 2024) Videos over 10 minutes can include mid-roll ads. . Podcast episode completion rate averages 60-80% (Edison Research 2024 Podcast Consumer Report) YouTube Shorts average 2-5% CTR (YouTube Creator Academy 2024) Chapters increase average view duration by 5-10% (Wistia 2024 State of Video) (Edison Research 2024 Podcast Consumer Report).
 ## Output Contract
 
 ### Deliverable: Markdown Short-Form Content Plan
@@ -210,3 +209,10 @@ Estimated time: [minutes]
 **Input**: Fitness coaching business, goal is grow followers + drive program signups, posting 5x/week, content pillars: workout tips, nutrition myths, client transformations, humor/relatable, program promos.
 
 **Output**: 20-video plan across 4 weeks. Week 1: 5 videos — "3 exercises you're doing wrong" (listicle, educational, 45s), "POV: your trainer catches you skipping leg day" (POV, humor, 20s), "I lost 30 lbs in 6 months — here's what I ate" (story, inspirational, 60s), "Stop believing this protein myth" (myth bust, educational, 30s), "Inside my 12-week program" (BTS, promo, 30s). Batch filming guide: Session 1 films videos 1, 4, 5 in gym clothes. 5 hashtag sets by pillar. Full scripts with hooks, beats, on-screen text, and CTAs.
+
+## Related Skills
+
+- **[Video Script Writer](./video-script-writer.md)** — Script individual short-form video content pieces from your plan.
+- **[Video Repurposing Engine](./video-repurposing-engine.md)** — Repurpose existing long-form content into short-form video clips instead of creating from scratch.
+- **[Video Thumbnail Concept Generator](./video-thumbnail-concept-generator.md)** — Generate thumbnail concepts for your planned short-form videos.
+- **[Social Content Calendar](../social/social-content-calendar.md)** — Integrate short-form video plan into your broader social media content calendar.

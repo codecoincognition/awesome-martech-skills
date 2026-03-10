@@ -17,7 +17,7 @@ Analyzes social media post performance data to identify winning content patterns
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing output in a platform, add 10-15 min for implementation. Input is exported post performance CSV. Output is XLSX analysis + Markdown strategy.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~20-40 min scheduling in Buffer / Hootsuite / native platform. If implementing output in a platform, add 10-15 min for implementation. Input is exported post performance CSV. Output is XLSX analysis + Markdown strategy.
 
 ## User Intent Mapping
 
@@ -95,8 +95,7 @@ Analyzes social media post performance data to identify winning content patterns
 ### ⚠️ Human Checkpoint
 > Check if top-performing posts had external amplification (paid boost, influencer share, news cycle) that skews organic performance data.
 
-> **Benchmark Context**: Average engagement rates by platform (2025-2026): Instagram 0.60-0.80%, LinkedIn 0.35-0.50%, Twitter/X 0.03-0.05%, Facebook 0.06-0.08%, TikTok 3-6%. Engagement rates decline as follower count increases. Video content averages 2-3x higher engagement than static images across all platforms.
-
+> **Benchmark Context**: Average engagement rates by platform (2025-2026): Instagram 0.60-0.80%, LinkedIn 0.35-0.50%, Twitter/X 0 (Sprout Social 2024 Index). 03-0.05%, Facebook 0 (Meta 2024 Advertising Benchmarks). 06-0.08%, TikTok 3-6% (Sprout Social 2024 Index) Engagement rates decline as follower count increases. . Video content averages 2-3x higher engagement than static images across all platforms (Sprout Social 2024 Index) (Sprout Social 2024 Index).
 ## Output Contract
 
 ### Deliverable: Structured Analysis Tables in Markdown + Summary
@@ -155,3 +154,10 @@ Columns: `priority | action | expected_impact | effort | timeline`
 **Input**: 90 posts across Instagram and LinkedIn over 3 months (Jan-Mar 2026).
 
 **Output**: Top content type: Carousel posts (4.2% engagement rate vs. 1.1% average). Best posting day: Tuesday (2.3x avg engagement). Worst: Sunday (0.4x avg). Optimal time: 9:15 AM ET (LinkedIn), 12:30 PM ET (Instagram). Recommendation: Shift to 60% carousel, 30% Reels, 10% single image. Stop: Quote graphics (0.3% avg engagement, consistent underperformer). Quick win: Repurpose top 5 LinkedIn carousels as Instagram carousels — estimated 3x reach expansion.
+
+## Related Skills
+
+- **[Social Listening Report](./social-listening-report.md)** — Use alongside engagement analysis to understand sentiment and conversation themes driving engagement.
+- **[Social Content Calendar](./social-content-calendar.md)** — Use to adjust future content strategy based on engagement performance insights.
+- **[Community Management Playbook](./community-management-playbook.md)** — Use to identify and respond to top-engaging community members and content.
+- **[Marketing ROI Calculator](../analytics/marketing-roi-calculator.md)** — Use to connect social engagement metrics to actual business revenue and ROI.

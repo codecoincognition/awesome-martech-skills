@@ -17,7 +17,7 @@ Designs CRM reporting dashboards with the right KPIs, metrics, visualizations, a
 
 ## Granularity Check
 
-> **Session time**: ~5 min context gathering + ~10 min Claude session. If implementing, add 2-4 hours per dashboard. Input is reporting needs and CRM platform. Output is Markdown dashboard specification with metric definitions and layout.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min configuring in Salesforce / HubSpot. If implementing, add 2-4 hours per dashboard. Input is reporting needs and CRM platform. Output is Markdown dashboard specification with metric definitions and layout.
 
 ## User Intent Mapping
 
@@ -239,3 +239,10 @@ Design rules:
 **Input**: "Design CRM dashboards for our B2B SaaS. HubSpot CRM. Teams: 3 marketers, 5 sales reps, 2 CSMs. Need executive dashboard, marketing dashboard, and sales pipeline dashboard. Currently have 15 random reports that nobody looks at."
 
 **Output**: Consolidate 15 reports into 3 focused dashboards: (1) Executive Dashboard (monthly review): MRR trend line, new customers vs. target, churn rate trend, CAC/LTV ratio, pipeline coverage ratio, NPS trend. 6 metrics, all single-number or trend. (2) Marketing Dashboard (weekly review): leads by source (stacked bar), MQL volume vs. target (line), MQL→SQL conversion (funnel), campaign ROI table (top 10), content performance table (top 10), email engagement trend. 6 metrics with drill-down capability. (3) Sales Pipeline Dashboard (daily use): total pipeline value by stage (bar), weighted pipeline vs. quota (gauge), deals closing this month (table), stale deals alert (table, deals with no activity 14+ days), rep activity summary (calls, emails, meetings). 5 metrics, action-oriented. Implementation: archive 15 existing reports. Build 3 new dashboards in HubSpot (1 day each). Set up weekly email delivery for marketing dashboard (Monday AM), monthly delivery for executive dashboard (1st of month). Sales dashboard: pinned as HubSpot homepage for sales team.
+
+## Related Skills
+
+- **[Dashboard Requirement Gatherer](../analytics/dashboard-requirement-gatherer.md)** — Conduct stakeholder discovery before designing CRM dashboards to define KPIs.
+- **[Marketing Dashboard Builder](../analytics/marketing-dashboard-builder.md)** — Build complementary marketing analytics dashboards aligned with CRM metrics.
+- **[Attribution Model Builder](../analytics/attribution-model-builder.md)** — Layer attribution insights into your revenue dashboards for better ROI tracking.
+- **[Marketing ROI Calculator](../analytics/marketing-roi-calculator.md)** — Calculate true marketing ROI within your CRM dashboard framework.

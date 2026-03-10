@@ -15,7 +15,7 @@ Audits email marketing programs for compliance with CAN-SPAM, GDPR, CCPA, CASL, 
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing fixes, add 2-8 hours for process and technical changes. Input is current email practices and target regions. Output is Markdown compliance audit with fix recommendations.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-45 min setup in Mailchimp / Klaviyo / HubSpot. If implementing fixes, add 2-8 hours for process and technical changes. Input is current email practices and target regions. Output is Markdown compliance audit with fix recommendations.
 
 ## User Intent Mapping
 
@@ -195,3 +195,10 @@ Per email:
 **Input**: "Email compliance audit. US-based SaaS with EU customers (~20% of list). Using HubSpot. Single opt-in via website forms. Unsubscribe link in footer. 50K subscribers. No consent records stored separately."
 
 **Output**: Risk assessment: MEDIUM-HIGH. Critical issues: (1) GDPR non-compliance — EU subscribers (10K) require explicit opt-in consent with documented records. Current single opt-in is insufficient. Action: implement double opt-in for EU signups; run re-permission campaign for existing EU contacts. (2) No one-click unsubscribe header — required by Google/Yahoo for 50K+ sends. HubSpot supports this but may need configuration. (3) Consent records not stored — for GDPR, you need timestamp, consent text, and method for every subscriber. HubSpot tracks this if configured properly. Compliance fixes: (1) URGENT — add double opt-in for new EU subscribers (HubSpot Settings → Forms → Consent), (2) URGENT — run EU re-permission campaign (send consent email, suppress non-responders after 30 days), (3) HIGH — enable one-click unsubscribe in HubSpot email settings, (4) MEDIUM — create preference center to reduce unsubscribes while maintaining compliance, (5) LOW — document data processing activities for GDPR accountability. Timeline: Week 1 — double opt-in and one-click unsubscribe (technical setup); Week 2-3 — EU re-permission campaign; Week 4 — preference center and documentation.
+
+## Related Skills
+
+- **[Email Automation Workflow](./email-automation-workflow.md)** — Use to ensure your automation workflows comply with regulations before launching.
+- **[Email List Segmentation](./email-list-segmentation.md)** — Use to implement consent-based segmentation and preference center strategies that support compliance.
+- **[Email Deliverability Auditor](./email-deliverability-auditor.md)** — Use alongside compliance checks to ensure authentication and delivery best practices are met.
+- **[Marketing Compliance Pre-Checker](../martech-ops/marketing-compliance-pre-checker.md)** — Use for broader marketing compliance review beyond just email requirements.

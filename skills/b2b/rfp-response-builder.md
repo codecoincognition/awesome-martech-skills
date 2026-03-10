@@ -15,7 +15,7 @@ Generates structured, professional responses to RFP (Request for Proposal) and R
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is RFP questions + product context. Output is a Markdown response document. No system access needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min customizing for your prospect.** If implementing output in a platform, add 10-20 min for setup. Input is RFP questions + product context. Output is a Markdown response document. No system access needed.
 
 ## User Intent Mapping
 
@@ -109,8 +109,7 @@ Draft a 1-page executive summary for the RFP response:
 > Review all responses before submission. Verify technical accuracy, confirm pricing with finance, ensure legal has approved compliance claims. Never submit without internal review.
 
 
-> **Benchmark Context**: Average B2B sales cycle is 102 days. Win rates average 20-30% for qualified opportunities. Top-performing sales orgs use 5-7 pieces of content per deal cycle. Sales reps spend ~30% of their time searching for content.
-
+> **Benchmark Context**: Average B2B sales cycle is 102 days. Win rates average 20-30% for qualified opportunities (Gartner 2024 B2B Buying Journey Report). Top-performing sales orgs use 5-7 pieces of content per deal cycle (Gartner 2024 B2B Buying Journey Report). Sales reps spend ~30% of their time searching for content (Gartner 2024 B2B Buying Journey Report). (Gartner 2024 B2B Buying Journey Report).
 ## Output Contract
 
 ### Deliverable: Markdown RFP Response
@@ -189,3 +188,10 @@ If no CRM is available:
 **Input**: 25-question RFP from a healthcare company evaluating marketing analytics platforms. Product: SaaS analytics platform with HIPAA compliance. Competitor: Looker.
 
 **Output**: Full response document with executive summary emphasizing healthcare-specific compliance (HIPAA BAA, SOC 2 Type II), 25 answers categorized into 5 sections, 3 flagged items (pricing needs finance sign-off, custom integration timeline needs engineering estimate, reference customer needs permission). Win themes woven throughout: purpose-built for marketing teams (vs. Looker's general-purpose approach), HIPAA-compliant by default, 2-week implementation vs. typical 6-8 weeks.
+
+## Related Skills
+
+- **[Sales Deck Assembler](./sales-deck-assembler.md)** — Use before RFP response to understand prospect priorities and customize messaging accordingly.
+- **[Contract Clause Extractor](../martech-ops/contract-clause-extractor.md)** — After winning with RFP response, use to parse and understand your own contract terms.
+- **[Marketing Compliance Pre-Checker](../martech-ops/marketing-compliance-pre-checker.md)** — Review RFP responses for regulatory and compliance claims before submission in regulated industries.
+- **[Account Research Synthesizer](./account-research-synthesizer.md)** — Research the account before responding to RFP to tailor answers to their specific situation.

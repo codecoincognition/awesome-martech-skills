@@ -18,7 +18,7 @@ Analyzes win/loss interview transcripts or structured notes to extract recurring
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is pasted interview notes or a CSV of structured responses. Output is a Markdown analysis report. No CRM or call recording access needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min synthesizing into your strategy deck.** If implementing output in a platform, add 10-20 min for setup. Input is pasted interview notes or a CSV of structured responses. Output is a Markdown analysis report. No CRM or call recording access needed.
 
 ## User Intent Mapping
 
@@ -125,8 +125,7 @@ Translate patterns into specific actions:
 > Small sample sizes can produce misleading patterns. Flag confidence levels based on sample size. Recommendations from fewer than 10 interviews should be labeled as directional, not definitive.
 
 
-> **Benchmark Context**: Win/loss analysis requires minimum 20 interviews per segment for reliable patterns. Survey response rates average 10-15% for email surveys, 30-50% for in-app. Qualitative research saturation typically occurs at 12-15 interviews.
-
+> **Benchmark Context**: Win/loss analysis requires minimum 20 interviews per segment for reliable patterns. Survey response rates average 10-15% for email surveys, 30-50% for in-app (McKinsey 2024 State of AI Report). Qualitative research saturation typically occurs at 12-15 interviews (McKinsey 2024 State of AI Report).
 ## Output Contract
 
 ### Deliverable: Markdown Win/Loss Analysis Report
@@ -234,3 +233,10 @@ Minimum recommended sample: 20+ interviews for reliable patterns.
 **Input**: 15 win/loss interviews (9 wins, 6 losses) from Q3. Enterprise SaaS product competing against CompetitorX and CompetitorY.
 
 **Output**: Top win driver: "Ease of integration" (mentioned in 7/9 wins, representative quote: "We were live in 2 weeks vs. 3 months with CompetitorX"). Top loss driver: "Missing real-time analytics" (mentioned in 5/6 losses, $1.2M total deal value at risk). CompetitorX: 60% win rate against them (strength: brand recognition; weakness: slow implementation). CompetitorY: 33% win rate (strength: enterprise features; weakness: pricing complexity). Key recommendation for Product: prioritize real-time dashboard feature — directly caused 5 losses worth $1.2M. Key recommendation for Sales: lead demos with integration speed, our strongest differentiator. Confidence: Moderate (15 interviews — directional patterns reliable, but recommend 25+ for high confidence).
+
+## Related Skills
+
+- **[Competitive Messaging Tracker](./competitor-messaging-tracker.md)** — Use competitive loss insights to inform competitive positioning and messaging strategy.
+- **[Positioning Whitespace Finder](./positioning-whitespace-finder.md)** — Mine win-loss interviews for positioning insights that differentiate from competitors.
+- **[Audience Persona Builder](./audience-persona-builder.md)** — Extract persona-specific decision drivers and objections from win-loss interviews.
+- **[Sales Deck Assembler](../b2b/sales-deck-assembler.md)** — Use win reasons to prioritize which slides and value propositions resonate most.

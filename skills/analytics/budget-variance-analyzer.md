@@ -16,7 +16,7 @@ Compares planned marketing budget against actual spend to identify variances by 
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is budget plan + actuals CSV. Output is an XLSX variance report. No financial system access needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min building in Google Sheets / Looker / GA4.** If implementing output in a platform, add 10-20 min for setup. Input is budget plan + actuals CSV. Output is an XLSX variance report. No financial system access needed.
 
 ## User Intent Mapping
 
@@ -104,16 +104,6 @@ For material variances, identify likely causes:
 - Reallocation recommendations: shift budget from underperforming/underspending to overperforming
 - Action items: what to do about each material variance
 
-
-### Confidence & Sample Size
-> **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
-
-### ⚠️ Human Checkpoint
-> Review variance explanations with channel owners before sharing with finance. Some variances have legitimate strategic reasons that need context.
-
-
-> **Benchmark Context**: Marketing teams typically allocate 5-15% of budget to analytics tools. A well-built dashboard should answer 80% of weekly reporting questions without manual queries. GA4 reports average 24-48 hour data lag for standard processing.
-
 ## Output Contract
 
 ### Deliverable: Markdown Tables + CSV-Ready Data (3 sections)
@@ -129,56 +119,9 @@ Markdown table: `channel | planned | actual | variance | cpl_planned | cpl_actua
 **Section 3: Recommendations**
 Markdown table: `priority | action | channel | amount | rationale | expected_impact`
 
-Plus a summary section in Markdown format:
-| Metric | Value |
-|---|---|
-| Total Planned | $X |
-| Total Actual | $X |
-| Total Variance | $X (Y%) |
-| Material Variances | count |
-| Channels Over Budget | count |
-| Channels Under Budget | count |
+## Related Skills
 
-## Platform Implementation Steps
-
-### Google Analytics 4
-1. Navigate to GA4 → Admin → Data Streams → your stream
-2. Under Events, use "Create Event" for custom events
-3. For dimensions/metrics: Admin → Custom Definitions → Create
-4. Import any CSV data via Data Import: Admin → Data Import → Create
-
-### Looker Studio / Google Data Studio
-1. Open Looker Studio → Create → Report
-2. Add data source (GA4, Google Sheets, BigQuery, etc.)
-3. Paste calculated metric formulas into custom fields
-4. Use the "Blend Data" feature for multi-source reports
-
-### Spreadsheet (Fallback)
-If no BI tool available, create analysis in Google Sheets or Excel:
-1. Import CSV data using File → Import
-2. Use PIVOT tables for aggregation
-3. Create charts using Insert → Chart
-
-## Failure Modes
-
-| Failure | Cause | Recovery |
-|---|---|---|
-| No planned budget | User only has actuals | Analyze spend distribution and trends, can't do variance analysis |
-| Mismatched categories | Plan uses different channel names than actuals | Ask user to map categories, normalize names |
-| Missing time periods | Annual plan but monthly actuals (or vice versa) | Prorate annual to monthly, or aggregate monthly to match |
-| No performance data | Spend only, no leads/conversions | Do spend variance only, note ROI analysis unavailable |
-
-## How to Get Your Data
-
-- **Budget plan**: Usually a Google Sheet or Excel file from finance/marketing ops
-- **Google Ads**: Billing → Cost data by campaign
-- **Meta Ads**: Ads Manager → Export spend data
-- **LinkedIn Ads**: Campaign Manager → Export
-- **Marketing automation**: HubSpot/Marketo → Campaign spend reports
-- **Finance**: Accounting system → Marketing cost center export
-
-## Example
-
-**Input**: Q4 2025 marketing budget, 8 channels, $123K planned vs. $122K actual.
-
-**Output**: Total variance -$1K (-0.8%) — on budget overall. But 3 material variances: Google Ads Brand +$3.5K (+23%) due to CPC inflation — justified, CPL actually improved. LinkedIn ABM -$8K (-40%) — campaign launched 3 weeks late, budget unspent. Events +$5K (+17%) — venue cost increase, should have been flagged earlier. Recommendations: (1) Reallocate $5K from LinkedIn underspend to Google Ads Brand (proven ROI). (2) Negotiate venue costs earlier for next event. (3) Increase LinkedIn pacing to spend remaining Q1 allocation on time.
+- **ad-performance-analyzer** (../ads/ad-performance-analyzer.md) — Analyze performance of the channels and campaigns with budget variances; understand if overspend/underspend was justified.
+- **marketing-roi-calculator** (./marketing-roi-calculator.md) — Calculate ROI per channel to inform reallocation decisions; move budget from low-ROI to high-ROI channels.
+- **campaign-performance-benchmarker** (./campaign-performance-benchmarker.md) — Compare channel performance against benchmarks; identify if variances signal optimization opportunities.
+- **attribution-model-builder** (./attribution-model-builder.md) — Use attribution insights to reallocate budget across channels; understand true credit per channel for conversion.

@@ -15,7 +15,7 @@ Repurposes long-form video and podcast content into multiple short-form assets o
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If producing assets, add 2-4 hours per source video. Input is video/podcast transcript or description. Output is Markdown repurposing plan with specific clip timestamps, captions, and platform-specific adaptations.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min producing / uploading. If producing assets, add 2-4 hours per source video. Input is video/podcast transcript or description. Output is Markdown repurposing plan with specific clip timestamps, captions, and platform-specific adaptations.
 
 ## User Intent Mapping
 
@@ -125,8 +125,7 @@ Per clip:
 ### ⚠️ Human Checkpoint
 > Review all clips for context — ensure excerpts don't misrepresent the full conversation. Verify clips don't include guest statements taken out of context. Check that music/audio in clips doesn't violate platform copyright rules.
 
-> **Benchmark Context**: Short-form video is the highest-ROI content format for social media. Repurposed content generates 3x more engagement per dollar than original content. Videos with captions get 80% more views. The average podcast episode can generate 15-25 content pieces. LinkedIn video posts get 5x more engagement than text-only posts.
-
+> **Benchmark Context**: Short-form video is the highest-ROI content format for social media. Repurposed content generates 3x more engagement per dollar than original content (Vidyard 2024 Video in Business Report). Videos with captions get 80% more views (Wistia 2024 State of Video). The average podcast episode can generate 15-25 content pieces (Edison Research 2024 Podcast Consumer Report). LinkedIn video posts get 5x more engagement than text-only posts (Vidyard 2024 Video in Business Report). (Vidyard 2024 Video in Business Report).
 ## Output Contract
 
 ### Deliverable: Markdown Repurposing Plan
@@ -209,3 +208,10 @@ Per clip:
 **Input**: "Repurposing plan for our 45-minute podcast episode about 'The Future of AI in Marketing.' Guest discussed: AI content generation, personalization at scale, AI ethics in marketing, and practical tools to start with. Our platforms: LinkedIn (primary), Twitter, YouTube, Instagram."
 
 **Output**: 12 assets from one episode: (1-3) Three 60-second clips — "The one AI tool every marketer needs" (tools segment), "Why AI personalization is the new A/B testing" (personalization segment), "The ethical line AI marketers shouldn't cross" (ethics segment, contrarian angle). (4-5) Two LinkedIn text posts — thread on "5 ways AI changes marketing in 2026" with episode link; guest quote graphic with key insight. (6) Twitter thread — 8-tweet thread summarizing practical AI tools with screenshots. (7-8) Two Instagram carousels — "AI Marketing Tools Ranked" (5 slides), "AI Ethics Checklist for Marketers" (6 slides). (9) Blog post — "The Future of AI in Marketing: Key Takeaways from [Guest Name]" (1,500 words, SEO-optimized). (10) Newsletter excerpt — top 3 insights with link to full episode. (11-12) Two YouTube Shorts — best 45-second moments with on-screen captions. Distribution: Days 0-3 stagger clips and thread. Days 4-7 carousels and blog post. Day 10+ reshare evergreen clips.
+
+## Related Skills
+
+- **[Content Repurposer](../content/content-repurposer.md)** — Apply broader content repurposing strategy beyond video to other content types.
+- **[Short-Form Video Planner](./short-form-video-planner.md)** — Plan short-form videos after identifying key clips from long-form content.
+- **[Podcast Show Notes Generator](./podcast-show-notes-generator.md)** — Repurpose podcast content into show notes, transcripts, and blog posts.
+- **[Editorial Calendar Builder](../content/editorial-calendar-builder.md)** — Plan repurposed content calendar after extracting clips and assets from source material.

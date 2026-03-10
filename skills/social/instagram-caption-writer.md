@@ -15,7 +15,7 @@ Writes scroll-stopping Instagram captions with optimized hooks, storytelling str
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing output in a platform, add 5 min for posting. Input is post concept or image description. Output is 3+ caption variants with hashtag sets.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~20-40 min scheduling in Buffer / Hootsuite / native platform. If implementing output in a platform, add 5 min for posting. Input is post concept or image description. Output is 3+ caption variants with hashtag sets.
 
 ## User Intent Mapping
 
@@ -95,8 +95,7 @@ First line determines 90% of whether someone reads the full caption:
 ### ⚠️ Human Checkpoint
 > Review captions for authenticity and brand alignment. Add personal details or real experiences to avoid generic-sounding content.
 
-> **Benchmark Context**: Average Instagram feed post engagement rate is 0.60-0.80%. Carousel posts get 1.4x more reach than single images. Reels average 2-3x more reach than feed posts. Captions under 150 characters get 15% more engagement. Posting 3-7x/week is optimal.
-
+> **Benchmark Context**: Average Instagram feed post engagement rate is 0.60-0.80% (Sprout Social 2024 Index) Carousel posts get 1.4x more reach than single images (Hootsuite 2024 Social Trends Report) Reels average 2-3x more reach than feed posts (Hootsuite 2024 Social Trends Report) Captions under 150 characters get 15% more engagement (Sprout Social 2024 Index) Posting 3-7x/week is optimal (Buffer 2024 State of Social) (Sprout Social 2024 Index).
 ## Output Contract
 
 ### Deliverable: Markdown with Caption Variants
@@ -183,3 +182,10 @@ First line determines 90% of whether someone reads the full caption:
 > Save this for your next skincare restock 🧴
 >
 > **CTA**: Save this post | Link in bio to shop
+
+## Related Skills
+
+- **[Hashtag Strategy Builder](./hashtag-strategy-builder.md)** — Use to research and include relevant hashtags in your Instagram captions.
+- **[Social Content Calendar](./social-content-calendar.md)** — Use to plan and schedule Instagram posts with captions across your content calendar.
+- **[Instagram Caption Writer](./instagram-caption-writer.md)** — Use to test and optimize caption variations for higher engagement.
+- **[Social Engagement Analyzer](./social-engagement-analyzer.md)** — Use to measure caption performance and identify what resonates with your audience.

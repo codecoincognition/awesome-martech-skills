@@ -15,7 +15,7 @@ Designs structured email A/B tests with hypothesis formation, controlled variabl
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If running tests, add 1-2 weeks per test cycle. Input is current email performance and test ideas. Output is Markdown testing plan with analysis framework.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-45 min setup in Mailchimp / Klaviyo / HubSpot. If running tests, add 1-2 weeks per test cycle. Input is current email performance and test ideas. Output is Markdown testing plan with analysis framework.
 
 ## User Intent Mapping
 
@@ -110,8 +110,7 @@ Structure each test as:
 ### ⚠️ Human Checkpoint
 > Review test results for statistical significance before implementing winners. Don't cherry-pick metrics — declare your primary metric before the test starts. Ensure test variants don't violate brand guidelines or compliance requirements.
 
-> **Benchmark Context**: Companies that A/B test every email achieve 37% higher ROI. Subject line tests show the widest performance variance (up to 40% open rate difference). Personalized subject lines increase opens by 26% on average. Send time optimization typically yields 5-15% improvement. The average A/B test needs 2,500 subscribers per variant for reliable results at 95% confidence.
-
+> **Benchmark Context**: Companies that A/B test every email achieve 37% higher ROI (Mailchimp 2024 Email Marketing Benchmarks). Subject line tests show the widest performance variance (up to 40% open rate difference. Personalized subject lines increase opens by 26% on average (HubSpot 2024 State of Marketing). Send time optimization typically yields 5-15% improvement (Campaign Monitor 2024 Email Benchmarks). The average A/B test needs 2,500 subscribers per variant for reliable results at 95% confidence (Mailchimp 2024 Email Marketing Benchmarks). (HubSpot 2024 State of Marketing).
 ## Output Contract
 
 ### Deliverable: Markdown Testing Framework
@@ -198,3 +197,10 @@ Structure each test as:
 **Input**: "Design email A/B tests for our SaaS newsletter. 18K subscribers, 32% open rate, 4.2% click rate. Using HubSpot. Haven't done any testing before."
 
 **Output**: Testing roadmap (8 tests over 4 months): Test 1: Subject line — question vs. statement format (hypothesis: questions increase opens 5%+, 9K per variant, sufficient). Test 2: CTA — "Learn More" vs. "Read the Guide" (hypothesis: specific CTAs increase clicks 15%+). Test 3: Send day — Tuesday vs. Thursday (hypothesis: Thursday performs better for B2B). Test 4: From name — company name vs. person name. Test 5: Email length — 200 words vs. 500 words. Test 6: Personalization — company name in subject line vs. generic. Test 7: Preview text — descriptive vs. curiosity-driven. Test 8: Layout — single CTA vs. multiple links. Start with Test 1 next send. Sample size: 9K per variant gives 95% confidence for detecting 3%+ open rate difference. Expected learning: after 8 tests, optimized email template should achieve 38-42% open rate and 5.5-6.5% click rate.
+
+## Related Skills
+
+- **[Email Subject Line Tester](./email-subject-line-tester.md)** — Use to generate and test subject line variants before running full A/B tests across your email list.
+- **[Email Performance Analyzer](./email-performance-analyzer.md)** — Use after tests complete to analyze results and extract actionable insights from the data.
+- **[Email Sequence Builder](./email-sequence-builder.md)** — Use to design the sequences where you'll run tests and implement winning variations.
+- **[Email Copywriting Framework](./email-copywriting-framework.md)** — Use to create copy variations for body content and CTA testing.

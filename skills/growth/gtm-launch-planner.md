@@ -14,7 +14,7 @@ Creates comprehensive go-to-market launch plans with positioning, channel strate
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~15 min Claude session. If implementing the full launch plan, add weeks of execution time. Input is product/feature info and launch goals. Output is Markdown GTM plan with timeline and checklist.
+> **Time**: ~5 min data prep → ~15 min Claude session → ~60-120 min implementing in your product / tools. If implementing the full launch plan, add weeks of execution time. Input is product/feature info and launch goals. Output is Markdown GTM plan with timeline and checklist.
 
 ## User Intent Mapping
 
@@ -110,8 +110,7 @@ Hour-by-hour execution plan:
 ### ⚠️ Human Checkpoint
 > Review positioning with actual customers before launch. Verify all legal/compliance requirements (regulatory approvals, terms of service, privacy policy updates). Ensure customer support is staffed for launch-day volume. Test all links, tracking, and landing pages before go-live.
 
-> **Benchmark Context**: 70% of product launches miss their initial targets. Companies that do pre-launch marketing see 2-3x higher launch-day results. Email is the #1 launch channel by conversion rate. Press coverage has a 24-48 hour impact window. The most successful launches combine 3+ channels simultaneously. Post-launch content (case studies, tutorials) drives 40% of first-year revenue.
-
+> **Benchmark Context**: 70% of product launches miss their initial targets. Companies that do pre-launch marketing see 2-3x higher launch-day results. Email is the #1 launch channel by conversion rate. Press coverage has a 24-48 hour impact window. The most successful launches combine 3+ channels simultaneously. Post-launch content (case studies, tutorials) drives 40% of first-year revenue (ProfitWell 2024 SaaS Benchmarks).
 ## Output Contract
 
 ### Deliverable: Markdown GTM Plan
@@ -199,3 +198,10 @@ Hour-by-hour execution plan:
 **Input**: "GTM plan for launching an AI-powered email assistant. Target: SMB sales teams. Launch date: April 15. Budget: $15,000. Have a waitlist of 2,000 emails and beta group of 50 users."
 
 **Output**: Phased launch strategy: Beta expansion (April 1-14) → Public launch (April 15) → Sustained campaign (April 16-May 15). Positioning: "Write personalized follow-ups in 10 seconds — not 10 minutes." Pre-launch: waitlist email sequence (5 emails over 2 weeks, featuring beta testimonials), social teaser campaign (LinkedIn focus, 3 posts/week), press outreach to 20 SaaS/sales publications with early access offer. Launch day playbook: 6 AM — publish blog + Product Hunt launch; 8 AM — send waitlist email; 9 AM — LinkedIn post (CEO personal account); 10 AM — paid social activation ($2K daily for launch week). Post-launch: case study from beta users (week 2), comparison content vs. alternatives (week 3), webinar "How AI is Changing Sales Outreach" (week 4). Budget: $5K pre-launch (content + PR), $7K launch week (paid), $3K post-launch (content + retargeting). Targets: 500 signups day 1, 2,000 signups month 1, 200 activated users month 1.
+
+## Related Skills
+
+- **[customer-persona-builder](./customer-persona-builder.md)** — Segment launch messaging by buyer persona before launch.
+- **[pricing-page-optimizer](./pricing-page-optimizer.md)** — Optimize pricing page as part of launch planning.
+- **[growth-experiment-designer](./growth-experiment-designer.md)** — Design post-launch optimization experiments.
+- **[channel-mix-optimizer](./channel-mix-optimizer.md)** — Plan channel strategy for maximum launch impact.

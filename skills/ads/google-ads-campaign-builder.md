@@ -16,7 +16,7 @@ Structure a complete Google Ads search campaign from scratch: campaign settings,
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is business context + target keywords. Output is a complete campaign structure in XLSX ready for Google Ads Editor import.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min building in Google Ads / Meta Ads Manager.** If implementing output in a platform, add 10-20 min for setup. Input is business context + target keywords. Output is a complete campaign structure in XLSX ready for Google Ads Editor import.
 
 ## User Intent Mapping
 
@@ -122,10 +122,10 @@ Goal: Free trial sign-ups
 8. **Generate structured output** — Data tables in Markdown with step-by-step instructions to paste into Google Sheets or Excel for formatting.
 
 
-> **Benchmark Context**: Average Google Ads CTR across industries is 3.17% (search) and 0.46% (display). B2B averages 2.41% search CTR. Top-performing responsive search ads have 8+ unique headlines. Meta Ads average CTR is 0.90% across industries, with 1.5%+ considered strong.
+> **Benchmark Context**: Average Google Ads CTR across industries is 3.17% (search) and 0.46% (display) (WordStream 2024 Industry Benchmarks). B2B averages 2.41% search CTR (LinkedIn 2024 B2B Marketing Benchmark). Top-performing responsive search ads have 8+ unique headlines. Meta Ads average CTR is 0.90% across industries, with 1.5%+ considered strong (Meta 2024 Advertising Benchmarks). (Google Ads 2024 Performance Benchmarks)
 
 
-### Confidence & Sample Size
+### Confidence & Sample Size.
 > **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract
@@ -267,3 +267,10 @@ Goal: Free trial sign-ups
 > Estimated monthly performance: 1,100-1,400 clicks, $3.60-4.50 avg CPC
 >
 > Want me to generate the full XLSX with all keywords, ad copy, and negatives?
+
+## Related Skills
+
+- **[ppc-keyword-strategy](./ppc-keyword-strategy.md)** — Refine your keyword strategy with match types and negative keywords after building the campaign structure.
+- **[ad-copy-generator](./ad-copy-generator.md)** — Generate additional RSA headline and description variants to improve ad strength.
+- **[landing-page-ad-matcher](./landing-page-ad-matcher.md)** — Ensure your landing pages align with your ad group themes for quality score optimization.
+- **[ad-performance-analyzer](./ad-performance-analyzer.md)** — Analyze campaign performance after launch to optimize ad groups and keywords.

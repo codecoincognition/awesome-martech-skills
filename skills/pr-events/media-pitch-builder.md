@@ -14,7 +14,7 @@ Crafts personalized, newsworthy media pitches tailored to specific journalists, 
 
 ## Granularity Check
 
-> **Session time**: ~5 min research + ~10 min Claude session. If building a full media outreach campaign, add 1-2 weeks for research, pitching, and follow-up. Input is your news, target journalists/outlets, and story angle. Output is Markdown pitch strategy with personalized pitch templates, follow-up sequence, and media list guidance.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~20-45 min sending / implementing. If building a full media outreach campaign, add 1-2 weeks for research, pitching, and follow-up. Input is your news, target journalists/outlets, and story angle. Output is Markdown pitch strategy with personalized pitch templates, follow-up sequence, and media list guidance.
 
 ## User Intent Mapping
 
@@ -143,8 +143,7 @@ Follow-up rules:
 ### ⚠️ Human Checkpoint
 > Have your spokesperson or company leadership review all pitches before sending — especially for sensitive topics, financial data, or competitive claims. Verify all data points and claims in the pitch are accurate and attributable. Ensure your story timing doesn't conflict with major industry events or competing news.
 
-> **Benchmark Context**: 75% of journalists say they prefer pitches under 200 words. 68% say personalization is the most important factor in whether they read a pitch. Only 3% of pitches result in coverage — the rest are ignored or declined. Journalists are most responsive to pitches with original data or research (28% response rate vs. 6% for product announcements). Morning pitches (6-10am) get 2x the response rate of afternoon pitches.
-
+> **Benchmark Context**: 75% of journalists say they prefer pitches under 200 words (Cision 2024 State of the Media Report). 68% say personalization is the most important factor in whether they read a pitch. Only 3% of pitches result in coverage — the rest are ignored or declined. Journalists are most responsive to pitches with original data or research (28% response rate vs. 6% for product announcements. Morning pitches (6-10am) get 2x the response rate of afternoon pitches. (Cision 2024 State of the Media Report).
 ## Output Contract
 
 ### Deliverable: Markdown Pitch Strategy
@@ -230,3 +229,10 @@ Follow-up rules:
 **Input**: "Media pitch for our AI startup's new report: 'State of AI Adoption in Small Business 2026.' Surveyed 2,000 small business owners. Key finding: 62% now use AI tools daily, up from 18% in 2024. We want coverage in business and tech media."
 
 **Output**: Newsworthiness: HIGH (original data, strong trend, broad impact). Primary angle: "Small businesses are adopting AI 3x faster than predicted — and it's changing how America works." Pitch targets: Tier 1: Forbes (SMB reporter), Business Insider (AI reporter), TechCrunch (AI section). Tier 2: Inc., Fast Company, VentureBeat, Axios. Tier 3: Industry-specific outlets (Entrepreneur, SmallBizTrends). Subject line options: (1) "62% of small businesses now use AI daily — new data" (2) "Small business AI adoption up 244% since 2024 [exclusive data]" (3) "2,000 SMBs surveyed: AI is no longer enterprise-only." Pitch (150 words): "[Name], I noticed your recent piece on [topic] — the data from our new report might add to your coverage. We surveyed 2,000 small business owners and found 62% now use AI tools daily, up from 18% in 2024 — a 244% increase in two years. The report reveals which tools they're using, what's driving adoption, and where they're seeing ROI (average: $12K/year in time savings). The full report includes industry breakdowns, regional data, and adoption barriers. I can offer you early access to the data before public release on [date] and make our CEO available for an interview. Would this be useful for an upcoming piece? Best, [Name]." Follow-up Day 3: share one additional data point not in the original pitch.
+
+## Related Skills
+
+- **[Press Release Writer](./press-release-writer.md)** — Use after successful pitch to draft formal press release with journalist.
+- **[Campaign Angle Generator](../insights/campaign-angle-generator.md)** — Generate compelling story angles before pitching to media contacts.
+- **[Market Trend Scanner](../insights/market-trend-scanner.md)** — Identify newsy market trends to pitch to journalists as story angles.
+- **[Crisis Comms Playbook](./crisis-comms-playbook.md)** — Use media pitching to proactively shape narrative during reputation challenges.

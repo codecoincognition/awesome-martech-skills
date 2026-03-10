@@ -15,7 +15,7 @@ Identifies, analyzes, and translates emerging market trends into actionable mark
 
 ## Granularity Check
 
-> **Session time**: ~10 min data gathering + ~15 min Claude session. If implementing, add 2-4 hours for strategy development. Input is industry context and available trend data. Output is Markdown trend analysis with strategic recommendations.
+> **Time**: ~10 min data prep → ~15 min Claude session → ~30-60 min synthesizing into your strategy deck. If implementing, add 2-4 hours for strategy development. Input is industry context and available trend data. Output is Markdown trend analysis with strategic recommendations.
 
 ## User Intent Mapping
 
@@ -118,8 +118,7 @@ Per trend:
 ### ⚠️ Human Checkpoint
 > Validate trend relevance with customer conversations before building campaigns around them. Quantitative signals (search volume, social mentions) should be confirmed with qualitative evidence (customer interviews, sales team insights). Be cautious of "trends" that are actually echo chambers within your professional bubble.
 
-> **Benchmark Context**: Companies that act on trends early see 2-3x better content performance on trend-related topics. 73% of trend-based content outperforms evergreen content in the first 30 days. Early adopters of platform trends (e.g., Reels, Threads) see 3-5x organic reach vs. late adopters. 68% of marketers say identifying trends early is their biggest challenge.
-
+> **Benchmark Context**: Companies that act on trends early see 2-3x better content performance on trend-related topics. 73% of trend-based content outperforms evergreen content in the first 30 days. Early adopters of platform trends (e.g., Reels, Threads) see 3-5x organic reach vs. late adopters. 68% of marketers say identifying trends early is their biggest challenge (McKinsey 2024 State of AI Report). (McKinsey 2024 State of AI Report).
 ## Output Contract
 
 ### Deliverable: Markdown Trend Analysis
@@ -200,3 +199,10 @@ Per trend:
 **Input**: "Market trend scan for a DTC skincare brand targeting millennial women. Currently sell through our website and Amazon. Main products: serums and moisturizers. Want to know what trends to act on in the next 6 months."
 
 **Output**: Top 5 trends identified: (1) "Skin cycling" (micro-trend, high velocity): rotating active ingredients by night. Marketing play: educational content series on skin cycling with your products, position products as part of a skin cycling routine. Timeline: act now, trend peaking. (2) Ingredient transparency (macro-trend, growing): consumers demanding full ingredient disclosure and sourcing. Marketing play: ingredient storytelling content, "behind the formula" series, supply chain transparency page. Timeline: build over next quarter. (3) Microbiome skincare (macro-trend, early): gut-skin connection and probiotic skincare. Marketing play: thought leadership content now, product development exploration. Timeline: content in 60 days, product in 12-18 months. (4) "Skinimalism" (macro-trend, established): fewer products, simpler routines. Marketing play: position as quality-over-quantity; create "essentials only" bundles. Timeline: this quarter. (5) AI skin analysis (micro-trend, early): apps that recommend products from photos. Marketing play: consider AI quiz tool on website to recommend products. Timeline: Q3-Q4 evaluation. Recommended focus: (1) and (4) for immediate content and campaign response, (2) for ongoing brand strategy, (3) for long-term positioning.
+
+## Related Skills
+
+- **[Competitor Messaging Tracker](./competitor-messaging-tracker.md)** — Monitor how competitors are responding to identified trends.
+- **[Campaign Angle Generator](./campaign-angle-generator.md)** — Generate trend-based campaign angles once trends are identified.
+- **[Content Brief Writer](../content/content-brief-writer.md)** — Turn trend insights into content briefs for trend-based content strategy.
+- **[Voice of Customer Miner](./voice-of-customer-miner.md)** — Validate market trends against actual customer discussions on Reddit.

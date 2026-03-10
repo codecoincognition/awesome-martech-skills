@@ -147,10 +147,7 @@ User Segments:
    - Output actionable recommendations
 
 
-> **Benchmark Context**: Win/loss analysis requires minimum 20 interviews per segment for reliable patterns. Survey response rates average 10-15% for email surveys, 30-50% for in-app. Qualitative research saturation typically occurs at 12-15 interviews.
-
-
-### Confidence & Sample Size
+> **Benchmark Context**: Win/loss analysis requires minimum 20 interviews per segment for reliable patterns. Survey response rates average 10-15% for email surveys, 30-50% for in-app (McKinsey 2024 State of AI Report). Qualitative research saturation typically occurs at 12-15 interviews (McKinsey 2024 State of AI Report). ### Confidence & Sample Size.
 > **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract
@@ -601,3 +598,10 @@ Emotional Tone Analysis: Yes
 - Emphasize Whole Foods distribution in marketing (addresses convenience pain)
 - Use "delicious AND sustainable" messaging in all campaigns
 - Develop "greenwashing audit" blog to build trust vs. competitors
+
+## Related Skills
+
+- **[Positioning Whitespace Finder](./positioning-whitespace-finder.md)** — Use customer language and needs to validate positioning whitespace findings.
+- **[Campaign Angle Generator](./campaign-angle-generator.md)** — Extract authentic customer language from Reddit to ground campaign angles in real voice of customer.
+- **[Pricing Research Framework](./pricing-research-framework.md)** — Supplement quantitative pricing research with customer sentiment on pricing from Reddit.
+- **[Audience Persona Builder](./audience-persona-builder.md)** — Mine Reddit for persona-specific language, pain points, and motivations.

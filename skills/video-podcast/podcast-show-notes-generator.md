@@ -15,7 +15,7 @@ Generate comprehensive podcast show notes from transcripts or episode outlines. 
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is transcript or outline. Output is a Markdown show notes document. No audio tools needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min producing / uploading.** If implementing output in a platform, add 10-20 min for setup. Input is transcript or outline. Output is a Markdown show notes document. No audio tools needed.
 
 ## User Intent Mapping
 
@@ -114,8 +114,7 @@ Identify 3-5 moments that make good social clips:
 > Verify all timestamps against the actual recording. Claude estimates based on transcript position but actual timing varies with pacing, pauses, and edits.
 
 
-> **Benchmark Context**: Average YouTube CTR is 2-10% (4-5% is good for most niches). Videos over 10 minutes can include mid-roll ads. Podcast episode completion rate averages 60-80%. YouTube Shorts average 2-5% CTR. Chapters increase average view duration by 5-10%.
-
+> **Benchmark Context**: Average YouTube CTR is 2-10% (4-5% is good for most niches) (YouTube Creator Academy 2024) Videos over 10 minutes can include mid-roll ads. . Podcast episode completion rate averages 60-80% (Edison Research 2024 Podcast Consumer Report) YouTube Shorts average 2-5% CTR (YouTube Creator Academy 2024) Chapters increase average view duration by 5-10% (Wistia 2024 State of Video) (Edison Research 2024 Podcast Consumer Report).
 ## Output Contract
 
 ### Deliverable: Markdown Show Notes
@@ -215,3 +214,10 @@ Identify 3-5 moments that make good social clips:
 **Input**: Transcript of 45-minute episode "#47: Content Marketing in 2025" with guest Sarah Chen (VP Marketing at TechCo). Topics covered: AI content tools, content distribution strategy, measuring content ROI, and the future of long-form.
 
 **Output**: Short description (148 chars), medium description (480 chars), full show notes (1,400 chars with "content marketing", "content strategy", "AI content" keywords), 6 chapter timestamps, 5 key takeaways with timestamps, 8 resources mentioned, 3 quotable moments, 4 social clip recommendations with captions.
+
+## Related Skills
+
+- **[Video Repurposing Engine](./video-repurposing-engine.md)** — Repurpose podcast show notes into blog posts and social media content.
+- **[Content Repurposer](../content/content-repurposer.md)** — Extend podcast repurposing beyond show notes to full content atomization.
+- **[SEO Content Strategy](../seo/seo-content-strategy.md)** — Optimize podcast show notes for SEO to drive search traffic.
+- **[Podcast Guest Research Brief](./podcast-guest-research-brief.md)** — Use guest research when creating show notes to add context and authenticity.

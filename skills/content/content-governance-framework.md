@@ -15,7 +15,7 @@ Builds comprehensive content governance policies covering editorial standards, a
 
 ## Granularity Check
 
-> **Session time**: ~10 min context gathering + ~15 min Claude session. If implementing, add 1-2 weeks for team adoption. Input is current content processes and team structure. Output is Markdown governance framework.
+> **Time**: ~10 min data prep → ~15 min Claude session → ~60-120 min building in your project management tool. If implementing, add 1-2 weeks for team adoption. Input is current content processes and team structure. Output is Markdown governance framework.
 
 ## User Intent Mapping
 
@@ -111,8 +111,7 @@ Builds comprehensive content governance policies covering editorial standards, a
 ### ⚠️ Human Checkpoint
 > Have all stakeholders (content, legal, leadership) review and sign off on governance policies before implementation. Pilot the workflow with 5-10 content pieces before full rollout. Collect team feedback after 30 days and adjust.
 
-> **Benchmark Context**: Companies with documented content governance produce 3x more consistent brand messaging. Editorial workflows reduce revision cycles by 40%. Content with proper taxonomies gets 2x more internal reuse. 65% of marketers say lack of process is their biggest content challenge. Governance frameworks reduce content-related compliance incidents by 70%.
-
+> **Benchmark Context**: Companies with documented content governance produce 3x more consistent brand messaging. Editorial workflows reduce revision cycles by 40% (Content Marketing Institute 2024 B2B Research). Content with proper taxonomies gets 2x more internal reuse. 65% of marketers say lack of process is their biggest content challenge. Governance frameworks reduce content-related compliance incidents by 70%.
 ## Output Contract
 
 ### Deliverable: Markdown Governance Framework
@@ -200,3 +199,10 @@ Builds comprehensive content governance policies covering editorial standards, a
 **Input**: "Content governance framework. B2B SaaS, team of 5 (1 content lead, 2 writers, 1 designer, 1 SEO specialist). Publishing 8 blog posts/month plus monthly whitepaper. No formal process — everything goes through Slack."
 
 **Output**: Framework: 4-stage workflow (Brief → Draft → Review → Publish) with 7-day standard cycle time. Approval: blog posts need editor review only (2-day SLA). Whitepapers need editor + SME review (5-day SLA). No legal review needed unless claims about competitors or customer data. Style guide: casual professional tone, AP style, first-person plural ("we"), avoid jargon, max 3 heading levels. Taxonomy: 5 content types (blog, whitepaper, case study, landing page, email), 8 topic categories aligned with product features. Lifecycle: review all content at 12 months, refresh or redirect at 18 months. Implementation: (1) Move from Slack to Asana board with 4 columns matching workflow stages. (2) Create brief template in Asana (required before writing starts). (3) Build publishing checklist in CMS (required fields before publish). (4) Monthly content retrospective (15 min) to identify process issues. Quick win: content lead creates 5-point style cheat sheet that writers reference daily.
+
+## Related Skills
+
+- **[Editorial Calendar Builder](./editorial-calendar-builder.md)** — Use alongside this skill to embed governance workflows into your content production calendar.
+- **[Content Localization Planner](./content-localization-planner.md)** — Use to establish governance standards for multilingual and localized content.
+- **[Content Performance Scorecard](./content-performance-scorecard.md)** — Use to measure whether governance standards are being followed and producing quality content.
+- **[Brand Asset Compliance Checker](../martech-ops/brand-asset-compliance-checker.md)** — Use to audit existing content for compliance with your new governance framework.

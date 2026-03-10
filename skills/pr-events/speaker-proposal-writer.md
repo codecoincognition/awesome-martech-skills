@@ -15,7 +15,7 @@ Writes compelling conference speaking proposals optimized for CFP (call for pape
 
 ## Granularity Check
 
-> **Session time**: ~5 min context gathering + ~10 min Claude session per proposal. If applying to multiple conferences, add 15-20 min per CFP customization. Input is talk topic, speaker background, and target conference. Output is Markdown speaking proposal with title options, abstract, learning objectives, and speaker bio.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~20-45 min sending / implementing per proposal. If applying to multiple conferences, add 15-20 min per CFP customization. Input is talk topic, speaker background, and target conference. Output is Markdown speaking proposal with title options, abstract, learning objectives, and speaker bio.
 
 ## User Intent Mapping
 
@@ -138,8 +138,7 @@ What review committees look for:
 ### ⚠️ Human Checkpoint
 > Verify all data points and claims in your proposal are accurate and can be supported in the talk. Ensure you have permission to share case studies or company data publicly. Check that your talk doesn't overlap with your employer's confidentiality requirements.
 
-> **Benchmark Context**: Conferences receive 3-10x more proposals than available speaking slots. Proposals with specific, quantified outcomes in the title get 40% more committee votes. 90% of rejected proposals fail because they're too vague, too salesy, or don't match the audience. Speakers who attend the conference before proposing have 2x higher acceptance rates (they understand the audience). Workshop and hands-on session proposals have higher acceptance rates than standard talks due to lower submission volume.
-
+> **Benchmark Context**: Conferences receive 3-10x more proposals than available speaking slots (Cision 2024 State of the Media Report). Proposals with specific, quantified outcomes in the title get 40% more committee votes (Cision 2024 State of the Media Report). 90% of rejected proposals fail because they're too vague, too salesy, or don't match the audience (Cision 2024 State of the Media Report). Speakers who attend the conference before proposing have 2x higher acceptance rates (they understand the audience. Workshop and hands-on session proposals have higher acceptance rates than standard talks due to lower submission volume. (Cision 2024 State of the Media Report).
 ## Output Contract
 
 ### Deliverable: Markdown Speaking Proposal
@@ -233,3 +232,10 @@ What review committees look for:
 **Input**: "Speaking proposal for a B2B marketing conference. I'm VP of Growth at a SaaS startup. Topic: how we used product-led growth to reduce CAC by 55%. We went from $420 CAC to $189 over 12 months by changing our signup flow, pricing model, and onboarding. Conference is for marketing leaders at mid-market SaaS companies."
 
 **Output**: Title options: (1) "From $420 to $189 CAC: The Product-Led Playbook We Wish We'd Known Earlier" (2) "The Anti-Marketing Growth Strategy That Cut Our CAC by 55%" (3) "Stop Spending More on Ads: How PLG Changed Our Unit Economics." Recommended: Option 1 (specific numbers + relatability). Abstract (195 words): "Every SaaS marketing leader faces the same problem: CAC keeps climbing while budgets don't. Twelve months ago, our CAC was $420 and rising. Today it's $189 — and we spend less on paid acquisition than ever. This isn't a story about finding a magical new channel. It's about rethinking what 'marketing' means when your product does the selling. In this session, I'll share the exact changes we made to our signup flow, pricing model, and onboarding experience that turned our product into our best acquisition channel. You'll learn: the 3 friction points we eliminated from signup that doubled our conversion rate, why we killed our sales-assisted onboarding (and what replaced it), how we restructured pricing to create a natural upgrade path, and the metrics we track instead of MQLs. This talk is for marketing leaders at SaaS companies doing $2M-$50M ARR who feel stuck on the paid acquisition treadmill and want a path to more efficient growth. No vendor pitches — just the playbook we built through 12 months of experimentation." Learning objectives: (1) Identify friction points in your signup flow using activation data. (2) Evaluate whether product-led pricing models apply to your business. (3) Design an onboarding sequence that drives activation without sales involvement.
+
+## Related Skills
+
+- **[Podcast Guest Research Brief](../video-podcast/podcast-guest-research-brief.md)** — Prepare guest positioning and talking points after speaking proposal is accepted.
+- **[Video Script Writer](../video-podcast/video-script-writer.md)** — Script your presentation content after speaking proposal is accepted.
+- **[Webinar Technical Runbook](./webinar-technical-runbook.md)** — Prepare technical setup for your presentation if it's a virtual speaking engagement.
+- **[Webinar Promotion Playbook](../video-podcast/webinar-promotion-playbook.md)** — Promote your speaking opportunity to maximize attendance.

@@ -15,7 +15,7 @@ Compare your content coverage against 3-5 competitors to find topics, keywords, 
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is competitor URLs or keyword lists. Output is an XLSX gap analysis. No crawling needed — analysis is based on user-provided data or manual research summaries.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~45-90 min writing in your CMS.** If implementing output in a platform, add 10-20 min for setup. Input is competitor URLs or keyword lists. Output is an XLSX gap analysis. No crawling needed — analysis is based on user-provided data or manual research summaries.
 
 ## User Intent Mapping
 
@@ -103,10 +103,10 @@ sprint planning template,,3,,1900,18
 7. **Recommend content formats** — For each gap cluster, suggest format (blog, landing page, comparison, guide, tool) based on intent and competitor approach.
 
 
-> **Benchmark Context**: Average time to rank on page 1 for a new page is 3-6 months. Long-tail keywords (3+ words) have 3-5% CTR vs. 1-2% for head terms. The #1 organic result gets ~27.6% of clicks. Content updates on existing pages show ranking improvements within 2-4 weeks.
+> **Benchmark Context**: Average time to rank on page 1 for a new page is 3-6 months (Semrush 2024 State of Search). Long-tail keywords (3+ words) have 3-5% CTR vs (Ahrefs 2024 Search Traffic Study). 1-2% for head terms. The #1 organic result gets ~27.6% of clicks. Content updates on existing pages show ranking improvements within 2-4 weeks (Semrush 2024 State of Search). (Ahrefs 2024 Search Traffic Study)
 
 
-### Confidence & Sample Size
+### Confidence & Sample Size.
 > **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract
@@ -231,3 +231,10 @@ sprint planning template,,3,,1900,18
 > Should I generate the full XLSX with all gaps and an action plan?
 
 **Then generates XLSX with three sheets.**
+
+## Related Skills
+
+- **[SEO Competitor Analysis](./seo-competitor-analysis.md)** — Use alongside this skill to understand competitor strategies before identifying your own content gaps.
+- **[Keyword Cluster Analyzer](./keyword-cluster-analyzer.md)** — Use to organize the gap-filling keywords into actionable topic clusters.
+- **[Content Pillar Strategy](../content/content-pillar-strategy.md)** — Use to structure your content gap solutions into a pillar-cluster framework.
+- **[Content Brief Generator](../content/content-brief-writer.md)** — Use immediately after identifying gaps to create briefs for the missing content.

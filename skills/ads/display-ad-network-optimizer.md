@@ -15,7 +15,7 @@ Optimizes display and programmatic ad campaigns with placement analysis, viewabi
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing output in a platform, add 15-20 min for placement adjustments. Input is display campaign performance CSV. Output is Markdown optimization report.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min building in Google Ads / Meta Ads Manager. If implementing output in a platform, add 15-20 min for placement adjustments. Input is display campaign performance CSV. Output is Markdown optimization report.
 
 ## User Intent Mapping
 
@@ -95,8 +95,7 @@ Red flags to investigate:
 ### ⚠️ Human Checkpoint
 > Review placement exclusion list before applying — some legitimate sites may appear as poor performers due to attribution gaps. Verify brand safety categories align with your policies. Check that creative meets platform specs before uploading.
 
-> **Benchmark Context**: Average display CTR is 0.1-0.5%. Average display viewability is 50-60%. Google estimates 10-15% of display impressions are invalid traffic. Responsive display ads generate 10-15% more conversions than static uploaded ads. Top 10% of placements typically drive 80% of conversions.
-
+> **Benchmark Context**: Average display CTR is 0.1-0.5% (WordStream 2024 Industry Benchmarks). Average display viewability is 50-60% (WordStream 2024 Industry Benchmarks). Google estimates 10-15% of display impressions are invalid traffic (WordStream 2024 Industry Benchmarks). Responsive display ads generate 10-15% more conversions than static uploaded ads (WordStream 2024 Industry Benchmarks). Top 10% of placements typically drive 80% of conversions. (WordStream 2024 Industry Benchmarks).
 ## Output Contract
 
 ### Deliverable: Markdown Optimization Report
@@ -176,3 +175,10 @@ Red flags to investigate:
 **Input**: CSV with 30-day GDN placement report. 500 placements, $8,000 spend, 45 conversions, $178 CPA (target: $100).
 
 **Output**: Top 10 placements drive 70% of conversions at $85 CPA. Bottom 200 placements spent $2,400 with 0 conversions — exclude immediately (saves 30% of budget). 15 placements flagged for fraud indicators: CTR >5% with 0 conversions and 100% bounce rate. Viewability: 48% overall (below 50% benchmark) — exclude 30 sites with <20% viewability. Creative: only running 2 static 300x250 ads — recommend switching to Responsive Display Ads and adding 728x90 and 300x600 sizes. Frequency: averaging 8.2 impressions/user/day (too high) — set cap at 3/day. Projected impact: CPA reduction from $178 to $95-110 by cutting waste placements and capping frequency.
+
+## Related Skills
+
+- **[ad-performance-analyzer](./ad-performance-analyzer.md)** — Analyze overall display campaign performance to identify underperforming placements.
+- **[audience-targeting-builder](./audience-targeting-builder.md)** — Build targeted display audiences to reduce wasted impressions on irrelevant placements.
+- **[ad-creative-testing-framework](./ad-creative-testing-framework.md)** — Test different display creative sizes and formats to improve viewability and performance.
+- **[ad-compliance-checker](./ad-compliance-checker.md)** — Ensure display ads meet platform brand safety and policy requirements before placement.

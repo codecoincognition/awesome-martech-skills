@@ -14,7 +14,7 @@ Writes structured Twitter/X threads with scroll-stopping hooks, clear value deli
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing output in a platform, add 5 min for posting. Input is topic or source content. Output is formatted thread with tweet-by-tweet copy.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~20-40 min scheduling in Buffer / Hootsuite / native platform. If implementing output in a platform, add 5 min for posting. Input is topic or source content. Output is formatted thread with tweet-by-tweet copy.
 
 ## User Intent Mapping
 
@@ -96,8 +96,7 @@ The hook tweet determines 90% of thread performance:
 ### ⚠️ Human Checkpoint
 > Review for authenticity and accuracy. Add personal experiences, specific numbers from your own data, or named examples. Generic threads underperform personal ones by 3-5x.
 
-> **Benchmark Context**: Average tweet impression rate is 2-5% of followers. Threads get 2-3x more engagement than single tweets. Top-performing threads have 7-12 tweets. Best posting times: Tuesday-Thursday, 8-10 AM and 5-7 PM in your audience's timezone. Bookmark rate is the strongest signal of value.
-
+> **Benchmark Context**: Average tweet impression rate is 2-5% of followers (Sprout Social 2024 Index). Threads get 2-3x more engagement than single tweets (Sprout Social 2024 Index). Top-performing threads have 7-12 tweets. Best posting times: Tuesday-Thursday, 8-10 AM and 5-7 PM in your audience's timezone (Buffer 2024 State of Social). Bookmark rate is the strongest signal of value.
 ## Output Contract
 
 ### Deliverable: Markdown Thread
@@ -175,3 +174,10 @@ The hook tweet determines 90% of thread performance:
 > **Tweet 3**: Distribution channels that work in 2026: → LinkedIn (repurpose every post) → Email list (your owned audience) → Communities (Reddit, Slack groups, Discord) → SEO (compounds over 6-12 months) (199 chars)
 >
 > ...
+
+## Related Skills
+
+- **[Social Content Calendar](./social-content-calendar.md)** — Use to plan and schedule Twitter threads across your social content strategy.
+- **[LinkedIn Post Optimizer](./linkedin-post-optimizer.md)** — Use for similar long-form thought leadership on LinkedIn.
+- **[Content Repurposer](../content/content-repurposer.md)** — Use to adapt blog posts or whitepapers into Twitter thread formats.
+- **[Social Engagement Analyzer](./social-engagement-analyzer.md)** — Use to measure thread performance and identify winning formats and topics.

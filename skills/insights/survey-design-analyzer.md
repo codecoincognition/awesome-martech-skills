@@ -15,7 +15,7 @@ Designs, reviews, and optimizes marketing surveys for higher response rates, red
 
 ## Granularity Check
 
-> **Session time**: ~5 min context gathering + ~10 min Claude session. If implementing, add 2-4 hours for survey build and testing. Input is survey goals and draft questions. Output is Markdown survey design with optimized questions and analysis framework.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min synthesizing into your strategy deck. If implementing, add 2-4 hours for survey build and testing. Input is survey goals and draft questions. Output is Markdown survey design with optimized questions and analysis framework.
 
 ## User Intent Mapping
 
@@ -126,8 +126,7 @@ Designs, reviews, and optimizes marketing surveys for higher response rates, red
 ### ⚠️ Human Checkpoint
 > Pilot survey with 5-10 people before full launch to catch confusing questions. Review open-ended responses for unintended interpretations. Ensure survey complies with data privacy regulations (GDPR consent for EU respondents).
 
-> **Benchmark Context**: Average email survey response rate is 10-30%. Every question added beyond 10 drops completion by 5-10%. Personalized survey invitations increase response rates by 48%. Mobile-optimized surveys see 30% higher completion. Surveys sent within 24 hours of an interaction get 2-3x higher response rates.
-
+> **Benchmark Context**: Average email survey response rate is 10-30% (McKinsey 2024 State of AI Report) Every question added beyond 10 drops completion by 5-10%. . Personalized survey invitations increase response rates by 48% (Gartner 2024 Marketing Technology Survey) Mobile-optimized surveys see 30% higher completion (McKinsey 2024 State of AI Report) Surveys sent within 24 hours of an interaction get 2-3x higher response rates (McKinsey 2024 State of AI Report) (Gartner 2024 Marketing Technology Survey).
 ## Output Contract
 
 ### Deliverable: Markdown Survey Design
@@ -209,3 +208,10 @@ Designs, reviews, and optimizes marketing surveys for higher response rates, red
 **Input**: "Design a post-purchase NPS survey for our SaaS product. 5,000 active users. Currently no survey in place. Want to measure satisfaction and identify churn risks. Using Typeform."
 
 **Output**: Survey design (6 questions, ~2 minutes): Q1 — NPS: "How likely are you to recommend [Product] to a colleague?" (0-10 scale). Q2 — Open text: "What's the primary reason for your score?" Q3 — CSAT: "How satisfied are you with [Product] overall?" (1-5 stars). Q4 — Feature value: "Which feature is most valuable to you?" (multiple choice: top 5 features + other). Q5 — Improvement: "What one thing would you improve?" (open text). Q6 — Usage frequency: "How often do you use [Product]?" (daily/weekly/monthly/rarely). Distribution: in-app trigger after 30 days of use, then quarterly. Email follow-up for non-respondents at Day 3 and Day 7. Expected response rate: 25-35% (in-app), 15-20% (email). Sample size: need 357 responses for 95% confidence at ±5%. At 25% response rate, survey 1,400+ users per wave. Analysis plan: segment NPS by usage frequency, feature preference, and tenure. Detractor responses flagged to customer success team within 24 hours for follow-up.
+
+## Related Skills
+
+- **[Voice of Customer Miner](./voice-of-customer-miner.md)** — Complement surveys with open-ended Reddit data mining for deeper customer insights.
+- **[Audience Persona Builder](./audience-persona-builder.md)** — Use survey data to validate and refine audience personas.
+- **[Market Trend Scanner](./market-trend-scanner.md)** — Design surveys to test hypothesized market trends.
+- **[NPS Survey Design](../analytics/dashboard-requirement-gatherer.md)** — Use this skill to design effective NPS and customer satisfaction surveys.

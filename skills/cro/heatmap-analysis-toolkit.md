@@ -14,7 +14,7 @@ Interprets heatmap, scroll map, click map, and session recording data to identif
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing fixes, add 2-8 hours for design changes. Input is heatmap screenshots or behavioral data exports. Output is Markdown analysis with prioritized UX fixes.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min implementing in your testing tool / CMS. If implementing fixes, add 2-8 hours for design changes. Input is heatmap screenshots or behavioral data exports. Output is Markdown analysis with prioritized UX fixes.
 
 ## User Intent Mapping
 
@@ -195,3 +195,10 @@ Priority framework:
 **Input**: "Heatmap analysis for our pricing page. Hotjar click map shows heavy clicks on the feature comparison table but almost no clicks on the 'Start Free Trial' CTA button. Scroll map shows 70% of users reach the pricing cards but only 25% reach the CTA below the comparison table. 15K monthly sessions, 2.1% conversion rate."
 
 **Output**: Problem: CTA placement below comparison table means 75% of users never see it. Heavy clicks on feature table suggest users are comparing plans but can't find the action step. Fix priority: (1) P0 — add CTA buttons directly within each pricing card (above comparison table, where 70% of users are). (2) P0 — make "Start Free Trial" sticky on scroll (visible at all scroll depths). (3) P1 — add individual plan CTAs at the top and bottom of the comparison table. (4) P2 — test making feature rows clickable (users clicking expecting interaction). Expected results: moving CTA to where 70% of users already engage should increase visibility 3x and conversion from 2.1% to 3.5-5%. A/B test: current page vs. pricing cards with embedded CTAs — run 2 weeks minimum at 15K sessions.
+
+## Related Skills
+
+- **landing-page-optimizer** (./landing-page-optimizer.md) — Audit and optimize landing page copy based on heatmap insights; use after analyzing heatmaps to validate whether UX or messaging is the issue.
+- **ab-test-designer** (./ab-test-designer.md) — Design A/B tests for heatmap-informed changes (CTA repositioning, content reordering); validate heatmap hypotheses with statistical testing.
+- **cta-optimization-framework** (./cta-optimization-framework.md) — Optimize CTAs identified as not receiving clicks in heatmaps; combine with heatmap analysis for highest conversion lift.
+- **form-optimization-toolkit** (./form-optimization-toolkit.md) — Analyze form heatmaps to identify field-level friction; use heatmap data on forms to prioritize which fields to remove or restructure.

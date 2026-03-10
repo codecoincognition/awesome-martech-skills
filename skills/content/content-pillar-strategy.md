@@ -15,7 +15,7 @@ Builds topic cluster architecture with pillar pages and supporting content for S
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing, add 4-8 hours for pillar page creation. Input is business topics and keyword data. Output is Markdown pillar architecture with content map.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~60-120 min building in your project management tool. If implementing, add 4-8 hours for pillar page creation. Input is business topics and keyword data. Output is Markdown pillar architecture with content map.
 
 ## User Intent Mapping
 
@@ -116,8 +116,7 @@ Pillar Topic: [Broad Topic]
 ### ⚠️ Human Checkpoint
 > Review pillar topics for business alignment before committing to content production. Validate keyword data and competitive landscape before building clusters. Ensure content team has capacity for sustained production.
 
-> **Benchmark Context**: Sites with topic cluster architecture see 3x more organic traffic growth than unstructured blogs. Pillar pages rank for 2-3x more keywords than standalone articles. Internal linking from clusters increases pillar page authority by 40-60%. Companies publishing 16+ blog posts/month get 3.5x more traffic than those publishing 0-4. 70% of marketers actively invest in content marketing but only 30% have a documented strategy.
-
+> **Benchmark Context**: Sites with topic cluster architecture see 3x more organic traffic growth than unstructured blogs (Content Marketing Institute 2024 B2B Research). Pillar pages rank for 2-3x more keywords than standalone articles. Internal linking from clusters increases pillar page authority by 40-60%. Companies publishing 16+ blog posts/month get 3.5x more traffic than those publishing 0-4 (Orbit Media 2024 Blogging Survey). 70% of marketers actively invest in content marketing but only 30% have a documented strategy (Semrush 2024 State of Content Marketing). (Semrush 2024 State of Content Marketing).
 ## Output Contract
 
 ### Deliverable: Markdown Pillar Strategy
@@ -194,3 +193,10 @@ Pillar Topic: [Broad Topic]
 **Input**: "Content pillar strategy for a project management SaaS. Currently have 45 unorganized blog posts. Target audience: project managers and team leads. Core features: task management, team collaboration, resource planning, time tracking."
 
 **Output**: 4 pillars identified: (1) "Project Management" (broadest — pillar page: "The Complete Guide to Project Management"), (2) "Team Collaboration" (pillar: "How to Build a Collaborative Team"), (3) "Resource Planning" (pillar: "Resource Planning Guide for Project Managers"), (4) "Time Tracking" (pillar: "Time Tracking Best Practices for Teams"). Existing content mapping: 28 of 45 posts map to these pillars. 17 are orphaned (off-topic or too thin to assign). Pillar 1 cluster: 22 articles needed — 12 exist, 10 gaps. Top gaps: "agile project management," "project management templates," "project management for remote teams." Priority: build Pillar 1 first (highest search volume, most existing content to leverage). Q1: publish pillar page + 5 cluster articles + interlink 12 existing. Q2: build Pillar 2 with 8 new cluster articles. Expected results: 30-50% organic traffic increase within 6 months as clusters reach critical mass.
+
+## Related Skills
+
+- **[Keyword Cluster Analyzer](../seo/keyword-cluster-analyzer.md)** — Use first to organize keywords into clusters that form the structure of your pillar-cluster architecture.
+- **[SEO Content Strategy](../seo/seo-content-strategy.md)** — Use to build a complete SEO strategy around your pillar-cluster content architecture.
+- **[Editorial Calendar Builder](./editorial-calendar-builder.md)** — Use to plan the creation and publication sequence of pillar pages and cluster content.
+- **[Content Distribution Strategy](./content-distribution-strategy.md)** — Use to design how pillar pages and cluster content will be distributed to maximize authority building.

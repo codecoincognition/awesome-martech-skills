@@ -14,7 +14,7 @@ Optimize YouTube video titles, descriptions, tags, chapters, and thumbnails for 
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is video topic + optional current metadata. Output is optimized metadata package in Markdown.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min producing / uploading.** If implementing output in a platform, add 10-20 min for setup. Input is video topic + optional current metadata. Output is optimized metadata package in Markdown.
 
 ## User Intent Mapping
 
@@ -129,8 +129,7 @@ Score current metadata on:
 > Verify keyword search volume using YouTube search autocomplete or TubeBuddy/vidIQ. Claude generates keyword suggestions based on relevance but cannot verify actual search volume.
 
 
-> **Benchmark Context**: Average YouTube CTR is 2-10% (4-5% is good for most niches). Videos over 10 minutes can include mid-roll ads. Podcast episode completion rate averages 60-80%. YouTube Shorts average 2-5% CTR. Chapters increase average view duration by 5-10%.
-
+> **Benchmark Context**: Average YouTube CTR is 2-10% (4-5% is good for most niches) (YouTube Creator Academy 2024) Videos over 10 minutes can include mid-roll ads. . Podcast episode completion rate averages 60-80% (Edison Research 2024 Podcast Consumer Report) YouTube Shorts average 2-5% CTR (YouTube Creator Academy 2024) Chapters increase average view duration by 5-10% (Wistia 2024 State of Video) (Edison Research 2024 Podcast Consumer Report).
 ## Output Contract
 
 ### Deliverable: Markdown YouTube SEO Package
@@ -213,3 +212,10 @@ Character count: [n]/500
 **Input**: Video about "email marketing for beginners", targeting small business owners. 12-minute tutorial. Current title: "Email Marketing Tips".
 
 **Output**: Recommended title: "Email Marketing for Beginners: 7 Steps to Your First Campaign (2025 Guide)" (62 chars, keyword front-loaded, number + brackets). Description with keyword-rich above-fold hook, 8 chapter markers, 15 optimized tags within 420/500 chars. Audit of current title: 2/5 (too vague, no keyword specificity, no CTR triggers, missing year).
+
+## Related Skills
+
+- **[Video Script Writer](./video-script-writer.md)** — Script videos with keyword targets in mind before scripting content.
+- **[Keyword Cluster Analyzer](../seo/keyword-cluster-analyzer.md)** — Research keyword clusters for your YouTube channel and target videos.
+- **[SEO Content Strategy](../seo/seo-content-strategy.md)** — Build overall YouTube SEO strategy that integrates with broader SEO strategy.
+- **[Video Thumbnail Concept Generator](./video-thumbnail-concept-generator.md)** — Ensure thumbnail design aligns with SEO keywords and CTR goals.

@@ -15,7 +15,7 @@ Analyzes A/B and multivariate test results for statistical significance, practic
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If designing new tests, add 1-2 weeks for implementation. Input is test data (visitors, conversions, variants). Output is Markdown analysis with statistical assessment, business impact estimate, and next steps.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min building in Google Sheets / Looker / GA4. If designing new tests, add 1-2 weeks for implementation. Input is test data (visitors, conversions, variants). Output is Markdown analysis with statistical assessment, business impact estimate, and next steps.
 
 ## User Intent Mapping
 
@@ -139,8 +139,7 @@ Formula factors: 95% confidence, 80% power, two-tailed test.
 ### ⚠️ Human Checkpoint
 > Verify that test groups had comparable traffic quality (same sources, no campaign overlap). Check that the test didn't overlap with other site changes or campaigns that could confound results. Review segment-level results before implementing — a winner overall can be a loser for your most valuable segment.
 
-> **Benchmark Context**: Only 1 in 7 A/B tests produces a significant winner — most tests are inconclusive or flat. The average conversion rate lift from a winning test is 12-15%. High-velocity testing programs (2-4 tests per month) improve conversion 2-3x faster than low-velocity programs. Tests that change the value proposition (headline, offer) outperform design-only tests by 3x. 80% of test ideas come from analyzing user behavior data (heatmaps, recordings, surveys).
-
+> **Benchmark Context**: Only 1 in 7 A/B tests produces a significant winner — most tests are inconclusive or flat. The average conversion rate lift from a winning test is 12-15% (VWO 2024 A/B Testing Report). High-velocity testing programs (2-4 tests per month) improve conversion 2-3x faster than low-velocity programs (VWO 2024 A/B Testing Report). Tests that change the value proposition (headline, offer) outperform design-only tests by 3x (VWO 2024 A/B Testing Report). 80% of test ideas come from analyzing user behavior data (heatmaps, recordings, surveys).
 ## Output Contract
 
 ### Deliverable: Markdown Test Analysis
@@ -228,3 +227,10 @@ Formula factors: 95% confidence, 80% power, two-tailed test.
 **Input**: "A/B test on our pricing page CTA. Control: 'Start Free Trial' (blue button). Variant: 'Try It Free — No Credit Card' (green button, larger). Ran 21 days. Control: 12,450 visitors, 498 conversions (4.0%). Variant: 12,380 visitors, 572 conversions (4.62%). Is this significant? Should we implement?"
 
 **Output**: Statistical analysis: observed lift is +15.5% relative (4.0% → 4.62%, +0.62 percentage points). P-value: 0.024 (significant at 95% confidence). Statistical power: 85% (adequate). Test ran 21 days with 24,830 total visitors — sample size is sufficient. Verdict: WINNER — the variant wins with high confidence. Segment check needed: (1) Verify the lift holds across mobile and desktop separately. (2) Check that downstream conversion (trial → paid) isn't lower — "No Credit Card" may attract less-committed users. (3) Compare first week vs. last week to rule out novelty effect. Business impact: if baseline is 498 conversions/month and lift is 15.5%, that's ~77 additional trials per month. At your trial-to-paid rate of 25% and $200/month average revenue, that's ~19 additional customers × $200 = $3,800/month incremental revenue ($45,600/year). Recommendation: implement the variant, but monitor trial-to-paid conversion for the next 60 days. If trial-to-paid drops more than 5 percentage points, the "No Credit Card" copy may be attracting lower-quality leads. Next test: try the winning copy with the original blue button color (isolate whether copy or color drove the lift).
+
+## Related Skills
+
+- **ab-test-designer** (../cro/ab-test-designer.md) — Design statistically sound tests before you run them; use this to plan future tests based on learnings from past results.
+- **landing-page-optimizer** (../cro/landing-page-optimizer.md) — Audit the page you're testing to identify hypotheses; use heatmap insights to design better test variants.
+- **campaign-performance-benchmarker** (./campaign-performance-benchmarker.md) — Compare your test results against industry benchmarks; understand whether your lift is exceptional or expected.
+- **marketing-roi-calculator** (./marketing-roi-calculator.md) — Calculate the financial impact of your test results; convert statistical significance to revenue impact.

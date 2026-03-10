@@ -15,7 +15,7 @@ Analyzes marketing channel contributions to business outcomes and optimizes budg
 
 ## Granularity Check
 
-> **Session time**: ~10 min data prep + ~15 min Claude session. For full econometric MMM, add 4-8 weeks with a data science team. Input is marketing spend and results data by channel over time. Output is Markdown channel analysis with contribution estimates, optimization recommendations, and budget allocation plan.
+> **Time**: ~10 min data prep → ~15 min Claude session → ~30-60 min building in Google Sheets / Looker / GA4. For full econometric MMM, add 4-8 weeks with a data science team. Input is marketing spend and results data by channel over time. Output is Markdown channel analysis with contribution estimates, optimization recommendations, and budget allocation plan.
 
 ## User Intent Mapping
 
@@ -213,3 +213,10 @@ Saturation indicators:
 **Input**: "Marketing mix analysis. Monthly budget: $150K. Channels: Google Ads ($55K, 3.2x ROI), LinkedIn Ads ($35K, 2.1x ROI), Content/SEO ($25K, 4.5x ROI), Email ($15K, 8.2x ROI), Events ($20K, 1.5x ROI). Total monthly revenue: $650K. Want to optimize for revenue growth without increasing total budget."
 
 **Output**: Current analysis: email has highest ROI (8.2x) but lowest spend ($15K — only 10% of budget). Content/SEO has strong ROI (4.5x) at only 17% of budget. Google Ads is solid (3.2x) but consumes 37% of budget. Events have lowest ROI (1.5x) at 13% of budget. Optimization: (1) Increase email from $15K to $25K (+67%). At 8.2x ROI, additional $10K should generate ~$82K revenue. Email is likely under-saturated — invest in list growth, segmentation, and automation. (2) Increase Content/SEO from $25K to $35K (+40%). At 4.5x ROI, additional $10K should generate ~$45K. Focus on high-converting content topics. (3) Reduce Events from $20K to $10K (-50%). Events ROI of 1.5x is well below other channels. Shift to virtual events or co-sponsored events to maintain presence at lower cost. (4) Reduce Google Ads from $55K to $50K (-9%). Test small reduction — if ROI holds or improves, the channel may be approaching saturation at $55K. (5) Maintain LinkedIn at $35K — 2.1x ROI is acceptable for B2B awareness and pipeline. Projected impact: revenue from $650K to $720-$750K (+11-15%) at same $150K budget. Run the shift over 2 months, measuring weekly. If email or content don't scale as expected, reallocate back to Google Ads.
+
+## Related Skills
+
+- **[marketing-roi-calculator](./marketing-roi-calculator.md)** — Use ROI metrics as inputs for marketing mix modeling.
+- **[channel-mix-optimizer](../growth/channel-mix-optimizer.md)** — Convert MMM insights into actionable channel allocation strategy.
+- **[marketing-dashboard-builder](./marketing-dashboard-builder.md)** — Track budget allocation and outcomes in a monitoring dashboard.
+- **[growth-experiment-designer](../growth/growth-experiment-designer.md)** — Design incremental tests to validate MMM recommendations.

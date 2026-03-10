@@ -16,7 +16,7 @@ Take a single long-form content piece (blog post, whitepaper, webinar transcript
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is one content piece. Output is a multi-format content pack. No external tools needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min implementing in your CMS.** If implementing output in a platform, add 10-20 min for setup. Input is one content piece. Output is a multi-format content pack. No external tools needed.
 
 ## User Intent Mapping
 
@@ -109,10 +109,10 @@ Trigger when the user says:
 5. **Generate output** — Complete content pack organized by platform.
 
 
-> **Benchmark Context**: Blog posts averaging 1,500-2,500 words tend to rank highest in search. Content marketing generates 3x more leads than outbound at 62% less cost. Average time to write a 1,500-word blog post is 4-6 hours (research + writing + editing).
+> **Benchmark Context**: Blog posts averaging 1,500-2,500 words tend to rank highest in search (Content Marketing Institute 2024 B2B Research). Content marketing generates 3x more leads than outbound at 62% less cost (Semrush 2024 State of Content Marketing). Average time to write a 1,500-word blog post is 4-6 hours (research + writing + editing. (Semrush 2024 State of Content Marketing)
 
 
-### Confidence & Sample Size
+### Confidence & Sample Size.
 > **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract
@@ -254,3 +254,10 @@ Body: [teaser text]
 > **Posting schedule:** Spread across 2 weeks, starting with the contrarian LinkedIn post on Tuesday.
 >
 > [Full derivatives below]
+
+## Related Skills
+
+- **[Blog Section Expander](./blog-section-expander.md)** — Use before repurposing to ensure your original content is polished and comprehensive.
+- **[Social Content Calendar](../social/social-content-calendar.md)** — Use to coordinate the distribution timing of repurposed social content with your overall social strategy.
+- **[Email Sequence Builder](../email/email-sequence-builder.md)** — Use to turn repurposed content snippets into email sequences and nurture campaigns.
+- **[Video Script Writer](../video-podcast/video-script-writer.md)** — Use to adapt your written content into video scripts for repurposing as video content.

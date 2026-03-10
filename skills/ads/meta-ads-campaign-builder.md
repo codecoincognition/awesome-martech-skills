@@ -15,7 +15,7 @@ Structures complete Meta (Facebook + Instagram) ad campaigns with campaign/ad se
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing output in Meta Ads Manager, add 30-45 min for setup. Input is business goals and targeting info. Output is Markdown campaign blueprint.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min building in Google Ads / Meta Ads Manager. If implementing output in Meta Ads Manager, add 30-45 min for setup. Input is business goals and targeting info. Output is Markdown campaign blueprint.
 
 ## User Intent Mapping
 
@@ -100,8 +100,7 @@ Build audience layers:
 ### ⚠️ Human Checkpoint
 > Verify Pixel/Conversions API setup, confirm audience exclusions include existing customers (to avoid wasting spend), and review all ad copy for compliance with Meta Advertising Standards before launching.
 
-> **Benchmark Context**: Average Meta ads CPC is $0.50-$2.00 (varies by industry). Average conversion rate is 1-3% for e-commerce, 5-10% for lead gen. Advantage+ Shopping campaigns show 12-20% lower CPA vs. manual campaigns. Broad targeting often outperforms detailed targeting at scale. Consolidating ad sets improves performance by giving the algorithm more data.
-
+> **Benchmark Context**: Average Meta ads CPC is $0.50-$2.00 (varies by industry. Average conversion rate is 1-3% for e-commerce, 5-10% for lead gen. Advantage+ Shopping campaigns show 12-20% lower CPA vs. manual campaigns. Broad targeting often outperforms detailed targeting at scale. Consolidating ad sets improves performance by giving the algorithm more data. (Meta 2024 Advertising Benchmarks).
 ## Output Contract
 
 ### Deliverable: Markdown Campaign Blueprint
@@ -178,3 +177,10 @@ Build audience layers:
 **Input**: "Meta ads campaign for a DTC supplement brand. Objective: online sales. Budget: $5,000/month. Audience: health-conscious adults 25-55. Have 3 product videos and customer UGC. Pixel installed, 200 purchases/month."
 
 **Output**: 3-campaign structure: (1) Advantage+ Shopping ($3,000/mo) — broad targeting, all creative, automated optimization; (2) Retargeting ($1,500/mo) — 3 ad sets: 7-day website visitors, 14-day add-to-cart abandoners, 30-day video viewers 75%+; (3) Testing ($500/mo) — new creative and audience tests. Audience exclusions: purchasers last 30 days from prospecting. Creative recs: Lead with UGC video (2-3x ROAS vs. polished brand video), add carousel of top 3 products, test testimonial image ads. Bidding: lowest cost on Advantage+ (200 purchases/mo is well above learning phase threshold). Week 1-4 plan with specific optimization actions.
+
+## Related Skills
+
+- **[ad-copy-generator](./ad-copy-generator.md)** — Generate Meta-specific ad copy variations optimized for Facebook and Instagram formats.
+- **[audience-targeting-builder](./audience-targeting-builder.md)** — Build detailed Meta audience segments with interest and demographic layering.
+- **[ad-creative-testing-framework](./ad-creative-testing-framework.md)** — Test different creative formats across Meta placements to maximize ROAS.
+- **[ad-performance-analyzer](./ad-performance-analyzer.md)** — Analyze Meta campaign performance to optimize budget allocation and placement strategy.

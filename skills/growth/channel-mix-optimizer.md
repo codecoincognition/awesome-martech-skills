@@ -16,7 +16,7 @@ Analyzes marketing channel performance to recommend optimal budget allocation, i
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing output, add 15-30 min for budget adjustments across channels. Input is multi-channel performance data. Output is Markdown channel strategy with allocation plan.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~60-120 min implementing in your product / tools. If implementing output, add 15-30 min for budget adjustments across channels. Input is multi-channel performance data. Output is Markdown channel strategy with allocation plan.
 
 ## User Intent Mapping
 
@@ -102,8 +102,7 @@ For each channel, check:
 ### ⚠️ Human Checkpoint
 > Review recommendations against strategic context — some channels serve brand/awareness goals not captured by CAC alone. Verify no contractual commitments (agency retainers, media buys) would be violated by reallocation. Consider team skills — shifting to a channel requires expertise to execute well.
 
-> **Benchmark Context**: Best-in-class companies attribute revenue across 5-7 channels. Over-reliance on one channel (>50% of revenue) is high-risk. Organic channels (SEO, content, community) have 5-10x better LTV-to-CAC ratios than paid channels but take 6-12 months to build. Testing a new channel requires minimum 3-month commitment and $5,000-10,000 investment to evaluate.
-
+> **Benchmark Context**: Best-in-class companies attribute revenue across 5-7 channels (ProfitWell 2024 SaaS Benchmarks). . Over-reliance on one channel (>50% of revenue) is high-risk (ProfitWell 2024 SaaS Benchmarks). . Organic channels (SEO, content, community) have 5-10x better LTV-to-CAC ratios than paid channels but take 6-12 months to build (OpenView 2024 Product Benchmarks) Testing a new channel requires minimum 3-month commitment and $5,000-10,000 investment to evaluate. . (OpenView 2024 Product Benchmarks).
 ## Output Contract
 
 ### Deliverable: Markdown Channel Strategy
@@ -179,3 +178,10 @@ For each channel, check:
 **Input**: "Channel mix for B2B SaaS, $15K/month marketing budget. Current: Google Ads $6K (42 leads, $143 CAC), LinkedIn Ads $4K (18 leads, $222 CAC), Content/SEO $3K (30 leads, $100 CAC), Events $2K (8 leads, $250 CAC). LTV: $3,000. Goal: reduce blended CAC while increasing lead volume."
 
 **Output**: Efficiency ranking: Content/SEO ($100) > Google Ads ($143) > LinkedIn ($222) > Events ($250). Content/SEO has best CAC and is not saturated — increase investment from $3K to $5K (+66%). Google Ads showing early saturation (CAC up 15% MoM) — maintain at $6K but shift $1K from broad to exact match. LinkedIn high CAC but drives enterprise leads (higher LTV) — reduce to $2.5K, focus on retargeting only. Events: highest CAC, lowest volume — pause and redirect $2K to content and a new channel test. New channel recommendation: test email nurture ($1.5K for 3 months, expected CAC $80-120 based on content lead nurturing). 90-day plan: Month 1 — shift budgets, launch email nurture; Month 2 — evaluate new allocation, double down on SEO content production; Month 3 — review results, consider adding webinar channel.
+
+## Related Skills
+
+- **[marketing-roi-calculator](../analytics/marketing-roi-calculator.md)** — Calculate channel ROI to inform optimization decisions.
+- **[marketing-mix-modeler](../analytics/marketing-mix-modeler.md)** — Use MMM analysis to validate and refine channel allocation.
+- **[growth-experiment-designer](./growth-experiment-designer.md)** — Design A/B tests to validate channel optimization recommendations.
+- **[gtm-launch-planner](./gtm-launch-planner.md)** — Apply channel mix strategy for product and feature launches.

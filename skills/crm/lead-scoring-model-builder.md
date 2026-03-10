@@ -16,7 +16,7 @@ Builds a points-based lead scoring model from CRM data. Analyzes which demograph
 
 ## Granularity Check
 
-> **Session time**: ~5 minutes data prep + ~10 minutes Claude session. If implementing output in a platform, add 10-20 minutes for setup. Input is a CSV of leads with attributes + conversion outcome. Output is an XLSX scoring model.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min configuring in Salesforce / HubSpot. If implementing output in a platform, add 10-20 minutes for setup. Input is a CSV of leads with attributes + conversion outcome. Output is an XLSX scoring model.
 
 ## User Intent Mapping
 
@@ -245,3 +245,10 @@ L-005,1-50,Retail,Marketing Coordinator,paid,3,1,0,0,0
 > - 78% of non-conversions scored as Cold
 >
 > Do these thresholds work for your sales team's capacity?
+
+## Related Skills
+
+- **[Lifecycle Stage Designer](./lifecycle-stage-designer.md)** — Map lead scores to pipeline stages for consistent MQL/SQL definitions.
+- **[Predictive Lead Scoring](../ai-marketing/predictive-lead-scoring.md)** — Layer predictive modeling on top of rule-based scoring for more accurate prioritization.
+- **[Automation Workflow Designer](./automation-workflow-designer.md)** — Use scoring thresholds as triggers for automated lead routing and nurture workflows.
+- **[Data Enrichment Prioritizer](./data-enrichment-prioritizer.md)** — Prioritize data enrichment on high-scoring leads to improve conversion probability.

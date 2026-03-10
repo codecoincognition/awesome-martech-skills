@@ -18,7 +18,7 @@ Map your competitors' messaging across key positioning dimensions to find unclai
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is competitor descriptions or URLs (Claude analyzes provided content). Output is an HTML positioning map + gap analysis document.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min synthesizing into your strategy deck.** If implementing output in a platform, add 10-20 min for setup. Input is competitor descriptions or URLs (Claude analyzes provided content). Output is an HTML positioning map + gap analysis document.
 
 ## User Intent Mapping
 
@@ -115,10 +115,7 @@ Competitors:
 7. **Generate output** — HTML positioning map + Markdown strategy document.
 
 
-> **Benchmark Context**: Win/loss analysis requires minimum 20 interviews per segment for reliable patterns. Survey response rates average 10-15% for email surveys, 30-50% for in-app. Qualitative research saturation typically occurs at 12-15 interviews.
-
-
-### Confidence & Sample Size
+> **Benchmark Context**: Win/loss analysis requires minimum 20 interviews per segment for reliable patterns. Survey response rates average 10-15% for email surveys, 30-50% for in-app (McKinsey 2024 State of AI Report). Qualitative research saturation typically occurs at 12-15 interviews (McKinsey 2024 State of AI Report). ### Confidence & Sample Size.
 > **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract
@@ -268,3 +265,10 @@ Competitors analyzed: [N]
 >    ClickUp is feature-rich but corporate. There's space for a feature-rich tool with a creative personality.
 >
 > **Recommendation:** Go with Opportunity 1. Your client portals and resource allocation features support a premium, specialist position that none of the 5 competitors can credibly claim.
+
+## Related Skills
+
+- **[Competitor Messaging Tracker](./competitor-messaging-tracker.md)** — Track competitor positioning over time to identify when whitespace emerges or closes.
+- **[Voice of Customer Miner](./voice-of-customer-miner.md)** — Validate positioning whitespace with actual customer needs and language from Reddit.
+- **[Campaign Angle Generator](./campaign-angle-generator.md)** — Generate angles that own the whitespace you've identified.
+- **[Market Trend Scanner](./market-trend-scanner.md)** — Identify emerging trends that create new positioning whitespace.

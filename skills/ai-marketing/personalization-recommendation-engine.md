@@ -16,7 +16,7 @@ Designs product and content recommendation systems — algorithm selection, plac
 
 ## Granularity Check
 
-> **Session time**: ~10 min context gathering + ~15 min Claude session. If implementing, add 2-6 weeks for engineering. Input is product catalog, user behavior data, and platform. Output is Markdown recommendation strategy with algorithm selection and placement plan.
+> **Time**: ~10 min data prep → ~15 min Claude session → ~30-60 min configuring in your marketing platform. If implementing, add 2-6 weeks for engineering. Input is product catalog, user behavior data, and platform. Output is Markdown recommendation strategy with algorithm selection and placement plan.
 
 ## User Intent Mapping
 
@@ -121,8 +121,7 @@ Designs product and content recommendation systems — algorithm selection, plac
 ### ⚠️ Human Checkpoint
 > Review recommendation output for relevance and appropriateness before launch. Verify business rules (margin, inventory) are properly applied. Test cold-start experience for new users. Monitor for filter bubble effects (users seeing same recommendations repeatedly).
 
-> **Benchmark Context**: Product recommendations drive 10-30% of e-commerce revenue. Personalized recommendations increase conversion by 150-300% vs. non-personalized. Cart page recommendations increase AOV by 10-15%. "Frequently bought together" has 2-3x higher conversion than "similar products." Recommendation engines provide 35% of Amazon's revenue. Email product recommendations increase click rates by 300%.
-
+> **Benchmark Context**: Product recommendations drive 10-30% of e-commerce revenue (McKinsey 2024 State of AI Report) Personalized recommendations increase conversion by 150-300% vs (McKinsey 2024 State of AI Report) non-personalized. . Cart page recommendations increase AOV by 10-15% (McKinsey 2024 State of AI Report) "Frequently bought together" has 2-3x higher conversion than "similar products. " Recommendation engines provide 35% of Amazon's revenue (McKinsey 2024 State of AI Report) Email product recommendations increase click rates by 300% (Salesforce 2024 State of Marketing) (Salesforce 2024 State of Marketing).
 ## Output Contract
 
 ### Deliverable: Markdown Recommendation Strategy
@@ -196,3 +195,10 @@ Designs product and content recommendation systems — algorithm selection, plac
 **Input**: "Recommendation engine for fashion e-commerce. 5,000 SKUs across clothing, shoes, accessories. 200K monthly visitors, 8K orders/month. Using Shopify Plus. Currently showing 'You may also like' with random products from same category. AOV is $75, want to increase to $90."
 
 **Output**: Current: random same-category recommendations = minimal personalization value. Recommended approach: (1) Product page — "Complete the Look" (outfit-based recommendations using style/color/occasion matching) + "Customers Also Bought" (collaborative filtering via Nosto or Rebuy). Expected: 15% of PDP visitors click recommendations, 8% conversion on clicks. (2) Cart page — "Frequently Bought Together" (association rules from order history) + free shipping threshold prompt ("Add $X to get free shipping" with curated suggestions). Expected: 12% add complementary item = $12 AOV increase. (3) Homepage — "Recommended for You" (personalized for returning visitors based on browse/purchase history), "Trending Now" (for new visitors). (4) Post-purchase email — "Complete Your Order" with complementary items, 3 days after delivery. (5) Browse abandonment — personalized picks based on viewed products, 2 hours after session. Implementation: Phase 1 (week 1-2) — install Rebuy on Shopify Plus, configure PDP and cart widgets. Phase 2 (week 3-4) — set up homepage personalization and email recommendations via Klaviyo. Expected results: AOV $75 → $88-92 within 3 months. Recommendation revenue: 15-20% of total site revenue.
+
+## Related Skills
+
+- **[Customer Segmentation Engine](./customer-segmentation-engine.md)** — Use as a foundation to serve segment-specific recommendations and content.
+- **[Audience Persona Builder](../insights/audience-persona-builder.md)** — Understand persona-specific preferences to refine recommendation algorithms and logic.
+- **[Cohort Analysis Builder](../analytics/cohort-analysis-builder.md)** — Analyze recommendation effectiveness by user cohort to optimize algorithm performance.
+- **[Content Personalization Engine](../content/content-personalization-engine.md)** — Extend product recommendations with personalized content recommendations for post-purchase engagement.

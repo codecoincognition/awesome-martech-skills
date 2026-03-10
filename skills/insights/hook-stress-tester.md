@@ -17,7 +17,7 @@ Evaluate marketing headlines and hooks on a 10-point scale across 6 dimensions. 
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is 1-10 headlines. Output is scored analysis + 10 improved variants per headline.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min synthesizing into your strategy deck.** If implementing output in a platform, add 10-20 min for setup. Input is 1-10 headlines. Output is scored analysis + 10 improved variants per headline.
 
 ## User Intent Mapping
 
@@ -141,10 +141,7 @@ Target audience: Team leads and project managers
 7. **Human checkpoint** — Present the scores. Ask: "Do the scores feel right? Want me to go deeper on any specific headline?"
 
 
-> **Benchmark Context**: Win/loss analysis requires minimum 20 interviews per segment for reliable patterns. Survey response rates average 10-15% for email surveys, 30-50% for in-app. Qualitative research saturation typically occurs at 12-15 interviews.
-
-
-### Confidence & Sample Size
+> **Benchmark Context**: Win/loss analysis requires minimum 20 interviews per segment for reliable patterns. Survey response rates average 10-15% for email surveys, 30-50% for in-app (McKinsey 2024 State of AI Report). Qualitative research saturation typically occurs at 12-15 interviews (McKinsey 2024 State of AI Report). ### Confidence & Sample Size.
 > **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract
@@ -259,3 +256,10 @@ Context: [platform/use case]
 **User prompt:** "Score these 3 blog titles and give me better alternatives."
 
 **Claude responds with the full scored analysis and 10 variants per headline as shown in the output structure above.**
+
+## Related Skills
+
+- **[Campaign Angle Generator](./campaign-angle-generator.md)** — Use as the upstream step to generate campaign angles, then stress-test the hooks.
+- **[Ad Copy Generator](../ads/ad-copy-generator.md)** — Stress-test ad headlines before implementing across ad platforms.
+- **[Email Subject Line Tester](../email/email-subject-line-tester.md)** — Apply similar evaluation methodology to email subject lines.
+- **[YouTube SEO Optimizer](../video-podcast/youtube-seo-optimizer.md)** — Optimize video titles and descriptions using hook stress-testing principles.

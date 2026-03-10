@@ -15,7 +15,7 @@ Generates properly formatted UTM-tagged URLs with consistent naming conventions.
 
 ## Granularity Check
 
-> **Session time**: ~5 minutes data prep + ~10 minutes Claude session. If implementing output in a platform, add 10-20 minutes for setup. Input is campaign details (CSV or natural language). Output is XLSX with URLs and naming docs.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min implementing in your MarTech stack. If implementing output in a platform, add 10-20 minutes for setup. Input is campaign details (CSV or natural language). Output is XLSX with URLs and naming docs.
 
 ## User Intent Mapping
 
@@ -80,10 +80,10 @@ User describes the campaign in plain text. Example: "I'm running a spring sale a
 5. **Build output spreadsheet** — Create XLSX with tracking URLs, naming convention reference, and a quick-reference card.
 
 
-> **Benchmark Context**: Average enterprise has 91 marketing tools in its stack. Brand compliance violations occur in 60% of co-branded partner materials. UTM tracking is implemented on only 40-50% of marketing URLs on average.
+> **Benchmark Context**: Average enterprise has 91 marketing tools in its stack. Brand compliance violations occur in 60% of co-branded partner materials (Gartner 2024 Marketing Technology Survey). UTM tracking is implemented on only 40-50% of marketing URLs on average. (Gartner 2024 Marketing Technology Survey)
 
 
-### Confidence & Sample Size
+### Confidence & Sample Size.
 > **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract
@@ -179,3 +179,10 @@ Just describe your campaign: channels, landing page, campaign name. No export ne
 > | Twitter | `https://taskflow.com/webinar-q2?utm_source=twitter&utm_medium=social&utm_campaign=webinar-q2-2026&utm_content=organic-tweet` |
 >
 > Do these look right? I'll generate the full XLSX with naming convention docs once you confirm.
+
+## Related Skills
+
+- **[Marketing Attribution Modeler](../ai-marketing/marketing-attribution-modeler.md)** — Use consistent UTM tagging to enable accurate multi-touch attribution.
+- **[Campaign Performance Benchmarker](../analytics/campaign-performance-benchmarker.md)** — Compare campaign performance across channels using properly tagged UTM data.
+- **[Marketing Dashboard Builder](../analytics/marketing-dashboard-builder.md)** — Build dashboards that rely on UTM-tagged traffic data for channel performance insights.
+- **[Google Ads Campaign Builder](../ads/google-ads-campaign-builder.md)** — Tag Google Ads campaigns with standardized UTM parameters for consistent tracking.

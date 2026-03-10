@@ -15,7 +15,7 @@ Monitors and analyzes brand sentiment across social media, reviews, support tick
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing monitoring, add 1-2 days for tool setup. Input is customer feedback data from any channel. Output is Markdown sentiment analysis with trends and recommendations.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min configuring in your marketing platform. If implementing monitoring, add 1-2 days for tool setup. Input is customer feedback data from any channel. Output is Markdown sentiment analysis with trends and recommendations.
 
 ## User Intent Mapping
 
@@ -198,3 +198,10 @@ Monitors and analyzes brand sentiment across social media, reviews, support tick
 **Input**: "Sentiment analysis for our SaaS project management tool. Have 200 G2 reviews (avg 4.2 stars), 50 App Store reviews (avg 3.8 stars), and last quarter's NPS verbatims (NPS score: 42). Want to understand what drives positive and negative sentiment."
 
 **Output**: Overall sentiment: 68% positive, 22% neutral, 10% negative. Positive themes: (1) "Easy to use" (mentioned in 45% of positive reviews) — users consistently praise onboarding and UI simplicity. (2) "Great collaboration features" (30%) — real-time collaboration cited as competitive advantage. (3) "Responsive support" (20%) — support team NPS significantly higher than product NPS. Negative themes: (1) "Mobile app limitations" (40% of negative reviews) — G2 4.2 vs. App Store 3.8 gap explained by mobile-specific frustrations: slow load, missing features, sync issues. (2) "Reporting is basic" (25% of negative) — power users need advanced custom reports, currently switching to BI tools. (3) "Pricing concerns" (15% of negative) — mid-tier plan perceived as expensive vs. competitors for small teams. Recommendations: (1) URGENT — mobile app investment (driving 40% of negative sentiment; fixing would lift App Store to 4.3+). (2) HIGH — add 3-5 most-requested report templates (addresses #2 negative theme with moderate effort). (3) MEDIUM — promote "easy to use" in marketing (biggest positive theme underused in positioning). Competitive insight: competitors are praised for reporting but criticized for complexity — your simplicity is a genuine differentiator. Monitoring setup: weekly sentiment digest, alert when negative reviews exceed 3/week (crisis threshold).
+
+## Related Skills
+
+- **[Voice of Customer Miner](../insights/voice-of-customer-miner.md)** — Extract deeper customer insights and pain points from Reddit and customer discussions beyond sentiment.
+- **[Competitor Messaging Tracker](../insights/competitor-messaging-tracker.md)** — Compare your sentiment to competitor sentiment to identify relative perception gaps.
+- **[Market Trend Scanner](../insights/market-trend-scanner.md)** — Identify emerging sentiment trends in your market to detect opportunities or threats early.
+- **[Social Listening Report](../social/social-listening-report.md)** — Build comprehensive listening program that layers sentiment analysis with engagement and reach metrics.

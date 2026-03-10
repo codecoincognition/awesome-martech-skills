@@ -15,7 +15,7 @@ Plans and executes multi-channel webinar promotion campaigns optimized for regis
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing full campaign, add 2-3 weeks lead time. Input is webinar details and audience data. Output is Markdown promotion plan with timeline, channel strategy, and email sequences.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min producing / uploading. If implementing full campaign, add 2-3 weeks lead time. Input is webinar details and audience data. Output is Markdown promotion plan with timeline, channel strategy, and email sequences.
 
 ## User Intent Mapping
 
@@ -138,8 +138,7 @@ Plans and executes multi-channel webinar promotion campaigns optimized for regis
 ### ⚠️ Human Checkpoint
 > Verify all speaker details, date/time across timezones, and registration links before launching promotion. Test the full registration flow (form → confirmation email → calendar invite → reminder) before sending any promotional emails.
 
-> **Benchmark Context**: B2B webinars average 260 registrants and 40-50% attendance. Top-performing webinars get 55-65% attendance with proper reminder sequences. Post-webinar follow-up emails get 2-3x higher open rates than regular marketing emails. 84% of webinar attendees say Q&A is the most valuable part. Webinar recordings generate 20-30% additional views in the 30 days after the live event.
-
+> **Benchmark Context**: B2B webinars average 260 registrants and 40-50% attendance. Top-performing webinars get 55-65% attendance with proper reminder sequences. Post-webinar follow-up emails get 2-3x higher open rates than regular marketing emails. 84% of webinar attendees say Q&A is the most valuable part. Webinar recordings generate 20-30% additional views in the 30 days after the live event (Wistia 2024 State of Video).
 ## Output Contract
 
 ### Deliverable: Markdown Promotion Plan
@@ -226,3 +225,10 @@ Plans and executes multi-channel webinar promotion campaigns optimized for regis
 **Input**: "Promotion plan for a webinar: 'AI-Powered Content Marketing in 2026.' Speaker: our VP of Marketing + guest from a content platform. Date: April 15, 2pm ET. Target: B2B content marketers. We have a 15K email list, 8K LinkedIn followers, no ad budget. Goal: 500 registrations."
 
 **Output**: Timeline: Start promotion March 18 (4 weeks out). Channel mix: email (target 350 registrations — 70%), LinkedIn organic (target 100 — 20%), partner co-promotion with guest's company (target 50 — 10%). Email sequence: 5 promotional emails + 2 reminders. Email 1 (March 18): "How AI is changing content marketing in 2026" to full list. Email 2 (March 25): Speaker spotlight featuring guest expert to content-marketing-interest segment. Email 3 (April 1): "300 marketers already registered" social proof email. Email 4 (April 8): "Last week to register" urgency push. Email 5 (April 12): "Final seats" to non-registered contacts only. LinkedIn: 2 posts/week — announcement, speaker Q&A teaser, stat graphic, countdown. Ask guest speaker to share each post. Registration page: benefit headline "Learn the 5 AI Content Strategies Top B2B Teams Use in 2026", 3 takeaway bullets, name + email only, "Save My Spot" CTA, counter showing registrant count. Attendance target: 200-225 (40-45% of 500). Post-event: recording to all registrants within 4 hours, engaged attendees get personal outreach within 24 hours.
+
+## Related Skills
+
+- **[Webinar Technical Runbook](../pr-events/webinar-technical-runbook.md)** — Execute technical setup while you run this promotion playbook.
+- **[Email Automation Workflow](../email/email-automation-workflow.md)** — Deploy webinar email sequence as core promotion channel.
+- **[Landing Page Optimizer](../cro/landing-page-optimizer.md)** — Optimize webinar registration landing page to improve conversion rates.
+- **[Event ROI Calculator](../pr-events/event-roi-calculator.md)** — Measure webinar promotion effectiveness and overall ROI post-event.

@@ -15,7 +15,7 @@ Conducts pricing research using proven methodologies to determine optimal price 
 
 ## Granularity Check
 
-> **Session time**: ~10 min context gathering + ~15 min Claude session. If implementing research, add 2-4 weeks for survey design, data collection, and analysis. Input is product context, current pricing, and competitive data. Output is Markdown pricing research plan with methodology and analysis framework.
+> **Time**: ~10 min data prep → ~15 min Claude session → ~30-60 min synthesizing into your strategy deck. If implementing research, add 2-4 weeks for survey design, data collection, and analysis. Input is product context, current pricing, and competitive data. Output is Markdown pricing research plan with methodology and analysis framework.
 
 ## User Intent Mapping
 
@@ -212,3 +212,10 @@ Tier design rules:
 **Input**: "Pricing research for our project management SaaS. Currently priced at $15/user/month. Competitors range $10-30/user/month. We think we might be underpriced but nervous about losing customers. 800 paying customers, 5,000 free users. No pricing research done before."
 
 **Output**: Recommended approach: Van Westendorp survey + cohort price test. Phase 1 (2 weeks): Run Van Westendorp survey targeting 3 segments — (1) current paying customers (200 respondents), (2) free users (200 respondents), (3) prospects from website (200 respondents). Survey questions: standard 4 Van Westendorp questions + "Which competitor do you also consider?" + "Company size" + "Primary use case." Phase 2 (2 weeks): Analyze by segment. Expected findings based on market: if competitors range $10-30 and you're at $15, your acceptable range is likely $12-25 with optimal point around $18-22. Phase 3 (4 weeks): Cohort price test — new signups randomly assigned to $15 (control), $19, or $22. Measure: conversion rate, 30-day retention, NPS. Expected outcome: 10-20% price increase with <5% conversion decrease = net revenue positive. Risk mitigation: grandfather all 800 existing customers at $15 for 12 months. Announce to existing customers as "legacy pricing" — they keep the best deal.
+
+## Related Skills
+
+- **[Pricing Page Optimizer](../cro/pricing-page-optimizer.md)** — Implement pricing research findings through A/B tested page optimization.
+- **[Voice of Customer Miner](./voice-of-customer-miner.md)** — Complement quantitative pricing research with qualitative customer sentiment on pricing from Reddit.
+- **[Product Launch Planner](../growth/gtm-launch-planner.md)** — Incorporate pricing research into go-to-market launch strategy.
+- **[Survey Design Analyzer](./survey-design-analyzer.md)** — Design pricing surveys using best practices to gather reliable willingness-to-pay data.

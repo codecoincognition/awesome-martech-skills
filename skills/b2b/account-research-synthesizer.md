@@ -18,7 +18,7 @@ Synthesizes all available information about a target account into a structured a
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is account data from various sources. Output is a Markdown account brief. Web search supplements available data.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min customizing for your prospect.** If implementing output in a platform, add 10-20 min for setup. Input is account data from various sources. Output is a Markdown account brief. Web search supplements available data.
 
 ## User Intent Mapping
 
@@ -119,8 +119,7 @@ Combine all findings into a narrative brief with:
 > Validate organizational mapping with sales team — org charts change. Confirm technology stack assumptions before building messaging around displacement plays.
 
 
-> **Benchmark Context**: Average B2B sales cycle is 102 days. Win rates average 20-30% for qualified opportunities. Top-performing sales orgs use 5-7 pieces of content per deal cycle. Sales reps spend ~30% of their time searching for content.
-
+> **Benchmark Context**: Average B2B sales cycle is 102 days. Win rates average 20-30% for qualified opportunities (Gartner 2024 B2B Buying Journey Report). Top-performing sales orgs use 5-7 pieces of content per deal cycle (Gartner 2024 B2B Buying Journey Report). Sales reps spend ~30% of their time searching for content (Gartner 2024 B2B Buying Journey Report). (Gartner 2024 B2B Buying Journey Report).
 ## Output Contract
 
 ### Deliverable: Markdown Account Brief
@@ -211,3 +210,10 @@ If no CRM is available:
 **Input**: Target account: "MedTech Solutions" (500 employees, B2B healthcare SaaS). Your product: marketing automation platform. CRM shows 3 past contacts — VP Marketing attended a webinar 6 months ago.
 
 **Output**: Account brief showing ICP fit score 82/100. Buying committee mapped (VP Marketing as champion, CFO as economic buyer, Marketing Ops Manager as technical evaluator). Tech stack: currently using Mailchimp (underweight for their size — displacement opportunity). Key signal: just raised Series C, hiring 5 marketing roles (expansion = budget for new tools). Recommended play: re-engage VP Marketing with case study from similar healthcare company, position as "growth-stage upgrade from Mailchimp." Top objection: migration cost/risk — counter with healthcare-specific migration playbook.
+
+## Related Skills
+
+- **[Buying Committee Mapper](./buying-committee-mapper.md)** — Use after account research to map decision makers and their priorities within the target account.
+- **[Competitor Messaging Tracker](../insights/competitor-messaging-tracker.md)** — Research competitor positioning in your target accounts to identify differentiation angles.
+- **[Win-Loss Interview Analyzer](../insights/win-loss-interview-analyzer.md)** — Analyze why similar accounts chose you or competitors to inform account-specific strategy.
+- **[Sales Deck Assembler](./sales-deck-assembler.md)** — Use account research to customize sales decks with relevant industry context and pain points.

@@ -15,7 +15,7 @@ Builds comprehensive PPC keyword strategies with keyword grouping, match type re
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing output in Google Ads, add 20-30 min for campaign setup. Input is product/service info and optional search term data. Output is Markdown keyword strategy with grouped keyword lists.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min building in Google Ads / Meta Ads Manager. If implementing output in Google Ads, add 20-30 min for campaign setup. Input is product/service info and optional search term data. Output is Markdown keyword strategy with grouped keyword lists.
 
 ## User Intent Mapping
 
@@ -194,3 +194,10 @@ Build 4 negative keyword lists:
 **Input**: "PPC keyword strategy for an online accounting software targeting small businesses. Goal: free trial signups. Budget: $5,000/month. Currently running broad match only with high CPA."
 
 **Output**: 4-campaign structure: (1) Brand (exact match brand terms, manual CPC $0.50 cap); (2) High Intent (exact + phrase: "accounting software free trial", "small business accounting tool", "online bookkeeping software" — 25 keywords); (3) Comparison (exact: "quickbooks alternative", "xero vs [brand]" — 15 keywords); (4) Solution (phrase: "small business tax tracking", "invoice management software" — 20 keywords). Negative keyword lists: Universal (47 terms including free download, open source, jobs, internship), Industry (32 terms including enterprise, corporate, SAP, Oracle), Cross-campaign negatives (brand terms excluded from non-brand campaigns). Bid strategy: switch from broad match to exact + phrase, use target CPA bidding at $35. Projected impact: CPA reduction from $65 to $35-40 by eliminating irrelevant broad match traffic. Weekly search terms mining SOP included.
+
+## Related Skills
+
+- **[google-ads-campaign-builder](./google-ads-campaign-builder.md)** — Use this skill to structure your complete Google Ads campaign after defining keyword strategy.
+- **[ad-performance-analyzer](./ad-performance-analyzer.md)** — Analyze keyword performance over time to identify top performers and optimization opportunities.
+- **[ad-budget-optimizer](./ad-budget-optimizer.md)** — Allocate budget across keywords based on performance and CPA.
+- **[landing-page-ad-matcher](./landing-page-ad-matcher.md)** — Ensure landing pages match keyword intent to improve Quality Score.

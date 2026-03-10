@@ -16,7 +16,7 @@ Generates a formal Marketing-Sales SLA document that defines lead stages, qualif
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is business context and team preferences. Output is a Markdown SLA document. No system access needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min implementing in your MarTech stack.** If implementing output in a platform, add 10-20 min for setup. Input is business context and team preferences. Output is a Markdown SLA document. No system access needed.
 
 ## User Intent Mapping
 
@@ -114,8 +114,7 @@ Define review cadence and metrics:
 > Both marketing and sales leadership must review and agree to the SLA. A one-sided SLA will fail. Schedule a joint review meeting before finalizing.
 
 
-> **Benchmark Context**: Average enterprise has 91 marketing tools in its stack. Brand compliance violations occur in 60% of co-branded partner materials. UTM tracking is implemented on only 40-50% of marketing URLs on average.
-
+> **Benchmark Context**: Average enterprise has 91 marketing tools in its stack. Brand compliance violations occur in 60% of co-branded partner materials (Gartner 2024 Marketing Technology Survey). UTM tracking is implemented on only 40-50% of marketing URLs on average. (Gartner 2024 Marketing Technology Survey).
 ## Output Contract
 
 ### Deliverable: Markdown SLA Document
@@ -205,3 +204,10 @@ No data export needed. Bring:
 **Input**: B2B SaaS, inside sales model, ~200 MQLs/month, 45-day sales cycle, HubSpot CRM. Pain point: "Sales says 60% of MQLs are junk. Marketing says sales doesn't follow up fast enough."
 
 **Output**: Full SLA document with tightened MQL criteria (added minimum company size and removed single-page-visit leads), 1-hour response time for high-score MQLs, mandatory disposition logging within 48 hours, weekly alignment meeting, shared dashboard with MQL acceptance rate and response time metrics. Marketing commits to 200 MQLs/month at 50%+ acceptance rate. Sales commits to 95% response time compliance and 6-touch follow-up sequence.
+
+## Related Skills
+
+- **[Lifecycle Stage Designer](../crm/lifecycle-stage-designer.md)** — Define stage criteria and transition rules aligned with SLA definitions.
+- **[Lead Scoring Model Builder](../crm/lead-scoring-model-builder.md)** — Translate SLA handoff criteria into lead scoring rules in your CRM.
+- **[Approval Bottleneck Analyzer](./approval-bottleneck-analyzer.md)** — Use approval cycle analysis data to set realistic SLA response times.
+- **[Vendor Performance Scorecard](./vendor-performance-scorecard.md)** — Track agency/vendor SLA compliance against terms defined.

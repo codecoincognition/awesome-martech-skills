@@ -15,7 +15,7 @@ Designs AI-powered content generation workflows with prompt engineering, quality
 
 ## Granularity Check
 
-> **Session time**: ~5 min context gathering + ~10 min Claude session. If implementing, add 1-2 weeks for workflow setup. Input is content needs, brand guidelines, and current process. Output is Markdown AI content workflow with prompts and governance.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min configuring in your marketing platform. If implementing, add 1-2 weeks for workflow setup. Input is content needs, brand guidelines, and current process. Output is Markdown AI content workflow with prompts and governance.
 
 ## User Intent Mapping
 
@@ -114,8 +114,7 @@ Designs AI-powered content generation workflows with prompt engineering, quality
 ### ⚠️ Human Checkpoint
 > Every piece of AI-generated content must be reviewed by a human before publication. Verify all facts, statistics, and claims. Check for hallucinations, especially in technical or industry-specific content. Review for brand voice consistency.
 
-> **Benchmark Context**: 73% of marketers use AI for content creation. AI-assisted content production is 3-5x faster than fully manual. Teams using AI with human editing report 40% more content output with same headcount. 85% of consumers can't distinguish well-edited AI content from human-written. Companies with AI content governance policies report 60% fewer quality incidents.
-
+> **Benchmark Context**: 73% of marketers use AI for content creation (Salesforce 2024 State of Marketing). AI-assisted content production is 3-5x faster than fully manual (Salesforce 2024 State of Marketing). Teams using AI with human editing report 40% more content output with same headcount (Salesforce 2024 State of Marketing). 85% of consumers can't distinguish well-edited AI content from human-written (Salesforce 2024 State of Marketing). Companies with AI content governance policies report 60% fewer quality incidents (Salesforce 2024 State of Marketing). (Salesforce 2024 State of Marketing).
 ## Output Contract
 
 ### Deliverable: Markdown AI Content Workflow
@@ -193,3 +192,10 @@ Designs AI-powered content generation workflows with prompt engineering, quality
 **Input**: "AI content workflow for a B2B SaaS marketing team. 3 content people. Currently producing 4 blog posts/month, want to reach 12. Also need 30 social posts/month and weekly email newsletter. Using Claude and HubSpot."
 
 **Output**: AI workflow by content type: (1) Blog posts — AI generates first draft from detailed brief (outline, key points, target keyword, tone). Human editor adds expertise, case studies, and brand voice. Quality: AI produces ~70% of draft, human adds ~30% of value. Output: 12 posts/month with same team. (2) Social posts — AI generates 5 variants per prompt for LinkedIn, Twitter, and Instagram. Human selects and refines top performers. Output: 30+/month in 2 hours/week vs. current 8 hours. (3) Email newsletter — AI drafts from content roundup + key message. Human personalizes intro and verifies all links/facts. Output: weekly newsletter in 1 hour vs. current 3 hours. Prompt library: 8 templates (blog intro, blog body, social LinkedIn, social Twitter, email newsletter, email subject lines, meta descriptions, product updates). Governance: all AI content tagged "AI-assisted" in HubSpot. Fact-check required on all blog posts. Social posts require tone review only. No AI for customer case studies (quotes must be real). Training: 2-hour team workshop on prompt engineering + weekly prompt review for first month.
+
+## Related Skills
+
+- **[Sentiment Analysis Monitor](./sentiment-analysis-monitor.md)** — Analyze audience reception of your AI-generated content to identify what messaging resonates best.
+- **[Customer Segmentation Engine](./customer-segmentation-engine.md)** — Use to tailor AI content generation to specific audience segments and personalize at scale.
+- **[Content Personalization Engine](../content/content-personalization-engine.md)** — Extend AI-generated content with dynamic personalization rules for individual users.
+- **[Email Automation Workflow](../email/email-automation-workflow.md)** — Deploy AI-generated email content through automated nurture sequences.

@@ -16,7 +16,7 @@ Maps the full buying committee for a target account, defining each stakeholder's
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is account context + known contacts. Output is a Markdown committee map. No system access needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min customizing for your prospect.** If implementing output in a platform, add 10-20 min for setup. Input is account context + known contacts. Output is a Markdown committee map. No system access needed.
 
 ## User Intent Mapping
 
@@ -119,8 +119,7 @@ Score the overall buying committee status:
 > Validate the committee map with your champion or coach inside the account. Organizational structures vary — don't assume based on title alone. Update the map as the deal progresses.
 
 
-> **Benchmark Context**: Average B2B sales cycle is 102 days. Win rates average 20-30% for qualified opportunities. Top-performing sales orgs use 5-7 pieces of content per deal cycle. Sales reps spend ~30% of their time searching for content.
-
+> **Benchmark Context**: Average B2B sales cycle is 102 days. Win rates average 20-30% for qualified opportunities (Gartner 2024 B2B Buying Journey Report). Top-performing sales orgs use 5-7 pieces of content per deal cycle (Gartner 2024 B2B Buying Journey Report). Sales reps spend ~30% of their time searching for content (Gartner 2024 B2B Buying Journey Report). (Gartner 2024 B2B Buying Journey Report).
 ## Output Contract
 
 ### Deliverable: Markdown Buying Committee Map
@@ -207,3 +206,10 @@ If no CRM is available:
 **Input**: Target: "GlobalHealth Systems" (2,000 employees, healthcare IT). Selling: data analytics platform, $150K deal. Known contact: Director of Marketing Analytics (attended demo, enthusiastic). Competitor: Tableau (entrenched in IT department).
 
 **Output**: 7-person committee mapped. Champion: Director of Marketing Analytics (user buyer + champion). Economic Buyer: CMO (needs ROI story, engage week 3 via exec sponsor). Technical Evaluator: VP of IT (Tableau advocate = potential blocker — needs integration story, not replacement story). Gatekeeper: Procurement (engage early with pre-approved pricing structure). Key risk: IT blocker comfortable with Tableau. Mitigation: position as "complements Tableau for marketing-specific use cases" rather than replacement. Missing intelligence: who is the CISO (security approval needed for healthcare data).
+
+## Related Skills
+
+- **[Account Research Synthesizer](./account-research-synthesizer.md)** — Use before committee mapping to gather firmographic and organizational data about the target account.
+- **[Sales Deck Assembler](./sales-deck-assembler.md)** — Customize presentations per committee member role and priorities identified in your mapping.
+- **[Audience Persona Builder](../insights/audience-persona-builder.md)** — Build data-driven personas from buying committee insights to inform broader marketing strategy.
+- **[Campaign Angle Generator](../insights/campaign-angle-generator.md)** — Generate messaging angles tailored to each committee member's priorities and objections.

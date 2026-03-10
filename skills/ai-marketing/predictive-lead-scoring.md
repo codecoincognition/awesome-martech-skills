@@ -15,7 +15,7 @@ Builds predictive lead scoring models combining behavioral signals, firmographic
 
 ## Granularity Check
 
-> **Session time**: ~10 min data prep + ~15 min Claude session. If implementing in CRM, add 1-2 weeks. Input is lead data, conversion history, and sales feedback. Output is Markdown scoring model with rules and implementation plan.
+> **Time**: ~10 min data prep → ~15 min Claude session → ~30-60 min configuring in your marketing platform. If implementing in CRM, add 1-2 weeks. Input is lead data, conversion history, and sales feedback. Output is Markdown scoring model with rules and implementation plan.
 
 ## User Intent Mapping
 
@@ -114,8 +114,7 @@ Builds predictive lead scoring models combining behavioral signals, firmographic
 ### ⚠️ Human Checkpoint
 > Validate scoring model with sales team before go-live. Review scoring rules quarterly against actual conversion data. Ensure scoring doesn't introduce bias (geographic, company size, or demographic biases that exclude good leads).
 
-> **Benchmark Context**: Companies with lead scoring see 77% lift in lead generation ROI. Sales teams using lead scoring spend 30% less time on unqualified leads. Predictive scoring models outperform rule-based by 25-40% when sufficient training data exists. Only 44% of companies use lead scoring despite its proven impact. Companies that align scoring with sales feedback see 20% higher win rates.
-
+> **Benchmark Context**: Companies with lead scoring see 77% lift in lead generation ROI. Sales teams using lead scoring spend 30% less time on unqualified leads (McKinsey 2024 State of AI Report). Predictive scoring models outperform rule-based by 25-40% when sufficient training data exists (Salesforce 2024 State of Marketing). Only 44% of companies use lead scoring despite its proven impact. Companies that align scoring with sales feedback see 20% higher win rates. (Salesforce 2024 State of Marketing).
 ## Output Contract
 
 ### Deliverable: Markdown Lead Scoring Model
@@ -197,3 +196,10 @@ Builds predictive lead scoring models combining behavioral signals, firmographic
 **Input**: "Build lead scoring model. B2B SaaS, $5K-50K ACV. ICP: 50-500 employees, tech/SaaS/fintech, VP+ in marketing or growth. Using HubSpot. 500 leads/month, 15% MQL rate, 5% close rate. Sales says too many unqualified MQLs."
 
 **Output**: New scoring model (100-point scale): Firmographic (30 pts max): company size 50-500 = 15 pts, 500-2000 = 10 pts, <50 = 0 pts. Industry match = 10 pts. Revenue $5M-100M = 5 pts. Demographic (20 pts): VP/Director/C-level = 20 pts, Manager = 10 pts, Individual contributor = 0 pts. Marketing/Growth department = bonus 5 pts. Behavioral (35 pts): pricing page visit = 15 pts, demo request form = 20 pts (auto-MQL), case study download = 10 pts, 3+ blog visits in 7 days = 5 pts, email click = 3 pts (max 9 pts from emails). Intent (15 pts): free trial signup = 15 pts (auto-MQL), product comparison page = 10 pts, competitor keyword search = 5 pts. Negative: careers page = -10, student email = -20, competitor company = -30. Grades: A (75+) = immediate SDR outreach, B (55-74) = SDR within 24h, C (35-54) = nurture, D (<35) = no sales action. Expected result: MQL volume drops 30% but MQL-to-SQL conversion doubles from 20% to 40%.
+
+## Related Skills
+
+- **[Lead Scoring Model Builder](../crm/lead-scoring-model-builder.md)** — Use as a simpler alternative if you need rule-based scoring, or combine with predictive scoring for hybrid approach.
+- **[Lifecycle Stage Designer](../crm/lifecycle-stage-designer.md)** — Map predicted scores to lifecycle stages to route leads to appropriate workflows.
+- **[Automation Workflow Designer](../crm/automation-workflow-designer.md)** — Route high-scoring leads into automated nurture and qualification workflows based on predictive scores.
+- **[Customer Segmentation Engine](./customer-segmentation-engine.md)** — Layer segments on top of predictive scoring to optimize lead prioritization by customer type.

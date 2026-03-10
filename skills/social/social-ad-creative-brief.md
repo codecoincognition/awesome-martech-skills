@@ -15,7 +15,7 @@ Creates detailed creative briefs for paid social ads with visual concepts, copy 
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing output in a platform, add 20-30 min for design handoff. Input is product info and campaign objective. Output is Markdown creative brief with 3+ concept directions.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~20-40 min scheduling in Buffer / Hootsuite / native platform. If implementing output in a platform, add 20-30 min for design handoff. Input is product info and campaign objective. Output is Markdown creative brief with 3+ concept directions.
 
 ## User Intent Mapping
 
@@ -99,8 +99,7 @@ For each concept, define:
 ### ⚠️ Human Checkpoint
 > Review concepts for brand safety, legal compliance (disclaimers, disclosures), and platform-specific ad policies before production.
 
-> **Benchmark Context**: UGC-style ads outperform polished branded content by 2-4x on Meta and TikTok. Video ads convert 20-30% better than static on Meta. Average ad creative fatigue sets in after 2-4 weeks. Top-performing ads use a strong hook in the first 1-3 seconds.
-
+> **Benchmark Context**: UGC-style ads outperform polished branded content by 2-4x on Meta and TikTok (Buffer 2024 State of Social). Video ads convert 20-30% better than static on Meta. Average ad creative fatigue sets in after 2-4 weeks. Top-performing ads use a strong hook in the first 1-3 seconds. (Buffer 2024 State of Social).
 ## Output Contract
 
 ### Deliverable: Markdown Creative Brief
@@ -175,3 +174,10 @@ For each concept, define:
 **Input**: "Ad creative brief for a $49/mo meal planning app. Objective: app installs. Platforms: TikTok + Meta Reels. Target: busy parents 28-40."
 
 **Output**: 3 concepts. Concept 1 ("Fridge Panic"): UGC-style video opening with someone staring at empty fridge, then showing app solving it in 30 seconds. Hook: "It's 5:30 PM and you have NO idea what's for dinner." Concept 2 ("Sunday Prep"): Before/after split screen — chaos vs. organized meal prep powered by app. Concept 3 ("Kid-Approved"): Testimonial-style with real parent showing kid eating a meal planned by app. A/B test: Concept 1 hook vs. Concept 2 hook, same CTA ("Try free for 7 days").
+
+## Related Skills
+
+- **[Social Content Calendar](./social-content-calendar.md)** — Use to plan organic content that complements your paid social ad creative.
+- **[Influencer Outreach Brief](./influencer-outreach-brief.md)** — Use to align paid creative briefs with influencer collaboration requirements.
+- **[Meta Ads Campaign Builder](../ads/meta-ads-campaign-builder.md)** — Use to execute the creative briefs with actual ad setup on Meta platforms.
+- **[Campaign Brief Synthesizer](../content/campaign-brief-synthesizer.md)** — Use to align social ad creative with broader campaign messaging.

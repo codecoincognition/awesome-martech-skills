@@ -15,7 +15,7 @@ Designs email automation workflows with trigger logic, branching paths, timing o
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing, add 2-6 hours per workflow in your ESP. Input is customer journey and business goals. Output is Markdown workflow blueprint with email specifications.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-45 min setup in Mailchimp / Klaviyo / HubSpot. If implementing, add 2-6 hours per workflow in your ESP. Input is customer journey and business goals. Output is Markdown workflow blueprint with email specifications.
 
 ## User Intent Mapping
 
@@ -104,8 +104,7 @@ Per workflow:
 ### ⚠️ Human Checkpoint
 > Review all automated email content for accuracy, brand voice, and compliance before activating. Test the complete flow with internal addresses first. Set up alerts for unusual unsubscribe rates in automated flows. Verify suppression rules prevent over-emailing.
 
-> **Benchmark Context**: Cart abandonment emails recover 5-15% of abandoned carts. Welcome series generate 320% more revenue per email than promotional campaigns. Automated emails generate 29% of email marketing revenue with only 2% of sends. Post-purchase flows increase repeat purchase rate by 20-40%. Optimal cart abandonment timing: first email within 1 hour, second at 24 hours, third at 72 hours.
-
+> **Benchmark Context**: Cart abandonment emails recover 5-15% of abandoned carts. Welcome series generate 320% more revenue per email than promotional campaigns. Automated emails generate 29% of email marketing revenue with only 2% of sends (Mailchimp 2024 Email Marketing Benchmarks). Post-purchase flows increase repeat purchase rate by 20-40%. Optimal cart abandonment timing: first email within 1 hour, second at 24 hours, third at 72 hours.
 ## Output Contract
 
 ### Deliverable: Markdown Workflow Blueprint
@@ -193,3 +192,10 @@ Per workflow:
 **Input**: "Email automation for a DTC coffee subscription. Shopify + Klaviyo. Flows needed: welcome series, cart abandonment, post-purchase. Subscription average is $24/month. 30% of first-time buyers never reorder."
 
 **Output**: 3 workflows designed: (1) Welcome Series (5 emails over 14 days): Email 1 (immediate) — welcome + brand story + 10% first order; Email 2 (day 2) — coffee sourcing story; Email 3 (day 5) — brewing guide (educational); Email 4 (day 9) — customer reviews + social proof; Email 5 (day 14, non-buyers only) — expiring discount reminder. (2) Cart Abandonment (3 emails): Email 1 (1 hour) — "Your cart is waiting" with product image; Email 2 (24 hours, if didn't open #1) — "Still thinking it over?" with reviews; Email 3 (72 hours) — "Last chance" + free shipping offer. Expected recovery: 8-12%. (3) Post-Purchase (4 emails): Email 1 (day 1) — order confirmation + brewing tips for their blend; Email 2 (day 7) — "How's your coffee?" satisfaction check; Email 3 (day 21) — running low reminder + easy reorder link; Email 4 (day 28, non-reorderers) — subscription pitch with 15% discount. Expected: reduce 30% churn-after-first-purchase to 18-22%. Suppression: all flows exclude active support ticket holders and anyone who purchased in last 48 hours.
+
+## Related Skills
+
+- **[Email Sequence Builder](./email-sequence-builder.md)** — Use to design the individual email sequences that power your automation workflows and trigger logic.
+- **[Email List Segmentation](./email-list-segmentation.md)** — Use to define the audience segments that trigger different automation paths and branching logic.
+- **[Email Compliance Checker](./email-compliance-checker.md)** — Use to ensure your automation workflows comply with CAN-SPAM, GDPR, and other regulations.
+- **[Lead Scoring Model Builder](../crm/lead-scoring-model-builder.md)** — Use to set up scoring triggers that feed into your automation workflow logic.

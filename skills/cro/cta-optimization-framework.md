@@ -15,7 +15,7 @@ Optimizes calls-to-action across web, email, and ads through copy testing, desig
 
 ## Granularity Check
 
-> **Session time**: ~5 min context gathering + ~10 min Claude session. If implementing, add 1-3 days for design and testing. Input is current CTAs and performance data. Output is Markdown optimization plan with CTA variants and testing strategy.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min implementing in your testing tool / CMS. If implementing, add 1-3 days for design and testing. Input is current CTAs and performance data. Output is Markdown optimization plan with CTA variants and testing strategy.
 
 ## User Intent Mapping
 
@@ -114,8 +114,7 @@ Optimizes calls-to-action across web, email, and ads through copy testing, desig
 ### ⚠️ Human Checkpoint
 > Verify all CTA links work and go to correct destinations. Test CTAs on all devices and browsers. Ensure CTA text aligns with destination page content (don't promise what the landing page doesn't deliver).
 
-> **Benchmark Context**: Personalized CTAs convert 202% better than default. First-person phrasing increases CTR by 25-30%. Single CTA emails increase clicks by 371%. CTAs above the fold get 80% of attention. Red and green buttons perform similarly — contrast with surroundings matters more than specific color. Anchor text CTAs in blog posts generate 47-93% of leads for inbound marketing.
-
+> **Benchmark Context**: Personalized CTAs convert 202% better than default (Unbounce 2024 Conversion Benchmark Report). First-person phrasing increases CTR by 25-30%. Single CTA emails increase clicks by 371% (Unbounce 2024 Conversion Benchmark Report). CTAs above the fold get 80% of attention (Unbounce 2024 Conversion Benchmark Report). Red and green buttons perform similarly — contrast with surroundings matters more than specific color. Anchor text CTAs in blog posts generate 47-93% of leads for inbound marketing (Unbounce 2024 Conversion Benchmark Report). (Unbounce 2024 Conversion Benchmark Report).
 ## Output Contract
 
 ### Deliverable: Markdown CTA Optimization Plan
@@ -191,3 +190,10 @@ Optimizes calls-to-action across web, email, and ads through copy testing, desig
 **Input**: "CTA optimization for SaaS homepage. Current CTA: 'Get Started' button above fold. CTR: 1.8%. Also have 'Learn More' and 'Watch Demo' competing. 10K monthly visitors. Target: increase trial signups."
 
 **Output**: Problem: 3 competing CTAs diluting attention — "Get Started" is vague and doesn't communicate value. Solution: single primary CTA hierarchy. Primary (above fold): "Start Free — No Credit Card Needed" (action + risk-reducer). Why: adds specificity ("free") and removes objection ("no credit card"). Expected CTR: 3-4%. Secondary (after features section): "See [Product] in 2 Minutes" (links to demo video — lower commitment than trial). Tertiary (sticky header): "Start Free Trial" (persistent, lower visual weight). Remove: "Learn More" (vague, sends people to more reading instead of action). CTA design: primary button — filled, high-contrast color, 48px height, centered above fold with 40px top margin. A/B test plan: (1) "Get Started" vs. "Start Free — No Credit Card Needed" (copy test, 2 weeks). (2) Winner vs. "Try [Product] Free for 14 Days" (specificity test). (3) Test CTA position: above fold only vs. above fold + after each feature section. Expected results: homepage trial starts increase from 180/month to 300-400/month with optimized CTA hierarchy.
+
+## Related Skills
+
+- **ab-test-designer** (./ab-test-designer.md) — Design statistically sound A/B tests for CTA copy and design variations; use to validate which CTA changes drive highest conversion.
+- **landing-page-optimizer** (./landing-page-optimizer.md) — Optimize the context above and around your CTAs to increase overall page conversion; CTAs are most effective with strong value proposition.
+- **heatmap-analysis-toolkit** (./heatmap-analysis-toolkit.md) — Analyze where users click and which CTAs get attention; use heatmaps to find missed CTA opportunities.
+- **campaign-angle-generator** (../growth/campaign-angle-generator.md) — Generate compelling messaging angles for your CTAs; use to create more persuasive CTA copy variations.

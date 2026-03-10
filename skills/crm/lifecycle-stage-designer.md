@@ -15,7 +15,7 @@ Designs CRM lifecycle stages, lead qualification criteria, pipeline definitions,
 
 ## Granularity Check
 
-> **Session time**: ~10 min context gathering + ~15 min Claude session. If implementing, add 1-2 weeks for CRM configuration. Input is current CRM setup and business process. Output is Markdown lifecycle architecture with stage definitions, criteria, and automation rules.
+> **Time**: ~10 min data prep → ~15 min Claude session → ~30-60 min configuring in Salesforce / HubSpot. If implementing, add 1-2 weeks for CRM configuration. Input is current CRM setup and business process. Output is Markdown lifecycle architecture with stage definitions, criteria, and automation rules.
 
 ## User Intent Mapping
 
@@ -129,8 +129,7 @@ MQL threshold: 50+ points. SQL threshold: 80+ points OR explicit request.
 ### ⚠️ Human Checkpoint
 > Get buy-in from both marketing and sales leadership before implementing lifecycle changes. CRM stage changes affect reporting, automation, and team workflows. Test new stages with a subset of leads before full rollout.
 
-> **Benchmark Context**: Companies with defined lifecycle stages convert MQLs to SQLs at 2-3x the rate of those without. Average MQL-to-SQL conversion: 13% (varies by industry). Average SQL-to-close: 20-30% for B2B SaaS. Leads contacted within 5 minutes are 9x more likely to convert. Companies with sales-marketing SLAs see 36% higher customer retention.
-
+> **Benchmark Context**: Companies with defined lifecycle stages convert MQLs to SQLs at 2-3x the rate of those without (HubSpot 2024 State of Marketing) Average MQL-to-SQL conversion: 13% (varies by industry). . Average SQL-to-close: 20-30% for B2B SaaS. . Leads contacted within 5 minutes are 9x more likely to convert (Salesforce 2024 State of Marketing) Companies with sales-marketing SLAs see 36% higher customer retention (Salesforce 2024 State of Marketing) (Salesforce 2024 State of Marketing).
 ## Output Contract
 
 ### Deliverable: Markdown Lifecycle Architecture
@@ -216,3 +215,10 @@ MQL threshold: 50+ points. SQL threshold: 80+ points OR explicit request.
 **Input**: "Design lifecycle stages for our B2B SaaS. HubSpot CRM. Team: 2 marketers, 2 SDRs, 3 AEs. Monthly leads: ~500 from website. Average deal: $12K/year. Sales cycle: 30-45 days. Currently no defined MQL criteria — marketing sends everything to sales."
 
 **Output**: Problem: 500 unqualified leads per month overwhelm 2 SDRs (250 each). Solution: implement MQL filter to send only qualified leads. Lifecycle: Subscriber → Lead → MQL → SQL → Opportunity → Customer → Evangelist. MQL criteria: (1) Demographic: director+ title at 50-500 employee company in target industries. (2) Behavioral: visited pricing page OR downloaded 2+ resources OR attended webinar. Expected MQL volume: 75-100/month (15-20% of 500 leads). SDR workload: 37-50 MQLs each — manageable for quality follow-up. MQL-to-SQL target: 25% (19-25 SQLs/month). SQL-to-Close target: 30% (6-8 new customers/month). Pipeline: Discovery (10%) → Demo (25%) → Proposal (50%) → Negotiation (75%) → Closed. SLA: marketing delivers MQLs in real-time, SDRs contact within 1 hour, SDRs disposition within 48 hours. Automation: HubSpot workflow triggers SDR notification when lead reaches MQL score threshold (50 points), creates deal automatically when SDR marks as SQL.
+
+## Related Skills
+
+- **[Lead Scoring Model Builder](./lead-scoring-model-builder.md)** — Define scoring criteria that map to stage progression for consistent lead qualification.
+- **[Automation Workflow Designer](./automation-workflow-designer.md)** — Route leads through workflows based on lifecycle stage transitions.
+- **[SLA Document Generator](../martech-ops/sla-document-generator.md)** — Formalize stage definitions and handoff criteria in a sales-marketing SLA.
+- **[Segmentation Rule Builder](./segmentation-rule-builder.md)** — Create dynamic segments by lifecycle stage for targeted nurture campaigns.

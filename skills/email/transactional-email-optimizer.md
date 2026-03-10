@@ -15,7 +15,7 @@ Optimizes transactional emails (order confirmations, shipping updates, receipts,
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing, add 2-4 hours for template redesign. Input is current transactional emails and business context. Output is Markdown optimization plan with template recommendations.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-45 min setup in Mailchimp / Klaviyo / HubSpot. If implementing, add 2-4 hours for template redesign. Input is current transactional emails and business context. Output is Markdown optimization plan with template recommendations.
 
 ## User Intent Mapping
 
@@ -105,8 +105,7 @@ Per transactional email:
 ### ⚠️ Human Checkpoint
 > Verify all order and transaction data accuracy in email templates. Review cross-sell recommendations for appropriateness. Ensure transactional emails maintain their primary transactional purpose (legal classification). Test delivery speed — transactional emails should arrive within seconds.
 
-> **Benchmark Context**: Transactional emails have 80-85% open rates vs. 20-25% for marketing emails. Cross-sell in order confirmations generates 20% of transactional email revenue. Shipping confirmation clicks are 2-3x higher than marketing emails. 64% of consumers consider order confirmation the most valuable email they receive. Post-delivery review requests get 4x the response rate of random timing.
-
+> **Benchmark Context**: Transactional emails have 80-85% open rates vs (Mailchimp 2024 Email Marketing Benchmarks). 20-25% for marketing emails. Cross-sell in order confirmations generates 20% of transactional email revenue. Shipping confirmation clicks are 2-3x higher than marketing emails. 64% of consumers consider order confirmation the most valuable email they receive. Post-delivery review requests get 4x the response rate of random timing. (Mailchimp 2024 Email Marketing Benchmarks).
 ## Output Contract
 
 ### Deliverable: Markdown Transactional Email Plan
@@ -181,3 +180,10 @@ Per transactional email:
 **Input**: "Optimize transactional emails for a DTC supplement brand on Shopify. Currently using default Shopify emails — no branding, no cross-sell. 15K orders/month. Using SendGrid for delivery."
 
 **Output**: 5 transactional emails optimized: (1) Order Confirmation — add branded header, order summary with product images, estimated delivery date, "How to get the most from your supplements" CTA linking to blog, cross-sell: related product recommendation (1 product max). (2) Shipping Confirmation — tracking link prominent, expected delivery date, "What to expect" section for first-time buyers, cross-sell: subscribe & save prompt for reorder. (3) Delivery Confirmation — "Your order has arrived" with review request CTA, referral offer ("Give $15, Get $15"), usage tips for purchased products. (4) Account Welcome — brand story, "Complete your profile" for personalization, first-purchase incentive if not yet ordered. (5) Subscription Renewal — clear billing summary, easy manage/cancel link (reduces support tickets), loyalty points earned. Revenue opportunity: at 15K orders/month with 85% open rate, even 1% cross-sell conversion = 127 additional orders/month. Implementation: Phase 1 (week 1) — branded templates for all 5 emails; Phase 2 (week 2) — add cross-sell to order and delivery confirmations; Phase 3 (week 3) — review request and referral in delivery confirmation.
+
+## Related Skills
+
+- **[Email Template Designer](./email-template-designer.md)** — Use to design transactional email templates with your brand colors and layout.
+- **[Email Copywriting Framework](./email-copywriting-framework.md)** — Use to optimize transactional email copy and CTAs for conversions.
+- **[Email Deliverability Auditor](./email-deliverability-auditor.md)** — Use to ensure transactional emails have proper authentication and aren't flagged as spam.
+- **[Customer Onboarding Optimizer](../crm/customer-onboarding-optimizer.md)** — Use to optimize the transactional emails sent during the customer onboarding journey.

@@ -15,7 +15,7 @@ Analyzes cross-channel ad performance data to recommend optimal budget allocatio
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing output in a platform, add 15-20 min for budget adjustments. Input is multi-channel performance CSV. Output is Markdown optimization report with budget reallocation plan.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min building in Google Ads / Meta Ads Manager. If implementing output in a platform, add 15-20 min for budget adjustments. Input is multi-channel performance CSV. Output is Markdown optimization report with budget reallocation plan.
 
 ## User Intent Mapping
 
@@ -97,8 +97,7 @@ Model 3 scenarios:
 ### ⚠️ Human Checkpoint
 > Review reallocation recommendations against business context — some channels serve brand/awareness goals that CPA alone doesn't capture. Verify no contractual minimum spends would be violated. Consider attribution model differences before making large shifts.
 
-> **Benchmark Context**: Top advertisers allocate 60-70% of budget to proven channels and 15-20% to testing. Optimal reallocation frequency is monthly (weekly is too reactive, quarterly is too slow). Diminishing returns typically set in when you increase spend by 50%+ in a single channel. Cross-channel attribution shows 15-25% conversion overlap between Google and Meta.
-
+> **Benchmark Context**: Top advertisers allocate 60-70% of budget to proven channels and 15-20% to testing (Statista 2024 Digital Advertising Report). Optimal reallocation frequency is monthly (weekly is too reactive, quarterly is too slow). Diminishing returns typically set in when you increase spend by 50%+ in a single channel (Statista 2024 Digital Advertising Report). Cross-channel attribution shows 15-25% conversion overlap between Google and Meta (Forrester 2024 Marketing Attribution Study).
 ## Output Contract
 
 ### Deliverable: Markdown Optimization Report
@@ -175,3 +174,10 @@ Model 3 scenarios:
 **Input**: CSV with 3 months of data across Google Ads ($4K/mo, $45 CPA), Meta ($3K/mo, $38 CPA), LinkedIn ($2K/mo, $120 CPA), TikTok ($1K/mo, $28 CPA). Total budget: $10K/month. Goal: maximize conversions at <$50 CPA.
 
 **Output**: Efficiency ranking: TikTok ($28) > Meta ($38) > Google ($45) > LinkedIn ($120). LinkedIn CPA 2.4x above target — recommend reducing from $2K to $800 (awareness budget only). TikTok showing no diminishing returns at current spend — recommend scaling from $1K to $2.5K. Conservative scenario: shift $1.2K from LinkedIn to TikTok → projected blended CPA drops from $51 to $42 (+22 additional conversions/month). Moderate scenario: reduce LinkedIn to $800, increase TikTok to $2.5K, increase Meta to $3.7K → projected CPA $39 (+38 additional conversions). Action items: (1) Scale TikTok 25%/week over 4 weeks, (2) Reduce LinkedIn to brand awareness only, (3) Test new Meta audiences with the freed budget.
+
+## Related Skills
+
+- **[ad-performance-analyzer](./ad-performance-analyzer.md)** — Use before this skill to identify which channels and campaigns are underperforming.
+- **[ppc-keyword-strategy](./ppc-keyword-strategy.md)** — Optimize after reallocation by refining keyword targeting to reduce CPA on allocated budget.
+- **[audience-targeting-builder](./audience-targeting-builder.md)** — Use in parallel to segment budget across more targeted audience layers, maximizing efficiency.
+- **[marketing-roi-calculator](../analytics/marketing-roi-calculator.md)** — Validate budget reallocation ROI projections with this analysis tool.

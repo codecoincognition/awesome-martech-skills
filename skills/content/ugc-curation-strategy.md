@@ -15,7 +15,7 @@ Plans user-generated content programs — collection mechanisms, curation workfl
 
 ## Granularity Check
 
-> **Session time**: ~5 min context gathering + ~10 min Claude session. If implementing, add 1-2 weeks for program setup. Input is current UGC sources and marketing goals. Output is Markdown UGC strategy with collection and amplification plan.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~60-120 min building in your project management tool. If implementing, add 1-2 weeks for program setup. Input is current UGC sources and marketing goals. Output is Markdown UGC strategy with collection and amplification plan.
 
 ## User Intent Mapping
 
@@ -194,3 +194,10 @@ Plans user-generated content programs — collection mechanisms, curation workfl
 **Input**: "UGC strategy for a DTC skincare brand. 50K customers, 25K Instagram followers. Getting ~20 mentions/week on Instagram (mostly Stories). No formal UGC program. Want to use customer content on product pages and in ads."
 
 **Output**: Current UGC: 20 mentions/week = ~80/month, but most are Stories (expire in 24 hours) and low-resolution. Target: 200+ reusable UGC pieces/month. Collection plan: (1) Post-purchase email with photo prompt (Day 14 after delivery — enough time to see results) — "Share your glow-up with #[BrandName]Results for a chance to be featured + 15% off next order." Expected: 5-8% response rate = 200+ submissions/month. (2) Instagram story prompt with "Add Yours" sticker monthly — theme-based (routine, before/after, morning ritual). (3) Ambassador program: 20 micro-customers (not influencers) who create monthly content for product credits. Rights: DM template requesting permission within 24 hours of mention. Add clause to checkout terms allowing review/photo usage on website. Amplification: Tier 1 (ad-quality photos/videos, ~10%) → paid social ads, product pages. Tier 2 (good social content, ~30%) → brand social feed, email campaigns. Tier 3 (reviews/text, ~60%) → product pages, review sections. Expected impact: 25-35% conversion lift on product pages with UGC, 3-4x higher ad CTR with UGC creative vs. studio creative.
+
+## Related Skills
+
+- **[Social Engagement Analyzer](../social/social-engagement-analyzer.md)** — Use to identify top-performing UGC and understand what resonates with your audience.
+- **[Social Listening Report](../social/social-listening-report.md)** — Use to discover and monitor user-generated content about your brand across social platforms.
+- **[Community Management Playbook](../social/community-management-playbook.md)** — Use to establish guidelines for identifying, curating, and engaging with UGC from your community.
+- **[Content Distribution Strategy](./content-distribution-strategy.md)** — Use to amplify curated UGC through your owned and paid channels.

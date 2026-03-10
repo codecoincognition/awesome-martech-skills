@@ -15,7 +15,7 @@ Manages crisis communications with structured response frameworks, stakeholder m
 
 ## Granularity Check
 
-> **Session time**: During active crisis: ~5 min briefing + ~15 min Claude session for initial response. For preparedness planning: ~15 min context + ~20 min session. Input is crisis details, stakeholders, and communication channels. Output is Markdown crisis response plan with messaging templates, stakeholder matrix, and timeline.
+> **Time**: During active crisis: ~5 min briefing → ~15 min Claude session → ~20-45 min sending / implementing. For preparedness planning: ~15 min context → ~20 min Claude session → ~20-45 min sending / implementing. Input is crisis details, stakeholders, and communication channels. Output is Markdown crisis response plan with messaging templates, stakeholder matrix, and timeline.
 
 ## User Intent Mapping
 
@@ -142,8 +142,7 @@ What NOT to say:
 ### ⚠️ Human Checkpoint
 > All crisis communications MUST be reviewed by legal counsel before publication — especially for data breaches, product safety issues, or regulatory matters. Never speculate about cause, blame, or impact without confirmed facts. Ensure your spokesperson is media-trained and aligned on key messages before any interviews.
 
-> **Benchmark Context**: 53% of consumers expect brands to respond to a crisis within 1 hour on social media. Companies with a crisis plan respond 2x faster and recover reputation 3x faster. 70% of consumers say a brand's crisis response affects their purchase decisions. Post-crisis transparency (sharing what went wrong and how you fixed it) increases trust by 15-20%. Companies that handle crises well can end up with higher brand trust than before the crisis.
-
+> **Benchmark Context**: 53% of consumers expect brands to respond to a crisis within 1 hour on social media (Muck Rack 2024 State of PR). Companies with a crisis plan respond 2x faster and recover reputation 3x faster. 70% of consumers say a brand's crisis response affects their purchase decisions. Post-crisis transparency (sharing what went wrong and how you fixed it) increases trust by 15-20%. Companies that handle crises well can end up with higher brand trust than before the crisis. (Muck Rack 2024 State of PR).
 ## Output Contract
 
 ### Deliverable: Markdown Crisis Response Plan
@@ -237,3 +236,10 @@ What NOT to say:
 **Input**: "Crisis response: a customer posted a viral tweet (45K retweets) showing a bug in our software that exposed other users' email addresses. It's been 2 hours. We've confirmed the bug and fixed it. ~200 users were affected. No passwords or payment data was exposed. We haven't said anything publicly yet."
 
 **Output**: Crisis level: 3 (High) — data exposure + viral social attention. You're 2 hours in and haven't responded — this is urgent. Immediate actions (next 30 minutes): (1) Post on Twitter/X: "We're aware of a data display issue reported earlier today. We identified and fixed the bug within [X] hours. We're reaching out directly to affected users now. More details: [link to blog post]." (2) Publish blog post (300 words): acknowledge the bug, explain scope (email addresses only, no passwords/payment data, ~200 users), explain the fix, outline steps to prevent recurrence. (3) Email the ~200 affected users directly: what happened, that it's fixed, what data was exposed (email only), what to watch for, and a direct contact for questions. (4) Internal Slack: brief all employees with key messages and explicit instruction to not comment publicly — direct all inquiries to PR. Key messages: factual, empathetic, action-oriented. Lead with: "We take our users' privacy seriously. Earlier today, a software bug briefly exposed email addresses for approximately 200 users. We identified and fixed the issue within [X] hours." Avoid: calling it "minor" (the viral tweet means public perception is already amplified). Recovery (next 7 days): publish a technical post-mortem explaining the root cause and new safeguards. Offer affected users a direct line to your security team.
+
+## Related Skills
+
+- **[Media Pitch Builder](./media-pitch-builder.md)** — After crisis response, use to pitch positive news to rebuild reputation.
+- **[Social Crisis Response Plan](../social/social-crisis-response-plan.md)** — Develop social media crisis response protocols alongside broader crisis comms strategy.
+- **[Press Release Writer](./press-release-writer.md)** — Draft crisis response statements in press release format when needed.
+- **[Competitor Messaging Tracker](../insights/competitor-messaging-tracker.md)** — Monitor competitor reactions during your crisis to inform response strategy.

@@ -15,7 +15,7 @@ Plans multi-channel content distribution across organic, paid, earned, and owned
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing, add 2-4 hours for channel setup. Input is content inventory and channel access. Output is Markdown distribution plan with channel-specific tactics.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~60-120 min building in your project management tool. If implementing, add 2-4 hours for channel setup. Input is content inventory and channel access. Output is Markdown distribution plan with channel-specific tactics.
 
 ## User Intent Mapping
 
@@ -177,3 +177,10 @@ Plans multi-channel content distribution across organic, paid, earned, and owned
 **Input**: "Content distribution strategy for a B2B SaaS blog. Publishing 2 posts/week. Channels: email (12K subscribers), LinkedIn company page (5K followers), Twitter (2K followers). No paid budget. Team of 1 marketer."
 
 **Output**: Priority channels: (1) Email — highest ROI for B2B; segment by topic; feature each post in weekly digest + 1 dedicated send/month for pillar content. (2) LinkedIn — post as personal profile (CEO or marketer), not company page; native text post with key insight + link in first comment; 3x posts per blog post (publish day, 3 days later with different angle, 1 week later with data point). (3) Twitter — thread summarizing key points; schedule 4 tweets over 2 weeks per post. (4) FREE additions: repurpose to LinkedIn newsletter (algorithmic boost), submit to relevant Slack communities and subreddits (genuine value, not link-dropping), internal links from older blog posts. Distribution checklist per post: Day 0 — publish, email to segment, LinkedIn post (personal), Twitter thread. Day 1 — share in 2 communities. Day 3 — LinkedIn repost with new angle. Week 2 — Twitter reminder. Month 2 — repurpose as infographic or carousel. Expected results: email drives 40-50% of traffic, LinkedIn 20-30%, organic search 15-20% (growing over time).
+
+## Related Skills
+
+- **[Content Pillar Strategy](./content-pillar-strategy.md)** — Use to understand your content hierarchy before planning distribution; pillar pages need different distribution than cluster content.
+- **[Content Repurposer](./content-repurposer.md)** — Use to create multiple derivative assets from each piece of content before distributing across channels.
+- **[Social Content Calendar](../social/social-content-calendar.md)** — Use to align your organic and paid social distribution with your broader content distribution strategy.
+- **[Editorial Calendar Builder](./editorial-calendar-builder.md)** — Use to embed distribution timelines and channel requirements into your content calendar.

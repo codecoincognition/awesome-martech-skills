@@ -95,10 +95,7 @@ Organic,0,1200,20,Jan 2026,60
    - Generate summary narrative
 
 
-> **Benchmark Context**: Marketing teams typically allocate 5-15% of budget to analytics tools. A well-built dashboard should answer 80% of weekly reporting questions without manual queries. GA4 reports average 24-48 hour data lag for standard processing.
-
-
-### Confidence & Sample Size
+> **Benchmark Context**: Marketing teams typically allocate 5-15% of budget to analytics tools (Google 2024 Marketing Measurement Guide). A well-built dashboard should answer 80% of weekly reporting questions without manual queries (Google 2024 Marketing Measurement Guide). GA4 reports average 24-48 hour data lag for standard processing. ### Confidence & Sample Size.
 > **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract
@@ -276,3 +273,10 @@ Organic Search,0,1500,30,Feb 2026,50
 - A/B test budget shifts gradually (don't move all at once)
 - Re-run analysis monthly to track channel drift
 - Establish attribution model if not already in place
+
+## Related Skills
+
+- **[marketing-mix-modeler](./marketing-mix-modeler.md)** — Use ROI metrics from this skill to optimize budget allocation.
+- **[marketing-dashboard-builder](./marketing-dashboard-builder.md)** — Visualize ROI and ROAS metrics in a dashboard for ongoing monitoring.
+- **[channel-mix-optimizer](../growth/channel-mix-optimizer.md)** — Inform channel strategy decisions with ROI data calculated here.
+- **[funnel-drop-off-analyzer](./funnel-drop-off-analyzer.md)** — Combine ROI analysis with funnel diagnostics to improve conversion rates.

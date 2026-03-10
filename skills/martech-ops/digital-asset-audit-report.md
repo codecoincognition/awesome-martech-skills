@@ -17,7 +17,7 @@ Audits an exported digital asset inventory for naming convention violations, mis
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is a CSV of asset metadata. Output is an XLSX audit report. No system access needed — works entirely from exported data.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min implementing in your MarTech stack.** If implementing output in a platform, add 10-20 min for setup. Input is a CSV of asset metadata. Output is an XLSX audit report. No system access needed — works entirely from exported data.
 
 ## User Intent Mapping
 
@@ -109,8 +109,7 @@ hero-banner-v3-FINAL-v2.png,image,/marketing/campaigns/q1-launch,2025-09-22,2025
 > Review duplicate groups before bulk action — some "duplicates" may be intentional variants (e.g., localized versions, A/B test variants).
 
 
-> **Benchmark Context**: Average enterprise has 91 marketing tools in its stack. Brand compliance violations occur in 60% of co-branded partner materials. UTM tracking is implemented on only 40-50% of marketing URLs on average.
-
+> **Benchmark Context**: Average enterprise has 91 marketing tools in its stack. Brand compliance violations occur in 60% of co-branded partner materials (Gartner 2024 Marketing Technology Survey). UTM tracking is implemented on only 40-50% of marketing URLs on average. (Gartner 2024 Marketing Technology Survey).
 ## Output Contract
 
 ### Deliverable: Structured Analysis Tables in Markdown
@@ -176,3 +175,10 @@ Columns: `priority | action | asset_count | effort_estimate | impact`
 **Input**: 847-row CSV export from Google Drive marketing folder. No naming convention defined.
 
 **Output**: XLSX showing 73% naming compliance (detected pattern: lowercase-kebab-case), 45% metadata completeness (tags missing on 466 files), 23 duplicate groups (estimated 340MB recoverable), 189 stale assets (not touched since 2024), 67 orphaned files with no campaign tag. Action plan: (1) De-duplicate — 23 groups, save 340MB. (2) Archive 189 stale assets. (3) Backfill tags on 466 files. (4) Adopt naming convention: `YYYY-MM_campaign_type_variant.ext`.
+
+## Related Skills
+
+- **[Brand Asset Compliance Checker](./brand-asset-compliance-checker.md)** — Check asset compliance as part of library audit and cleanup.
+- **[Content Governance Framework](../content/content-governance-framework.md)** — Establish asset naming, metadata, and organization standards based on audit findings.
+- **[CRM Data Hygiene Auditor](../crm/crm-data-hygiene-auditor.md)** — Apply similar audit methodology to customer contact data for consistency.
+- **[Vendor Performance Scorecard](./vendor-performance-scorecard.md)** — Evaluate vendors based on asset organization quality in deliverables.

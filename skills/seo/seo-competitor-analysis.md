@@ -15,7 +15,7 @@ Comprehensive competitor SEO analysis — keyword overlap, content gaps, backlin
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing strategy, add 4-10 hours for content and link building. Input is SEO tool exports for you and competitors. Output is Markdown competitive analysis with attack plan.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min implementation in Google Search Console / CMS. If implementing strategy, add 4-10 hours for content and link building. Input is SEO tool exports for you and competitors. Output is Markdown competitive analysis with attack plan.
 
 ## User Intent Mapping
 
@@ -105,7 +105,7 @@ Comprehensive competitor SEO analysis — keyword overlap, content gaps, backlin
 ### ⚠️ Human Checkpoint
 > Verify competitor identification with the business team — SEO competitors may not be business competitors. Review attack strategy for feasibility given your resources (team size, content budget, link building capacity).
 
-> **Benchmark Context**: The top 3 organic results get 68% of all clicks. A 10-position improvement (e.g., #15 to #5) can increase traffic 10x. Sites with more content covering a topic cluster rank higher for all related terms. Competitor analysis should be repeated quarterly as the landscape shifts.
+> **Benchmark Context**: The top 3 organic results get 68% of all clicks. A 10-position improvement (e.g., #15 to #5) can increase traffic 10x. Sites with more content covering a topic cluster rank higher for all related terms. Competitor analysis should be repeated quarterly as the landscape shifts. (BrightEdge 2024 Organic Search Report)
 
 ## Output Contract
 
@@ -185,3 +185,10 @@ Comprehensive competitor SEO analysis — keyword overlap, content gaps, backlin
 **Input**: "SEO competitor analysis: we're an HR software company (domain: hrflow.io). Competitors: bamboohr.com, gusto.com, rippling.com. We rank for 200 keywords, competitors rank for 5,000+. Struggling to compete."
 
 **Output**: Landscape: BambooHR (DR 78, 850K organic/month, 45K keywords), Gusto (DR 82, 1.2M organic/month, 58K keywords), Rippling (DR 75, 420K organic/month, 22K keywords). Your position: DR 35, 8K organic/month, 200 keywords — significant gap but winnable with focused strategy. Keyword gap: 1,200 keywords where all 3 competitors rank but you don't — filtered to 85 achievable targets (KD <40, volume >200). Top opportunities: "employee onboarding checklist" (8,100/mo, no strong content from competitors), "PTO policy template" (4,400/mo, competitors have thin content), "HR compliance checklist" (3,200/mo, template-based content gap). Content strategy: competitors dominate with template/checklist content (40% of their traffic) — create 20 best-in-class templates in 90 days. Link strategy: 45 domains link to 2+ competitors but not you — 15 are high-quality industry publications achievable via expert commentary. Attack plan: Month 1 — publish 8 template pages targeting highest-volume gaps; Month 2 — begin outreach to gap link targets; Month 3 — launch "State of HR" data report for link-worthy content. Quick win: optimize existing 200 keyword pages (title tags, content depth) — expected 30% traffic lift from position improvements.
+
+## Related Skills
+
+- **[Backlink Analysis Report](./backlink-analysis-report.md)** — Use to analyze competitor backlink profiles and find link-building opportunities from your competitive analysis.
+- **[Keyword Cluster Analyzer](./keyword-cluster-analyzer.md)** — Use to identify and organize the competitor keywords you'll target in your own SEO strategy.
+- **[SEO Content Strategy](./seo-content-strategy.md)** — Use to build your content roadmap based on competitive insights and content gap analysis.
+- **[Content Gap Analyzer](./content-gap-analyzer.md)** — Use specifically to find topical gaps between your content and competitors' content.

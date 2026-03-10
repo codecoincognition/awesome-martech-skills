@@ -15,7 +15,7 @@ Designs comprehensive audience targeting strategies across ad platforms with seg
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing output in ad platforms, add 20-30 min for audience creation. Input is ICP and customer data. Output is Markdown targeting strategy with audience definitions.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min building in Google Ads / Meta Ads Manager. If implementing output in ad platforms, add 20-30 min for audience creation. Input is ICP and customer data. Output is Markdown targeting strategy with audience definitions.
 
 ## User Intent Mapping
 
@@ -182,3 +182,10 @@ Essential exclusions:
 **Input**: "Audience targeting for a project management SaaS. ICP: startup founders and ops managers at companies with 10-200 employees. Platforms: Meta + LinkedIn. Have a customer list of 2,500 emails."
 
 **Output**: 4 segments: (1) Startup Founders — Meta: Lookalike 1% based on customer list + interests (entrepreneurship, startup, SaaS); LinkedIn: Job Title (Founder, CEO, Co-Founder) + Company Size (11-200); (2) Ops/Project Managers — Meta: Lookalike 2% + interests (project management, productivity); LinkedIn: Job Function (Operations, Project Management) + Seniority (Manager+); (3) Expansion: Tech-forward SMBs — Meta: Lookalike 3-5% broadened; LinkedIn: Industry (Technology, Software) + Company Size (11-200); (4) Retargeting: Website visitors 30-day, pricing page visitors 14-day. Exclusions: existing customers, competitors, companies <10 employees. Testing plan: Week 1-2 test Segment 1 vs. 2 on Meta with same creative; Week 3-4 test LinkedIn targeting layers. Audience refresh: monthly lookalike rebuild, weekly retargeting refresh.
+
+## Related Skills
+
+- **[customer-persona-builder](../growth/customer-persona-builder.md)** — Build detailed personas first to inform your audience segmentation strategy.
+- **[ad-copy-generator](./ad-copy-generator.md)** — Generate audience-specific copy variants that speak to each targeted segment.
+- **[ad-performance-analyzer](./ad-performance-analyzer.md)** — Analyze audience performance to refine which segments convert best.
+- **[retargeting-campaign-builder](./retargeting-campaign-builder.md)** — Build retargeting audiences to reach engaged prospects at different stages.

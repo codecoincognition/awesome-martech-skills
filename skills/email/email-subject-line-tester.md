@@ -16,7 +16,7 @@ Scores email subject lines across 6 dimensions (clarity, urgency, curiosity, per
 
 ## Granularity Check
 
-> **Session time**: ~5 minutes data prep + ~10 minutes Claude session. If implementing output in a platform, add 10-20 minutes for setup. Input is 1-10 subject lines. Output is a scored analysis + improved variants.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-45 min setup in Mailchimp / Klaviyo / HubSpot. If implementing output in a platform, add 10-20 minutes for setup. Input is 1-10 subject lines. Output is a scored analysis + improved variants.
 
 ## User Intent Mapping
 
@@ -86,10 +86,10 @@ Scores email subject lines across 6 dimensions (clarity, urgency, curiosity, per
 5. **Finalize** — Deliver scored analysis with recommendations.
 
 
-> **Benchmark Context**: Average B2B email open rate is 21.3%, click rate 2.6%. Welcome emails average 50-60% open rates — the highest of any email type. Segmented campaigns see 14% higher open rates than non-segmented. Best send times: B2B Tuesday-Thursday 9-11 AM local time.
+> **Benchmark Context**: Average B2B email open rate is 21.3%, click rate 2 (Mailchimp 2024 Email Marketing Benchmarks). 6% (Mailchimp 2024 Email Marketing Benchmarks) Welcome emails average 50-60% open rates — the highest of any email type (Mailchimp 2024 Email Marketing Benchmarks) Segmented campaigns see 14% higher open rates than non-segmented (Mailchimp 2024 Email Marketing Benchmarks) Best send times: B2B Tuesday-Thursday 9-11 AM local time (Campaign Monitor 2024 Email Benchmarks) (Mailchimp 2024 Email Marketing Benchmarks)
 
 
-### Confidence & Sample Size
+### Confidence & Sample Size.
 > **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract
@@ -186,3 +186,10 @@ Scores email subject lines across 6 dimensions (clarity, urgency, curiosity, per
 > 3. "Your team is asking about these updates" (social proof + personalization)
 > 4. "This week's update saves you 2 hours/week" (benefit-driven)
 > 5. "Quick question about how you use [Feature]" (question + personalization)
+
+## Related Skills
+
+- **[Email Copywriting Framework](./email-copywriting-framework.md)** — Use alongside this skill to optimize both subject lines and body copy together.
+- **[Email AB Testing Framework](./email-ab-testing-framework.md)** — Use to design comprehensive A/B tests that include subject line variations.
+- **[Email Sequence Builder](./email-sequence-builder.md)** — Use to apply optimized subject lines across all emails in your sequences.
+- **[Email Performance Analyzer](./email-performance-analyzer.md)** — Use to track subject line performance over time and identify winning approaches.

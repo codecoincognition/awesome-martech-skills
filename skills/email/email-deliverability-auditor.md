@@ -17,7 +17,7 @@ Audits email deliverability with sender reputation analysis, authentication veri
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing fixes, add 1-4 hours for DNS and authentication changes. Input is email performance data and domain info. Output is Markdown audit with prioritized fixes.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-45 min setup in Mailchimp / Klaviyo / HubSpot. If implementing fixes, add 1-4 hours for DNS and authentication changes. Input is email performance data and domain info. Output is Markdown audit with prioritized fixes.
 
 ## User Intent Mapping
 
@@ -111,8 +111,7 @@ Audits email deliverability with sender reputation analysis, authentication veri
 ### ⚠️ Human Checkpoint
 > Have your DNS administrator review all authentication record changes before publishing. Incorrect SPF/DKIM/DMARC records can block ALL email (including transactional). Test changes with a small segment before full deployment.
 
-> **Benchmark Context**: Average inbox placement rate is 83%. DMARC enforcement (p=reject) improves deliverability by 10%. Spam complaint rate above 0.3% triggers reputation issues at major providers. Emails authenticated with SPF+DKIM+DMARC have 10% higher inbox placement. Google requires bulk senders (5,000+/day) to have one-click unsubscribe and maintain complaint rate below 0.1%.
-
+> **Benchmark Context**: Average inbox placement rate is 83%. DMARC enforcement (p=reject) improves deliverability by 10%. Spam complaint rate above 0.3% triggers reputation issues at major providers (Litmus 2024 State of Email). Emails authenticated with SPF+DKIM+DMARC have 10% higher inbox placement. Google requires bulk senders (5,000+/day) to have one-click unsubscribe and maintain complaint rate below 0.1% (Litmus 2024 State of Email).
 ## Output Contract
 
 ### Deliverable: Markdown Deliverability Audit
@@ -192,3 +191,10 @@ Audits email deliverability with sender reputation analysis, authentication veri
 **Input**: "Email deliverability audit: our marketing emails to 50K subscribers are seeing 35% open rates dropping to 18% over 3 months. Using Mailchimp. Domain: acmecorp.com. Getting some spam complaints."
 
 **Output**: Authentication: SPF present but missing Mailchimp include (critical fix), DKIM configured correctly, no DMARC record (set up immediately). Reputation: Google Postmaster shows domain reputation dropped from High to Medium — correlates with 0.25% complaint rate (target <0.1%). List health: 8.2% of list hasn't opened in 6 months (sunset these contacts). Content: subject lines using caps and exclamation marks flagged as spam triggers in 4 of last 10 campaigns. Action plan: (1) Fix SPF record — add `include:servers.mcsv.net` (30 min, critical), (2) Set up DMARC with p=none for monitoring (30 min), (3) Sunset 6-month inactive subscribers (reduce list by ~4,100), (4) Run re-engagement campaign for 3-6 month inactives before removing, (5) Audit subject lines against spam trigger list. Expected recovery: 18% → 28%+ open rate within 60 days of implementing fixes.
+
+## Related Skills
+
+- **[Email Compliance Checker](./email-compliance-checker.md)** — Use to ensure your authentication setup meets regulatory compliance requirements.
+- **[Email List Segmentation](./email-list-segmentation.md)** — Use to implement list hygiene and engagement-based segmentation that improve deliverability.
+- **[Email Automation Workflow](./email-automation-workflow.md)** — Use to set up engagement-triggered workflows that maintain sender reputation.
+- **[Email Performance Analyzer](./email-performance-analyzer.md)** — Use to track deliverability metrics and identify sender reputation issues over time.

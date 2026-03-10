@@ -15,7 +15,7 @@ Creates a comprehensive TikTok content strategy with format recommendations, con
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing output in a platform, add 15-20 min for content calendar setup. Input is brand info and goals. Output is Markdown strategy document with 4-week content plan.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~60-90 min implementing across platforms. If implementing output in a platform, add 15-20 min for content calendar setup. Input is brand info and goals. Output is Markdown strategy document with 4-week content plan.
 
 ## User Intent Mapping
 
@@ -115,8 +115,7 @@ Match formats to goals and resources:
 ### ⚠️ Human Checkpoint
 > Review content for platform guidelines compliance (music licensing, claims, disclosures for sponsored content). Verify all product claims and disclaimers before posting.
 
-> **Benchmark Context**: Average TikTok engagement rate is 4-6% (highest of any social platform). Videos under 30 seconds have 2x the completion rate. TikTok's algorithm can surface content from accounts with 0 followers. 67% of TikTok users say the platform inspires them to shop. Posting 3-5x/week correlates with 2x faster follower growth vs. 1-2x/week.
-
+> **Benchmark Context**: Average TikTok engagement rate is 4-6% (highest of any social platform) (Sprout Social 2024 Index) Videos under 30 seconds have 2x the completion rate. . TikTok's algorithm can surface content from accounts with 0 followers. . 67% of TikTok users say the platform inspires them to shop (Buffer 2024 State of Social) Posting 3-5x/week correlates with 2x faster follower growth vs (Buffer 2024 State of Social) 1-2x/week. . (Sprout Social 2024 Index).
 ## Output Contract
 
 ### Deliverable: Markdown Strategy Document
@@ -194,3 +193,10 @@ Match formats to goals and resources:
 **Input**: "TikTok content strategy for a B2B project management tool. Goal: brand awareness + lead gen. Audience: startup founders and team leads, 25-40. Small team, no video production experience."
 
 **Output**: Platform fit: Strong — "Corporate TikTok" and productivity content trending heavily. 4 content pillars: Productivity Tips (40%), Behind-the-Scenes of building a SaaS (25%), Trend Participation with work-humor angle (20%), Product Demos as screen recordings (15%). Format: primarily talking head + screen recordings (zero production equipment needed). Hook library: 10 hooks including "The project management mistake killing your startup...", "POV: You're a founder and your team just missed another deadline", "Nobody talks about why standups don't work." 4-week content plan: 4 posts/week, batch-filmed on Mondays. Growth target: 1,000 followers in 60 days. Lead gen mechanic: free template in bio link, CTA "Comment TEMPLATE for the link."
+
+## Related Skills
+
+- **[Social Content Calendar](./social-content-calendar.md)** — Use to plan TikTok content with optimal posting frequency and timing for algorithm success.
+- **[Short Form Video Planner](../video-podcast/short-form-video-planner.md)** — Use to develop short-form video concepts and scripts for TikTok.
+- **[Video Repurposing Engine](../video-podcast/video-repurposing-engine.md)** — Use to adapt your TikTok content for reuse across other short-form platforms.
+- **[Hashtag Strategy Builder](./hashtag-strategy-builder.md)** — Use to research trending TikTok hashtags and implement platform-specific hashtag strategies.

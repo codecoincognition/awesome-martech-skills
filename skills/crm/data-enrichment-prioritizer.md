@@ -18,7 +18,7 @@ Scores and ranks CRM records by enrichment priority to maximize ROI on enrichmen
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is a CRM export CSV. Output is an XLSX with scored records. No enrichment API calls needed — this is the prioritization step before enrichment.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min configuring in Salesforce / HubSpot.** If implementing output in a platform, add 10-20 min for setup. Input is a CRM export CSV. Output is an XLSX with scored records. No enrichment API calls needed — this is the prioritization step before enrichment.
 
 ## User Intent Mapping
 
@@ -167,3 +167,10 @@ Markdown table: `field_name | missing_rate | impact_score | priority_rank | reco
 **Input**: 2,400 contacts from HubSpot. 500 ZoomInfo credits available at $0.30/record. ICP: B2B SaaS, 50-500 employees, North America.
 
 **Output**: Tier 1: 500 records (enrich now, $150 budget). These are 280 MQLs + 220 SQLs missing phone and company size. Tier 2: 800 records (next cycle, $240). Tier 3: 1,100 records (skip — subscribers with low engagement, stale leads). Top field to enrich: direct phone (missing on 72% of Tier 1, enables SDR outreach). Expected lift: enriching Tier 1 phone numbers could increase SQL-to-meeting rate by 15-25% based on typical outbound benchmarks.
+
+## Related Skills
+
+- **[CRM Data Hygiene Auditor](./crm-data-hygiene-auditor.md)** — Audit data quality before enrichment to ensure you're enriching the right records.
+- **[Lead Scoring Model Builder](./lead-scoring-model-builder.md)** — Prioritize enrichment of high-scoring leads that are most likely to convert.
+- **[Predictive Lead Scoring](../ai-marketing/predictive-lead-scoring.md)** — Use predictive scores to identify which records need enrichment most for better predictions.
+- **[Segmentation Rule Builder](./segmentation-rule-builder.md)** — Create segments of high-value prospects to prioritize enrichment.

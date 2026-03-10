@@ -15,7 +15,7 @@ Designs email templates with optimal layout, visual hierarchy, mobile responsive
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing, add 2-8 hours for HTML/CSS coding and testing. Input is brand guidelines and email types needed. Output is Markdown design specs with component recommendations.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-45 min setup in Mailchimp / Klaviyo / HubSpot. If implementing, add 2-8 hours for HTML/CSS coding and testing. Input is brand guidelines and email types needed. Output is Markdown design specs with component recommendations.
 
 ## User Intent Mapping
 
@@ -111,8 +111,7 @@ Designs email templates with optimal layout, visual hierarchy, mobile responsive
 ### ⚠️ Human Checkpoint
 > Test all templates across major email clients before deploying. Verify links work and tracking is configured. Review accessibility with a screen reader. Check dark mode rendering in Apple Mail, Gmail, and Outlook dark mode.
 
-> **Benchmark Context**: Emails with a clear visual hierarchy have 47% higher click rates. Mobile-optimized emails generate 15% higher click rates. Single-column layouts have 30% higher engagement on mobile. CTA buttons outperform text links by 28%. Emails that take >3 seconds to load lose 53% of mobile readers. Dark mode is used by 80%+ of mobile email readers.
-
+> **Benchmark Context**: Emails with a clear visual hierarchy have 47% higher click rates (Mailchimp 2024 Email Marketing Benchmarks). Mobile-optimized emails generate 15% higher click rates (Mailchimp 2024 Email Marketing Benchmarks). Single-column layouts have 30% higher engagement on mobile. CTA buttons outperform text links by 28%. Emails that take >3 seconds to load lose 53% of mobile readers. Dark mode is used by 80%+ of mobile email readers. (Mailchimp 2024 Email Marketing Benchmarks).
 ## Output Contract
 
 ### Deliverable: Markdown Template Specs
@@ -204,3 +203,10 @@ Designs email templates with optimal layout, visual hierarchy, mobile responsive
 **Input**: "Design email templates for a fintech startup. Colors: #1A73E8 (blue), #34A853 (green), #202124 (dark). Need: weekly newsletter, product announcement, transactional. Audience: 60% mobile, mostly Gmail and Apple Mail."
 
 **Output**: Design system: 600px max-width, single-column primary layout, 20px section padding, font stack: 'Inter', Helvetica, Arial, sans-serif. Newsletter template: Header (logo left, one nav link right), Hero (full-width image 600×250, H1 24px #202124, CTA button 44px height #1A73E8 with white text), 3 content modules (icon + headline + 2 lines + link), footer (social icons, unsubscribe, address). Product announcement: simplified — hero + one content block + CTA + footer. Transactional: minimal — logo + content + action button + support link + footer. Mobile specs: single column stacks, 16px body text, 44px min button height, images max-width 100%. Dark mode: swap #202124 backgrounds to #303134, keep #1A73E8 buttons, add color-scheme meta tag. Accessibility: all images have alt text, 5.2:1 contrast ratio on body text, CTA buttons have descriptive text. Testing priority: Gmail (web + mobile), Apple Mail (light + dark mode), Outlook 365.
+
+## Related Skills
+
+- **[Email Copywriting Framework](./email-copywriting-framework.md)** — Use to write copy that fits within your template design and visual hierarchy.
+- **[Email List Segmentation](./email-list-segmentation.md)** — Use to create segment-specific templates (e.g., different designs for mobile vs. desktop users).
+- **[Brand Asset Compliance Checker](../martech-ops/brand-asset-compliance-checker.md)** — Use to ensure email templates comply with brand guidelines and standards.
+- **[Email Performance Analyzer](./email-performance-analyzer.md)** — Use to measure how different template designs impact engagement metrics.

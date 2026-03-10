@@ -17,7 +17,7 @@ Analyzes sales content usage data to identify which assets reps actually use, wh
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is content usage CSV. Output is an XLSX analysis report. No system access needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min customizing for your prospect.** If implementing output in a platform, add 10-20 min for setup. Input is content usage CSV. Output is an XLSX analysis report. No system access needed.
 
 ## User Intent Mapping
 
@@ -120,8 +120,7 @@ Prioritized action plan:
 > Correlation ≠ causation. High-performing content may simply be used by top reps. Cross-reference with rep performance data before drawing conclusions.
 
 
-> **Benchmark Context**: Average B2B sales cycle is 102 days. Win rates average 20-30% for qualified opportunities. Top-performing sales orgs use 5-7 pieces of content per deal cycle. Sales reps spend ~30% of their time searching for content.
-
+> **Benchmark Context**: Average B2B sales cycle is 102 days. Win rates average 20-30% for qualified opportunities (Gartner 2024 B2B Buying Journey Report). Top-performing sales orgs use 5-7 pieces of content per deal cycle (Gartner 2024 B2B Buying Journey Report). Sales reps spend ~30% of their time searching for content (Gartner 2024 B2B Buying Journey Report). (Gartner 2024 B2B Buying Journey Report).
 ## Output Contract
 
 ### Deliverable: Markdown Tables + CSV-Ready Data (3 sections)
@@ -181,3 +180,10 @@ If no CRM is available:
 **Input**: 6 months of content usage data, 47 assets, 156 closed deals (89 won, 67 lost).
 
 **Output**: 5 Stars (ROI Calculator has 73% win rate vs. 57% average — strongest asset), 3 Hidden Gems (Security Whitepaper used by only 2 reps but 85% win rate when used — needs broader distribution), 8 Dead Weight assets (2024 Product Brochure viewed 4 times in 6 months — retire). Top gap: no case study for financial services (25% of pipeline). Action plan: (1) Add Security Whitepaper to rep onboarding. (2) Create FinServ case study. (3) Archive 8 dead weight assets. (4) Investigate why Feature Comparison has high usage but low win correlation.
+
+## Related Skills
+
+- **[Sales Deck Assembler](./sales-deck-assembler.md)** — Use insights on what content works best to prioritize which assets to assemble in customized decks.
+- **[Content Performance Scorecard](../content/content-performance-scorecard.md)** — Complement sales content analysis with marketing content performance metrics.
+- **[Approval Bottleneck Analyzer](../martech-ops/approval-bottleneck-analyzer.md)** — Analyze why high-performing content takes longer to approve, to reduce lag on future winners.
+- **[Lead Scoring Model Builder](../crm/lead-scoring-model-builder.md)** — Use content engagement data as a behavioral signal in your lead scoring model.

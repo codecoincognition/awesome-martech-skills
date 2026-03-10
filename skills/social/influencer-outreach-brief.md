@@ -15,7 +15,7 @@ Creates structured influencer collaboration briefs with targeting criteria, outr
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing output in a platform, add 15-20 min for outreach setup. Input is campaign goals and brand info. Output is Markdown brief with outreach templates.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~20-40 min scheduling in Buffer / Hootsuite / native platform. If implementing output in a platform, add 15-20 min for outreach setup. Input is campaign goals and brand info. Output is Markdown brief with outreach templates.
 
 ## User Intent Mapping
 
@@ -99,8 +99,7 @@ Creates structured influencer collaboration briefs with targeting criteria, outr
 ### ⚠️ Human Checkpoint
 > Review influencer selections for brand safety. Check recent content (last 30 days) for controversial posts, fake follower indicators (engagement rate vs. follower count ratio), and audience authenticity.
 
-> **Benchmark Context**: Micro-influencers (5K-50K) deliver 60% higher engagement rates than macro-influencers. Instagram Reels collaborations average 2-3x higher reach than feed posts. Average influencer marketing ROI is $5.78 per $1 spent. 67% of brands prefer ongoing partnerships over one-off posts.
-
+> **Benchmark Context**: Micro-influencers (5K-50K) deliver 60% higher engagement rates than macro-influencers (Sprout Social 2024 Index) Instagram Reels collaborations average 2-3x higher reach than feed posts (Later 2024 Social Media Industry Report) Average influencer marketing ROI is $5.78 per $1 spent. . 67% of brands prefer ongoing partnerships over one-off posts (Buffer 2024 State of Social) (Sprout Social 2024 Index).
 ## Output Contract
 
 ### Deliverable: Markdown Brief
@@ -180,3 +179,10 @@ Creates structured influencer collaboration briefs with targeting criteria, outr
 **Input**: "Influencer campaign for a $79 fitness app. $5,000 budget. Target: women 25-35, fitness enthusiasts. Platform: Instagram + TikTok."
 
 **Output**: Target 10-15 micro-influencers (10K-50K followers, 3%+ engagement rate). Budget: $300-500/influencer for 1 Reel + 2 Stories. Targeting: fitness, wellness, home workout niches. Avoid: influencers who promote competing apps. Outreach DM: "Hey [name] — love your [specific recent post]. We're launching [app] and think your audience would genuinely benefit. Would you be open to a paid collab? DM me and I'll send details!" Attribution: unique discount code per influencer (CREATOR15). Expected: 50K-150K total reach, 2-5% engagement rate, 50-200 app installs at $25-100 CPA.
+
+## Related Skills
+
+- **[Social Ad Creative Brief](./social-ad-creative-brief.md)** — Use alongside this skill to align influencer creative requirements with your broader social ad strategy.
+- **[Social Listening Report](./social-listening-report.md)** — Use to identify potential influencers and understand audience sentiment about collaborations.
+- **[Content Repurposer](../content/content-repurposer.md)** — Use to amplify influencer-created content across your owned channels.
+- **[Campaign Brief Synthesizer](../content/campaign-brief-synthesizer.md)** — Use to align influencer outreach with broader campaign requirements.

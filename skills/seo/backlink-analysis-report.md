@@ -15,7 +15,7 @@ Analyzes backlink profiles to assess authority, identify toxic links, discover c
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing outreach, add 5-20 hours for link building campaigns. Input is backlink export from Ahrefs, Moz, or Semrush. Output is Markdown analysis with link building action plan.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min implementation in Google Search Console / CMS. If implementing outreach, add 5-20 hours for link building campaigns. Input is backlink export from Ahrefs, Moz, or Semrush. Output is Markdown analysis with link building action plan.
 
 ## User Intent Mapping
 
@@ -106,8 +106,7 @@ Analyzes backlink profiles to assess authority, identify toxic links, discover c
 ### ⚠️ Human Checkpoint
 > Review disavow file carefully before submitting to Google — incorrectly disavowing good links can hurt rankings. Verify outreach targets are legitimate sites before contacting. Never pay for links from link farms or PBNs.
 
-> **Benchmark Context**: Top-ranking pages have 3.8x more backlinks than positions 2-10. Sites with 40+ referring domains rank for significantly more keywords. Average outreach response rate is 5-15%. Quality of linking domain matters more than quantity — one link from a DA 60+ site outweighs 100 links from DA 10 sites. Natural link profiles have 50-70% branded anchor text.
-
+> **Benchmark Context**: Top-ranking pages have 3.8x more backlinks than positions 2-10 (Backlinko 2024 SEO Statistics). Sites with 40+ referring domains rank for significantly more keywords. Average outreach response rate is 5-15%. Quality of linking domain matters more than quantity — one link from a DA 60+ site outweighs 100 links from DA 10 sites. Natural link profiles have 50-70% branded anchor text. (Backlinko 2024 SEO Statistics).
 ## Output Contract
 
 ### Deliverable: Markdown Backlink Analysis
@@ -186,3 +185,10 @@ Body: [template]
 **Input**: "Backlink analysis for a B2B SaaS blog. DR 35, 450 referring domains. Competitors have DR 55-65. Losing rankings to competitors on key terms. Ahrefs export attached."
 
 **Output**: Profile health: 450 RDs is below competitor average (1,200). Anchor text: 22% exact-match anchors (too high, risk of penalty — target <5%). Toxic links: 35 domains flagged (15 confirmed spam, 20 low-quality directories) — disavow file generated. Competitor gap: 280 domains link to 2+ competitors but not to you — top 50 prioritized by DA and relevance. Strategy: (1) Create 2 original data studies per quarter (most linkable asset type in B2B), (2) HARO responses — target 5 journalist queries/week, expect 2-3 links/month, (3) Guest posting on 10 industry blogs (pre-vetted list with DA 40+), (4) Reclaim 12 unlinked brand mentions found via Ahrefs Content Explorer. 90-day plan: Month 1 — disavow toxic links + launch first data study; Month 2 — begin outreach to gap domains + HARO cadence; Month 3 — guest post submissions + second data study. Target: 25-35 new quality referring domains in 90 days.
+
+## Related Skills
+
+- **[SEO Competitor Analysis](./seo-competitor-analysis.md)** — Use before backlink analysis to understand your competitive landscape and identify link-building opportunities from competitor research.
+- **[Content Brief Generator](../content/content-brief-writer.md)** — Use to create linkable assets (data studies, guides, research) that naturally attract backlinks as part of your link-building strategy.
+- **[Technical SEO Auditor](./technical-seo-auditor.md)** — Complements this skill by ensuring your site's technical foundation is solid before investing in link-building efforts.
+- **[SEO Content Strategy](./seo-content-strategy.md)** — Use to structure content around your link-building opportunities and create a pillar-cluster model that benefits from acquired backlinks.

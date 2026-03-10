@@ -15,7 +15,7 @@ Builds a comprehensive SEO content strategy with topic clusters, pillar pages, k
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing, add 2-4 hours/week for content production. Input is keyword data and business goals. Output is Markdown content strategy with editorial calendar.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~45-90 min writing in your CMS. If implementing, add 2-4 hours/week for content production. Input is keyword data and business goals. Output is Markdown content strategy with editorial calendar.
 
 ## User Intent Mapping
 
@@ -109,8 +109,7 @@ Score each content piece on:
 ### ⚠️ Human Checkpoint
 > Review topic clusters for brand relevance — not every high-volume keyword is worth targeting. Verify content accuracy with subject matter experts. Ensure content meets E-E-A-T standards (Experience, Expertise, Authoritativeness, Trustworthiness) for your industry.
 
-> **Benchmark Context**: Sites with topic cluster architecture rank for 3x more keywords than unstructured blogs. Pillar pages with 10+ internal cluster links rank 68% higher for competitive terms. Content targeting commercial intent keywords generates 5x more leads than informational content. Publishing 2-4x/week correlates with 3.5x more traffic than 1x/week. Updating existing content can increase traffic to that page by 106%.
-
+> **Benchmark Context**: Sites with topic cluster architecture rank for 3x more keywords than unstructured blogs (BrightEdge 2024 Organic Search Report) Pillar pages with 10+ internal cluster links rank 68% higher for competitive terms (BrightEdge 2024 Organic Search Report) Content targeting commercial intent keywords generates 5x more leads than informational content (Ahrefs 2024 Search Traffic Study) Publishing 2-4x/week correlates with 3.5x more traffic than 1x/week. . Updating existing content can increase traffic to that page by 106%. . (BrightEdge 2024 Organic Search Report).
 ## Output Contract
 
 ### Deliverable: Markdown Content Strategy
@@ -189,3 +188,10 @@ Score each content piece on:
 **Input**: "SEO content strategy for a cybersecurity SaaS company. Target: IT managers and CISOs. Current blog has 30 posts with ~5K organic visits/month. Goal: 25K organic visits/month within 12 months."
 
 **Output**: 4 topic clusters identified: (1) Endpoint Security (pillar: "Complete Guide to Endpoint Security" — 12 cluster posts), (2) Cloud Security (pillar: "Cloud Security Best Practices" — 10 cluster posts), (3) Compliance (pillar: "Cybersecurity Compliance Guide" — 8 cluster posts), (4) Threat Intelligence (pillar: "Threat Intelligence for Business" — 6 cluster posts). Prioritization: Compliance cluster first (highest commercial intent, lowest competition — KD 25-35). Content mix: 3 posts/week — 2 cluster posts + 1 trending security news analysis. Editorial calendar: Q1 — Compliance pillar + 8 cluster posts; Q2 — Endpoint Security pillar + 6 clusters; Q3-Q4 — Cloud Security + Threat Intelligence. Quick wins: update 10 existing posts with current year data and internal links to new cluster content (expected 40% traffic lift on updated posts). Projected growth: 5K → 12K by month 6, 25K by month 12 at 3 posts/week cadence.
+
+## Related Skills
+
+- **[Keyword Cluster Analyzer](./keyword-cluster-analyzer.md)** — Use first to organize keywords into topic clusters that form the foundation of your content strategy.
+- **[Content Pillar Strategy](../content/content-pillar-strategy.md)** — Use to design the pillar-cluster architecture that your SEO content strategy will follow.
+- **[Editorial Calendar Builder](../content/editorial-calendar-builder.md)** — Use to translate your SEO content strategy into a month-by-month publishing calendar.
+- **[SEO Competitor Analysis](./seo-competitor-analysis.md)** — Use to inform your strategy with competitive insights before finalizing your content roadmap.

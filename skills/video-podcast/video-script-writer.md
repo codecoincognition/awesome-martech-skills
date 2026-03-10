@@ -14,7 +14,7 @@ Create structured video scripts with attention hooks, segment breakdowns, B-roll
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is topic + format details. Output is a Markdown script document. No video tools needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min producing / uploading.** If implementing output in a platform, add 10-20 min for setup. Input is topic + format details. Output is a Markdown script document. No video tools needed.
 
 ## User Intent Mapping
 
@@ -101,8 +101,7 @@ For each segment, provide:
 > Review the script for brand accuracy, legal claims, and on-camera comfort. Scripts should sound natural when read aloud — test by reading them.
 
 
-> **Benchmark Context**: Average YouTube CTR is 2-10% (4-5% is good for most niches). Videos over 10 minutes can include mid-roll ads. Podcast episode completion rate averages 60-80%. YouTube Shorts average 2-5% CTR. Chapters increase average view duration by 5-10%.
-
+> **Benchmark Context**: Average YouTube CTR is 2-10% (4-5% is good for most niches) (YouTube Creator Academy 2024) Videos over 10 minutes can include mid-roll ads. . Podcast episode completion rate averages 60-80% (Edison Research 2024 Podcast Consumer Report) YouTube Shorts average 2-5% CTR (YouTube Creator Academy 2024) Chapters increase average view duration by 5-10% (Wistia 2024 State of Video) (Edison Research 2024 Podcast Consumer Report).
 ## Output Contract
 
 ### Deliverable: Markdown Video Script
@@ -198,3 +197,10 @@ For each segment, provide:
 **Input**: YouTube long-form video about "5 Google Ads mistakes small businesses make", targeting small business owners, 8-10 minutes, conversational tone.
 
 **Output**: Script with stat hook ("87% of small businesses waste their first $500 on Google Ads"), 5 mistake segments with B-roll cues (screen recordings of Google Ads interface), pattern interrupts at minute 3 and 6, mid-roll CTA at minute 5 (subscribe), end CTA (download free Google Ads checklist), plus thumbnail concept, 3 title options, and YouTube description with timestamps.
+
+## Related Skills
+
+- **[Video Thumbnail Concept Generator](./video-thumbnail-concept-generator.md)** — Generate thumbnails after scripting video to align visuals with script messaging.
+- **[Hook Stress Tester](../insights/hook-stress-tester.md)** — Evaluate and improve video hook/opening lines before production.
+- **[Video Repurposing Engine](./video-repurposing-engine.md)** — Script primary source video, then repurpose into multiple short-form clips.
+- **[AI Content Generator](../ai-marketing/ai-content-generator.md)** — Use AI to generate initial script drafts that you refine and customize.

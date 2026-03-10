@@ -16,7 +16,7 @@ Expand a single blog section heading (H2 or H3) into 300-500 words of polished, 
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is one section heading + context. Output is 300-500 words of ready-to-publish copy. This is intentionally scoped to a single section — call multiple times for a full post.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min implementing in your CMS.** If implementing output in a platform, add 10-20 min for setup. Input is one section heading + context. Output is 300-500 words of ready-to-publish copy. This is intentionally scoped to a single section — call multiple times for a full post.
 
 ## User Intent Mapping
 
@@ -119,10 +119,10 @@ Word count: 450
 6. **Present output** — Deliver the expanded section. Offer: "Want me to expand the next section?"
 
 
-> **Benchmark Context**: Blog posts averaging 1,500-2,500 words tend to rank highest in search. Content marketing generates 3x more leads than outbound at 62% less cost. Average time to write a 1,500-word blog post is 4-6 hours (research + writing + editing).
+> **Benchmark Context**: Blog posts averaging 1,500-2,500 words tend to rank highest in search (Content Marketing Institute 2024 B2B Research). Content marketing generates 3x more leads than outbound at 62% less cost (Semrush 2024 State of Content Marketing). Average time to write a 1,500-word blog post is 4-6 hours (research + writing + editing. (Semrush 2024 State of Content Marketing)
 
 
-### Confidence & Sample Size
+### Confidence & Sample Size.
 > **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract
@@ -226,3 +226,10 @@ Word count: 450
 > The solution isn't fewer tools or more meetings — it's a fundamentally different approach to how teams coordinate work across distance.
 
 **Word count:** 278 (Claude would note: "This came in at 278 words. Want me to expand any paragraph, or does this feel right for the flow?")
+
+## Related Skills
+
+- **[Blog Outline Generator](./blog-outline-generator.md)** — Use before section expansion to create the outline you'll be expanding section-by-section.
+- **[Content Brief Writer](./content-brief-writer.md)** — Use to provide the brief that guides section writing, tone, and SEO optimization.
+- **[Content Repurposer](./content-repurposer.md)** — Use after expansion to turn the full blog post into social posts, email snippets, and other formats.
+- **[Content Performance Scorecard](./content-performance-scorecard.md)** — Use after publication to measure section-level engagement and optimize future content.

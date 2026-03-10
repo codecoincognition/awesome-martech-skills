@@ -15,7 +15,7 @@ Creates detailed, actionable content briefs for writers that include SEO require
 
 ## Granularity Check
 
-> **Session time**: ~5 min context gathering + ~10 min Claude session. Output is a ready-to-assign brief. Input is topic, keyword data, and content goals. Output is Markdown content brief.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min implementing in your CMS. Output is a ready-to-assign brief. Input is topic, keyword data, and content goals. Output is Markdown content brief.
 
 ## User Intent Mapping
 
@@ -105,8 +105,7 @@ Creates detailed, actionable content briefs for writers that include SEO require
 ### ⚠️ Human Checkpoint
 > Review brief for accuracy of SEO data and competitive analysis. Verify internal linking targets are correct and relevant. Ensure brief reflects current brand voice and content strategy.
 
-> **Benchmark Context**: Content produced from detailed briefs ranks 50% faster than unbriefed content. Briefs with competitive analysis produce content that ranks in the top 10 for 3x more keywords. Writers who receive structured briefs produce 30% fewer revision rounds. Content that answers People Also Ask questions earns featured snippets 2x more often.
-
+> **Benchmark Context**: Content produced from detailed briefs ranks 50% faster than unbriefed content (Content Marketing Institute 2024 B2B Research). Briefs with competitive analysis produce content that ranks in the top 10 for 3x more keywords (Content Marketing Institute 2024 B2B Research). Writers who receive structured briefs produce 30% fewer revision rounds (Content Marketing Institute 2024 B2B Research). Content that answers People Also Ask questions earns featured snippets 2x more often.
 ## Output Contract
 
 ### Deliverable: Markdown Content Brief
@@ -197,3 +196,10 @@ Creates detailed, actionable content briefs for writers that include SEO require
 **Input**: "Content brief for a blog post about 'email marketing automation for small businesses.' Target keyword: email marketing automation. We're a marketing SaaS. Audience: small business owners with 1-10 employees."
 
 **Output**: Brief: "Email Marketing Automation for Small Businesses: The Complete 2025 Guide." Primary keyword: email marketing automation (vol: 8,100, KD: 45). Secondary: email automation tools, automated email campaigns, email drip campaigns, marketing automation for beginners. Word count: 2,500-3,500. Search intent: informational with commercial elements. Outline: (1) What is email marketing automation? (simple definition for non-technical readers), (2) Why small businesses need automation (time savings stats, ROI data), (3) 7 essential automated emails every small business should set up (welcome, abandoned cart, etc.), (4) How to choose an automation tool (comparison criteria, not specific product recommendations — we'll add ours naturally), (5) Getting started: your first automation in 30 minutes (step-by-step), (6) Common mistakes to avoid. Competitive gaps: top 3 results are enterprise-focused; none address the "1-person marketing team" angle. Differentiation: focus on simplicity, quick wins, realistic examples for tiny teams. Internal links: product page, pricing page, email templates library. CTA: "Start your free trial — set up your first automation in 15 minutes."
+
+## Related Skills
+
+- **[Blog Outline Generator](./blog-outline-generator.md)** — Use immediately after the brief to create the outline writers will follow.
+- **[Keyword Cluster Analyzer](../seo/keyword-cluster-analyzer.md)** — Use to organize target keywords before creating briefs for cluster content.
+- **[Content Pillar Strategy](./content-pillar-strategy.md)** — Use to position this brief within your broader pillar-cluster content architecture.
+- **[SEO Content Strategy](../seo/seo-content-strategy.md)** — Use to align this individual brief with your overall SEO and content roadmap.

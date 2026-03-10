@@ -15,7 +15,7 @@ Designs statistically sound A/B tests with hypothesis, variant descriptions, sam
 
 ## Granularity Check
 
-> **Session time**: ~5 minutes data prep + ~10 minutes Claude session. If implementing output in a platform, add 10-20 minutes for setup. Input is element to test + current metrics. Output is a complete test plan.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min implementing in your testing tool / CMS. If implementing output in a platform, add 10-20 minutes for setup. Input is element to test + current metrics. Output is a complete test plan.
 
 ## User Intent Mapping
 
@@ -87,10 +87,10 @@ Designs statistically sound A/B tests with hypothesis, variant descriptions, sam
 7. **Add guardrail metrics** — Identify metrics that should NOT decrease during the test.
 
 
-> **Benchmark Context**: Average landing page conversion rate is 2.35% across industries, with the top 25% converting at 5.31%+. Adding social proof increases conversions by 12-15% on average. Reducing form fields from 4 to 3 can increase conversions by 25%.
+> **Benchmark Context**: Average landing page conversion rate is 2.35% across industries, with the top 25% converting at 5.31%+ (Unbounce 2024 Conversion Benchmark Report). Adding social proof increases conversions by 12-15% on average (Contentsquare 2024 Digital Experience Benchmark). Reducing form fields from 4 to 3 can increase conversions by 25% (Contentsquare 2024 Digital Experience Benchmark). (Unbounce 2024 Conversion Benchmark Report)
 
 
-### Confidence & Sample Size
+### Confidence & Sample Size.
 > **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract
@@ -193,3 +193,10 @@ If we [change], then [metric] will [improve] by [amount], because [reasoning].
 > ## Guardrail Metrics
 > - Bounce rate must not increase by more than 5%
 > - Pages per session must not decrease by more than 10%
+
+## Related Skills
+
+- **cta-optimization-framework** (./cta-optimization-framework.md) — Optimize your test variants' calls-to-action before running the test; use this to generate high-performing CTA copy for A/B testing.
+- **landing-page-optimizer** (./landing-page-optimizer.md) — Build high-converting landing pages to test; use this to create your test variants with CRO best practices.
+- **heatmap-analysis-toolkit** (./heatmap-analysis-toolkit.md) — Analyze user behavior during your A/B tests using heatmaps; identify where users interact on control vs. variant.
+- **ab-test-result-analyzer** (../analytics/ab-test-result-analyzer.md) — Analyze test results statistically; use after your test concludes to determine winners and statistical significance.

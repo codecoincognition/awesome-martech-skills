@@ -17,7 +17,7 @@ Designs CRM automation workflows including triggers, conditions, actions, and br
 
 ## Granularity Check
 
-> **Session time**: ~5 min context gathering + ~10 min Claude session. If implementing, add 2-8 hours per workflow in CRM. Input is business process description and CRM platform. Output is Markdown workflow design with trigger/action specifications and implementation guide.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~60-120 min building in your CRM. If implementing, add 2-8 hours per workflow in CRM. Input is business process description and CRM platform. Output is Markdown workflow design with trigger/action specifications and implementation guide.
 
 ## User Intent Mapping
 
@@ -230,3 +230,10 @@ Common branching patterns:
 **Input**: "Design CRM automation workflows for our B2B SaaS. HubSpot CRM. Currently manual: lead follow-up (SDR checks CRM daily), customer onboarding (CSM sends emails manually), and no re-engagement for cold leads. 300 new leads/month, 50 new customers/month."
 
 **Output**: 5 priority workflows: (1) New Lead Alert — Trigger: form submission. Actions: immediate email notification to assigned SDR with lead details, create follow-up task (due in 1 hour), if no contact in 4 hours → escalation to SDR manager. (2) Lead Nurture — Trigger: MQL score reached but no demo booked in 48 hours. Actions: 5-email sequence over 14 days (value content → case study → comparison guide → demo invite → last chance). Branch: if demo booked at any point → exit workflow. (3) Customer Onboarding — Trigger: deal stage = closed-won. Actions: Day 0 → welcome email with setup guide + assign CSM task. Day 3 → check-in email + onboarding call task. Day 7 → tips email. Day 14 → feedback survey. Day 30 → first success review task for CSM. (4) Re-engagement — Trigger: no email open AND no website visit in 60 days. Actions: "We miss you" email → wait 7 days → if engaged → move to active. If not → "Is this still relevant?" email → wait 7 days → if still no engagement → move to cold segment. (5) Deal Stale Alert — Trigger: deal no activity for 14 days. Actions: Slack notification to AE → if no update in 7 more days → Slack to sales manager. Implementation: build workflows 1 and 3 first (highest impact), then 2 and 5, then 4. Total build time: ~3 days.
+
+## Related Skills
+
+- **[Lifecycle Stage Designer](./lifecycle-stage-designer.md)** — Define stages and criteria before designing workflows to ensure proper stage transitions.
+- **[Lead Scoring Model Builder](./lead-scoring-model-builder.md)** — Use scoring as triggers and gates within your automated workflows.
+- **[Segmentation Rule Builder](./segmentation-rule-builder.md)** — Create dynamic segments as conditional branches in your automation workflows.
+- **[Email Automation Workflow](../email/email-automation-workflow.md)** — Extend CRM workflows with email sequences for nurture and engagement.

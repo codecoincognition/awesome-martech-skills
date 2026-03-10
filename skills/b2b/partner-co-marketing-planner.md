@@ -15,7 +15,7 @@ Plans and executes co-marketing campaigns with technology partners, integration 
 
 ## Granularity Check
 
-> **Session time**: ~10 min context gathering + ~10 min Claude session. If executing a full co-marketing campaign, add 4-8 weeks for partner alignment, content creation, and execution. Input is partner details, shared audience, and campaign goals. Output is Markdown co-marketing plan with campaign framework, content strategy, lead management rules, and measurement approach.
+> **Time**: ~10 min data prep → ~10 min Claude session → ~30-60 min customizing for your prospect. If executing a full co-marketing campaign, add 4-8 weeks for partner alignment, content creation, and execution. Input is partner details, shared audience, and campaign goals. Output is Markdown co-marketing plan with campaign framework, content strategy, lead management rules, and measurement approach.
 
 ## User Intent Mapping
 
@@ -154,8 +154,7 @@ Co-branding rules:
 ### ⚠️ Human Checkpoint
 > Review all co-branded content with legal — ensure no conflicting claims or competitive issues. Get written agreement on lead sharing, usage rights, and campaign ownership before starting. Clarify data privacy requirements: GDPR and CAN-SPAM apply to shared leads.
 
-> **Benchmark Context**: B2B companies with active partner marketing programs generate 28% more revenue than those without. Co-marketing webinars average 2-3x the registration of solo webinars. 65% of co-marketing campaigns fail due to unequal partner commitment — establishing clear responsibilities upfront is critical. Integration partners generate leads at 40-60% lower CPL than paid channels. The average co-marketing campaign takes 4-6 weeks from concept to launch.
-
+> **Benchmark Context**: B2B companies with active partner marketing programs generate 28% more revenue than those without (Gartner 2024 B2B Buying Journey Report). Co-marketing webinars average 2-3x the registration of solo webinars (Demand Gen Report 2024 B2B Buyer Survey). 65% of co-marketing campaigns fail due to unequal partner commitment — establishing clear responsibilities upfront is critical (Demand Gen Report 2024 B2B Buyer Survey). Integration partners generate leads at 40-60% lower CPL than paid channels. The average co-marketing campaign takes 4-6 weeks from concept to launch (Demand Gen Report 2024 B2B Buyer Survey). (Gartner 2024 B2B Buying Journey Report).
 ## Output Contract
 
 ### Deliverable: Markdown Co-Marketing Plan
@@ -249,3 +248,10 @@ Co-branding rules:
 **Input**: "Co-marketing plan with our CRM integration partner. We're a marketing automation platform, they're a mid-market CRM. We have 5K email list, 12K LinkedIn followers. They have 15K email list, 8K LinkedIn followers. We share ~30% audience overlap. Goal: generate 200 joint leads in Q2."
 
 **Output**: Partnership assessment: strong fit (complementary products, 30% overlap, combined 20K email reach). Campaign plan (3 campaigns in Q2): (1) Co-branded webinar: "The Marketing + Sales Alignment Playbook for Mid-Market Teams" — you present marketing automation best practices, they present CRM pipeline management, joint Q&A. Target: 400 registrations (you promote to 5K list, they promote to 15K), 140 attendees, 70 qualified leads. Timeline: launch Week 3 of Q1. (2) Joint ebook: "The Complete Guide to Revenue Operations for Growing Companies" — you write chapters 1-3 (marketing ops), they write chapters 4-6 (sales ops), co-branded design. Target: 80 leads from gated download. Promote via both email lists + LinkedIn. (3) Integration case study + campaign: interview 2-3 mutual customers using both products, create case study highlighting integration value, promote via email + social + sales teams. Target: 50 leads from case study landing page. Lead management: all leads shared equally. You follow up on leads from your audience first, they follow up on leads from their audience first. Both add to CRM with co-marketing campaign tag. Monthly lead status sync. Budget: $2,500 each ($5K total) — webinar platform, ebook design, paid LinkedIn promotion. Expected: 200 joint leads at $25 CPL (vs. $60-80 solo).
+
+## Related Skills
+
+- **[Campaign Brief Synthesizer](../content/campaign-brief-synthesizer.md)** — Create aligned campaign briefs for co-marketing campaigns with shared messaging and goals.
+- **[Editorial Calendar Builder](../content/editorial-calendar-builder.md)** — Coordinate content production timeline across partner marketing efforts.
+- **[Event ROI Calculator](../pr-events/event-roi-calculator.md)** — Measure success of co-marketed events and webinars with shared attribution models.
+- **[Lead Scoring Model Builder](../crm/lead-scoring-model-builder.md)** — Define lead quality criteria for partner lead sharing and handoff agreements.

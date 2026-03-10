@@ -15,7 +15,7 @@ Researches podcast guests and creates comprehensive interview briefs with backgr
 
 ## Granularity Check
 
-> **Session time**: ~5 min context gathering + ~10 min Claude session. Input is guest name/company and podcast context. Output is Markdown interview brief with research, questions, and talking points.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min producing / uploading. Input is guest name/company and podcast context. Output is Markdown interview brief with research, questions, and talking points.
 
 ## User Intent Mapping
 
@@ -104,8 +104,7 @@ Researches podcast guests and creates comprehensive interview briefs with backgr
 ### ⚠️ Human Checkpoint
 > Review guest's recent public statements for any sensitive topics to navigate. Confirm pronunciation of guest's name and company. Share a brief topic outline with the guest before recording for their comfort.
 
-> **Benchmark Context**: Podcasts with well-researched interviews see 40% higher completion rates. Episodes with unique guest insights get 3x more shares. Pre-interview prep reduces editing time by 30%. Listeners rank "quality of questions" as the #2 factor in podcast quality (after audio quality).
-
+> **Benchmark Context**: Podcasts with well-researched interviews see 40% higher completion rates (Edison Research 2024 Podcast Consumer Report) Episodes with unique guest insights get 3x more shares. . Pre-interview prep reduces editing time by 30% (Wistia 2024 State of Video) Listeners rank "quality of questions" as the #2 factor in podcast quality (after audio quality). . (Edison Research 2024 Podcast Consumer Report).
 ## Output Contract
 
 ### Deliverable: Markdown Guest Brief
@@ -196,3 +195,10 @@ Researches podcast guests and creates comprehensive interview briefs with backgr
 **Input**: "Guest brief for our marketing podcast. Guest: Sarah Chen, VP of Growth at a Series B fintech startup. Episode theme: growth marketing on a limited budget. Our audience: startup marketers and founders."
 
 **Output**: Brief includes: background on Sarah's growth trajectory (took company from $0 to $2M ARR with $50K marketing budget), her published framework on "high-leverage growth channels," and recent LinkedIn posts about PLG. Questions: (1) "What's the first growth channel you'd invest in with under $5K/month?" (2) "Walk us through how you took [company] from zero to $2M ARR — what worked that surprised you?" (3) "What's the biggest growth marketing mistake you see startups make?" (4) "You've written about 'high-leverage channels' — what does that mean practically?" (5) "How do you decide when to stop experimenting and double down on a channel?" (6) "What's one growth tactic that works right now that most people aren't doing?" (7) "If you had to start over tomorrow with $1K and a new product, what would you do first?" Episode titles: "From $0 to $2M ARR on a $50K Budget" / "Growth Marketing When You Can't Outspend Competitors" / "The High-Leverage Growth Playbook for Startups."
+
+## Related Skills
+
+- **[Podcast Show Notes Generator](./podcast-show-notes-generator.md)** — Use guest research to create comprehensive show notes after recording.
+- **[Video Script Writer](./video-script-writer.md)** — Script interview questions and talking points based on guest research.
+- **[Audience Persona Builder](../insights/audience-persona-builder.md)** — Research guest audience and personas to tailor interview content.
+- **[Win-Loss Interview Analyzer](../insights/win-loss-interview-analyzer.md)** — Apply interview analysis methodology to extract insights from podcast guest interviews.

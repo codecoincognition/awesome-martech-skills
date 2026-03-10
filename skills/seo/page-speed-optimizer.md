@@ -16,7 +16,7 @@ Analyzes and optimizes page speed and Core Web Vitals (LCP, INP, CLS) with prior
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing fixes, add 2-10 hours depending on issues. Input is PageSpeed Insights or Lighthouse data. Output is Markdown optimization plan with prioritized fixes.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min implementation in Google Search Console / CMS. If implementing fixes, add 2-10 hours depending on issues. Input is PageSpeed Insights or Lighthouse data. Output is Markdown optimization plan with prioritized fixes.
 
 ## User Intent Mapping
 
@@ -109,8 +109,7 @@ Common LCP issues and fixes:
 ### ⚠️ Human Checkpoint
 > Have a developer review all optimization recommendations before implementation. Test changes in staging environment first. Performance optimizations can occasionally break functionality — verify all features work after changes.
 
-> **Benchmark Context**: Pages passing all Core Web Vitals are 24% less likely to be abandoned. Improving LCP by 1 second can increase conversions by 27%. Sites in the top CWV bracket rank higher than those failing. 53% of mobile site visitors leave if a page takes longer than 3 seconds to load. Brotli compression reduces file sizes 15-20% more than Gzip.
-
+> **Benchmark Context**: Pages passing all Core Web Vitals are 24% less likely to be abandoned (Google 2024 Marketing Measurement Guide). Improving LCP by 1 second can increase conversions by 27%. Sites in the top CWV bracket rank higher than those failing. 53% of mobile site visitors leave if a page takes longer than 3 seconds to load. Brotli compression reduces file sizes 15-20% more than Gzip.
 ## Output Contract
 
 ### Deliverable: Markdown Speed Optimization Plan
@@ -195,3 +194,10 @@ Common LCP issues and fixes:
 **Input**: "Page speed optimization for a WordPress blog. LCP: 4.8s, INP: 310ms, CLS: 0.18. Lighthouse score: 42. Using 12 plugins, no CDN, images are PNG/JPEG, no caching plugin. 500K monthly visitors."
 
 **Output**: Critical fixes: (1) Install WP Rocket caching plugin — expected LCP improvement 1.5-2s alone. (2) Convert images to WebP via ShortPixel — 25 hero images average 2.4MB each (target <200KB). (3) Enable Cloudflare free CDN — TTFB improvement ~40%. (4) Defer 8 of 12 plugin scripts (social share, analytics, chat widget) — INP improvement ~100ms. CLS fixes: add width/height to all images (theme.php edit), reserve ad space dimensions (CSS). Plugin audit: remove 3 unused plugins, replace 2 heavy plugins with lighter alternatives. Phase 1 (day 1): install WP Rocket + Cloudflare → LCP 4.8→3.0s. Phase 2 (day 2-3): image optimization → LCP 3.0→2.2s. Phase 3 (week 2): JS defer + plugin cleanup → INP 310→180ms. Expected results: Lighthouse 42→85+, all CWV passing within 2 weeks.
+
+## Related Skills
+
+- **[Technical SEO Auditor](./technical-seo-auditor.md)** — Use to address Core Web Vitals and technical performance issues identified in page speed optimization.
+- **[On Page SEO Auditor](./on-page-seo-auditor.md)** — Use to ensure optimized pages have strong on-page SEO elements while maintaining fast load times.
+- **[Ecommerce SEO Optimizer](./ecommerce-seo-optimizer.md)** — Use if optimizing e-commerce sites where page speed directly impacts conversion rates and rankings.
+- **[SEO Reporting Dashboard](./seo-reporting-dashboard.md)** — Use to track page speed improvements over time and correlate speed gains with ranking/traffic improvements.

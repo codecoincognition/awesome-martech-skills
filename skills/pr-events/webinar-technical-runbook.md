@@ -16,7 +16,7 @@ Generates a complete production runbook for webinars and virtual events — cove
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is webinar details. Output is a Markdown runbook. No system access needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~20-45 min sending / implementing.** If implementing output in a platform, add 10-20 min for setup. Input is webinar details. Output is a Markdown runbook. No system access needed.
 
 ## User Intent Mapping
 
@@ -155,8 +155,7 @@ This skill should trigger when the user says things like:
 > Conduct the full rehearsal — never skip it. Most webinar failures are preventable with a proper dry run. Test the exact setup each speaker will use on webinar day.
 
 
-> **Benchmark Context**: Average press release pickup rate is 1-3% of targeted journalists. Event email invitation open rates average 20-25%, with 2-5% registration conversion. Best press release send times: Tuesday-Thursday, 9-10 AM in the journalist's time zone.
-
+> **Benchmark Context**: Average press release pickup rate is 1-3% of targeted journalists (Cision 2024 State of the Media Report). Event email invitation open rates average 20-25%, with 2-5% registration conversion (Bizzabo 2024 Event Marketing Report). Best press release send times: Tuesday-Thursday, 9-10 AM in the journalist's time zone (Cision 2024 State of the Media Report). (Cision 2024 State of the Media Report).
 ## Output Contract
 
 ### Deliverable: Markdown Runbook
@@ -242,3 +241,10 @@ No data export needed. Bring:
 **Input**: "Q1 Product Launch Webinar" on Zoom Webinars, March 20 at 1pm ET, 60 minutes. Panel format: CEO + VP Product + Customer guest. Expected 400 registrants, 150 live. Interactive: 3 polls, live Q&A, product demo. Team: 1 producer, 1 moderator, 1 chat monitor.
 
 **Output**: Complete runbook with 32-item pre-event checklist (platform config, integration with HubSpot, slide prep, rehearsal scheduling). Rehearsal plan for March 18 (full dry run with all 3 panelists). Day-of run-of-show: 12:00pm producer opens room → 12:30pm speakers join → 12:55pm recording starts → 1:00pm welcome slide → 1:02pm CEO intro → 1:15pm VP Product demo → 1:35pm customer story → 1:45pm Q&A → 1:58pm CTA + close. Troubleshooting for 6 scenarios. Post-event: replay email within 4 hours, sales handoff within 24 hours, on-demand page live within 48 hours.
+
+## Related Skills
+
+- **[Webinar Promotion Playbook](../video-podcast/webinar-promotion-playbook.md)** — Run promotion strategy before webinar while you're executing this technical runbook.
+- **[Event Logistics Coordinator](./event-logistics-coordinator.md)** — Use for non-webinar event logistics planning.
+- **[Video Script Writer](../video-podcast/video-script-writer.md)** — Script presenter talking points before executing this runbook.
+- **[Live Stream Engagement Toolkit](../video-podcast/live-stream-engagement-toolkit.md)** — Add engagement and interaction strategy to your technical webinar runbook.

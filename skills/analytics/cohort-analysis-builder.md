@@ -15,7 +15,7 @@ Builds cohort analyses to track user behavior, retention, revenue, and lifetime 
 
 ## Granularity Check
 
-> **Session time**: ~10 min data prep + ~15 min Claude session. If building automated cohort reports, add 1-2 weeks for implementation. Input is user-level data with timestamps (signup, activity, revenue). Output is Markdown cohort analysis framework with retention tables, visualization specs, and actionable insights.
+> **Time**: ~10 min data prep → ~15 min Claude session → ~30-60 min building in Google Sheets / Looker / GA4. If building automated cohort reports, add 1-2 weeks for implementation. Input is user-level data with timestamps (signup, activity, revenue). Output is Markdown cohort analysis framework with retention tables, visualization specs, and actionable insights.
 
 ## User Intent Mapping
 
@@ -220,3 +220,10 @@ Calculate per cohort:
 **Input**: "Cohort analysis for our project management SaaS. Monthly acquisition cohorts for Jan-Jun 2026. Data: Jan (450 users, M1: 42%, M3: 28%, M6: 18%), Feb (520, M1: 44%, M3: 30%), Mar (480, M1: 48%, M3: 35%), Apr (550, M1: 51%), May (600, M1: 50%), Jun (580, M1: 52%). We launched new onboarding in March."
 
 **Output**: Clear finding: new onboarding (March) created a measurable retention improvement. Pre-onboarding cohorts (Jan-Feb): M1 average 43%. Post-onboarding cohorts (Mar-Jun): M1 average 50.3% — a 7-point improvement. Month 3 also improved: Jan 28% → Mar 35% (7-point lift). Analysis: (1) The onboarding change is working — 7-point M1 lift is significant across 4 cohorts (2,210 users). (2) Projecting Mar cohort forward: if the M1→M3 ratio holds (48%→35% = 73% of M1 retained), Jun cohort should hit M3: 38% — which would be your best ever. (3) M6 retention at 18% for Jan cohort is below SaaS benchmark (20-25%) — the onboarding fix may help but monitor M6 for newer cohorts. Recommendations: (1) Keep current onboarding — it's working. (2) Now focus on M1→M3 drop (50% to ~35%): identify what makes users churn in months 2-3 and build engagement triggers. (3) Track M6 for Mar cohort (data available September) to confirm onboarding impact persists. (4) Break cohorts by channel to see if the onboarding improvement is uniform or channel-dependent.
+
+## Related Skills
+
+- **[ab-test-result-analyzer](./ab-test-result-analyzer.md)** — Use after cohort analysis to validate retention improvements with statistical testing.
+- **[retention-analysis-framework](../growth/retention-analysis-framework.md)** — Complements cohort analysis to identify churn patterns and design retention strategies.
+- **[marketing-roi-calculator](./marketing-roi-calculator.md)** — Analyze cohort value and LTV per acquisition cohort to optimize marketing ROI.
+- **[customer-persona-builder](../growth/customer-persona-builder.md)** — Segment cohorts by persona to understand which customer types retain best.

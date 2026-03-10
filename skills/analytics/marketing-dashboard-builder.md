@@ -19,7 +19,7 @@ Build a self-contained interactive HTML dashboard from raw marketing data. Inclu
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is CSV data. Output is a single HTML file with embedded Chart.js visualizations. No server or database needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~60-120 min building in your BI tool.** If implementing output in a platform, add 10-20 min for setup. Input is CSV data. Output is a single HTML file with embedded Chart.js visualizations. No server or database needed.
 
 ## User Intent Mapping
 
@@ -125,10 +125,7 @@ date,channel,sessions,leads,mqls,opportunities,revenue,spend
 7. **Generate self-contained HTML** — Single file with embedded CSS, JS, Chart.js, and data.
 
 
-> **Benchmark Context**: Marketing teams typically allocate 5-15% of budget to analytics tools. A well-built dashboard should answer 80% of weekly reporting questions without manual queries. GA4 reports average 24-48 hour data lag for standard processing.
-
-
-### Confidence & Sample Size
+> **Benchmark Context**: Marketing teams typically allocate 5-15% of budget to analytics tools (Google 2024 Marketing Measurement Guide). A well-built dashboard should answer 80% of weekly reporting questions without manual queries (Google 2024 Marketing Measurement Guide). GA4 reports average 24-48 hour data lag for standard processing. ### Confidence & Sample Size.
 > **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract
@@ -256,3 +253,10 @@ If no BI tool available, create analysis in Google Sheets or Excel:
 > Generating the interactive HTML dashboard now...
 
 **Delivers a single HTML file the user can open in any browser and share.**
+
+## Related Skills
+
+- **[dashboard-requirement-gatherer](./dashboard-requirement-gatherer.md)** — Gather requirements before building the dashboard.
+- **[marketing-roi-calculator](./marketing-roi-calculator.md)** — Include ROI and ROAS metrics calculated with this skill.
+- **[ga4-event-setup-guide](./ga4-event-setup-guide.md)** — Ensure proper GA4 event tracking for dashboard data sources.
+- **[marketing-mix-modeler](./marketing-mix-modeler.md)** — Use dashboard insights to inform budget allocation decisions.

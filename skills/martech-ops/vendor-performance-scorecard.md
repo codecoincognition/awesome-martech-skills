@@ -15,7 +15,7 @@ Scores marketing vendor or agency performance across 5 weighted dimensions, prod
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is vendor performance data (text or CSV). Output is an XLSX scorecard. No external system access needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min implementing in your MarTech stack.** If implementing output in a platform, add 10-20 min for setup. Input is vendor performance data (text or CSV). Output is an XLSX scorecard. No external system access needed.
 
 ## User Intent Mapping
 
@@ -107,8 +107,7 @@ Based on overall score and trend:
 > Review scores before sharing with the vendor. Ensure ratings are fair, documented with examples, and defensible. One bad quarter may not warrant termination if the trend is improving.
 
 
-> **Benchmark Context**: Average enterprise has 91 marketing tools in its stack. Brand compliance violations occur in 60% of co-branded partner materials. UTM tracking is implemented on only 40-50% of marketing URLs on average.
-
+> **Benchmark Context**: Average enterprise has 91 marketing tools in its stack. Brand compliance violations occur in 60% of co-branded partner materials (Gartner 2024 Marketing Technology Survey). UTM tracking is implemented on only 40-50% of marketing URLs on average. (Gartner 2024 Marketing Technology Survey).
 ## Output Contract
 
 ### Deliverable: Structured Analysis Tables in Markdown
@@ -178,3 +177,10 @@ Columns: `priority | area | current_state | target_state | deadline | success_me
 **Input**: "ContentPros Agency", Q4 2025. Delivered 11 of 12 blog posts on time, 2 required major revisions, budget was $15K against $12K plan (25% over), response time averaged 6 hours (SLA: 4 hours), proactively suggested a content pillar strategy that increased organic traffic 15%.
 
 **Output**: Overall score 68/100 (Adequate). Delivery 4/5 (92% on-time), Cost 2/5 (25% over budget), Quality 3/5 (17% revision rate), Communication 3/5 (response time 50% above SLA), Strategic Value 5/5 (proactive strategy with measurable results). Recommendation: RENEW WITH CONDITIONS — require scope/budget alignment process and response time improvement to 4-hour SLA within 60 days.
+
+## Related Skills
+
+- **[Contract Clause Extractor](./contract-clause-extractor.md)** — Extract contract terms that inform vendor SLA and performance expectations.
+- **[SLA Document Generator](./sla-document-generator.md)** — Create vendor SLAs that form the basis of performance measurement.
+- **[Approval Bottleneck Analyzer](./approval-bottleneck-analyzer.md)** — Score vendors partially on their impact to approval cycle times.
+- **[Content Performance Scorecard](../content/content-performance-scorecard.md)** — Compare agency-produced content performance to evaluate vendor quality.

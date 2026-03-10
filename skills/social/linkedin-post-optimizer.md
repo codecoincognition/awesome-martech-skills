@@ -15,7 +15,7 @@ Analyzes and optimizes LinkedIn posts for maximum engagement using proven format
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing output in a platform, add 5-10 min for scheduling. Input is draft post or topic. Output is optimized post variants with scoring.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~20-40 min scheduling in Buffer / Hootsuite / native platform. If implementing output in a platform, add 5-10 min for scheduling. Input is draft post or topic. Output is optimized post variants with scoring.
 
 ## User Intent Mapping
 
@@ -98,8 +98,7 @@ The hook appears before "...see more" and determines 80% of engagement:
 ### ⚠️ Human Checkpoint
 > Review the post for authenticity — LinkedIn audiences detect and penalize overly formulaic or AI-generated content. Add personal details, specific numbers, or named experiences to make it genuinely yours.
 
-> **Benchmark Context**: Average LinkedIn post engagement rate is 0.35-0.50%. Posts with images get 2x engagement vs. text-only. Carousel posts average 3-5x higher engagement than single images. Top 1% of LinkedIn posts get 50+ comments. Posting 3-5x/week is optimal for growth.
-
+> **Benchmark Context**: Average LinkedIn post engagement rate is 0.35-0.50% (Sprout Social 2024 Index) Posts with images get 2x engagement vs (Sprout Social 2024 Index) text-only. . Carousel posts average 3-5x higher engagement than single images (Sprout Social 2024 Index) Top 1% of LinkedIn posts get 50+ comments (Buffer 2024 State of Social) Posting 3-5x/week is optimal for growth (Buffer 2024 State of Social) (Sprout Social 2024 Index).
 ## Output Contract
 
 ### Deliverable: Markdown with Optimized Post Variants
@@ -193,3 +192,10 @@ The hook appears before "...see more" and determines 80% of engagement:
 > What's the one onboarding change that made the biggest difference for your product?
 >
 > #SaaS #ProductLedGrowth #Onboarding #StartupLessons
+
+## Related Skills
+
+- **[Social Content Calendar](./social-content-calendar.md)** — Use to plan LinkedIn posts with optimal timing and frequency based on platform best practices.
+- **[Content Repurposer](../content/content-repurposer.md)** — Use to adapt long-form blog content into optimized LinkedIn posts.
+- **[Social Engagement Analyzer](./social-engagement-analyzer.md)** — Use to measure LinkedIn post performance and refine your optimization strategy.
+- **[Twitter Thread Writer](./twitter-thread-writer.md)** — Use for similar long-form thought leadership on the X/Twitter platform.

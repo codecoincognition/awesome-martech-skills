@@ -15,7 +15,7 @@ Designs and implements marketing attribution models to accurately measure channe
 
 ## Granularity Check
 
-> **Session time**: ~10 min data prep + ~15 min Claude session. If implementing, add 1-4 weeks depending on model complexity. Input is conversion data, channel mix, and current tracking. Output is Markdown attribution model with implementation plan.
+> **Time**: ~10 min data prep → ~15 min Claude session → ~30-60 min configuring in your marketing platform. If implementing, add 1-4 weeks depending on model complexity. Input is conversion data, channel mix, and current tracking. Output is Markdown attribution model with implementation plan.
 
 ## User Intent Mapping
 
@@ -197,3 +197,10 @@ Designs and implements marketing attribution models to accurately measure channe
 **Input**: "Marketing attribution model. B2B SaaS, $20K ACV, 90-day average sales cycle. Channels: Google Ads, LinkedIn Ads, organic search, content marketing, webinars, email nurture. Using GA4 and HubSpot. $50K/month marketing budget. Currently using last-touch — organic search gets all the credit."
 
 **Output**: Problem: last-touch overcredits organic search because it's often the final click before demo booking, but other channels drive initial awareness. Recommended model: position-based (40% first-touch, 40% last-touch, 20% middle touches) — appropriate for B2B with clear awareness → consideration → decision funnel. Attribution window: 90 days (matching sales cycle). Reattribution analysis: moving from last-touch to position-based will likely shift 25-35% of credit from organic search to LinkedIn Ads (awareness) and webinars (middle touch). Implementation: (1) HubSpot — enable multi-touch revenue attribution; configure for position-based model. (2) GA4 — switch to data-driven attribution (Google's default). (3) UTM governance — standardize UTM naming across all channels. (4) CRM — track all offline touchpoints (webinars, sales calls) as HubSpot campaigns. Validation: run geo-based holdout test on LinkedIn Ads (pause in one region for 60 days, compare pipeline). Expected outcome: discover LinkedIn Ads drives 20-25% of pipeline when properly attributed, justifying current spend. Organic search contribution drops from 60% (last-touch) to 30-35% (position-based) — still valuable but not the only driver.
+
+## Related Skills
+
+- **[Marketing ROI Calculator](../analytics/marketing-roi-calculator.md)** — Use attribution insights to calculate true ROI by channel after mapping touchpoints accurately.
+- **[Marketing Mix Modeler](../analytics/marketing-mix-modeler.md)** — Complement attribution with econometric modeling to test optimal budget allocation.
+- **[Campaign Performance Benchmarker](../analytics/campaign-performance-benchmarker.md)** — Compare attributed performance across campaigns to identify top-performing channel combinations.
+- **[UTM Tracking Manager](../martech-ops/utm-tracking-manager.md)** — Ensure consistent UTM tagging across channels to enable accurate attribution modeling.

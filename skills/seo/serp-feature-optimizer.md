@@ -15,7 +15,7 @@ Analyzes SERP feature opportunities and optimizes content to win featured snippe
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing, add 2-4 hours for content restructuring and schema markup. Input is target keywords and current SERP analysis. Output is Markdown optimization plan per SERP feature type.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min implementation in Google Search Console / CMS. If implementing, add 2-4 hours for content restructuring and schema markup. Input is target keywords and current SERP analysis. Output is Markdown optimization plan per SERP feature type.
 
 ## User Intent Mapping
 
@@ -111,8 +111,7 @@ Map SERP features present for each target keyword:
 ### ⚠️ Human Checkpoint
 > Verify all schema markup with Google's Rich Results Test before deploying. Incorrect schema can result in manual actions. Review content accuracy before targeting featured snippets — Google prioritizes authoritative answers.
 
-> **Benchmark Context**: Featured snippets get 8.6% of clicks (but steal clicks from position 1). Pages in positions 1-5 are most likely to win snippets. PAA boxes appear in 65% of searches. FAQ rich results increase CTR by 20-30%. Proper schema markup makes pages eligible for 2.7x more SERP features. Zero-click searches account for 65% of Google searches.
-
+> **Benchmark Context**: Featured snippets get 8.6% of clicks (but steal clicks from position 1). . Pages in positions 1-5 are most likely to win snippets. . PAA boxes appear in 65% of searches. . FAQ rich results increase CTR by 20-30% (Ahrefs 2024 Search Traffic Study) Proper schema markup makes pages eligible for 2.7x more SERP features (Semrush 2024 State of Search) Zero-click searches account for 65% of Google searches. . (Ahrefs 2024 Search Traffic Study).
 ## Output Contract
 
 ### Deliverable: Markdown SERP Feature Plan
@@ -186,3 +185,10 @@ Map SERP features present for each target keyword:
 **Input**: "SERP feature optimization for a cooking blog. Keywords: 'how to make sourdough bread', 'best pasta recipes', 'meal prep ideas for beginners'. Currently ranking positions 3-8. No schema markup on the site."
 
 **Output**: SERP landscape: "how to make sourdough bread" has list snippet + video carousel + PAA (6 questions); "best pasta recipes" has image pack + carousel; "meal prep ideas" has list snippet + PAA (8 questions). Featured snippet targets: restructure sourdough post with H2 "How to Make Sourdough Bread" followed by numbered steps (list snippet format), add recipe time/yield table. PAA strategy: answer all 14 PAA questions across target keywords — create FAQ section per post with FAQ schema. Schema: add Recipe schema to all recipe posts (cook time, ingredients, nutrition, rating), HowTo schema for tutorial posts, Article schema site-wide. Content changes: (1) sourdough post — add numbered step list at top, currently buried in narrative text, (2) pasta recipes — add image alt text with keyword variations for image pack, (3) meal prep — restructure as H2 "Meal Prep Ideas for Beginners" + bulleted list of ideas. Quick wins: add Recipe schema (30 min with plugin), restructure sourdough steps (1 hour).
+
+## Related Skills
+
+- **[On Page SEO Auditor](./on-page-seo-auditor.md)** — Use to optimize page elements specifically for SERP feature eligibility (formatting, headings, structured data).
+- **[Content Brief Generator](../content/content-brief-writer.md)** — Use to create briefs that explicitly include SERP feature requirements (featured snippets, how-to schema, etc.).
+- **[Technical SEO Auditor](./technical-seo-auditor.md)** — Use to ensure proper structured data implementation required for knowledge panels, rich results, and other SERP features.
+- **[Keyword Cluster Analyzer](./keyword-cluster-analyzer.md)** — Use to identify keywords with high SERP feature potential before optimizing for them.

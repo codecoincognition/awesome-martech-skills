@@ -16,7 +16,7 @@ Matches event attendees to relevant sessions, networking groups, and sales rep a
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is attendee CSV + session list. Output is XLSX with matching assignments. No system access needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~120-240 min coordinating across vendors.** If implementing output in a platform, add 10-20 min for setup. Input is attendee CSV + session list. Output is XLSX with matching assignments. No system access needed.
 
 ## User Intent Mapping
 
@@ -118,8 +118,7 @@ For top-tier attendees:
 > Review VIP assignments and rep routing before the event. Sales reps should review their assigned attendees and prepare talking points. Don't auto-assign without rep input.
 
 
-> **Benchmark Context**: Average press release pickup rate is 1-3% of targeted journalists. Event email invitation open rates average 20-25%, with 2-5% registration conversion. Best press release send times: Tuesday-Thursday, 9-10 AM in the journalist's time zone.
-
+> **Benchmark Context**: Average press release pickup rate is 1-3% of targeted journalists (Cision 2024 State of the Media Report). Event email invitation open rates average 20-25%, with 2-5% registration conversion (Bizzabo 2024 Event Marketing Report). Best press release send times: Tuesday-Thursday, 9-10 AM in the journalist's time zone (Cision 2024 State of the Media Report). (Cision 2024 State of the Media Report).
 ## Output Contract
 
 ### Deliverable: Structured Analysis Tables in Markdown
@@ -181,3 +180,10 @@ Columns: `attendee | company | value | exec_sponsor | pre_event_action | day_of_
 **Input**: 120 attendees, 3 breakout tracks (Analytics, Content Strategy, ABM), 4 sales reps, 15 VIP prospects.
 
 **Output**: Session assignments: 45 attendees → Analytics, 40 → Content Strategy, 35 → ABM (based on registration interests + role inference). Rep routing: Rep 1 gets 8 VIPs in SaaS vertical, Rep 2 gets 7 VIPs in healthcare. 15 networking groups of 8 formed (3 by-interest, 2 cross-industry, 1 customer-prospect mix). VIP plan: 15 prospects each assigned an executive sponsor, pre-event LinkedIn message drafted, reserved keynote seating in rows 2-3.
+
+## Related Skills
+
+- **[Event Logistics Coordinator](./event-logistics-coordinator.md)** — Use matching results to optimize event logistics like room assignments and session scheduling.
+- **[Event ROI Calculator](./event-roi-calculator.md)** — Track matched attendees through to pipeline and revenue to measure matching effectiveness ROI.
+- **[Buying Committee Mapper](../b2b/buying-committee-mapper.md)** — For B2B events, map buying committees before event to plan strategic attendee matching.
+- **[Account Research Synthesizer](../b2b/account-research-synthesizer.md)** — Research key accounts before event to prioritize and personalize attendee matching.

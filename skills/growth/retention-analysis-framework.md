@@ -15,7 +15,7 @@ Analyzes retention data to identify churn patterns, build cohort analyses, desig
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing output, add 1-2 weeks for strategy execution. Input is user activity or cohort data. Output is Markdown retention report with action plan.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~60-120 min implementing in your product / tools. If implementing output, add 1-2 weeks for strategy execution. Input is user activity or cohort data. Output is Markdown retention report with action plan.
 
 ## User Intent Mapping
 
@@ -104,8 +104,7 @@ Interventions by lifecycle stage:
 ### ⚠️ Human Checkpoint
 > Validate churn reasons with actual user conversations (surveys alone can be misleading). Review health score thresholds with customer success team. Verify that retention interventions don't annoy retained users (frequency caps on re-engagement).
 
-> **Benchmark Context**: Average SaaS monthly churn is 3-7% (monthly contracts) or 5-10% annually (annual contracts). Good Day 1 retention: 40%+ for apps, 60%+ for SaaS. Good Day 30 retention: 15%+ for apps, 40%+ for SaaS. Reactivating a churned user costs 5-25x less than acquiring a new one. A 5% improvement in retention can increase profits by 25-95%.
-
+> **Benchmark Context**: Average SaaS monthly churn is 3-7% (monthly contracts) or 5-10% annually (annual contracts. Good Day 1 retention: 40%+ for apps, 60%+ for SaaS (OpenView 2024 Product Benchmarks). Good Day 30 retention: 15%+ for apps, 40%+ for SaaS (OpenView 2024 Product Benchmarks). Reactivating a churned user costs 5-25x less than acquiring a new one (ProfitWell 2024 SaaS Benchmarks). A 5% improvement in retention can increase profits by 25-95% (OpenView 2024 Product Benchmarks). (OpenView 2024 Product Benchmarks).
 ## Output Contract
 
 ### Deliverable: Markdown Retention Report
@@ -189,3 +188,10 @@ Interventions by lifecycle stage:
 **Input**: "Retention analysis for a fitness app. 50K monthly signups. Day 1: 45%, Day 7: 22%, Day 30: 8%. Most users drop off after completing onboarding but before establishing a workout habit. Subscription: $9.99/month."
 
 **Output**: Critical drop-off: Day 1 to Day 7 (45% → 22%) — users who complete onboarding aren't forming a habit. Analysis: retained users log 3+ workouts in week 1; churned users average 0.8 workouts. Aha moment: completing 3rd workout. Strategy: (1) Day 1-3: push notification sequence with personalized workout suggestions, reduce first workout from 45 min to 15 min "starter" workout; (2) Day 3-7: habit hook — streak counter with daily reminders, social accountability feature (workout with a friend); (3) Day 7-14: introduce variety (new workout types) to prevent boredom; (4) At-risk (no workout in 5 days): "We miss you" push + 7-day free premium content unlock. Health score: workout frequency (40%), app opens (25%), content completion (20%), social features used (15%). Win-back: Day 30 email with "Your personalized comeback plan" + 50% off next month. Expected impact: Day 7 retention from 22% to 30-35%.
+
+## Related Skills
+
+- **[cohort-analysis-builder](../analytics/cohort-analysis-builder.md)** — Build cohort analyses to understand retention patterns by segment.
+- **[onboarding-flow-optimizer](./onboarding-flow-optimizer.md)** — Optimize onboarding based on activation and early retention signals.
+- **[customer-persona-builder](./customer-persona-builder.md)** — Segment retention by persona to identify highest-value users.
+- **[growth-experiment-designer](./growth-experiment-designer.md)** — Design retention improvement experiments informed by churn analysis.

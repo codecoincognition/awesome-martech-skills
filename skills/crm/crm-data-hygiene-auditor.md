@@ -18,7 +18,7 @@ Audits a CRM contact/lead export for data quality issues — duplicates, missing
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is a CSV export. Output is an XLSX audit report. No CRM API access needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min configuring in Salesforce / HubSpot.** If implementing output in a platform, add 10-20 min for setup. Input is a CSV export. Output is an XLSX audit report. No CRM API access needed.
 
 ## User Intent Mapping
 
@@ -187,3 +187,10 @@ Markdown table: `priority | action | record_count | estimated_effort | expected_
 **Input**: 3,200-row HubSpot contact export with 15 columns.
 
 **Output**: Health score 58/100 (Grade C). Field completeness 72% (phone missing on 43% of records, company missing on 18%). 127 duplicate groups detected (89 exact email, 38 fuzzy). 34% of records stale (no activity in 180+ days). Formatting issues: 5 phone formats detected, 3 company name case variants for top accounts. Remediation plan: (1) Merge 89 exact-match duplicate groups. (2) Archive 412 zombie records (created 12+ months ago, never engaged). (3) Standardize phone format to (XXX) XXX-XXXX. (4) Enrich 156 high-priority records (active MQLs missing company/phone).
+
+## Related Skills
+
+- **[Data Enrichment Prioritizer](./data-enrichment-prioritizer.md)** — After auditing data quality, use to prioritize which contacts to enrich for maximum ROI.
+- **[Lead Scoring Model Builder](./lead-scoring-model-builder.md)** — Clean data quality issues before building scoring models to ensure accuracy.
+- **[Segmentation Rule Builder](./segmentation-rule-builder.md)** — Fix data issues that prevent accurate segment creation and maintenance.
+- **[Digital Asset Audit Report](../martech-ops/digital-asset-audit-report.md)** — Apply similar audit methodology to your marketing asset library.

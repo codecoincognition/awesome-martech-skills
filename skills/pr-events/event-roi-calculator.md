@@ -15,7 +15,7 @@ Calculates and optimizes ROI for marketing events by tracking costs, attributing
 
 ## Granularity Check
 
-> **Session time**: ~10 min data gathering + ~10 min Claude session. If building a full event measurement program, add 2-4 weeks for tracking setup. Input is event costs and results data. Output is Markdown ROI analysis with attribution framework, benchmarks, and optimization recommendations.
+> **Time**: ~10 min data prep → ~10 min Claude session → ~120-240 min coordinating across vendors. If building a full event measurement program, add 2-4 weeks for tracking setup. Input is event costs and results data. Output is Markdown ROI analysis with attribution framework, benchmarks, and optimization recommendations.
 
 ## User Intent Mapping
 
@@ -135,8 +135,7 @@ Calculates and optimizes ROI for marketing events by tracking costs, attributing
 ### ⚠️ Human Checkpoint
 > Validate event attribution with sales team — CRM data alone may miss event influence on existing deals. Ensure costs include ALL categories (staff time is commonly 30-40% of true event cost and often excluded). Compare event ROI to the same investment in other channels before making budget decisions.
 
-> **Benchmark Context**: B2B events generate 24% of total marketing pipeline on average. The average B2B event ROI is 3-5:1 (revenue to spend) when measured over 12 months. 68% of event leads require 3+ follow-up touches to convert. Companies that follow up within 24 hours of an event convert leads at 2-3x the rate of those who wait a week. The cost of NOT attending a key industry event is hard to quantify but real — competitors meeting your prospects is a hidden cost.
-
+> **Benchmark Context**: B2B events generate 24% of total marketing pipeline on average (Bizzabo 2024 Event Marketing Report). The average B2B event ROI is 3-5:1 (revenue to spend) when measured over 12 months (Bizzabo 2024 Event Marketing Report). 68% of event leads require 3+ follow-up touches to convert (Bizzabo 2024 Event Marketing Report). Companies that follow up within 24 hours of an event convert leads at 2-3x the rate of those who wait a week (Bizzabo 2024 Event Marketing Report). The cost of NOT attending a key industry event is hard to quantify but real — competitors meeting your prospects is a hidden cost. (Bizzabo 2024 Event Marketing Report).
 ## Output Contract
 
 ### Deliverable: Markdown Event ROI Report
@@ -230,3 +229,10 @@ Calculates and optimizes ROI for marketing events by tracking costs, attributing
 **Input**: "Event ROI for our booth at SaaS Connect 2026. Costs: booth $12K, travel (4 people) $8K, materials/swag $3K, booth design $5K, staff time (80 hours × $75/hr) $6K. Total: $34K. Results: 185 badge scans, 42 qualified leads, 18 meetings booked, 8 opportunities created ($680K pipeline), 2 closed deals ($85K revenue so far). Event was 6 weeks ago."
 
 **Output**: ROI analysis: (1) Current metrics: CPL = $34K / 42 qualified leads = $810. Cost per meeting = $34K / 18 = $1,889. Cost per opportunity = $34K / 8 = $4,250. Pipeline-to-spend ratio = $680K / $34K = 20:1 (excellent — benchmark is 8-15:1). Current revenue ROI = ($85K - $34K) / $34K = 150%. (2) Projected ROI: 6 of 8 opportunities still open ($595K pipeline remaining). At your typical 30% close rate, expect $178K additional revenue. Projected total revenue: $263K. Projected ROI: ($263K - $34K) / $34K = 673%. (3) Assessment: this was a strong event. Pipeline ratio of 20:1 is above benchmark. CPL of $810 is moderate for B2B SaaS conferences but reasonable given deal sizes ($85K+ average). (4) Optimization for next year: reduce badge scanning focus (185 scans but only 42 qualified — 23% qualification rate). Invest in pre-event outreach to book more meetings before the event (target 25+ vs. 18). Consider reducing team to 3 people (saves $2K travel + $1.5K staff time). Expected improvement: same pipeline at $30K cost, improving ROI to 775%.
+
+## Related Skills
+
+- **[Marketing ROI Calculator](../analytics/marketing-roi-calculator.md)** — Calculate overall marketing ROI with event contribution included.
+- **[Event Logistics Coordinator](./event-logistics-coordinator.md)** — Review logistics efficiency as a cost component of ROI calculation.
+- **[Attribution Model Builder](../analytics/attribution-model-builder.md)** — Build attribution model that properly credits events for pipeline influenced.
+- **[Campaign Performance Benchmarker](../analytics/campaign-performance-benchmarker.md)** — Compare event ROI to other marketing campaign ROI for budget allocation decisions.

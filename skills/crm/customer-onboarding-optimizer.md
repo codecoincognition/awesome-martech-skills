@@ -17,7 +17,7 @@ Designs and optimizes customer onboarding sequences to accelerate time-to-value,
 
 ## Granularity Check
 
-> **Session time**: ~10 min context gathering + ~10 min Claude session. If implementing, add 1-2 weeks for email/in-app setup. Input is current onboarding process and activation data. Output is Markdown onboarding plan with milestone definitions, email sequences, and measurement framework.
+> **Time**: ~10 min data prep → ~10 min Claude session → ~30-60 min configuring in Salesforce / HubSpot. If implementing, add 1-2 weeks for email/in-app setup. Input is current onboarding process and activation data. Output is Markdown onboarding plan with milestone definitions, email sequences, and measurement framework.
 
 ## User Intent Mapping
 
@@ -212,3 +212,10 @@ Designs and optimizes customer onboarding sequences to accelerate time-to-value,
 **Input**: "Optimize onboarding for our project management SaaS. Current: welcome email → nothing. 60% of trial users never create a project. 45% churn within 30 days. Average activation (created project + added task) takes 5 days. Need to improve trial-to-paid conversion."
 
 **Output**: Problem: no onboarding guidance after welcome email → users don't know what to do → abandon. Aha moment redefined: "created first project AND added 3+ tasks AND invited 1 team member" (this predicts conversion 4x better than project creation alone). Onboarding redesign: Day 0 — welcome email with 2-minute video showing "create your first project in 3 clicks" + pre-made project template ready to use. Day 1 — if no project created → "Start with a template" email with 1-click template import. Day 2 — if project created but no tasks → "Add your first 3 tasks" email with examples. Day 3 — if tasks added but no team → "Invite your first teammate" email (collaborative tools need team adoption). Day 5 — progress email: "Here's what you've accomplished" (reinforce value). Day 7 — if activated → case study of similar company. If not → "Need help? 15-min setup call" offer. Day 14 — trial ending reminder + ROI summary. In-app: onboarding checklist (4 items) pinned to sidebar. First login: guided tour (30 seconds) showing create project → add task → invite team. Expected results: activation rate from 40% to 65% (guided setup + templates), Day 30 churn from 45% to 25%, trial-to-paid conversion increase 30-40%.
+
+## Related Skills
+
+- **[Email Automation Workflow](../email/email-automation-workflow.md)** — Deploy optimized onboarding sequences via automated email campaigns.
+- **[Onboarding Flow Optimizer](../growth/onboarding-flow-optimizer.md)** — Optimize product-level onboarding experience complementary to email and CRM touchpoints.
+- **[Customer Journey Mapper](../insights/customer-journey-mapper.md)** — Map customer onboarding journey across all touchpoints to identify friction.
+- **[Churn Prediction Framework](./churn-prediction-framework.md)** — Reduce early churn by optimizing onboarding milestones for faster activation.

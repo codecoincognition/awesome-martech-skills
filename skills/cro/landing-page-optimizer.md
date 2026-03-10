@@ -16,7 +16,7 @@ Audits landing page copy across 5 conversion dimensions, scores each section, an
 
 ## Granularity Check
 
-> **Session time**: ~5 minutes data prep + ~10 minutes Claude session. If implementing output in a platform, add 10-20 minutes for setup. Input is page copy or URL. Output is scored audit + rewritten sections.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min implementing in your testing tool / CMS. If implementing output in a platform, add 10-20 minutes for setup. Input is page copy or URL. Output is scored audit + rewritten sections.
 
 ## User Intent Mapping
 
@@ -85,10 +85,10 @@ Audits landing page copy across 5 conversion dimensions, scores each section, an
 6. **Generate quick wins** — List 3-5 changes that take <30 minutes to implement.
 
 
-> **Benchmark Context**: Average landing page conversion rate is 2.35% across industries, with the top 25% converting at 5.31%+. Adding social proof increases conversions by 12-15% on average. Reducing form fields from 4 to 3 can increase conversions by 25%.
+> **Benchmark Context**: Average landing page conversion rate is 2.35% across industries, with the top 25% converting at 5.31%+ (Unbounce 2024 Conversion Benchmark Report). Adding social proof increases conversions by 12-15% on average (Contentsquare 2024 Digital Experience Benchmark). Reducing form fields from 4 to 3 can increase conversions by 25% (Contentsquare 2024 Digital Experience Benchmark). (Unbounce 2024 Conversion Benchmark Report)
 
 
-### Confidence & Sample Size
+### Confidence & Sample Size.
 > **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract
@@ -165,3 +165,10 @@ Audits landing page copy across 5 conversion dimensions, scores each section, an
 > 1. Add 3 customer logos above the fold
 > 2. Change CTA from "Get Started" to "Try Free for 14 Days"
 > 3. Add a testimonial quote next to the signup form
+
+## Related Skills
+
+- **ab-test-designer** (./ab-test-designer.md) — Design A/B tests for landing page copy variations identified by the audit; use to validate which rewrites drive highest conversion.
+- **cta-optimization-framework** (./cta-optimization-framework.md) — Optimize the CTAs identified in the landing page audit; use to strengthen CTA copy and placement.
+- **heatmap-analysis-toolkit** (./heatmap-analysis-toolkit.md) — Analyze how users interact with your landing page using heatmaps; use to validate whether issues are copy-based or UX-based.
+- **form-optimization-toolkit** (./form-optimization-toolkit.md) — Optimize forms on your landing page; use to reduce friction on form steps identified during CRO audit.

@@ -15,7 +15,7 @@ Builds comprehensive SEO performance reports with rankings, traffic trends, conv
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If building recurring reports, add 30-60 min for template setup. Input is GSC/analytics/ranking tool exports. Output is Markdown report with insights and recommendations.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min implementation in Google Search Console / CMS. If building recurring reports, add 30-60 min for template setup. Input is GSC/analytics/ranking tool exports. Output is Markdown report with insights and recommendations.
 
 ## User Intent Mapping
 
@@ -111,8 +111,7 @@ Builds comprehensive SEO performance reports with rankings, traffic trends, conv
 ### ⚠️ Human Checkpoint
 > Review data accuracy before sharing reports with stakeholders. Verify conversion data attribution is correct. Add qualitative context (algorithm updates, site changes, market events) that data alone doesn't explain.
 
-> **Benchmark Context**: Average organic CTR for position 1 is 27.6%, position 2 is 15.8%, position 3 is 11%. Year-over-year comparison is more reliable than month-over-month for SEO. Pages ranking 4-10 with high impressions are the biggest CTR optimization opportunities. Organic search drives 53% of all website traffic on average. SEO ROI typically appears 6-12 months after investment begins.
-
+> **Benchmark Context**: Average organic CTR for position 1 is 27.6%, position 2 is 15.8%, position 3 is 11% (Ahrefs 2024 Search Traffic Study). Year-over-year comparison is more reliable than month-over-month for SEO. Pages ranking 4-10 with high impressions are the biggest CTR optimization opportunities (Semrush 2024 State of Search). Organic search drives 53% of all website traffic on average (Ahrefs 2024 Search Traffic Study). SEO ROI typically appears 6-12 months after investment begins. (Ahrefs 2024 Search Traffic Study).
 ## Output Contract
 
 ### Deliverable: Markdown SEO Report
@@ -202,3 +201,10 @@ Builds comprehensive SEO performance reports with rankings, traffic trends, conv
 **Input**: "Monthly SEO report for February. GSC data export attached. 85K organic clicks (+12% MoM), 2.1M impressions (+8%). 15 new top-10 rankings, 3 lost. Audience: marketing director who wants actionable insights, not just data."
 
 **Output**: Executive summary: Strong month — organic clicks up 12% driven by 15 new top-10 rankings. Content refresh initiative delivered 40% of gains (3 updated articles entered top 5). Risk: 3 lost rankings on commercial keywords — competitor published new comparison pages. Top win: "best project management tools" moved from #12 to #4 (est. +2,800 clicks/month). Content performance: top 5 pages drive 35% of traffic — healthy distribution. CTR opportunity: 8 keywords with 1,000+ impressions and <2% CTR — title tag optimization could add 500+ clicks/month. Recommendations: (1) Create comparison content targeting 3 lost commercial keywords, (2) A/B test title tags on 8 low-CTR pages, (3) Continue content refresh cadence — 5 more posts identified for update. Competitive note: main competitor launched 12 new blog posts this month vs. our 6 — consider increasing publishing cadence.
+
+## Related Skills
+
+- **[Content Performance Scorecard](../content/content-performance-scorecard.md)** — Use to measure content ROI alongside SEO metrics for a complete performance view.
+- **[SEO Content Strategy](./seo-content-strategy.md)** — Use your dashboard data to inform content strategy adjustments and identify gaps.
+- **[Technical SEO Auditor](./technical-seo-auditor.md)** — Use to investigate technical issues revealed in your SEO performance data.
+- **[Marketing ROI Calculator](../analytics/marketing-roi-calculator.md)** — Use to connect SEO traffic and rankings to actual business revenue and ROI.

@@ -16,7 +16,7 @@ Synthesizes inputs from multiple stakeholders (product, sales, leadership, creat
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is stakeholder notes/requirements. Output is a Markdown campaign brief. No external access needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min implementing in your CMS.** If implementing output in a platform, add 10-20 min for setup. Input is stakeholder notes/requirements. Output is a Markdown campaign brief. No external access needed.
 
 ## User Intent Mapping
 
@@ -118,8 +118,7 @@ Document all synthesis decisions:
 > Share the synthesized brief with all contributing stakeholders before execution. Unresolved conflicts should be flagged for a decision meeting, not silently resolved.
 
 
-> **Benchmark Context**: Blog posts averaging 1,500-2,500 words tend to rank highest in search. Content marketing generates 3x more leads than outbound at 62% less cost. Average time to write a 1,500-word blog post is 4-6 hours (research + writing + editing).
-
+> **Benchmark Context**: Blog posts averaging 1,500-2,500 words tend to rank highest in search (Content Marketing Institute 2024 B2B Research). Content marketing generates 3x more leads than outbound at 62% less cost (Semrush 2024 State of Content Marketing). Average time to write a 1,500-word blog post is 4-6 hours (research + writing + editing. (Semrush 2024 State of Content Marketing).
 ## Output Contract
 
 ### Deliverable: Markdown Campaign Brief
@@ -216,3 +215,10 @@ Document all synthesis decisions:
 **Input**: Product team wants to emphasize "AI-powered analytics" (technical). Sales wants "save 10 hours per week" (benefit-driven). CMO wants "category leadership" (positioning). Target: VP Marketing at mid-market SaaS. Budget: $50K. Launch: April 1.
 
 **Output**: Unified brief resolving messaging conflict: core message leads with benefit ("Save 10 hours per week on reporting"), supported by mechanism ("AI-powered analytics"), positioned within a category narrative ("The analytics platform built for modern marketing teams"). Decision log: "Led with benefit per sales input, as buyer research shows VPs respond to time-savings over technical features. AI positioning used as supporting proof point rather than headline." Channel strategy: LinkedIn Ads ($20K), content marketing ($10K), webinar ($8K), email nurture ($5K), sales enablement ($7K). Open items: need customer testimonial for launch day, legal review of "save 10 hours" claim.
+
+## Related Skills
+
+- **[Content Brief Writer](./content-brief-writer.md)** — Use after synthesizing a campaign brief to create individual content briefs for specific pieces of content.
+- **[Editorial Calendar Builder](./editorial-calendar-builder.md)** — Use to translate your campaign brief into a month-by-month execution calendar.
+- **[Content Distribution Strategy](./content-distribution-strategy.md)** — Use to plan how campaign content will be distributed across channels after it's created.
+- **[Social Content Calendar](../social/social-content-calendar.md)** — Use to align social media content with your broader campaign brief and messaging.

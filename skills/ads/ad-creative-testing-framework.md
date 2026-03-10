@@ -15,7 +15,7 @@ Designs structured creative testing plans with clear hypotheses, controlled vari
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing output in ad platforms, add 20-30 min for test setup. Input is current ad performance and test goals. Output is Markdown testing plan with variants.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min building in Google Ads / Meta Ads Manager. If implementing output in ad platforms, add 20-30 min for test setup. Input is current ad performance and test goals. Output is Markdown testing plan with variants.
 
 ## User Intent Mapping
 
@@ -103,8 +103,7 @@ Rules for controlled testing:
 ### ⚠️ Human Checkpoint
 > Review test variants for brand consistency, legal compliance, and unintended messaging before launch. Verify that the test audience is large enough to reach significance within your timeline and budget.
 
-> **Benchmark Context**: Systematic creative testing improves CPA by 20-40% over 3-6 months. Top advertisers test 10-20 creative variants per month. The #1 creative variable that drives performance is the concept/angle (not colors or fonts). 80% of ad spend should go to proven creative, 20% to testing. Creative fatigue sets in 30-50% faster on TikTok vs. Meta.
-
+> **Benchmark Context**: Systematic creative testing improves CPA by 20-40% over 3-6 months. Top advertisers test 10-20 creative variants per month. The #1 creative variable that drives performance is the concept/angle (not colors or fonts). 80% of ad spend should go to proven creative, 20% to testing (Statista 2024 Digital Advertising Report). Creative fatigue sets in 30-50% faster on TikTok vs. Meta.
 ## Output Contract
 
 ### Deliverable: Markdown Testing Plan
@@ -180,3 +179,10 @@ Rules for controlled testing:
 **Input**: "Creative testing plan for our meal kit subscription. Current control: Single image ad with headline 'Healthy Meals Made Easy' and CTA 'Start Cooking'. Platform: Meta. Budget: $2,000/month for testing. Want to test hooks and formats."
 
 **Output**: 3-test roadmap. Test 1 (Week 1-2): Hook testing — Control: 'Healthy Meals Made Easy' vs. Variant A: 'Stop Spending $50/Night on Takeout' vs. Variant B: '15-Minute Dinners Your Kids Will Actually Eat'. Hypothesis: Specific pain-point hooks outperform generic benefit hooks. Budget: $100/day split 3 ways, 14 days. Primary metric: CPA. Test 2 (Week 3-4): Format testing — winning hook in single image vs. UGC-style video vs. carousel (recipe steps). Hypothesis: UGC video converts 2x better than static on Meta Reels. Test 3 (Week 5-6): CTA testing — 'Start Cooking' vs. 'Get 50% Off Your First Box' vs. 'See This Week's Menu'. Hypothesis: Offer-specific CTA converts better than generic. Testing rules: never pause before 7 days, minimum 30 conversions per variant, document all results in testing log.
+
+## Related Skills
+
+- **[ad-copy-generator](./ad-copy-generator.md)** — Generate copy variants to use as test options in your creative testing framework.
+- **[ab-test-designer](../cro/ab-test-designer.md)** — Apply rigorous statistical methodology to ensure your ad creative tests reach significance.
+- **[ad-performance-analyzer](./ad-performance-analyzer.md)** — Analyze historical ad results to identify which creative variables have driven the biggest wins.
+- **[campaign-angle-generator](../insights/campaign-angle-generator.md)** — Generate new angle hypotheses to test in your creative variants.

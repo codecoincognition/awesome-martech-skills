@@ -15,7 +15,7 @@ Designs referral programs with incentive structures, viral mechanics, referral f
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing the program, add 1-4 weeks for development and launch. Input is product info and growth goals. Output is Markdown referral program design.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~60-120 min implementing in your product / tools. If implementing the program, add 1-4 weeks for development and launch. Input is product info and growth goals. Output is Markdown referral program design.
 
 ## User Intent Mapping
 
@@ -106,8 +106,7 @@ Map the complete referral journey:
 ### ⚠️ Human Checkpoint
 > Review incentive structure with finance team (cost modeling). Verify terms and conditions with legal (anti-spam compliance, tax implications of rewards). Test the complete referral flow as a user before launching. Ensure fraud prevention measures don't create false positives.
 
-> **Benchmark Context**: Referred customers have 25% higher LTV than non-referred. Referral programs reduce CAC by 30-50% vs. paid channels. Average referral program participation rate is 5-15% of active users. Two-sided incentives generate 2-3x more referrals. Dropbox's referral program drove 60% of signups. 92% of consumers trust referrals from people they know.
-
+> **Benchmark Context**: Referred customers have 25% higher LTV than non-referred (ProfitWell 2024 SaaS Benchmarks) Referral programs reduce CAC by 30-50% vs (OpenView 2024 Product Benchmarks) paid channels. . Average referral program participation rate is 5-15% of active users (ProfitWell 2024 SaaS Benchmarks) Two-sided incentives generate 2-3x more referrals (ProfitWell 2024 SaaS Benchmarks) Dropbox's referral program drove 60% of signups (ProfitWell 2024 SaaS Benchmarks) 92% of consumers trust referrals from people they know (ProfitWell 2024 SaaS Benchmarks) (OpenView 2024 Product Benchmarks).
 ## Output Contract
 
 ### Deliverable: Markdown Referral Program Design
@@ -193,3 +192,10 @@ Body: [text]
 **Input**: "Referral program for a $29/mo project management SaaS. 5,000 active users. LTV: $600. Current organic referral rate: ~2% of users. Goal: double referral-driven signups."
 
 **Output**: Two-sided program: Referrer gets 1 free month ($29 value), friend gets 20% off first 3 months ($17.40 savings). Trigger: prompt after user completes 5th project (activation milestone). Share: unique referral link + pre-written email/LinkedIn message. Landing page: "[Friend's name] invited you to [Product] — get 20% off your first 3 months." Fraud prevention: max 20 referrals/user, friend must remain active for 30 days before referrer reward, same IP/device detection. Cost model: at 10% participation (500 users referring), expecting 250 new signups at $29 effective CAC vs. current $85 paid CAC. Tiered bonus: 5 referrals → branded swag, 10 referrals → lifetime 20% discount, 25 referrals → annual user conference ticket. Communication: 3-email sequence (invite, reminder at 7 days, milestone celebration).
+
+## Related Skills
+
+- **[viral-loop-designer](./viral-loop-designer.md)** — Design viral mechanics to amplify referral program reach.
+- **[customer-persona-builder](./customer-persona-builder.md)** — Tailor referral incentives to different persona segments.
+- **[growth-experiment-designer](./growth-experiment-designer.md)** — Test different referral incentive structures and messaging.
+- **[retention-analysis-framework](./retention-analysis-framework.md)** — Track retention of referred users vs. organic users.

@@ -14,7 +14,7 @@ Performs a comprehensive technical SEO audit covering crawlability, indexing, si
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing fixes, add 2-20 hours depending on issue severity. Input is crawl data exports or site URL. Output is Markdown audit report with prioritized action items.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min implementation in Google Search Console / CMS. If implementing fixes, add 2-20 hours depending on issue severity. Input is crawl data exports or site URL. Output is Markdown audit report with prioritized action items.
 
 ## User Intent Mapping
 
@@ -105,8 +105,7 @@ Performs a comprehensive technical SEO audit covering crawlability, indexing, si
 ### ⚠️ Human Checkpoint
 > Have a developer review all recommended changes before implementation. Robots.txt and canonical tag changes can accidentally deindex pages. Always test in staging before deploying site-wide changes.
 
-> **Benchmark Context**: 60% of websites have technical SEO issues affecting rankings. Pages passing all Core Web Vitals are 24% less likely to be abandoned. Proper structured data increases CTR by 20-30% via rich results. Sites with XML sitemaps get indexed 3x faster. Pages beyond 3 clicks from homepage receive 76% less organic traffic.
-
+> **Benchmark Context**: 60% of websites have technical SEO issues affecting rankings (Semrush 2024 State of Search) Pages passing all Core Web Vitals are 24% less likely to be abandoned (Google 2024 Marketing Measurement Guide) Proper structured data increases CTR by 20-30% via rich results (Ahrefs 2024 Search Traffic Study) Sites with XML sitemaps get indexed 3x faster. . Pages beyond 3 clicks from homepage receive 76% less organic traffic (Ahrefs 2024 Search Traffic Study) (Ahrefs 2024 Search Traffic Study).
 ## Output Contract
 
 ### Deliverable: Markdown Technical SEO Audit
@@ -189,3 +188,10 @@ Performs a comprehensive technical SEO audit covering crawlability, indexing, si
 **Input**: "Technical SEO audit for an e-commerce site (Shopify, 5,000 product pages). Issues: many products not indexed, slow page speed on collection pages, no structured data. GSC shows 2,100 indexed out of 5,000."
 
 **Output**: Critical: 2,900 pages not indexed — causes: (1) thin product descriptions (<100 words) on 1,800 pages, (2) faceted navigation creating duplicate URLs blocked by robots.txt but still linked, (3) collection pages have canonical pointing to wrong URLs. Core Web Vitals: LCP 4.2s on collection pages (target <2.5s) — fix: lazy-load below-fold product images, preload hero image, defer non-critical JS. Structured data: add Product schema to all product pages (price, availability, reviews), BreadcrumbList to all pages, Organization to homepage. Quick wins: (1) fix canonical tags on collection pages (30 min), (2) add Product schema via Shopify JSON-LD snippet (1 hour), (3) compress hero images (20 min). Priority plan: Week 1 — canonicals and schema; Week 2 — image optimization; Week 3-4 — expand thin product descriptions.
+
+## Related Skills
+
+- **[On Page SEO Auditor](./on-page-seo-auditor.md)** — Use alongside this skill to address both technical and on-page SEO issues on the same pages.
+- **[Page Speed Optimizer](./page-speed-optimizer.md)** — Use to fix Core Web Vitals and site speed issues identified in technical audits.
+- **[SEO Reporting Dashboard](./seo-reporting-dashboard.md)** — Use to track the impact of technical SEO fixes on rankings and organic traffic over time.
+- **[Site Migration SEO Plan](./site-migration-seo-plan.md)** — Use before migrations to ensure solid technical SEO foundation and post-migration to validate implementation.

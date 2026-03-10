@@ -15,7 +15,7 @@ Generates 10+ ad copy variants per platform (Google Ads, Meta Ads, LinkedIn Ads)
 
 ## Granularity Check
 
-> **Session time**: ~5 minutes data prep + ~10 minutes Claude session. If implementing output in a platform, add 10-20 minutes for setup. Input is product/audience description. Output is Markdown with organized ad variants.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min building in Google Ads / Meta Ads Manager. If implementing output in a platform, add 10-20 minutes for setup. Input is product/audience description. Output is Markdown with organized ad variants.
 
 ## User Intent Mapping
 
@@ -98,10 +98,7 @@ Generates 10+ ad copy variants per platform (Google Ads, Meta Ads, LinkedIn Ads)
 5. **Finalize** — Deliver complete variant set with A/B testing recommendations.
 
 
-> **Benchmark Context**: Average Google Ads CTR across industries is 3.17% (search) and 0.46% (display). B2B averages 2.41% search CTR. Top-performing responsive search ads have 8+ unique headlines. Meta Ads average CTR is 0.90% across industries, with 1.5%+ considered strong.
-
-
-### Confidence & Sample Size
+> **Benchmark Context**: Average Google Ads CTR across industries is 3.17% (search) and 0.46% (display. B2B averages 2.41% search CTR (LinkedIn 2024 B2B Marketing Benchmark). Top-performing responsive search ads have 8+ unique headlines. Meta Ads average CTR is 0.90% across industries, with 1.5%+ considered strong (Meta 2024 Advertising Benchmarks). ### Confidence & Sample Size.
 > **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract
@@ -210,3 +207,10 @@ Generates 10+ ad copy variants per platform (Google Ads, Meta Ads, LinkedIn Ads)
 > | 2 | Stop losing projects to time zone chaos. TaskFlow keeps remote teams aligned. Plans from $12/mo. | Pain |
 > | 3 | Join 10,000+ startup teams managing projects without endless check-ins. Free 14-day trial. | Social Proof |
 > | 4 | Your remote team deserves better than Slack threads for project updates. See why CTOs switch. | Curiosity |
+
+## Related Skills
+
+- **[ad-creative-testing-framework](./ad-creative-testing-framework.md)** — Use after writing copy variants to systematically test which angles and hooks perform best.
+- **[google-ads-campaign-builder](./google-ads-campaign-builder.md)** — Use to structure complete campaigns once you've finalized ad copy.
+- **[ad-compliance-checker](./ad-compliance-checker.md)** — Validate your ad copy against platform policies and regulations before launch.
+- **[campaign-angle-generator](../insights/campaign-angle-generator.md)** — Generate additional persuasion angles and messaging strategies to inform your ad copy variants.

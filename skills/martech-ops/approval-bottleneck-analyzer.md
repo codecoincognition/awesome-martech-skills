@@ -18,7 +18,7 @@ Analyzes marketing content approval cycle times from exported workflow data to i
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is a CSV of approval requests with timestamps. Output is an XLSX analysis report. No system access needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min implementing in your MarTech stack.** If implementing output in a platform, add 10-20 min for setup. Input is a CSV of approval requests with timestamps. Output is an XLSX analysis report. No system access needed.
 
 ## User Intent Mapping
 
@@ -114,8 +114,7 @@ Based on data, recommend:
 > Review approver-level findings sensitively. Slow approvals may reflect workload, not negligence. Present as process improvement, not blame assignment.
 
 
-> **Benchmark Context**: Average enterprise has 91 marketing tools in its stack. Brand compliance violations occur in 60% of co-branded partner materials. UTM tracking is implemented on only 40-50% of marketing URLs on average.
-
+> **Benchmark Context**: Average enterprise has 91 marketing tools in its stack. Brand compliance violations occur in 60% of co-branded partner materials (Gartner 2024 Marketing Technology Survey). UTM tracking is implemented on only 40-50% of marketing URLs on average. (Gartner 2024 Marketing Technology Survey).
 ## Output Contract
 
 ### Deliverable: Structured Analysis Tables in Markdown
@@ -184,3 +183,10 @@ Simply copy these Markdown tables into Google Sheets (paste as-is, then use Data
 **Input**: 87 content approval requests over Q3 2025, 3-stage workflow (copy review → legal review → final approval).
 
 **Output**: Average cycle time 6.2 business days. Legal review is the #1 bottleneck (avg 4.1 days, 66% of total cycle time, only 31% SLA compliant at 2-day target). Copy review averages 0.8 days (efficient). Friday submissions take 2.3 days longer on average. Top recommendations: (1) Pre-approved legal templates for standard content types (estimated 60% volume reduction for legal). (2) Add backup legal reviewer (current single-person bottleneck). (3) Move to parallel review for copy + legal on low-risk content.
+
+## Related Skills
+
+- **[Content Changelog Generator](./content-changelog-generator.md)** — Track what changes during review to identify where feedback is most frequently requested.
+- **[Approval Process Workflow Designer](../crm/automation-workflow-designer.md)** — Redesign approval workflows based on bottleneck analysis findings.
+- **[Editorial Calendar Builder](../content/editorial-calendar-builder.md)** — Adjust content calendar timelines based on discovered approval cycle lengths.
+- **[SLA Document Generator](./sla-document-generator.md)** — Formalize approval SLAs and response time targets post-analysis.

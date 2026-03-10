@@ -14,7 +14,7 @@ Designs CRM segmentation rules and dynamic lists for targeted marketing campaign
 
 ## Granularity Check
 
-> **Session time**: ~5 min context gathering + ~10 min Claude session. If implementing, add 2-4 hours for CRM configuration. Input is CRM data fields and marketing goals. Output is Markdown segmentation architecture with rule definitions and implementation steps.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min configuring in Salesforce / HubSpot. If implementing, add 2-4 hours for CRM configuration. Input is CRM data fields and marketing goals. Output is Markdown segmentation architecture with rule definitions and implementation steps.
 
 ## User Intent Mapping
 
@@ -118,8 +118,7 @@ Always suppress:
 ### ⚠️ Human Checkpoint
 > Review all segmentation rules for GDPR/CAN-SPAM compliance before activating. Verify suppression lists are working correctly (test with known contacts). Check segment overlap to ensure contacts aren't receiving duplicate communications.
 
-> **Benchmark Context**: Segmented email campaigns see 14.3% higher open rates and 100.9% higher click rates than non-segmented. Companies using 3+ data points for segmentation see 2x conversion improvement. 77% of marketing ROI comes from targeted, segmented campaigns. Behavioral segments outperform demographic segments by 3x for email engagement. List decay rate averages 22.5% per year — regular hygiene is essential.
-
+> **Benchmark Context**: Segmented email campaigns see 14.3% higher open rates and 100.9% higher click rates than non-segmented (Salesforce 2024 State of Marketing). Companies using 3+ data points for segmentation see 2x conversion improvement (Salesforce 2024 State of Marketing). 77% of marketing ROI comes from targeted, segmented campaigns (Salesforce 2024 State of Marketing). Behavioral segments outperform demographic segments by 3x for email engagement (Salesforce 2024 State of Marketing). List decay rate averages 22.5% per year — regular hygiene is essential. (Salesforce 2024 State of Marketing).
 ## Output Contract
 
 ### Deliverable: Markdown Segmentation Architecture
@@ -206,3 +205,10 @@ Always suppress:
 **Input**: "Segmentation rules for HubSpot CRM. 35K contacts. Mix of leads and customers. Send weekly newsletter and monthly product updates. No current segmentation — same email goes to everyone. B2B SaaS with 3 products."
 
 **Output**: Problem: 35K contacts receiving the same email = low engagement, high unsubscribe risk, wasted sends. Core segments (7): (1) Active Customers — purchased in last 12 months (engagement, retention). (2) New Leads — created in last 30 days, not yet customers (nurture). (3) Engaged Prospects — 2+ email opens in 30 days, not customers (sales-ready). (4) Product A Interest — engaged with Product A content (targeted promotion). (5) Product B Interest — engaged with Product B content. (6) Product C Interest — engaged with Product C content. (7) Cold/Unengaged — no email opens in 90+ days (sunset sequence). Suppression lists: unsubscribed, hard bounced, competitors (identified by domain), internal team. Implementation: Phase 1 (week 1) — create engagement-based segments (active/engaged/cold). Phase 2 (week 2) — create product interest segments from content engagement data. Phase 3 (week 3) — segment newsletter by engagement level, product updates by product interest. Expected results: open rates increase from typical 18% unsegmented to 25-35% segmented. Unsubscribe rate drops 40-50%. Newsletter engagement increases 2x.
+
+## Related Skills
+
+- **[Customer Segmentation Engine](../ai-marketing/customer-segmentation-engine.md)** — Define data-driven segments at the strategic level before operationalizing in CRM rules.
+- **[Audience Persona Builder](../insights/audience-persona-builder.md)** — Validate CRM segments map to personas for consistent targeting across channels.
+- **[Lead Scoring Model Builder](./lead-scoring-model-builder.md)** — Use segments as criteria and gates within your scoring model logic.
+- **[Automation Workflow Designer](./automation-workflow-designer.md)** — Trigger different workflows based on segment membership for targeted nurture.

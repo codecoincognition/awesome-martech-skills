@@ -17,7 +17,7 @@ Tracks and analyzes competitor messaging across channels to identify positioning
 
 ## Granularity Check
 
-> **Session time**: ~10 min data collection + ~10 min Claude session. If ongoing, add 1 hour/month for monitoring. Input is competitor URLs, ad copies, and messaging samples. Output is Markdown competitive messaging analysis with differentiation strategy.
+> **Time**: ~10 min data prep → ~10 min Claude session → ~30-60 min synthesizing into your strategy deck. If ongoing, add 1 hour/month for monitoring. Input is competitor URLs, ad copies, and messaging samples. Output is Markdown competitive messaging analysis with differentiation strategy.
 
 ## User Intent Mapping
 
@@ -200,3 +200,10 @@ Per competitor, capture:
 **Input**: "Competitor messaging analysis for our project management tool. 3 competitors: Monday.com, Asana, ClickUp. We position as 'the simplest project management tool for small teams.' Need to understand how to differentiate."
 
 **Output**: Messaging comparison: Monday.com leads with "Work OS" (platform/flexibility positioning), Asana leads with "manage work across teams" (enterprise collaboration), ClickUp leads with "one app to replace them all" (consolidation/value). Gaps found: (1) None lead with "simplicity" — all three trend toward complexity and feature lists. Your "simplest" position is defensible and differentiated. (2) "Small teams" is underserved — all three target enterprise/mid-market. (3) No competitor leads with speed-to-value ("set up in 5 minutes"). Recommendations: (1) Double down on simplicity as primary differentiator — competitors can't credibly claim this. (2) Add proof: "Set up in 5 minutes" (speed), "No training needed" (ease), "Loved by 2,000+ small teams" (social proof). (3) Counter-position: "No workflows to configure. No certifications needed. Just get work done." (4) Risk: competitors may copy simplicity messaging — protect the position with product decisions that keep the product genuinely simpler.
+
+## Related Skills
+
+- **[Positioning Whitespace Finder](./positioning-whitespace-finder.md)** — Map competitor messaging to identify unclaimed positioning territory.
+- **[Market Trend Scanner](./market-trend-scanner.md)** — Monitor competitor responses to market trends to anticipate shifts in messaging.
+- **[Campaign Angle Generator](./campaign-angle-generator.md)** — Use competitive gaps from messaging analysis to generate differentiated angles.
+- **[SEO Competitor Analysis](../seo/seo-competitor-analysis.md)** — Layer keyword and organic strategy competitive analysis with messaging analysis.

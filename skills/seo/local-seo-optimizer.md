@@ -15,7 +15,7 @@ Audits and optimizes local SEO performance — Google Business Profile, local ci
 
 ## Granularity Check
 
-> **Session time**: ~5 min data prep + ~10 min Claude session. If implementing, add 2-5 hours for GBP optimization and citation cleanup. Input is GBP data and local search performance. Output is Markdown local SEO action plan.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min implementation in Google Search Console / CMS. If implementing, add 2-5 hours for GBP optimization and citation cleanup. Input is GBP data and local search performance. Output is Markdown local SEO action plan.
 
 ## User Intent Mapping
 
@@ -184,3 +184,10 @@ Audits and optimizes local SEO performance — Google Business Profile, local ci
 **Input**: "Local SEO for a dental practice. Single location in Austin, TX. 45 Google reviews (4.3 stars). Ranking 5th-7th in map pack for 'dentist Austin'. Competitors have 150+ reviews."
 
 **Output**: GBP audit: missing 6 secondary categories (add Cosmetic Dentist, Emergency Dental Service, Teeth Whitening Service, etc.), only 8 photos (add 20+: team, office, before/after, equipment), no weekly posts. Review strategy: target 10 reviews/month (currently ~3/month) — implement post-appointment SMS request, add QR code to checkout, train front desk on verbal ask. NAP: inconsistent phone number on Yelp and Healthgrades — fix immediately. Local keywords: target "emergency dentist Austin" (low competition, high intent), "cosmetic dentist South Austin" (geo-specific), "dentist near [neighborhood]" for 5 surrounding areas. Content: create 5 neighborhood-specific landing pages (South Austin, Downtown, East Austin, Cedar Park, Round Rock). Quick wins: (1) add missing GBP categories (10 min), (2) upload 15 new photos (30 min), (3) start weekly GBP posts (15 min/week), (4) fix NAP on Yelp/Healthgrades (20 min). Expected: move from position 5-7 to top 3 map pack within 90 days.
+
+## Related Skills
+
+- **[On Page SEO Auditor](./on-page-seo-auditor.md)** — Use to optimize page elements for local search, including local keywords, business information, and structured data.
+- **[Technical SEO Auditor](./technical-seo-auditor.md)** — Use to ensure your site structure supports multi-location SEO and proper schema markup for local businesses.
+- **[Content Localization Planner](../content/content-localization-planner.md)** — Use to create location-specific content that builds local relevance and authority.
+- **[International SEO Strategy](./international-seo-strategy.md)** — Use if managing multiple regions or countries; local optimization is a component of international SEO strategy.

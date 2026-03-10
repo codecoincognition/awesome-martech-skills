@@ -15,7 +15,7 @@ Plans and optimizes live stream events for maximum audience engagement, real-tim
 
 ## Granularity Check
 
-> **Session time**: ~5 min context gathering + ~10 min Claude session. If producing a full live stream strategy, add 1-2 weeks for planning and rehearsal. Input is stream goals, platform, and audience data. Output is Markdown engagement plan with runsheet, interaction strategy, and metrics framework.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min producing / uploading. If producing a full live stream strategy, add 1-2 weeks for planning and rehearsal. Input is stream goals, platform, and audience data. Output is Markdown engagement plan with runsheet, interaction strategy, and metrics framework.
 
 ## User Intent Mapping
 
@@ -140,8 +140,7 @@ Plans and optimizes live stream events for maximum audience engagement, real-tim
 ### ⚠️ Human Checkpoint
 > Test all technical setup (camera, audio, screen share, overlays) in a private stream before going live. Have a backup plan for technical failures (phone as backup camera, pre-recorded segments). Assign a moderator for chat management if audience exceeds 50 concurrent viewers.
 
-> **Benchmark Context**: LinkedIn Live generates 24x more comments and 7x more reactions than native video. YouTube Live streams get 10x more engagement than pre-recorded uploads. Average live stream viewer watches for 10-20 minutes (vs. 2-3 minutes for recorded video). Live commerce conversion rates are 10-20% vs. 1-3% for traditional e-commerce. Streams with at least one interactive element every 5 minutes have 40% higher average watch time.
-
+> **Benchmark Context**: LinkedIn Live generates 24x more comments and 7x more reactions than native video (Wistia 2024 State of Video). YouTube Live streams get 10x more engagement than pre-recorded uploads (Wistia 2024 State of Video). Average live stream viewer watches for 10-20 minutes (vs (Wistia 2024 State of Video). 2-3 minutes for recorded video. Live commerce conversion rates are 10-20% vs. 1-3% for traditional e-commerce. Streams with at least one interactive element every 5 minutes have 40% higher average watch time. (Wistia 2024 State of Video).
 ## Output Contract
 
 ### Deliverable: Markdown Live Stream Plan
@@ -229,3 +228,10 @@ Plans and optimizes live stream events for maximum audience engagement, real-tim
 **Input**: "Live stream engagement plan for a monthly LinkedIn Live series. Topic: B2B marketing trends. Format: host + guest expert interview. Audience: marketing managers and directors. Past streams averaged 85 concurrent viewers, 120 total viewers, 15-20 chat messages. Want to increase engagement and grow viewership."
 
 **Output**: Current performance: 85 concurrent / 120 total viewers is solid for LinkedIn Live. 15-20 chat messages is low engagement (1 message per 6 viewers — target is 1 per 3). Engagement fixes: (1) Open with a poll in first 2 minutes ("What's your biggest marketing challenge right now?") — share results live and use answers to guide conversation. (2) Add "rapid fire" segment at 10-minute mark: ask guest 5 quick-answer questions submitted by audience pre-stream (collect via LinkedIn post 2 days before). (3) Name-drop chatters when reading questions — "Great question from Sarah at HubSpot." (4) End each segment with a direct chat prompt: "Drop a 1 if you agree, 2 if you disagree." (5) Close with exclusive takeaway only for live viewers (not in recording). Growth tactics: (1) Post 3 teaser clips from previous stream in the week before next stream. (2) Have guest share announcement with their network (tag guest in scheduling post). (3) Create a LinkedIn event for each stream — events drive 2-3x more notifications than posts. Expected results: engagement from 15-20 messages to 40-60 per stream, concurrent viewers from 85 to 120-150 within 3 months.
+
+## Related Skills
+
+- **[Video Analytics Interpreter](./video-analytics-interpreter.md)** — Analyze live stream audience behavior and engagement metrics post-stream.
+- **[Webinar Technical Runbook](../pr-events/webinar-technical-runbook.md)** — Use technical runbook for webinar production while applying engagement strategy from this skill.
+- **[Video Script Writer](./video-script-writer.md)** — Script live stream content before executing engagement strategies.
+- **[Short-Form Video Planner](./short-form-video-planner.md)** — Repurpose live stream highlights into short-form clips for social media.

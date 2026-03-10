@@ -15,7 +15,7 @@ Audits marketing assets against documented brand guidelines, flagging violations
 
 ## Granularity Check
 
-> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is brand guidelines + asset descriptions/content. Output is a scored compliance report in Markdown. No external tools needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep → ~10 min Claude session → ~30-60 min implementing in your MarTech stack.** If implementing output in a platform, add 10-20 min for setup. Input is brand guidelines + asset descriptions/content. Output is a scored compliance report in Markdown. No external tools needed.
 
 ## User Intent Mapping
 
@@ -118,8 +118,7 @@ For each violation, provide:
 > Review severity classifications before sharing with stakeholders. Context matters — a minor font inconsistency in an internal deck is different from a logo violation on a billboard.
 
 
-> **Benchmark Context**: Average enterprise has 91 marketing tools in its stack. Brand compliance violations occur in 60% of co-branded partner materials. UTM tracking is implemented on only 40-50% of marketing URLs on average.
-
+> **Benchmark Context**: Average enterprise has 91 marketing tools in its stack. Brand compliance violations occur in 60% of co-branded partner materials (Gartner 2024 Marketing Technology Survey). UTM tracking is implemented on only 40-50% of marketing URLs on average. (Gartner 2024 Marketing Technology Survey).
 ## Output Contract
 
 ### Deliverable: Markdown Compliance Report
@@ -203,3 +202,10 @@ For each violation, provide:
 **Input**: Brand guidelines (blue/white palette, Inter font, outcome-first messaging) + welcome email using Comic Sans, red buttons, feature-first copy.
 
 **Output**: Compliance score 19/40 (47%). 2 critical violations (wrong font family, off-brand CTA color), 2 major (passive voice, feature-first messaging), 1 minor (emoji in subject line). Fix instructions: "Replace Comic Sans with Inter for all headings, Source Sans Pro for body. Change CTA button from #FF0000 to #1A73E8."
+
+## Related Skills
+
+- **[Digital Asset Audit Report](./digital-asset-audit-report.md)** — Run after compliance checks to audit metadata and organization of approved assets.
+- **[Content Governance Framework](../content/content-governance-framework.md)** — Establish governance policies that prevent compliance violations in the first place.
+- **[Marketing Compliance Pre-Checker](./marketing-compliance-pre-checker.md)** — Extend brand compliance checks to regulatory compliance screening for marketing claims.
+- **[Vendor Performance Scorecard](./vendor-performance-scorecard.md)** — Score agencies and vendors partially on their brand compliance in delivered work.

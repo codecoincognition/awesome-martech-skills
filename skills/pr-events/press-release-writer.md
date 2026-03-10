@@ -145,10 +145,10 @@ Target Media: TechCrunch, Forbes, Sustainability Today, Fast Company
    - **Human Checkpoint:** Approve distribution recommendations
 
 
-> **Benchmark Context**: Average press release pickup rate is 1-3% of targeted journalists. Event email invitation open rates average 20-25%, with 2-5% registration conversion. Best press release send times: Tuesday-Thursday, 9-10 AM in the journalist's time zone.
+> **Benchmark Context**: Average press release pickup rate is 1-3% of targeted journalists (Cision 2024 State of the Media Report). Event email invitation open rates average 20-25%, with 2-5% registration conversion (Bizzabo 2024 Event Marketing Report). Best press release send times: Tuesday-Thursday, 9-10 AM in the journalist's time zone (Cision 2024 State of the Media Report). (Cision 2024 State of the Media Report)
 
 
-### Confidence & Sample Size
+### Confidence & Sample Size.
 > **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract
@@ -498,3 +498,10 @@ Mobile: (555) 987-6543
 - Coordinate announcement timing with Whole Foods (they release their own PR simultaneously)
 - Monitor social media for questions and engagement
 - Share coverage on EcoBlend channels within 24 hours of publication
+
+## Related Skills
+
+- **[Media Pitch Builder](./media-pitch-builder.md)** — Use press release as basis for personalized media pitches to journalists.
+- **[Campaign Brief Synthesizer](../content/campaign-brief-synthesizer.md)** — Repurpose press release content into campaign briefs for internal distribution.
+- **[Crisis Comms Playbook](./crisis-comms-playbook.md)** — Draft crisis response press releases during reputation challenges.
+- **[Social Content Calendar](../social/social-content-calendar.md)** — Repurpose press release content into social media posts and calendar items.

@@ -16,7 +16,7 @@ Creates a detailed blog post outline with H2/H3 hierarchy, key points per sectio
 
 ## Granularity Check
 
-> **Session time**: ~5 minutes data prep + ~10 minutes Claude session. If implementing output in a platform, add 10-20 minutes for setup. Input is a brief or topic. Output is a structured Markdown outline. No external tools needed.
+> **Time**: ~5 min data prep → ~10 min Claude session → ~30-60 min implementing in your CMS. If implementing output in a platform, add 10-20 minutes for setup. Input is a brief or topic. Output is a structured Markdown outline. No external tools needed.
 
 ## User Intent Mapping
 
@@ -93,10 +93,10 @@ Creates a detailed blog post outline with H2/H3 hierarchy, key points per sectio
 7. **Add writing notes** — For each section, add 2-3 bullet points of key things to cover, data points to include, or angles to take.
 
 
-> **Benchmark Context**: Blog posts averaging 1,500-2,500 words tend to rank highest in search. Content marketing generates 3x more leads than outbound at 62% less cost. Average time to write a 1,500-word blog post is 4-6 hours (research + writing + editing).
+> **Benchmark Context**: Blog posts averaging 1,500-2,500 words tend to rank highest in search (Content Marketing Institute 2024 B2B Research). Content marketing generates 3x more leads than outbound at 62% less cost (Semrush 2024 State of Content Marketing). Average time to write a 1,500-word blog post is 4-6 hours (research + writing + editing. (Semrush 2024 State of Content Marketing)
 
 
-### Confidence & Sample Size
+### Confidence & Sample Size.
 > **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract
@@ -254,3 +254,10 @@ Just provide a topic and optional constraints. No data export needed — this sk
 > ## Internal Links
 > - "async communication" → [guide to async work]
 > - "project management tools" → [PM software comparison]
+
+## Related Skills
+
+- **[Content Brief Writer](./content-brief-writer.md)** — Use before creating an outline to gather the brief that will guide your outline structure.
+- **[Blog Section Expander](./blog-section-expander.md)** — Use immediately after outline creation to expand outline sections into full, polished copy.
+- **[Keyword Cluster Analyzer](../seo/keyword-cluster-analyzer.md)** — Use to organize keywords before outlining to ensure comprehensive keyword coverage in the structure.
+- **[SEO Content Strategy](../seo/seo-content-strategy.md)** — Use to position this blog post within your broader content strategy and topic clusters.
