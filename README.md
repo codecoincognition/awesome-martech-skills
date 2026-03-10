@@ -51,7 +51,25 @@ git clone https://github.com/CodeCoinCognitionLLC/awesome-martech-skills.git
 claude install skill path/to/skill.md
 ```
 
-**Not sure which skill to start with?** Try the [Skill Picker](SKILL-PICKER.md) — answer 3 questions and get matched to the right skill.
+**Not sure which skill to start with?** Use the [Skill Picker](SKILL-PICKER.md) — answer 3 questions, get the right skill in under 30 seconds:
+
+```
+ Question 1                Question 2                 Result
+ ──────────               ──────────                 ──────
+ What channel?     →      What stage?         →      Your skill(s)
+
+ · SEO                    · Planning & Strategy       "Use keyword-cluster-analyzer
+ · Email                  · Building & Creating        to group 500 keywords into
+ · Ads                    · Optimizing & Testing       intent-based topic clusters"
+ · Social                 · Measuring & Reporting
+ · Content                · Troubleshooting
+ · CRO
+ · ... (15 channels)
+```
+
+For example: you pick **Email** → **Optimizing & Testing** → and the Skill Picker routes you to [email-ab-testing-framework](skills/email/email-ab-testing-framework.md) and [email-deliverability-auditor](skills/email/email-deliverability-auditor.md). No scrolling through 156 skills.
+
+[Open the Skill Picker →](SKILL-PICKER.md)
 
 ---
 
