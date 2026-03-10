@@ -16,7 +16,7 @@ Expand a single blog section heading (H2 or H3) into 300-500 words of polished, 
 
 ## Granularity Check
 
-> Can this be completed in a single 10-minute Claude session? **Yes.** Input is one section heading + context. Output is 300-500 words of ready-to-publish copy. This is intentionally scoped to a single section — call multiple times for a full post.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is one section heading + context. Output is 300-500 words of ready-to-publish copy. This is intentionally scoped to a single section — call multiple times for a full post.
 
 ## User Intent Mapping
 
@@ -41,6 +41,13 @@ Trigger when the user says:
 |---|---|---|
 | `section_heading` | string | The H2 or H3 heading to expand |
 | `target_keyword` | string | Primary keyword for SEO |
+
+### If You Don't Have This Data
+
+- **No content strategy?** Describe your product and your top 3 customer pain points. That's enough to generate an outline.
+- **No keyword research?** List 5 questions your customers frequently ask. These become your topics.
+- **No brand voice guide?** Provide 2-3 examples of content you like the tone of. Claude can infer the voice from examples.
+- **No performance data?** Start fresh. After publishing, track views, time-on-page, and conversions for 30 days.
 
 ### Optional Input (Improves Quality)
 
@@ -111,6 +118,13 @@ Word count: 450
 
 6. **Present output** — Deliver the expanded section. Offer: "Want me to expand the next section?"
 
+
+> **Benchmark Context**: Blog posts averaging 1,500-2,500 words tend to rank highest in search. Content marketing generates 3x more leads than outbound at 62% less cost. Average time to write a 1,500-word blog post is 4-6 hours (research + writing + editing).
+
+
+### Confidence & Sample Size
+> **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
+
 ## Output Contract
 
 ### Output Format
@@ -142,6 +156,25 @@ Word count: 450
 - No paragraph exceeds 4 sentences
 - Opening avoids clichés
 - Transition to next section is smooth
+
+## Platform Implementation Steps
+
+### WordPress
+1. Log in to wp-admin → Posts → Add New
+2. Paste the content outline into the editor
+3. Use the Heading blocks (H2, H3) for structure
+4. Add Featured Image and set Category/Tags before publishing
+
+### Google Docs (Collaboration)
+1. Create a new Google Doc
+2. Paste the output and use Suggesting Mode for team review
+3. Use Insert → Table of Contents for navigation
+4. Share with stakeholders for feedback
+
+### CMS-Agnostic
+1. Copy Markdown output as-is into any CMS that supports Markdown
+2. For HTML-based CMS platforms, convert Markdown to HTML using any converter
+3. Adapt headings and formatting to match your site's style guide
 
 ## Failure Modes
 

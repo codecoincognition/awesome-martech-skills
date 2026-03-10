@@ -16,7 +16,7 @@ Assembles a customized sales presentation by selecting relevant slides and tailo
 
 ## Granularity Check
 
-> Can this be completed in a single 10-minute Claude session? **Yes.** Input is prospect context + available slide topics. Output is a Markdown slide outline with speaker notes. No design tool access needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is prospect context + available slide topics. Output is a Markdown slide outline with speaker notes. No design tool access needed.
 
 ## User Intent Mapping
 
@@ -42,6 +42,13 @@ This skill should trigger when the user says things like:
 | Prospect | Text | Company name, industry, size |
 | Meeting Type | Text | Discovery, demo, proposal, QBR, executive briefing |
 | Your Product | Text | What you sell, key value props |
+
+### If You Don't Have This Data
+
+- **No CRM data?** Export your email contacts, LinkedIn connections, or even a list of companies you've spoken to in a spreadsheet.
+- **No deal outcome data?** Start with win/loss status on your last 20 deals. Even rough data is better than none.
+- **No content library?** List every PDF, deck, and one-pager your sales team uses — even a 10-item list is a valid starting point.
+- **No engagement metrics?** Track which content sales reps send in emails for the next 2 weeks. Manual tracking beats no tracking.
 
 ### Optional Inputs
 
@@ -101,8 +108,15 @@ Add transition guidance:
 - Which slides to skip if running short on time
 - Backup slides for anticipated deep-dive questions
 
+
+### Confidence & Sample Size
+> **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
+
 ### ⚠️ Human Checkpoint
 > Review the assembled outline before building the actual slides. Verify case studies are appropriate (no competitor conflicts), pricing is current, and claims are approved by marketing.
+
+
+> **Benchmark Context**: Average B2B sales cycle is 102 days. Win rates average 20-30% for qualified opportunities. Top-performing sales orgs use 5-7 pieces of content per deal cycle. Sales reps spend ~30% of their time searching for content.
 
 ## Output Contract
 
@@ -139,6 +153,27 @@ Add transition guidance:
 ## Backup Slides
 - [Topic]: Use if [condition]
 ```
+
+## Platform Implementation Steps
+
+### Salesforce
+1. Navigate to Reports → New Report → select relevant object
+2. Add columns matching the output schema
+3. Use filters to scope the data
+4. Export as CSV for input, or build dashboard from output
+
+### HubSpot
+1. Go to Contacts/Companies → Import → select CSV
+2. Map columns to HubSpot properties
+3. Use Lists → Create List to filter by output criteria
+4. Dashboards → Create Dashboard for ongoing tracking
+
+### Google Sheets (No CRM)
+If no CRM is available:
+1. Create a new Google Sheet
+2. Structure columns per the output schema
+3. Use Data → Filter Views for dynamic sorting
+4. Share with team via link for collaboration
 
 ## Failure Modes
 

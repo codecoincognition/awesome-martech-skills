@@ -52,6 +52,13 @@ Email Campaign,200,3500,45,Jan 2026,77.78
 Organic,0,1200,20,Jan 2026,60
 ```
 
+### If You Don't Have This Data
+
+- **No analytics access?** Ask your web developer for a GA4 export, or use Google Sheets to manually track key metrics for 2 weeks.
+- **No historical data?** Start with the current month. Even 2 weeks of data can reveal patterns.
+- **No attribution setup?** Use UTM parameters on all campaign links going forward. This skill can help you design the taxonomy.
+- **No BI tool?** Google Sheets with pivot tables covers 80% of dashboard needs for teams under 50 people.
+
 ## Process
 
 1. **Data Ingestion & Validation**
@@ -87,6 +94,13 @@ Organic,0,1200,20,Jan 2026,60
    - Add actionable recommendations
    - Generate summary narrative
 
+
+> **Benchmark Context**: Marketing teams typically allocate 5-15% of budget to analytics tools. A well-built dashboard should answer 80% of weekly reporting questions without manual queries. GA4 reports average 24-48 hour data lag for standard processing.
+
+
+### Confidence & Sample Size
+> **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
+
 ## Output Contract
 
 **XLSX Workbook Structure:**
@@ -121,6 +135,26 @@ LinkedIn | 3200 | 4th | 2450 | 4900 | Reduce underperformer
 - Text-based action items
 - Quick wins
 - Channel-specific insights
+
+## Platform Implementation Steps
+
+### Google Analytics 4
+1. Navigate to GA4 → Admin → Data Streams → your stream
+2. Under Events, use "Create Event" for custom events
+3. For dimensions/metrics: Admin → Custom Definitions → Create
+4. Import any CSV data via Data Import: Admin → Data Import → Create
+
+### Looker Studio / Google Data Studio
+1. Open Looker Studio → Create → Report
+2. Add data source (GA4, Google Sheets, BigQuery, etc.)
+3. Paste calculated metric formulas into custom fields
+4. Use the "Blend Data" feature for multi-source reports
+
+### Spreadsheet (Fallback)
+If no BI tool available, create analysis in Google Sheets or Excel:
+1. Import CSV data using File → Import
+2. Use PIVOT tables for aggregation
+3. Create charts using Insert → Chart
 
 ## Failure Modes
 

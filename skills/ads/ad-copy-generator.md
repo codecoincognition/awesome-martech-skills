@@ -15,7 +15,7 @@ Generates 10+ ad copy variants per platform (Google Ads, Meta Ads, LinkedIn Ads)
 
 ## Granularity Check
 
-> Completable in one 10-minute session. Input is product/audience description. Output is Markdown with organized ad variants.
+> **Session time**: ~5 minutes data prep + ~10 minutes Claude session. If implementing output in a platform, add 10-20 minutes for setup. Input is product/audience description. Output is Markdown with organized ad variants.
 
 ## User Intent Mapping
 
@@ -39,6 +39,13 @@ Generates 10+ ad copy variants per platform (Google Ads, Meta Ads, LinkedIn Ads)
 | `product_description` | string | What you're selling | `"TaskFlow: project management for remote teams, $12/mo"` |
 | `target_audience` | string | Who you're targeting | `"Startup CTOs managing 5-25 person teams"` |
 | `platform` | string | Ad platform(s) | `"google"`, `"meta"`, `"linkedin"`, or `"all"` |
+
+### If You Don't Have This Data
+
+- **No product description?** Write 2-3 sentences about what you sell, who buys it, and why they choose you over alternatives.
+- **No target audience?** Start with your last 10 customers — what do they have in common? Use that as your audience.
+- **No performance data?** That's fine — this skill generates fresh copy from scratch. Performance data only helps with optimization iterations.
+- **No competitor info?** Search your primary keyword on Google — the ads that appear are your competitors. Note their headlines.
 
 ### Optional Input
 
@@ -90,6 +97,13 @@ Generates 10+ ad copy variants per platform (Google Ads, Meta Ads, LinkedIn Ads)
 
 5. **Finalize** — Deliver complete variant set with A/B testing recommendations.
 
+
+> **Benchmark Context**: Average Google Ads CTR across industries is 3.17% (search) and 0.46% (display). B2B averages 2.41% search CTR. Top-performing responsive search ads have 8+ unique headlines. Meta Ads average CTR is 0.90% across industries, with 1.5%+ considered strong.
+
+
+### Confidence & Sample Size
+> **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
+
 ## Output Contract
 
 ### Output Format
@@ -123,6 +137,27 @@ Generates 10+ ad copy variants per platform (Google Ads, Meta Ads, LinkedIn Ads)
 ## A/B Test Recommendations
 - Test 1: [Variant A] vs [Variant B] — tests [hypothesis]
 ```
+
+## Platform Implementation Steps
+
+### Google Ads
+1. Navigate to Google Ads → Campaigns → select your campaign → Ads & Assets
+2. Click "+" to add new responsive search ad
+3. Paste headlines into the 15 headline slots (one per slot)
+4. Paste descriptions into the 4 description slots
+5. Use "Ad Strength" indicator to verify — aim for "Good" or "Excellent"
+
+### Meta Ads Manager
+1. Open Meta Business Suite → Ads Manager → select campaign
+2. At Ad level, click "Edit" on your ad
+3. Paste Primary Text, Headline, and Description into respective fields
+4. Preview across placements (Feed, Stories, Reels) before publishing
+
+### LinkedIn Campaign Manager
+1. Open Campaign Manager → select campaign → Ads tab
+2. Click "Create new ad" → Single Image Ad or other format
+3. Paste Introductory Text, Headline, and Description
+4. Preview on both desktop and mobile before saving
 
 ## Failure Modes
 

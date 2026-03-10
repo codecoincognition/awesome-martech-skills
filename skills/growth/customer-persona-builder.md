@@ -67,6 +67,13 @@ R004,25-27,Growth Manager,Startup,Fintech,Budget constraints,Low-cost scaling so
 R005,33-39,Product Marketing,51-200,MarTech,ROI measurement,Campaign performance clarity,3-6 months,$10k-$30k,LinkedIn + Podcasts,Learning curve for team
 ```
 
+### If You Don't Have This Data
+
+- **No customer data?** Interview 5 recent customers. Even informal conversations yield enough for a starter persona.
+- **No analytics?** Describe your top 3 customers from memory: their role, company size, pain points, and how they found you.
+- **No survey results?** Send a 3-question survey to your last 20 customers: biggest challenge, why they chose you, what they'd improve.
+- **No market research?** Use publicly available reports, Reddit threads, and review sites to understand your audience.
+
 ## Process
 
 1. **Data Collection & Normalization**
@@ -116,6 +123,13 @@ R005,33-39,Product Marketing,51-200,MarTech,ROI measurement,Campaign performance
    - Create markdown persona documents
    - Generate persona comparison matrix
    - Produce implementation guide for marketing use
+
+
+> **Benchmark Context**: Companies with documented buyer personas are 2-4x more effective at content marketing. Average NPS for SaaS is 31. Customer acquisition cost (CAC) benchmarks: B2B SaaS $200-$500 (SMB), $1,000-$5,000 (enterprise).
+
+
+### Confidence & Sample Size
+> **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract
 
@@ -242,6 +256,27 @@ Decision Criterion | Integration capability | Ease of use | Proven ROI
 **XLSX Persona Details Sheet:**
 - One row per persona
 - Columns: Name, Role, Company Size, Primary Pain, Goal, Timeline, Budget, Channels, Objections, Key Message
+
+## Platform Implementation Steps
+
+### Google Sheets / Excel
+1. Create a new spreadsheet with the output schema columns
+2. Import or paste the output data
+3. Use conditional formatting for priority/tier columns
+4. Create a pivot table for summary views
+5. Share with growth team for alignment
+
+### Notion / Confluence
+1. Create a new page for the analysis
+2. Paste the Markdown output directly (both support Markdown)
+3. Add team members as viewers/editors
+4. Create linked databases for tracking actions
+
+### Miro / FigJam (Visual Workshop)
+1. Create a new board
+2. Add persona cards or journey maps as sticky notes
+3. Use the output data points as labels
+4. Collaborate with team to prioritize actions
 
 ## Failure Modes
 

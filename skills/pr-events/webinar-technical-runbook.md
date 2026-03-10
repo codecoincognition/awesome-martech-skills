@@ -16,7 +16,7 @@ Generates a complete production runbook for webinars and virtual events — cove
 
 ## Granularity Check
 
-> Can this be completed in a single 10-minute Claude session? **Yes.** Input is webinar details. Output is a Markdown runbook. No system access needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is webinar details. Output is a Markdown runbook. No system access needed.
 
 ## User Intent Mapping
 
@@ -43,6 +43,13 @@ This skill should trigger when the user says things like:
 | Date/Time | Text | Date, time, timezone, and duration |
 | Platform | Text | Zoom, Webex, GoToWebinar, Teams, Livestorm, custom |
 | Format | Text | Solo presenter, panel, interview, demo, workshop |
+
+### If You Don't Have This Data
+
+- **No media list?** Search "[your industry] journalists" on Twitter/X or use Google News to find reporters covering your space.
+- **No event details?** Define: date, location, expected attendees, budget range, and primary goal. That's enough to start.
+- **No press release history?** Describe your company, product, and the newsworthy event. This skill generates the release from scratch.
+- **No attendee data?** Start with your CRM contacts tagged as "event interest" or your email list segments.
 
 ### Optional Inputs
 
@@ -140,8 +147,15 @@ This skill should trigger when the user says things like:
 - Team debrief and lessons learned
 - Plan follow-up content based on top Q&A themes
 
+
+### Confidence & Sample Size
+> **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
+
 ### ⚠️ Human Checkpoint
 > Conduct the full rehearsal — never skip it. Most webinar failures are preventable with a proper dry run. Test the exact setup each speaker will use on webinar day.
+
+
+> **Benchmark Context**: Average press release pickup rate is 1-3% of targeted journalists. Event email invitation open rates average 20-25%, with 2-5% registration conversion. Best press release send times: Tuesday-Thursday, 9-10 AM in the journalist's time zone.
 
 ## Output Contract
 
@@ -184,6 +198,26 @@ This skill should trigger when the user says things like:
 | Role | Name | Phone | Email |
 |---|---|---|---|
 ```
+
+## Platform Implementation Steps
+
+### Google Docs (Collaboration)
+1. Create a new Google Doc
+2. Paste the output content
+3. Use Suggesting Mode for stakeholder review
+4. Share with PR team and executives for approval
+
+### Notion / Confluence
+1. Create a new page in your team workspace
+2. Paste Markdown output directly
+3. Add status trackers for action items
+4. Link to related event pages or campaign briefs
+
+### Email Distribution
+1. Copy the finalized output
+2. Format for email distribution to media contacts
+3. Use your PR tool (Muck Rack, Cision) for targeted sends
+4. Track opens and pickups
 
 ## Failure Modes
 

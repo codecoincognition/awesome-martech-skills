@@ -17,7 +17,7 @@ Design complete multi-step email sequences for any purpose: nurture, onboarding,
 
 ## Granularity Check
 
-> Can this be completed in a single 10-minute Claude session? **Yes.** Input is sequence purpose + audience context. Output is a complete email sequence with full copy. No integrations needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is sequence purpose + audience context. Output is a complete email sequence with full copy. No integrations needed.
 
 ## User Intent Mapping
 
@@ -43,6 +43,13 @@ Trigger when the user says:
 | `sequence_type` | string | Nurture / Onboarding / Re-engagement / Post-purchase / Trial conversion / Event follow-up / Cold outreach |
 | `audience` | string | Who receives this sequence |
 | `goal` | string | What you want recipients to do |
+
+### If You Don't Have This Data
+
+- **No email platform?** Start with Mailchimp's free tier (500 contacts) or use Google Sheets to draft sequences before importing.
+- **No subscriber list?** This skill designs the sequence structure. Collect emails via a signup form first, then apply the output.
+- **No performance benchmarks?** Industry averages: B2B open rates 20-25%, click rates 2-4%. B2C: open 18-22%, click 2-3%.
+- **No segmentation?** Start with one sequence for all subscribers. Segment after you have 500+ contacts.
 
 ### Optional Input
 
@@ -99,6 +106,13 @@ Trigger when the user says:
 5. **Human checkpoint** — Present the sequence structure (email purposes + timing). Ask: "Does this flow make sense? Any emails to add, remove, or reorder?"
 
 6. **Generate output** — Full sequence document with all copy + CSV for platform import.
+
+
+> **Benchmark Context**: Average B2B email open rate is 21.3%, click rate 2.6%. Welcome emails average 50-60% open rates — the highest of any email type. Segmented campaigns see 14% higher open rates than non-segmented. Best send times: B2B Tuesday-Thursday 9-11 AM local time.
+
+
+### Confidence & Sample Size
+> **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract
 
@@ -161,6 +175,29 @@ Trigger → Email 1 (Day 0) → Wait 3 days → Email 2 (Day 3) → ...
 | `cta_url` | string | Button destination |
 | `send_delay_days` | integer | Days after trigger |
 | `send_time` | string | Optimal send time |
+
+## Platform Implementation Steps
+
+### Mailchimp
+1. Navigate to Campaigns → Create Campaign → Email
+2. Choose your audience/segment
+3. Paste subject lines and preview text into the header fields
+4. Build email body using the drag-and-drop editor or paste HTML
+5. Schedule or send using the recommended timing
+
+### HubSpot Email
+1. Go to Marketing → Email → Create Email
+2. Select template, paste content into modules
+3. Use Personalization Tokens for dynamic fields
+4. Set up A/B test on subject line if applicable
+5. Select recipient list and schedule
+
+### Any ESP (Generic)
+1. Create a new campaign/email in your platform
+2. Copy subject line and preview text into header fields
+3. Paste body content and format using your template
+4. Test send to yourself before scheduling
+5. Monitor open rates and click rates for 48 hours post-send
 
 ## Failure Modes
 

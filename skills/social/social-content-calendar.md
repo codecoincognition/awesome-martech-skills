@@ -70,6 +70,13 @@ Key Dates:
 Visual Style: Bright, natural photography, minimalist design, green/cream color palette
 ```
 
+### If You Don't Have This Data
+
+- **No social analytics?** Start by describing your audience and goals. This skill generates a content plan that you can then measure.
+- **No content pillars?** List 3-5 topics you could talk about every week without running out of ideas. Those are your pillars.
+- **No posting schedule?** Industry defaults: B2B LinkedIn 3-5x/week, Instagram 3-5x/week, X/Twitter 1-3x/day, TikTok 1-3x/day.
+- **No past performance data?** Check your last 10 posts' engagement (likes, comments, shares) manually. Identify the top 3.
+
 ## Process
 
 1. **Brand & Audience Analysis**
@@ -116,6 +123,13 @@ Visual Style: Bright, natural photography, minimalist design, green/cream color 
 7. **XLSX Calendar Export**
    - Compile all posts into calendar view
    - Generate accompanying strategy document
+
+
+> **Benchmark Context**: Average LinkedIn engagement rate is 0.35-0.50%. Instagram average engagement rate is 0.60-0.80% (declining from 1.2% in 2022). Posting frequency sweet spot: LinkedIn 3-5x/week, Instagram 3-7x/week. Video content gets 2-3x more engagement than static images.
+
+
+### Confidence & Sample Size
+> **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract
 
@@ -211,6 +225,26 @@ Industry Insights | 1 | 4 | Trends, thought leadership, news commentary | "Q1 su
 - Hashtags: 4-7 relevant tags; #FYP does NOT increase reach (algorithm-based)
 - Engagement: Participate in trends weekly; respond to comments with video replies
 - Trends: Monitor every 3-4 days for relevant audio/trend alignment
+
+## Platform Implementation Steps
+
+### Buffer / Hootsuite / Later
+1. Create a new post for each calendar entry
+2. Paste the caption, hashtags, and media notes
+3. Schedule according to the recommended posting times
+4. Use the built-in analytics to track performance
+
+### Native Platform Publishing
+1. Open the platform (Instagram, LinkedIn, X, etc.)
+2. Create a new post with the provided caption
+3. Add hashtags and tag relevant accounts
+4. Post at recommended times or save as draft
+
+### Google Sheets (Calendar Tracking)
+1. Create a content calendar spreadsheet
+2. Add columns: date, platform, caption, media, status
+3. Color-code by content pillar
+4. Track engagement metrics post-publish
 
 ## Failure Modes
 

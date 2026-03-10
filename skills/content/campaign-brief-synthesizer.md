@@ -16,7 +16,7 @@ Synthesizes inputs from multiple stakeholders (product, sales, leadership, creat
 
 ## Granularity Check
 
-> Can this be completed in a single 10-minute Claude session? **Yes.** Input is stakeholder notes/requirements. Output is a Markdown campaign brief. No external access needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is stakeholder notes/requirements. Output is a Markdown campaign brief. No external access needed.
 
 ## User Intent Mapping
 
@@ -41,6 +41,13 @@ This skill should trigger when the user says things like:
 |---|---|---|
 | Campaign Context | Text | What's the campaign for (product launch, seasonal, awareness, demand gen) |
 | Stakeholder Inputs | Text | Notes, emails, or requirements from different stakeholders |
+
+### If You Don't Have This Data
+
+- **No content strategy?** Describe your product and your top 3 customer pain points. That's enough to generate an outline.
+- **No keyword research?** List 5 questions your customers frequently ask. These become your topics.
+- **No brand voice guide?** Provide 2-3 examples of content you like the tone of. Claude can infer the voice from examples.
+- **No performance data?** Start fresh. After publishing, track views, time-on-page, and conversions for 30 days.
 
 ### Optional Inputs
 
@@ -103,8 +110,15 @@ Document all synthesis decisions:
 - Gaps that were filled with recommendations
 - Open items that need stakeholder sign-off
 
+
+### Confidence & Sample Size
+> **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
+
 ### ⚠️ Human Checkpoint
 > Share the synthesized brief with all contributing stakeholders before execution. Unresolved conflicts should be flagged for a decision meeting, not silently resolved.
+
+
+> **Benchmark Context**: Blog posts averaging 1,500-2,500 words tend to rank highest in search. Content marketing generates 3x more leads than outbound at 62% less cost. Average time to write a 1,500-word blog post is 4-6 hours (research + writing + editing).
 
 ## Output Contract
 
@@ -160,6 +174,25 @@ Document all synthesis decisions:
 ## Open Items
 - [ ] [Item needing stakeholder decision]
 ```
+
+## Platform Implementation Steps
+
+### WordPress
+1. Log in to wp-admin → Posts → Add New
+2. Paste the content outline into the editor
+3. Use the Heading blocks (H2, H3) for structure
+4. Add Featured Image and set Category/Tags before publishing
+
+### Google Docs (Collaboration)
+1. Create a new Google Doc
+2. Paste the output and use Suggesting Mode for team review
+3. Use Insert → Table of Contents for navigation
+4. Share with stakeholders for feedback
+
+### CMS-Agnostic
+1. Copy Markdown output as-is into any CMS that supports Markdown
+2. For HTML-based CMS platforms, convert Markdown to HTML using any converter
+3. Adapt headings and formatting to match your site's style guide
 
 ## Failure Modes
 

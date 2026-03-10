@@ -15,7 +15,7 @@ Generates structured, professional responses to RFP (Request for Proposal) and R
 
 ## Granularity Check
 
-> Can this be completed in a single 10-minute Claude session? **Yes.** Input is RFP questions + product context. Output is a Markdown response document. No system access needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is RFP questions + product context. Output is a Markdown response document. No system access needed.
 
 ## User Intent Mapping
 
@@ -40,6 +40,13 @@ This skill should trigger when the user says things like:
 |---|---|---|
 | RFP Questions | Text | The questions to answer (pasted from the RFP document) |
 | Product/Company Info | Text | What you do, key capabilities, differentiators |
+
+### If You Don't Have This Data
+
+- **No CRM data?** Export your email contacts, LinkedIn connections, or even a list of companies you've spoken to in a spreadsheet.
+- **No deal outcome data?** Start with win/loss status on your last 20 deals. Even rough data is better than none.
+- **No content library?** List every PDF, deck, and one-pager your sales team uses — even a 10-item list is a valid starting point.
+- **No engagement metrics?** Track which content sales reps send in emails for the next 2 weeks. Manual tracking beats no tracking.
 
 ### Optional Inputs
 
@@ -94,8 +101,15 @@ Draft a 1-page executive summary for the RFP response:
 - Relevant experience and references
 - Commitment statement
 
+
+### Confidence & Sample Size
+> **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
+
 ### ⚠️ Human Checkpoint
 > Review all responses before submission. Verify technical accuracy, confirm pricing with finance, ensure legal has approved compliance claims. Never submit without internal review.
+
+
+> **Benchmark Context**: Average B2B sales cycle is 102 days. Win rates average 20-30% for qualified opportunities. Top-performing sales orgs use 5-7 pieces of content per deal cycle. Sales reps spend ~30% of their time searching for content.
 
 ## Output Contract
 
@@ -131,6 +145,27 @@ Draft a 1-page executive summary for the RFP response:
 - **Flagged for Review**: [count]
 - **Recommended Win Themes Used**: [list]
 ```
+
+## Platform Implementation Steps
+
+### Salesforce
+1. Navigate to Reports → New Report → select relevant object
+2. Add columns matching the output schema
+3. Use filters to scope the data
+4. Export as CSV for input, or build dashboard from output
+
+### HubSpot
+1. Go to Contacts/Companies → Import → select CSV
+2. Map columns to HubSpot properties
+3. Use Lists → Create List to filter by output criteria
+4. Dashboards → Create Dashboard for ongoing tracking
+
+### Google Sheets (No CRM)
+If no CRM is available:
+1. Create a new Google Sheet
+2. Structure columns per the output schema
+3. Use Data → Filter Views for dynamic sorting
+4. Share with team via link for collaboration
 
 ## Failure Modes
 

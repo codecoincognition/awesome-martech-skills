@@ -15,7 +15,7 @@ Audits an exported digital asset inventory for naming convention violations, mis
 
 ## Granularity Check
 
-> Can this be completed in a single 10-minute Claude session? **Yes.** Input is a CSV of asset metadata. Output is an XLSX audit report. No system access needed — works entirely from exported data.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is a CSV of asset metadata. Output is an XLSX audit report. No system access needed — works entirely from exported data.
 
 ## User Intent Mapping
 
@@ -39,6 +39,13 @@ This skill should trigger when the user says things like:
 | Input | Format | Description |
 |---|---|---|
 | Asset Inventory | CSV | Exported asset list with columns: filename, file_type, folder_path, created_date, modified_date |
+
+### If You Don't Have This Data
+
+- **No brand guidelines?** Document your current logo, colors (use a color picker on your website), and 3 tone-of-voice adjectives. That's a starting brand guide.
+- **No asset inventory?** Search your Google Drive/Dropbox for common marketing file types (.pdf, .pptx, .png). The list IS your inventory.
+- **No compliance checklist?** Start with industry basics: GDPR consent, CAN-SPAM footer, accessibility alt text. This skill helps you build the full checklist.
+- **No vendor data?** List every tool your marketing team pays for. Include name, monthly cost, and primary user. That's your vendor inventory.
 
 ### Optional Inputs
 
@@ -92,8 +99,15 @@ hero-banner-v3-FINAL-v2.png,image,/marketing/campaigns/q1-launch,2025-09-22,2025
 - Flag empty folders
 - Check for logical grouping (by campaign vs. by asset type vs. by channel)
 
+
+### Confidence & Sample Size
+> **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
+
 ### ⚠️ Human Checkpoint
 > Review duplicate groups before bulk action — some "duplicates" may be intentional variants (e.g., localized versions, A/B test variants).
+
+
+> **Benchmark Context**: Average enterprise has 91 marketing tools in its stack. Brand compliance violations occur in 60% of co-branded partner materials. UTM tracking is implemented on only 40-50% of marketing URLs on average.
 
 ## Output Contract
 
@@ -115,6 +129,26 @@ Columns: `filename | issue_type | severity | description | recommended_action | 
 
 **Sheet 3: Action Plan**
 Columns: `priority | action | asset_count | effort_estimate | impact`
+
+## Platform Implementation Steps
+
+### Notion / Confluence (Documentation)
+1. Create a new page for the audit/report
+2. Paste Markdown output directly
+3. Add status properties for tracking remediation
+4. Assign team members to action items
+
+### Google Sheets (Tracking)
+1. Import CSV output into a new spreadsheet
+2. Add a "Status" column for tracking fixes
+3. Use conditional formatting for severity levels
+4. Create a dashboard tab with summary charts
+
+### Project Management (Asana/Jira/Linear)
+1. Create tasks from each action item in the output
+2. Set priority based on severity ratings
+3. Assign to responsible team members
+4. Set due dates based on priority tiers
 
 ## Failure Modes
 

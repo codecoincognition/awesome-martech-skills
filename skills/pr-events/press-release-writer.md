@@ -86,6 +86,13 @@ Secondary Quotes:
 Target Media: TechCrunch, Forbes, Sustainability Today, Fast Company
 ```
 
+### If You Don't Have This Data
+
+- **No media list?** Search "[your industry] journalists" on Twitter/X or use Google News to find reporters covering your space.
+- **No event details?** Define: date, location, expected attendees, budget range, and primary goal. That's enough to start.
+- **No press release history?** Describe your company, product, and the newsworthy event. This skill generates the release from scratch.
+- **No attendee data?** Start with your CRM contacts tagged as "event interest" or your email list segments.
+
 ## Process
 
 1. **Story Structure & Angle Validation**
@@ -136,6 +143,13 @@ Target Media: TechCrunch, Forbes, Sustainability Today, Fast Company
    - Create journalist outreach email template
    - Suggest timing and follow-up strategy
    - **Human Checkpoint:** Approve distribution recommendations
+
+
+> **Benchmark Context**: Average press release pickup rate is 1-3% of targeted journalists. Event email invitation open rates average 20-25%, with 2-5% registration conversion. Best press release send times: Tuesday-Thursday, 9-10 AM in the journalist's time zone.
+
+
+### Confidence & Sample Size
+> **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract
 
@@ -230,6 +244,26 @@ Available for interview/comment: [Name, Title, Contact Info]
 | Quotes | Use double quotes for direct quotes; single for quotes within quotes. Attribution after quote: "Quote," said Person. |
 | Punctuation | No serial comma (Oxford comma avoided in AP); em dashes for clarity; semicolons sparingly |
 | Hyphens | Use for compound adjectives before noun: "revenue-generating product" but "product generates revenue" |
+
+## Platform Implementation Steps
+
+### Google Docs (Collaboration)
+1. Create a new Google Doc
+2. Paste the output content
+3. Use Suggesting Mode for stakeholder review
+4. Share with PR team and executives for approval
+
+### Notion / Confluence
+1. Create a new page in your team workspace
+2. Paste Markdown output directly
+3. Add status trackers for action items
+4. Link to related event pages or campaign briefs
+
+### Email Distribution
+1. Copy the finalized output
+2. Format for email distribution to media contacts
+3. Use your PR tool (Muck Rack, Cision) for targeted sends
+4. Track opens and pickups
 
 ## Failure Modes
 

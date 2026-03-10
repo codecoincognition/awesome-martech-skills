@@ -16,7 +16,7 @@ Audits landing page copy across 5 conversion dimensions, scores each section, an
 
 ## Granularity Check
 
-> Completable in one 10-minute session. Input is page copy or URL. Output is scored audit + rewritten sections.
+> **Session time**: ~5 minutes data prep + ~10 minutes Claude session. If implementing output in a platform, add 10-20 minutes for setup. Input is page copy or URL. Output is scored audit + rewritten sections.
 
 ## User Intent Mapping
 
@@ -38,6 +38,13 @@ Audits landing page copy across 5 conversion dimensions, scores each section, an
 | Field | Type | Description | Example |
 |---|---|---|---|
 | `page_copy` | string | Full text from the landing page (or URL for web search) | All visible text, organized by section |
+
+### If You Don't Have This Data
+
+- **No landing page copy?** Paste the visible text from your page, or describe what each section says.
+- **No conversion rate?** Check Google Analytics → Conversions, or estimate: signups last month ÷ page visitors last month.
+- **No A/B testing tool?** Make changes sequentially and compare 2-week periods in GA4. Not as rigorous but still useful.
+- **No traffic source data?** Check GA4 → Acquisition → Traffic Acquisition for your landing page URL.
 
 ### Optional Input
 
@@ -77,6 +84,13 @@ Audits landing page copy across 5 conversion dimensions, scores each section, an
 
 6. **Generate quick wins** — List 3-5 changes that take <30 minutes to implement.
 
+
+> **Benchmark Context**: Average landing page conversion rate is 2.35% across industries, with the top 25% converting at 5.31%+. Adding social proof increases conversions by 12-15% on average. Reducing form fields from 4 to 3 can increase conversions by 25%.
+
+
+### Confidence & Sample Size
+> **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
+
 ## Output Contract
 
 ### Output Format
@@ -86,6 +100,28 @@ Audits landing page copy across 5 conversion dimensions, scores each section, an
 | Conversion audit | Markdown | Scores, analysis, framework evaluation |
 | Rewritten sections | Markdown | Before/after copy with rationale |
 | Quick wins | Markdown | Prioritized easy fixes |
+
+## Platform Implementation Steps
+
+### Google Optimize (or VWO/Optimizely)
+1. Create a new A/B test experiment
+2. Set the target URL to your landing page
+3. Create variant(s) with the recommended copy changes
+4. Set conversion goals matching the target action
+5. Set traffic allocation (recommend 50/50 for initial tests)
+6. Run for minimum 2 weeks or until statistical significance (95%+)
+
+### Unbounce / Instapage
+1. Duplicate your current landing page as a variant
+2. Apply the rewritten copy sections to the variant
+3. Use the built-in A/B testing feature
+4. Monitor conversion rates in the dashboard
+
+### Manual Implementation (No CRO Tool)
+1. Make changes directly in your CMS/page builder
+2. Track conversions via GA4 goals before and after
+3. Run changes for at least 2 weeks with comparable traffic
+4. Compare conversion rates manually (use a significance calculator)
 
 ## Failure Modes
 

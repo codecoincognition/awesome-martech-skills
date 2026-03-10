@@ -16,7 +16,7 @@ Matches event attendees to relevant sessions, networking groups, and sales rep a
 
 ## Granularity Check
 
-> Can this be completed in a single 10-minute Claude session? **Yes.** Input is attendee CSV + session list. Output is XLSX with matching assignments. No system access needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is attendee CSV + session list. Output is XLSX with matching assignments. No system access needed.
 
 ## User Intent Mapping
 
@@ -41,6 +41,13 @@ This skill should trigger when the user says things like:
 |---|---|---|
 | Attendee List | CSV | Columns: name, email, company, title, industry |
 | Sessions/Tracks | Text | Available sessions with descriptions and capacity |
+
+### If You Don't Have This Data
+
+- **No media list?** Search "[your industry] journalists" on Twitter/X or use Google News to find reporters covering your space.
+- **No event details?** Define: date, location, expected attendees, budget range, and primary goal. That's enough to start.
+- **No press release history?** Describe your company, product, and the newsworthy event. This skill generates the release from scratch.
+- **No attendee data?** Start with your CRM contacts tagged as "event interest" or your email list segments.
 
 ### Optional Inputs
 
@@ -103,8 +110,15 @@ For top-tier attendees:
 - Priority networking introductions
 - Post-event follow-up assignment
 
+
+### Confidence & Sample Size
+> **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
+
 ### ⚠️ Human Checkpoint
 > Review VIP assignments and rep routing before the event. Sales reps should review their assigned attendees and prepare talking points. Don't auto-assign without rep input.
+
+
+> **Benchmark Context**: Average press release pickup rate is 1-3% of targeted journalists. Event email invitation open rates average 20-25%, with 2-5% registration conversion. Best press release send times: Tuesday-Thursday, 9-10 AM in the journalist's time zone.
 
 ## Output Contract
 
@@ -121,6 +135,26 @@ Columns: `group_id | theme | attendee_name | company | industry | discussion_sta
 
 **Sheet 4: VIP Plan**
 Columns: `attendee | company | value | exec_sponsor | pre_event_action | day_of_action | post_event_followup`
+
+## Platform Implementation Steps
+
+### Google Docs (Collaboration)
+1. Create a new Google Doc
+2. Paste the output content
+3. Use Suggesting Mode for stakeholder review
+4. Share with PR team and executives for approval
+
+### Notion / Confluence
+1. Create a new page in your team workspace
+2. Paste Markdown output directly
+3. Add status trackers for action items
+4. Link to related event pages or campaign briefs
+
+### Email Distribution
+1. Copy the finalized output
+2. Format for email distribution to media contacts
+3. Use your PR tool (Muck Rack, Cision) for targeted sends
+4. Track opens and pickups
 
 ## Failure Modes
 

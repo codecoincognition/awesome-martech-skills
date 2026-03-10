@@ -41,14 +41,14 @@ No API keys. No MCP connectors. Just CSV in, results out.
 | [CRO](skills/cro/) | 9 | A/B testing, landing pages, form optimization, friction detection |
 | [Content](skills/content/) | 12 | Blog outlines, content repurposing, editorial calendars, SEO writing |
 | [PR & Events](skills/pr-events/) | 8 | Press releases, media lists, event planning, crisis comms |
-| [MarTech Ops](skills/martech-ops/) | 8 | UTM tracking, compliance, contracts, vendor scoring, SLA docs |
+| [MarTech Ops](skills/martech-ops/) | 9 | UTM tracking, compliance, contracts, vendor scoring, SLA docs |
 | [Video & Podcast](skills/video-podcast/) | 10 | Scripts, YouTube SEO, show notes, short-form video |
 | [Growth](skills/growth/) | 9 | Experiments, channel mix, personas, GTM planning, referral programs |
 | [Insights](skills/insights/) | 11 | Voice of customer, win/loss analysis, competitive positioning, trend radar |
 | [AI Marketing](skills/ai-marketing/) | 7 | AI image prompts, personalization, prompt libraries, content quality |
 | [B2B & ABM](skills/b2b/) | 6 | Account research, buying committees, sales decks, RFP responses |
 
-## Built Skills (52)
+## Built Skills (57)
 
 ### Phase 1 — Foundation (15 skills)
 
@@ -116,6 +116,26 @@ No API keys. No MCP connectors. Just CSV in, results out.
 | [dashboard-requirement-gatherer](skills/analytics/dashboard-requirement-gatherer.md) | Analytics | Gather KPI definitions and data sources for dashboard builds |
 | [campaign-brief-synthesizer](skills/content/campaign-brief-synthesizer.md) | Content | Synthesize multi-stakeholder inputs into unified campaign briefs |
 | [win-loss-interview-analyzer](skills/insights/win-loss-interview-analyzer.md) | Insights | Analyze win/loss interview transcripts for patterns and recommendations |
+
+### Phase 4 — Video & Podcast (5 skills)
+
+| Skill | Category | Description |
+|---|---|---|
+| [video-script-writer](skills/video-podcast/video-script-writer.md) | Video & Podcast | Write structured video scripts with hooks, segments, CTAs, and timing |
+| [youtube-seo-optimizer](skills/video-podcast/youtube-seo-optimizer.md) | Video & Podcast | Optimize YouTube titles, descriptions, tags, and chapters for search |
+| [podcast-show-notes-generator](skills/video-podcast/podcast-show-notes-generator.md) | Video & Podcast | Generate show notes with timestamps, takeaways, and SEO descriptions |
+| [short-form-video-planner](skills/video-podcast/short-form-video-planner.md) | Video & Podcast | Plan TikTok, Reels, and Shorts content calendars with scripts |
+| [video-thumbnail-concept-generator](skills/video-podcast/video-thumbnail-concept-generator.md) | Video & Podcast | Generate thumbnail design briefs with layout, text, and A/B variants |
+
+### Quality Revision v1
+
+All 57 skills received 5 universal quality improvements based on expert review:
+
+1. **Honest time estimates** — Replaced "10-minute session" with realistic prep + session + implementation times
+2. **Data fallbacks** — Added "If You Don't Have This Data" section with workarounds for every required input
+3. **Confidence disclaimers** — Added sample size and statistical confidence notes
+4. **Benchmark context** — Added quantitative industry benchmarks (CTR, conversion rates, etc.)
+5. **Platform implementation steps** — Added step-by-step instructions for implementing outputs in real tools
 
 ## Workflow Chains
 

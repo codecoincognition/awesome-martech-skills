@@ -17,7 +17,7 @@ Evaluate marketing headlines and hooks on a 10-point scale across 6 dimensions. 
 
 ## Granularity Check
 
-> Can this be completed in a single 10-minute Claude session? **Yes.** Input is 1-10 headlines. Output is scored analysis + 10 improved variants per headline.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is 1-10 headlines. Output is scored analysis + 10 improved variants per headline.
 
 ## User Intent Mapping
 
@@ -42,6 +42,13 @@ Trigger when the user says:
 |---|---|---|
 | `headlines` | list of strings | 1-10 headlines to evaluate |
 | `context` | string | What the headline is for (ad, blog, email, landing page, social) |
+
+### If You Don't Have This Data
+
+- **No customer interviews?** Use support tickets, sales call notes, or online reviews as proxy customer voice data.
+- **No survey data?** Send a 5-question NPS-style survey to your customer base. 30+ responses is enough for initial patterns.
+- **No competitor content?** Search your primary keywords and screenshot the top 10 results. That's your competitive landscape.
+- **No win/loss data?** Ask your sales team to recall their last 5 won and 5 lost deals. Verbal notes work fine as input.
 
 ### Optional Input
 
@@ -133,6 +140,13 @@ Target audience: Team leads and project managers
 
 7. **Human checkpoint** — Present the scores. Ask: "Do the scores feel right? Want me to go deeper on any specific headline?"
 
+
+> **Benchmark Context**: Win/loss analysis requires minimum 20 interviews per segment for reliable patterns. Survey response rates average 10-15% for email surveys, 30-50% for in-app. Qualitative research saturation typically occurs at 12-15 interviews.
+
+
+### Confidence & Sample Size
+> **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
+
 ## Output Contract
 
 ### Output Format
@@ -188,6 +202,27 @@ Context: [platform/use case]
 
 [Repeat for each headline]
 ```
+
+## Platform Implementation Steps
+
+### Google Sheets / Excel
+1. Create a new spreadsheet
+2. Paste output tables directly (Markdown tables → Sheets)
+3. Add conditional formatting for scores/ratings
+4. Create charts for visual summaries
+5. Share with stakeholders
+
+### Notion
+1. Create a new page
+2. Paste the Markdown output directly
+3. Convert tables to Notion databases for filtering/sorting
+4. Add to your team's research hub
+
+### Presentation (for Stakeholders)
+1. Copy key findings into a slide deck
+2. Use the output scores/rankings as data slides
+3. Include the recommended actions as a closing slide
+4. Present to marketing/product leadership
 
 ## Failure Modes
 

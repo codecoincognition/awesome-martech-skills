@@ -16,7 +16,7 @@ Analyze existing content performance data to identify which pages to update, con
 
 ## Granularity Check
 
-> Can this be completed in a single 10-minute Claude session? **Yes.** Input is a CSV of pages with performance metrics. Output is a prioritized XLSX action list. No crawling required.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is a CSV of pages with performance metrics. Output is a prioritized XLSX action list. No crawling required.
 
 ## User Intent Mapping
 
@@ -73,6 +73,13 @@ url,clicks,clicks_previous,impressions,avg_position,publish_date,word_count,targ
 4. Dates help calculate content age — estimate if missing
 5. Flag pages with zero traffic in both periods (candidates for removal)
 
+### If You Don't Have This Data
+
+- **No Search Console access?** Ask your web developer to grant you Viewer access, or use free tools like Ubersuggest for basic keyword data.
+- **No keyword research?** Type your topic into Google and note the autocomplete suggestions + "People Also Ask" questions. That's free keyword research.
+- **No competitor URLs?** Search your target keyword — the top 5 organic results are your SEO competitors.
+- **No content inventory?** Export your sitemap (yoursite.com/sitemap.xml) or use Screaming Frog's free tier (500 URLs).
+
 ## Process
 
 1. **Validate and normalize input** — Identify available columns, handle missing data. Report: "Analyzing X pages. Traffic trend data: [available/unavailable]. Date data: [available/unavailable]."
@@ -101,6 +108,13 @@ url,clicks,clicks_previous,impressions,avg_position,publish_date,word_count,targ
 
 6. **Generate output** — XLSX with prioritized action list + Markdown summary.
 
+
+> **Benchmark Context**: Average time to rank on page 1 for a new page is 3-6 months. Long-tail keywords (3+ words) have 3-5% CTR vs. 1-2% for head terms. The #1 organic result gets ~27.6% of clicks. Content updates on existing pages show ranking improvements within 2-4 weeks.
+
+
+### Confidence & Sample Size
+> **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
+
 ## Output Contract
 
 ### Output Format
@@ -127,6 +141,26 @@ url,clicks,clicks_previous,impressions,avg_position,publish_date,word_count,targ
 ### Sheet 2: Full Detail
 
 All input columns plus calculated metrics (decay rate, CTR gap, content age, action classification).
+
+## Platform Implementation Steps
+
+### Google Search Console
+1. Navigate to Performance → Search Results
+2. Compare output keywords against actual impressions/clicks
+3. Use the URL Inspection tool to verify indexing
+4. Submit updated pages for re-crawling after changes
+
+### WordPress + Yoast/RankMath
+1. Edit the target page in WordPress
+2. Paste optimized title tag and meta description in the SEO plugin fields
+3. Add recommended headings and content structure
+4. Check the SEO score indicator before publishing
+
+### Google Sheets (Tracking)
+1. Create a keyword tracking spreadsheet from the output
+2. Add columns: current rank, target rank, monthly search volume
+3. Update rankings weekly using Search Console data
+4. Track progress over 3-6 month periods
 
 ## Failure Modes
 

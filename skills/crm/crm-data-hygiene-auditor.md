@@ -16,7 +16,7 @@ Audits a CRM contact/lead export for data quality issues — duplicates, missing
 
 ## Granularity Check
 
-> Can this be completed in a single 10-minute Claude session? **Yes.** Input is a CSV export. Output is an XLSX audit report. No CRM API access needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is a CSV export. Output is an XLSX audit report. No CRM API access needed.
 
 ## User Intent Mapping
 
@@ -40,6 +40,13 @@ This skill should trigger when the user says things like:
 | Input | Format | Description |
 |---|---|---|
 | CRM Export | CSV | Contact/lead export with columns like: email, first_name, last_name, company, phone, created_date, last_activity_date, lifecycle_stage, owner |
+
+### If You Don't Have This Data
+
+- **No CRM export?** Create a simple spreadsheet with columns: Name, Email, Company, Stage, Last Contact Date. Even 50 records work.
+- **No lead scores?** Use lifecycle stage as a proxy: Customer > Opportunity > SQL > MQL > Lead > Subscriber.
+- **No enrichment budget?** This skill helps you prioritize so you can make the case for budget. Start with the output.
+- **No ICP definition?** Look at your best 5 customers — what industry, size, and title do they share? That's your starting ICP.
 
 ### Optional Inputs
 
@@ -99,8 +106,15 @@ Score each incomplete record by enrichment priority:
 - Medium: recent creation + missing some fields
 - Low: stale record + missing fields (archive, don't enrich)
 
+
+### Confidence & Sample Size
+> **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
+
 ### ⚠️ Human Checkpoint
 > Review duplicate groups before merging. Confirm merge rules (which record becomes master, which fields survive). Never auto-merge without human approval.
+
+
+> **Benchmark Context**: Average CRM data decay rate is 30% per year. Enriched leads convert at 2-3x the rate of non-enriched leads. Data enrichment typically costs $0.10-$0.50 per record depending on provider and depth.
 
 ## Output Contract
 
@@ -125,6 +139,26 @@ Columns: `group_id | match_type | confidence | email | name | company | last_act
 
 **Sheet 4: Remediation Plan**
 Columns: `priority | action | record_count | estimated_effort | expected_impact | instructions`
+
+## Platform Implementation Steps
+
+### HubSpot
+1. Navigate to Contacts → Import → Start an Import
+2. Upload the output CSV, mapping columns to HubSpot properties
+3. Use Workflows → Create Workflow to automate actions on scored records
+4. Create Active Lists based on output tiers for segmentation
+
+### Salesforce
+1. Go to Setup → Data Import Wizard or Data Loader
+2. Map CSV columns to Salesforce fields
+3. Create Reports filtered by output scores/tiers
+4. Build Process Builder flows for automated follow-up
+
+### Spreadsheet (Manual CRM)
+1. Import output CSV into Google Sheets
+2. Use conditional formatting to color-code tiers
+3. Create filter views per team member
+4. Set up weekly review cadence
 
 ## Failure Modes
 

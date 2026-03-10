@@ -15,7 +15,7 @@ Compares two versions of a marketing document (landing page, email, blog post, p
 
 ## Granularity Check
 
-> Can this be completed in a single 10-minute Claude session? **Yes.** Input is two text versions. Output is a Markdown changelog. No external tools needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is two text versions. Output is a Markdown changelog. No external tools needed.
 
 ## User Intent Mapping
 
@@ -40,6 +40,13 @@ This skill should trigger when the user says things like:
 |---|---|---|
 | Version A (Before) | Text/Markdown | The original version of the content |
 | Version B (After) | Text/Markdown | The updated version of the content |
+
+### If You Don't Have This Data
+
+- **No brand guidelines?** Document your current logo, colors (use a color picker on your website), and 3 tone-of-voice adjectives. That's a starting brand guide.
+- **No asset inventory?** Search your Google Drive/Dropbox for common marketing file types (.pdf, .pptx, .png). The list IS your inventory.
+- **No compliance checklist?** Start with industry basics: GDPR consent, CAN-SPAM footer, accessibility alt text. This skill helps you build the full checklist.
+- **No vendor data?** List every tool your marketing team pays for. Include name, monthly cost, and primary user. That's your vendor inventory.
 
 ### Optional Inputs
 
@@ -75,8 +82,15 @@ For each change, assess:
 ### Step 4: Generate Changelog
 Format as a clean, scannable changelog appropriate for the audience.
 
+
+### Confidence & Sample Size
+> **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
+
 ### ⚠️ Human Checkpoint
 > Review any changes flagged as "removed" — especially disclaimers, legal language, or data claims. Removals can carry compliance risk.
+
+
+> **Benchmark Context**: Average enterprise has 91 marketing tools in its stack. Brand compliance violations occur in 60% of co-branded partner materials. UTM tracking is implemented on only 40-50% of marketing URLs on average.
 
 ## Output Contract
 
@@ -109,6 +123,26 @@ Format as a clean, scannable changelog appropriate for the audience.
 | Headline | Copy | "..." | "..." |
 | CTA | CTA | "..." | "..." |
 ```
+
+## Platform Implementation Steps
+
+### Notion / Confluence (Documentation)
+1. Create a new page for the audit/report
+2. Paste Markdown output directly
+3. Add status properties for tracking remediation
+4. Assign team members to action items
+
+### Google Sheets (Tracking)
+1. Import CSV output into a new spreadsheet
+2. Add a "Status" column for tracking fixes
+3. Use conditional formatting for severity levels
+4. Create a dashboard tab with summary charts
+
+### Project Management (Asana/Jira/Linear)
+1. Create tasks from each action item in the output
+2. Set priority based on severity ratings
+3. Assign to responsible team members
+4. Set due dates based on priority tiers
 
 ## Failure Modes
 

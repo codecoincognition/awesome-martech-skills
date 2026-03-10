@@ -16,7 +16,7 @@ Analyzes win/loss interview transcripts or structured notes to extract recurring
 
 ## Granularity Check
 
-> Can this be completed in a single 10-minute Claude session? **Yes.** Input is pasted interview notes or a CSV of structured responses. Output is a Markdown analysis report. No CRM or call recording access needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is pasted interview notes or a CSV of structured responses. Output is a Markdown analysis report. No CRM or call recording access needed.
 
 ## User Intent Mapping
 
@@ -40,6 +40,13 @@ This skill should trigger when the user says things like:
 | Input | Format | Description |
 |---|---|---|
 | Interview Data | Text or CSV | Interview transcripts, structured notes, or CSV with columns like: deal_name, outcome (win/loss), interview_notes, competitor, deal_size, segment |
+
+### If You Don't Have This Data
+
+- **No customer interviews?** Use support tickets, sales call notes, or online reviews as proxy customer voice data.
+- **No survey data?** Send a 5-question NPS-style survey to your customer base. 30+ responses is enough for initial patterns.
+- **No competitor content?** Search your primary keywords and screenshot the top 10 results. That's your competitive landscape.
+- **No win/loss data?** Ask your sales team to recall their last 5 won and 5 lost deals. Verbal notes work fine as input.
 
 ### Optional Inputs
 
@@ -108,8 +115,15 @@ Translate patterns into specific actions:
 - **Marketing team**: Messaging gaps, competitive positioning, case study needs
 - **Leadership**: Strategic themes, market positioning, investment priorities
 
+
+### Confidence & Sample Size
+> **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
+
 ### ⚠️ Human Checkpoint
 > Small sample sizes can produce misleading patterns. Flag confidence levels based on sample size. Recommendations from fewer than 10 interviews should be labeled as directional, not definitive.
+
+
+> **Benchmark Context**: Win/loss analysis requires minimum 20 interviews per segment for reliable patterns. Survey response rates average 10-15% for email surveys, 30-50% for in-app. Qualitative research saturation typically occurs at 12-15 interviews.
 
 ## Output Contract
 
@@ -172,6 +186,27 @@ Minimum recommended sample: 20+ interviews for reliable patterns.
 | Deal | Outcome | Size | Themes | Key Quote |
 |---|---|---|---|---|
 ```
+
+## Platform Implementation Steps
+
+### Google Sheets / Excel
+1. Create a new spreadsheet
+2. Paste output tables directly (Markdown tables → Sheets)
+3. Add conditional formatting for scores/ratings
+4. Create charts for visual summaries
+5. Share with stakeholders
+
+### Notion
+1. Create a new page
+2. Paste the Markdown output directly
+3. Convert tables to Notion databases for filtering/sorting
+4. Add to your team's research hub
+
+### Presentation (for Stakeholders)
+1. Copy key findings into a slide deck
+2. Use the output scores/rankings as data slides
+3. Include the recommended actions as a closing slide
+4. Present to marketing/product leadership
 
 ## Failure Modes
 

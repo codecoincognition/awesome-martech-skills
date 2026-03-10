@@ -16,7 +16,7 @@ Take a single long-form content piece (blog post, whitepaper, webinar transcript
 
 ## Granularity Check
 
-> Can this be completed in a single 10-minute Claude session? **Yes.** Input is one content piece. Output is a multi-format content pack. No external tools needed.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is one content piece. Output is a multi-format content pack. No external tools needed.
 
 ## User Intent Mapping
 
@@ -41,6 +41,13 @@ Trigger when the user says:
 |---|---|---|
 | `source_content` | text | The original content (article, transcript, report) |
 | `content_type` | string | Blog post / Whitepaper / Webinar transcript / Podcast notes / Case study |
+
+### If You Don't Have This Data
+
+- **No content strategy?** Describe your product and your top 3 customer pain points. That's enough to generate an outline.
+- **No keyword research?** List 5 questions your customers frequently ask. These become your topics.
+- **No brand voice guide?** Provide 2-3 examples of content you like the tone of. Claude can infer the voice from examples.
+- **No performance data?** Start fresh. After publishing, track views, time-on-page, and conversions for 30 days.
 
 ### Optional Input
 
@@ -100,6 +107,13 @@ Trigger when the user says:
 4. **Human checkpoint** — Present the element extraction summary. Ask: "These are the key elements I'll repurpose. Any angles to emphasize or avoid?"
 
 5. **Generate output** — Complete content pack organized by platform.
+
+
+> **Benchmark Context**: Blog posts averaging 1,500-2,500 words tend to rank highest in search. Content marketing generates 3x more leads than outbound at 62% less cost. Average time to write a 1,500-word blog post is 4-6 hours (research + writing + editing).
+
+
+### Confidence & Sample Size
+> **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract
 
@@ -161,6 +175,25 @@ Body: [teaser text]
 | Tue | Twitter | Thread | Text thread |
 ...
 ```
+
+## Platform Implementation Steps
+
+### WordPress
+1. Log in to wp-admin → Posts → Add New
+2. Paste the content outline into the editor
+3. Use the Heading blocks (H2, H3) for structure
+4. Add Featured Image and set Category/Tags before publishing
+
+### Google Docs (Collaboration)
+1. Create a new Google Doc
+2. Paste the output and use Suggesting Mode for team review
+3. Use Insert → Table of Contents for navigation
+4. Share with stakeholders for feedback
+
+### CMS-Agnostic
+1. Copy Markdown output as-is into any CMS that supports Markdown
+2. For HTML-based CMS platforms, convert Markdown to HTML using any converter
+3. Adapt headings and formatting to match your site's style guide
 
 ## Failure Modes
 

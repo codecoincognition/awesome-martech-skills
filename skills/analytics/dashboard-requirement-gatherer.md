@@ -16,7 +16,7 @@ Structures the requirements-gathering process for marketing dashboards — defin
 
 ## Granularity Check
 
-> Can this be completed in a single 10-minute Claude session? **Yes.** Input is business context via conversation. Output is a Markdown dashboard spec. No data access needed — this is the planning step.
+> Can this be completed in a single Claude session? **Yes — expect ~5 min data prep + ~10 min Claude session.** If implementing output in a platform, add 10-20 min for setup. Input is business context via conversation. Output is a Markdown dashboard spec. No data access needed — this is the planning step.
 
 ## User Intent Mapping
 
@@ -41,6 +41,13 @@ This skill should trigger when the user says things like:
 |---|---|---|
 | Business Type | Text | B2B/B2C, industry, go-to-market model |
 | Dashboard Purpose | Text | What decisions should this dashboard support? |
+
+### If You Don't Have This Data
+
+- **No analytics access?** Ask your web developer for a GA4 export, or use Google Sheets to manually track key metrics for 2 weeks.
+- **No historical data?** Start with the current month. Even 2 weeks of data can reveal patterns.
+- **No attribution setup?** Use UTM parameters on all campaign links going forward. This skill can help you design the taxonomy.
+- **No BI tool?** Google Sheets with pivot tables covers 80% of dashboard needs for teams under 50 people.
 
 ### Optional Inputs
 
@@ -105,8 +112,15 @@ Recommend dashboard structure:
 - Filter requirements (date range, channel, campaign, region)
 - Interactivity needs (clickable drill-downs, hover details)
 
+
+### Confidence & Sample Size
+> **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
+
 ### ⚠️ Human Checkpoint
 > Review the KPI framework with stakeholders before building. Dashboards built without stakeholder input get ignored. Ask: "If you could only see 3 numbers every morning, what would they be?"
+
+
+> **Benchmark Context**: Marketing teams typically allocate 5-15% of budget to analytics tools. A well-built dashboard should answer 80% of weekly reporting questions without manual queries. GA4 reports average 24-48 hour data lag for standard processing.
 
 ## Output Contract
 
@@ -154,6 +168,26 @@ Recommend dashboard structure:
 ## Next Step
 → Feed this spec into `marketing-dashboard-builder` to generate the interactive HTML dashboard.
 ```
+
+## Platform Implementation Steps
+
+### Google Analytics 4
+1. Navigate to GA4 → Admin → Data Streams → your stream
+2. Under Events, use "Create Event" for custom events
+3. For dimensions/metrics: Admin → Custom Definitions → Create
+4. Import any CSV data via Data Import: Admin → Data Import → Create
+
+### Looker Studio / Google Data Studio
+1. Open Looker Studio → Create → Report
+2. Add data source (GA4, Google Sheets, BigQuery, etc.)
+3. Paste calculated metric formulas into custom fields
+4. Use the "Blend Data" feature for multi-source reports
+
+### Spreadsheet (Fallback)
+If no BI tool available, create analysis in Google Sheets or Excel:
+1. Import CSV data using File → Import
+2. Use PIVOT tables for aggregation
+3. Create charts using Insert → Chart
 
 ## Failure Modes
 
