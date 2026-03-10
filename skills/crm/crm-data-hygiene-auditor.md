@@ -10,6 +10,8 @@ description: >
   export and wants to assess or improve data quality.
 ---
 
+> **How this skill works:** You export your CRM data (HubSpot, Salesforce, Pipedrive, etc.) as a CSV, paste or attach it, and Claude analyzes it. Claude cannot connect to live CRMs or pull data directly — you bring the data, Claude brings the analysis.
+
 # CRM Data Hygiene Auditor
 
 Audits a CRM contact/lead export for data quality issues — duplicates, missing required fields, stale records, formatting inconsistencies, and data decay patterns. Produces a scored health report with a prioritized remediation plan.
@@ -118,9 +120,9 @@ Score each incomplete record by enrichment priority:
 
 ## Output Contract
 
-### Deliverable: XLSX Audit Report (4 sheets)
+### Deliverable: Markdown Tables + CSV-Ready Data (4 sections)
 
-**Sheet 1: Health Score Dashboard**
+**Section 1: Health Score Dashboard**
 
 | Metric | Value | Grade |
 |---|---|---|
@@ -131,14 +133,16 @@ Score each incomplete record by enrichment priority:
 | Format Consistency | percentage | |
 | Estimated Addressable Records | count | |
 
-**Sheet 2: Field-Level Analysis**
-Columns: `field_name | population_rate | validity_rate | common_issues | fix_recommendation`
+**Section 2: Field-Level Analysis**
+Markdown table: `field_name | population_rate | validity_rate | common_issues | fix_recommendation`
 
-**Sheet 3: Duplicate Groups**
-Columns: `group_id | match_type | confidence | email | name | company | last_activity | recommended_master | action`
+Can be pasted into Google Sheets or Excel.
 
-**Sheet 4: Remediation Plan**
-Columns: `priority | action | record_count | estimated_effort | expected_impact | instructions`
+**Section 3: Duplicate Groups**
+Markdown table: `group_id | match_type | confidence | email | name | company | last_activity | recommended_master | action`
+
+**Section 4: Remediation Plan**
+Markdown table: `priority | action | record_count | estimated_effort | expected_impact | instructions`
 
 ## Platform Implementation Steps
 

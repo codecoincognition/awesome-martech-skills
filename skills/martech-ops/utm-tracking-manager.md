@@ -92,10 +92,10 @@ User describes the campaign in plain text. Example: "I'm running a spring sale a
 
 | Output | Format | Contents |
 |---|---|---|
-| Campaign tracking sheet | XLSX | URLs + naming reference |
+| Campaign tracking sheet | Markdown tables | URLs + naming reference |
 | Quick reference | Markdown | Copy-pasteable URL list |
 
-### XLSX Sheet 1: Campaign URLs
+### Table 1: Campaign URLs
 
 | Column | Type | Description |
 |---|---|---|
@@ -107,7 +107,7 @@ User describes the campaign in plain text. Example: "I'm running a spring sale a
 | `destination_url` | string | Base URL |
 | `full_utm_url` | string | Complete URL with parameters |
 
-### XLSX Sheet 2: Naming Convention Reference
+### Table 2: Naming Convention Reference
 
 | Column | Description |
 |---|---|

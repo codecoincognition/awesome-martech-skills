@@ -197,13 +197,15 @@ CITY, STATE — Month Date, Year — [COMPANY NAME] today announced [core news].
 **###**
 ```
 
-**XLSX Media Distribution Template:**
+**Markdown Media Distribution Table:**
 
 | Publication | Contact Name | Email | Phone | Relevance | Timing | Follow-up Notes |
-|-------------|--------------|-------|-------|-----------|--------|-----------------|
+|-------------|--------------|-------|-------|-----------|--------|-----------------| 
 | TechCrunch | Sarah Johnson | news@techcrunch.com | (415) 555-0100 | Funding, startup | Tier 1: Day 1 | Sent Apr 15, 9 AM |
 | Forbes | Michael Chen | editorial@forbes.com | (212) 555-0200 | Leadership, funding | Tier 1: Day 1 | Follow up if no response |
 | Sustainability Today | Lisa Garcia | editor@sustain.com | (415) 555-0300 | ESG, climate | Tier 2: Day 2 | Industry angle |
+
+You can copy this table directly into Google Sheets, Excel, or any spreadsheet tool. Simply paste the Markdown table, and your spreadsheet application will automatically convert it to columns.
 
 **Distribution Guidance Email Template:**
 
@@ -310,7 +312,101 @@ Available for interview/comment: [Name, Title, Contact Info]
 - Template: "[Company] is a [category] company founded in [year] by [founders]. [Company description]. [Key achievements/market position]. Learn more at [URL]."
 - Keep to 3-4 sentences; update quarterly with latest milestones
 
-## Full Example
+## Example
+
+**Scenario:** GreenLeaf Organics (sustainable food delivery startup) announces $2M Series A funding. Goal: generate press coverage from tech and sustainability media.
+
+**Input:**
+```
+News Angle: GreenLeaf Organics Raises $2M Series A to Scale Farm-to-Door Organic Delivery Across US
+
+Company Name: GreenLeaf Organics
+
+Announcement Type: Funding
+
+Announcement Date: 2026-04-15
+
+Key Facts:
+  1. $2M Series A led by Restless Capital
+  2. 300% YoY revenue growth from seed round
+  3. Expanding from 3 to 12 metro areas by EOY 2026
+  4. Partnering with 150+ local organic farms
+  5. Series Seed traction: 15,000 active customers, $2.1M ARR
+
+Primary Quote: "Consumers are voting with their wallets for sustainable food. We're making organic as convenient as grocery delivery. This funding lets us meet that demand at scale." — Sarah Chen, Co-founder & CEO, GreenLeaf Organics
+
+Boilerplate: GreenLeaf Organics is a venture-backed direct-to-consumer food delivery company founded in 2022. We partner with local organic farmers to deliver seasonal produce, grass-fed proteins, and sustainable groceries within 24 hours. Available in 3 metro areas with 15,000+ active customers and $2.1M ARR. Learn more at greenleaforganics.com.
+
+Media Contact: James Park, PR Manager, james@greenleaforganics.com, (415) 555-0123
+
+Embargo: 2026-04-15 9:00 AM PT
+
+Secondary Quotes:
+  - "Sustainable food delivery is the future. Sarah and team are proving unit economics work at scale." — Marcus Robinson, Partner, Restless Capital
+  - "GreenLeaf sources from our farm cooperative. This partnership validates that organic is viable, not a niche." — Agricultural Director, Regional Farms Alliance
+```
+
+**Output: Press Release**
+
+---
+
+**GREENLEAF ORGANICS RAISES $2M SERIES A TO SCALE FARM-TO-DOOR ORGANIC DELIVERY**
+
+Funding accelerates expansion to 12 metro areas and partnerships with 150+ local organic farms
+
+---
+
+**FOR IMMEDIATE RELEASE**
+
+SAN FRANCISCO, CA — April 15, 2026 — GreenLeaf Organics, a venture-backed sustainable food delivery company, today announced it has raised $2 million in Series A funding led by Restless Capital. The funding will accelerate the company's expansion from 3 to 12 US metro areas by the end of 2026 and deepen partnerships with 150+ local organic farms.
+
+GreenLeaf partners directly with local certified organic farms to deliver seasonal produce, grass-fed proteins, and sustainable groceries within 24 hours. The company has achieved 300% year-over-year revenue growth since its Series Seed round, reaching 15,000 active customers and $2.1 million in annual recurring revenue.
+
+"Consumers are voting with their wallets for sustainable food. We're making organic as convenient as grocery delivery. This funding lets us meet that demand at scale," said Sarah Chen, Co-founder and CEO of GreenLeaf Organics.
+
+The Series A round reflects investor confidence in GreenLeaf's market fit, unit economics, and mission to make organic food accessible. Research shows 72% of US consumers prioritize sustainability in food purchasing, with 58% willing to pay premium prices for verifiable organic sourcing.
+
+"Sustainable food delivery is the future. Sarah and team are proving unit economics work at scale," said Marcus Robinson, Partner at Restless Capital. "GreenLeaf's direct farm partnerships create a moat that traditional grocers can't replicate."
+
+The funding will be allocated toward technology platform expansion (30%), farm partnerships and supply chain (35%), geographic expansion (20%), and operations and team (15%).
+
+GreenLeaf's farm partners span California, Oregon, and Washington today. "This partnership validates that organic is viable, not a niche," said the Agricultural Director of the Regional Farms Alliance, which coordinates with GreenLeaf's supply chain.
+
+GreenLeaf will host a webinar on April 22, 2026, at 2 p.m. PT with investors and farm partners to discuss the future of sustainable food systems. Registration: greenleaforganics.com/press.
+
+### About GreenLeaf Organics
+
+GreenLeaf Organics is a venture-backed direct-to-consumer food delivery company founded in 2022 by Sarah Chen and David Rodriguez. The company partners directly with certified organic farms to deliver seasonal, locally-sourced groceries within 24 hours. GreenLeaf operates in San Francisco, Portland, and Seattle, with expansion to 12 metros planned by EOY 2026. The company has 15,000+ active customers and $2.1M ARR. Learn more at greenleaforganics.com or follow @GreenLeafOrganics on Instagram and Twitter.
+
+### Media Contact
+
+James Park
+PR Manager
+GreenLeaf Organics
+james@greenleaforganics.com
+(415) 555-0123
+
+---
+
+**###**
+
+**Distribution Recommendations:**
+
+**Tier 1 (Day 1 — Release):**
+- TechCrunch (Sarah Johnson) — Funding angle
+- Forbes (sustainability + startup beat) — Leadership, consumer trend
+- Fast Company (climate tech editor) — Sustainability innovation
+- Sustainable Food News (editor) — Agricultural partnerships
+
+**Tier 2 (Day 2):**
+- WSJ, Financial Times (consumer/retail) — Market shift angle
+- Local media (SF Chronicle, Portland Mercury, Seattle Times) — Regional expansion
+
+**Follow-up:** Offer founder interview, on-farm photography, farmer testimonials for feature stories.
+
+---
+
+## Full Example (EcoBlend benchmark)
 
 **Scenario:** EcoBlend (sustainable beverage startup) closed $3M Series A funding. Wants press release for journalist outreach + Whole Foods partnership announcement coordination.
 

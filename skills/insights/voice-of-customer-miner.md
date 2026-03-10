@@ -140,9 +140,9 @@ User Segments:
    - Note content format preferences (threads, guides, comparisons)
    - **Human Checkpoint:** Review messaging recommendations
 
-8. **XLSX Report Generation**
-   - Compile insights into sortable matrix
-   - Create theme summary sheet
+8. **Structured Output Generation**
+   - Compile insights into Markdown tables (ready to paste into Google Sheets or Excel)
+   - Create theme summary
    - Generate verbatim quote library
    - Output actionable recommendations
 
@@ -318,7 +318,7 @@ User Segments:
 ---
 ```
 
-**XLSX Theme Matrix:**
+**Markdown Theme Analysis Table:**
 
 | Theme Name | Pain Point | Buying Trigger | Objection | Messaging Angle | Content Opportunity | Mention Count | Sentiment |
 |-----------|-----------|-----------------|-----------|-----------------|---------------------|---------------|-----------|
@@ -326,7 +326,9 @@ User Segments:
 | Attribution Chaos | Can't track conversions | Losing deals | "Too expensive" | "Know what works" | "Attribution 101 for startups" | 22 | Skepticism |
 | Integration Headaches | Manual API integrations | Need Zapier layers | "Does it integrate?" | "Native integrations out of box" | "Integration roadmap" | 19 | Mixed |
 
-**XLSX Quote Library:**
+Can be pasted into Google Sheets or Excel.
+
+**Markdown Quote Library Table:**
 
 | Theme | Quote | Source | Upvotes | Emotional Tone | Use Case |
 |-------|-------|--------|---------|---------------|---------|
@@ -405,7 +407,115 @@ User Segments:
 - r/startups — "CRM tools for bootstrapped founders?" (147 comments)
 - r/marketing — "I'm spending too much time on email campaigns" (83 comments)
 
-## Full Example
+## Example
+
+**Scenario:** TaskFlow (project management SaaS) mines Reddit for customer insights about competing tools. Goal: identify pain points, messaging gaps, and underserved customer needs.
+
+**Input:**
+```
+Target Subreddits: r/startups, r/SaaS, r/productivity, r/webdev
+Keywords: Project management, team collaboration, task tracking, asana alternative
+Time Period: Last 90 days (Dec 2025 - Mar 2026)
+Product Category: Project Management SaaS
+Competitor Names: Asana, Monday.com, Jira, Notion, ClickUp
+Emotional Tone Analysis: Yes
+```
+
+**Output Highlights:**
+
+### Pain Point Theme 1: "Overwhelming Feature Bloat" (31% of discussions, 42 mentions)
+
+**Verbatim Quotes:**
+- "Asana is so feature-rich that my team spends more time learning the tool than actually using it." (u/StartupCTO, r/startups, 127 upvotes)
+- "Monday.com feels like drinking from a firehose. Way too much, way too complicated." (u/FrameworkFatigue, r/SaaS, 89 upvotes)
+- "I just want a tool that does one thing well: track tasks. Not a system overhaul." (u/SimplifySeeker, r/productivity, 156 upvotes)
+
+**Buying Trigger:** When implementation takes >4 weeks or requires consultant help, customers actively search for simpler alternatives.
+
+**Emotional Intensity:** Frustration (language: "overwhelming," "firehose," "learning curve nightmare")
+
+**Messaging Angle:** "Finally, a tool that's powerful AND intuitive. No consultant needed."
+
+---
+
+### Pain Point Theme 2: "Pricing That Doesn't Scale" (28% of discussions, 38 mentions)
+
+**Verbatim Quotes:**
+- "Asana costs $10.99/user/mo but you need 10+ users to make it work. That's $110+ monthly before any real functionality." (u/BootstrapFounder, r/startups, 201 upvotes)
+- "Switched to Notion for $10/month flat. Saved $2k/year for a small team." (u/CostConscious, r/SaaS, 143 upvotes)
+- "They should have a 'solo founder' tier under $20/mo." (u/FreelanceDesigner, r/webdev, 67 upvotes)
+
+**Objection:** "Can't justify $110+/month when Notion does 80% of what we need."
+
+**Messaging Opportunity:** Show transparent pricing for small teams; bundle features by team size.
+
+---
+
+### Buying Triggers & Decision Drivers
+
+| Trigger | Frequency | Recommended Messaging |
+|---------|-----------|----------------------|
+| Team grows from 3 to 8 people | 19 mentions | "Built to scale with your team" |
+| Spending 20+ hours/week on project admin | 16 mentions | "Automate the busywork" |
+| Switching FROM Asana/Jira | 23 mentions | "Asana's power, without the complexity" |
+| Need client visibility without training them | 12 mentions | "Share progress without overwhelming your clients" |
+
+---
+
+### Objections by Decision Stage
+
+**Awareness Stage:**
+- **Objection:** "Isn't every PM tool basically the same?" (8 mentions)
+  - **Rebuttal insight:** Customers praise simplicity when switching. Frame as "focused vs. bloated."
+
+**Consideration Stage:**
+- **Objection:** "Will we outgrow it?" (14 mentions)
+  - **Rebuttal insight:** Quote: "TaskFlow has everything we need AND room to add what we don't." (86 upvotes)
+
+**Decision Stage:**
+- **Objection:** "Does it integrate with Slack/Gmail/Zapier?" (22 mentions, highest concern)
+  - **Rebuttal insight:** Integration roadmap is critical; list all integrations upfront.
+
+---
+
+### Primary Messaging (from Customer Language)
+
+**Headline:** "Project management that doesn't require a PhD"
+- **Resonance:** Exact phrasing appears in 7 independent comments
+- **Validates:** Simplicity is the #1 differentiator vs. Asana/Monday
+
+**Sub-message:** "Simple enough for solo founders. Powerful enough for teams."
+- **Resonance:** Addresses both "affordable" and "scalable" pain points
+
+---
+
+### Content Opportunities (from FAQ Themes)
+
+1. **"Asana vs. TaskFlow: Which should startups choose?"** (9 comparison threads)
+2. **"How to migrate 50 projects from Asana without losing history"** (5 implementation questions)
+3. **"Best PM tool for bootstrapped founders (under $50/mo)"** (12 budget-focused discussions)
+4. **"Why Notion isn't enough for growing teams"** (7 capability/limitation threads)
+5. **"Set up client visibility in 5 minutes, no training"** (6 client communication questions)
+
+---
+
+### Underserved Needs (mentioned but no solution found)
+
+- **Offline/mobile-first project management** (6 mentions)
+- **AI-powered task prioritization** (4 mentions)
+- **Bulk import from Excel/CSV** (8 mentions)
+- **Custom views for client/vendor roles** (5 mentions)
+
+**Action Items:**
+1. Create "Asana vs. TaskFlow" comparison guide (high search intent, 9 mentions)
+2. Build "Simple onboarding for non-tech teams" content (addresses learning curve concern)
+3. Emphasize "Under $50/month total" in pricing messaging
+4. Highlight Slack + Gmail integrations in top positioning
+5. Test "No consultant needed" messaging in ad copy
+
+---
+
+## Full Example (sustainable beverage benchmark)
 
 **Scenario:** Sustainable beverage brand (EcoBlend) wants voice-of-customer insights from their market. Research goal: understand customer attitudes toward eco-friendly products, purchase barriers, and messaging opportunities.
 

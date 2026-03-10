@@ -9,6 +9,8 @@ description: >
   workflow design.
 ---
 
+> **How this skill works:** You provide details about your CRM setup, business process, and desired automations, and Claude designs a workflow strategy. Claude cannot build workflows directly in your CRM or pull live configuration data — you provide the requirements, Claude brings the blueprint.
+
 # Automation Workflow Designer
 
 Designs CRM automation workflows including triggers, conditions, actions, and branching logic for lead nurturing, internal operations, and customer lifecycle management.

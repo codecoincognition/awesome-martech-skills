@@ -116,18 +116,20 @@ For material variances, identify likely causes:
 
 ## Output Contract
 
-### Deliverable: XLSX Report (3 sheets)
+### Deliverable: Markdown Tables + CSV-Ready Data (3 sections)
 
-**Sheet 1: Variance Summary**
-Columns: `channel | campaign | planned | actual | variance_$ | variance_% | status | classification | explanation`
+**Section 1: Variance Summary**
+Markdown table: `channel | campaign | planned | actual | variance_$ | variance_% | status | classification | explanation`
 
-**Sheet 2: Channel Deep Dive**
-Columns: `channel | planned | actual | variance | cpl_planned | cpl_actual | cpc_planned | cpc_actual | roi_assessment`
+Can be pasted into Google Sheets, Excel, or any spreadsheet tool.
 
-**Sheet 3: Recommendations**
-Columns: `priority | action | channel | amount | rationale | expected_impact`
+**Section 2: Channel Deep Dive**
+Markdown table: `channel | planned | actual | variance | cpl_planned | cpl_actual | cpc_planned | cpc_actual | roi_assessment`
 
-Plus a summary section:
+**Section 3: Recommendations**
+Markdown table: `priority | action | channel | amount | rationale | expected_impact`
+
+Plus a summary section in Markdown format:
 | Metric | Value |
 |---|---|
 | Total Planned | $X |

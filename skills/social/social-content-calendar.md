@@ -133,9 +133,9 @@ Visual Style: Bright, natural photography, minimalist design, green/cream color 
 
 ## Output Contract
 
-**XLSX Workbook:**
+**Markdown Tables & Implementation Guide:**
 
-**Sheet 1: Calendar View (Month Grid)**
+**Table 1: Calendar View (Month Grid)**
 ```
 Week | Date | Day | Instagram Post | LinkedIn Post | Twitter Post | TikTok Post | Notes
 1 | Apr 1 | Tue | Product Recipe #1 (Carousel) | Industry insight | Q&A reply thread | Trend dance video | TikTok challenge launch
@@ -143,7 +143,7 @@ Week | Date | Day | Instagram Post | LinkedIn Post | Twitter Post | TikTok Post 
 1 | Apr 3 | Thu | - | Company culture story | News commentary | Duet challenge |
 ```
 
-**Sheet 2: Detailed Posts**
+**Table 2: Detailed Posts**
 ```
 Date | Platform | Content Pillar | Post Copy | CTA | Hashtags | Visual Direction | Posting Time | Engagement Tactics
 Apr 1 | Instagram | Product Tips | "Meet your new spring ritual... [recipe details]" | "Tag a friend!" | #EcoBlend #Sustainable #HealthyLiving | Bright flat-lay, green tones | 9 AM | Ask which flavor variant |
@@ -151,7 +151,7 @@ Apr 1 | TikTok | Product Tips | [Script: 15s trend dance + product sip transitio
 Apr 2 | Instagram | Behind-the-Scenes | "Meet our farmers in Peru... [story]" | "Learn more in bio" | #BehindTheScenes #Sustainability #EcoBlend | Candid farm photos | 10 AM | Story polling |
 ```
 
-**Sheet 3: Hashtag Strategy**
+**Table 3: Hashtag Strategy**
 ```
 Platform | Hashtag Category | Hashtags (Ranked by reach)
 Instagram | Trending | #HealthyChoices, #SustainableLiving, #EcoFriendly
@@ -163,7 +163,7 @@ Twitter | Trending | (Daily monitoring) #ClimateAction, #GreenTech
 TikTok | Trend | (Audio-based - monitored weekly for trends)
 ```
 
-**Sheet 4: Visual Direction & Assets**
+**Table 4: Visual Direction & Assets**
 ```
 Platform | Post Type | Image Specs | Photography Style | Color Palette | Key Elements
 Instagram | Feed (Static) | 1080x1350px, square 1:1 also | Bright, natural, lifestyle | Green/cream/white | Product + lifestyle context
@@ -172,7 +172,7 @@ LinkedIn | Article thumbnail | 1200x627px | Professional, polished | Corporate c
 TikTok | Video | 1080x1920px, 9:16 | Trendy, authentic, high-energy | Vibrant, on-trend | Creator/founder, product, trend audio
 ```
 
-**Sheet 5: Posting Schedule & Times**
+**Table 5: Posting Schedule & Times**
 ```
 Platform | Optimal Posting Times | Rationale | Monitoring Window | Engagement SLA
 Instagram | 9 AM & 6 PM (Mon-Fri) | Peak commute/evening leisure | 30 min post-publish | Like/comment within 1 hour
@@ -181,7 +181,7 @@ Twitter | 10 AM, 2 PM, 7 PM | Multiple engagement waves | 15 min per post | Repl
 TikTok | 6 PM & 9 PM (daily) | Evening scrolling peak | 1 hour | Duet/stitch with early responses
 ```
 
-**Sheet 6: Content Pillar Distribution**
+**Table 6: Content Pillar Distribution**
 ```
 Pillar | Weekly Posts | Month Total | Themes | Sample Topics
 Sustainability Impact | 2-3 | 8-12 | Carbon footprint, sourcing ethics, waste reduction | "How we offset 1 ton of CO2 monthly", "Meet our farmers"
@@ -283,7 +283,156 @@ Industry Insights | 1 | 4 | Trends, thought leadership, news commentary | "Q1 su
 - **US Pacific:** Shift back 3 hours; adjust for timezone audience concentration
 - **Global:** Test with own audience insights; use platform analytics
 
-## Full Example
+## Example
+
+**Scenario:** TaskFlow (project management SaaS for startups) plans April content calendar for 3 platforms. Focus: "Q2 Growth" campaign + new feature launch (Apr 20) + engagement growth. Audience: startup founders and product managers, ages 25-40, Linux/tech-savvy.
+
+**Input:**
+```
+Brand Name: TaskFlow
+Brand Voice: Practical, empowering, approachable (not corporate)
+Platforms: LinkedIn, Twitter, TikTok
+Posting Frequency: LinkedIn 3x/week, Twitter 1-2x/day, TikTok 4x/week
+Target Audience: Startup founders, product managers, tech team leads (25-40 age range)
+Content Pillars:
+  1. Product tips & features (40%)
+  2. Founder learnings / behind-the-scenes (25%)
+  3. Customer wins & testimonials (20%)
+  4. Industry insights (15%)
+Campaign Theme: "Q2 Growth Acceleration"
+Key Dates:
+  - New feature launch (Apr 20)
+  - Earth Day (Apr 22)
+```
+
+**Output Calendar (Selected Posts):**
+
+---
+
+**April 1 (Monday) — Campaign Kickoff**
+
+**LinkedIn:**
+- Copy: "We asked 50+ startup CTOs: 'What wastes your time most?' Answer #1 (by far): Status update meetings. We're fixing that. Launching TaskFlow's new Async Status feature next week that replaces 60% of your standups. Who else wants that back 5 hours/week?"
+- Hashtags: #Startups #Productivity #FutureOfWork
+- Time: 8 AM PT
+- CTA: "Save the launch. Reply with your biggest time-waste."
+
+**Twitter:**
+- Copy: "Your standup meeting could be a 2-minute Slack message. TaskFlow Async Status does exactly that. Less talk, more shipping. Launching April 20. 🚀"
+- Hashtags: #Startups #ProductiveWork
+- Time: 9 AM PT
+
+**TikTok:**
+- Script: [Creator shows 8-minute standup meeting footage → cuts to 30 seconds of TaskFlow async update → text overlay: "When you switch to async status updates"]
+- Audio: Trending productivity/work-life audio
+- Time: 6 PM PT
+- CTA: "Tell us: how long is YOUR standup meeting?"
+
+---
+
+**April 8 (Monday) — Founder Story**
+
+**LinkedIn:**
+- Copy: "Before TaskFlow, I was drowning in status updates. As a founder, I'd sit in standups all day just to stay in the loop. Now I spend 30 min on updates (async), 7.5 hours on actually shipping. Here's what changed... [link to founder blog]"
+- Hashtags: #FounderLife #Startups #Productivity
+- Time: 8 AM PT
+
+**Twitter:**
+- Copy: "Standup culture was killing my mental health. I was 'present' in 12+ meetings but actually present in zero. Switching to async was the best decision I made."
+- Time: 10 AM PT
+
+---
+
+**April 20 (Saturday) — FEATURE LAUNCH DAY**
+
+**LinkedIn (Detailed Announcement):**
+- Copy: "Today we're shipping Async Status. What is it? 2-minute video update (instead of 8-minute meeting). Your whole team stays synced. Your calendar stays free. Async Status is live for all TaskFlow workspaces. Try it for free at [link]. Early feedback from beta: 'This changed how we work.'"
+- Hashtags: #ProductLaunch #Startups #Productivity
+- Time: 10 AM PT (peak engagement for launches)
+- Visual: Feature screenshot/walkthrough animation
+
+**Twitter (Quick Hit):**
+- Copy: "Async Status is live. No more status meeting Zoom calls. Just 2-minute updates your team can watch whenever. Game changer for distributed teams."
+- Time: 10 AM PT
+
+**TikTok (Product Demo):**
+- Script: [Creator records 2-min async update, posts to team, team members watching at different times, text: "When your whole team uses Async Status"]
+- Time: 6 PM PT
+- CTA: "DM us for free access"
+
+---
+
+**April 22 (Monday) — Earth Day + Sustainability**
+
+**LinkedIn:**
+- Copy: "We're going carbon-neutral this quarter. TaskFlow shifts the whole industry away from office commutes. 156 of our customers told us async status saves them 20 hours/week of commute time. That's ~312,000 hours of commuting prevented. The environmental impact? Equivalent to planting 5,200 trees. Small shifts, big impact."
+- Hashtags: #Sustainability #ClimateAction #FutureOfWork
+- Time: 8 AM PT
+
+**Twitter:**
+- Copy: "Async work = less commuting. Less commuting = less carbon. Every TaskFlow user choosing async = thousands of miles not driven. 🌱"
+- Time: 10 AM PT
+
+---
+
+**Hashtag Strategy:**
+
+| Platform | Hashtag Set | Strategy |
+|----------|------------|----------|
+| LinkedIn | #Startups #Productivity #FutureOfWork #FounderLife #TaskFlow | Mix niche (TaskFlow) + industry (Startups) + trend (FutureOfWork) |
+| Twitter | #Startups #ProductiveWork #ShipFaster (3 per tweet max) | Keep minimal; focus on conversation not reach |
+| TikTok | #TaskFlow #AsyncWork #StartupLife #ProductiveLife (5-7 per video) | Algorithm-based; rotate weekly with trending sounds |
+
+---
+
+**Visual Direction & Assets Needed:**
+
+| Platform | Asset Type | Specs | Visual Style |
+|----------|-----------|-------|--------------|
+| LinkedIn | Post image | 1200x627px | Clean mockup or graph (feature launch, metrics, testimonial) |
+| LinkedIn | Article thumbnail | 1200x627px | Founder photo or product hero image |
+| Twitter | No assets | Text-only | — |
+| TikTok | Video | 1080x1920px, 9:16 | Fast cuts, trending audio, product demo or founder talking |
+
+---
+
+**Posting Schedule:**
+
+| Platform | Times | Rationale | Monitoring |
+|----------|-------|-----------|------------|
+| LinkedIn | 8 AM PT Tue/Wed/Thu | Peak B2B browsing | Engage 30 min after publish |
+| Twitter | 9 AM & 2 PM PT (daily) | Multiple engagement waves | Reply within 15 min |
+| TikTok | 6 PM PT (daily) | Evening viewing peak | Respond to comments/DMs 1 hour after publish |
+
+---
+
+**Engagement Tactics:**
+
+- **LinkedIn polls:** "How long is your standup meeting?" (drives comments)
+- **Twitter threads:** "5 things we learned about async work" (builds authority)
+- **TikTok duets/stitches:** "Show us your standuptime-wasters" (user-generated content)
+- **Cross-platform threading:** TikTok discovery → Twitter link → LinkedIn deep dive
+
+---
+
+**Content Calendar Summary (April):**
+- 12 LinkedIn posts (3/week) × 4 weeks = 12 posts
+- 30 Twitter posts (1-2/day) × 30 days = 30 posts
+- 16 TikTok posts (4/week) × 4 weeks = 16 posts
+- **Total: 58 posts** across 3 platforms
+- **Visual assets needed:** 12 LinkedIn images, 16 TikTok video scripts
+- **Major campaign pushes:** Async Status launch (Apr 20), Earth Day narrative (Apr 22), Founder story (Apr 8)
+
+**Next Steps:**
+- Source/create visual assets by Apr 5
+- Schedule all posts in Buffer/Hootsuite by Apr 10
+- Assign engagement monitoring owner (30 min/day)
+- Track metrics: engagement rate, click-through, follower growth
+- Optimize based on performance mid-month (Apr 15)
+
+---
+
+## Full Example (EcoBlend benchmark)
 
 **Scenario:** EcoBlend (sustainable beverage startup) plans April content calendar for 3 platforms (Instagram, LinkedIn, TikTok). Focus: Spring refresh campaign + product launch (Apr 15) + Earth Day (Apr 22). Audience: Health-conscious millennials/Gen Z, urban, eco-focused.
 

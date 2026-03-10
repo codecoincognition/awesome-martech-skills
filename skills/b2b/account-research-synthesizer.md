@@ -10,6 +10,8 @@ description: >
   account-level intelligence.
 ---
 
+> **How this skill works:** You provide or export account information (from web searches, LinkedIn, your CRM, industry databases, etc.) as notes or CSV, and Claude synthesizes research into an action brief. Claude cannot pull live data from platforms directly — you bring the source information, Claude brings the synthesis.
+
 # Account Research Synthesizer
 
 Synthesizes all available information about a target account into a structured account brief — combining firmographic data, technology stack, recent news, organizational structure, and engagement history into a narrative that ABM teams can act on.

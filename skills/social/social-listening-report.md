@@ -9,6 +9,8 @@ description: >
   for hashtag analysis, share of voice reports, or social conversation mining.
 ---
 
+> **How this skill works:** You export social mentions data from your listening platform (Brandwatch, Sprout Social, Hootsuite, etc.) or manually compile mentions as a CSV, and Claude analyzes it. Claude cannot connect to social platforms or pull live listening data directly — you bring the data, Claude brings the analysis.
+
 # Social Listening Report
 
 Analyzes social media mention data to surface sentiment trends, conversation themes, key influencers, and competitive share of voice. Produces an actionable report with response recommendations.

@@ -122,18 +122,20 @@ For top-tier attendees:
 
 ## Output Contract
 
-### Deliverable: XLSX (4 sheets)
+### Deliverable: Structured Analysis Tables in Markdown
 
-**Sheet 1: Attendee Session Assignments**
+Claude generates four detailed analysis tables in Markdown format that you can copy directly into Google Sheets, Excel, or any spreadsheet tool
+
+**Table 1: Attendee Session Assignments**
 Columns: `name | company | title | tier | session_1 | session_2 | session_3 | personalized_note`
 
-**Sheet 2: Sales Rep Routing**
+**Table 2: Sales Rep Routing**
 Columns: `rep_name | attendee_name | company | title | value | relationship | talking_points | priority`
 
-**Sheet 3: Networking Groups**
+**Table 3: Networking Groups**
 Columns: `group_id | theme | attendee_name | company | industry | discussion_starter`
 
-**Sheet 4: VIP Plan**
+**Table 4: VIP Plan**
 Columns: `attendee | company | value | exec_sponsor | pre_event_action | day_of_action | post_event_followup`
 
 ## Platform Implementation Steps

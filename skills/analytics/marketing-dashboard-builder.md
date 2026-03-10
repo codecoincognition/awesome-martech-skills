@@ -11,6 +11,8 @@ description: >
   "create a report I can share with my CMO".
 ---
 
+> **How this skill works:** You export your marketing data (from Google Analytics, Mixpanel, HubSpot, Salesforce, etc.) or describe your reporting needs, and Claude designs a dashboard strategy. Claude cannot build dashboards directly in your tools or pull live data — you bring the data and requirements, Claude brings the blueprint.
+
 # Marketing Dashboard Builder
 
 Build a self-contained interactive HTML dashboard from raw marketing data. Includes charts for traffic, leads, pipeline, revenue, and channel performance with dropdown filters and period-over-period comparisons.

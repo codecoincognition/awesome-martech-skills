@@ -9,6 +9,8 @@ description: >
   metrics, onboarding milestone design, or customer success onboarding playbook.
 ---
 
+> **How this skill works:** You export your CRM data or customer journey data (HubSpot, Salesforce, or any platform) as a CSV, and Claude analyzes it to optimize onboarding workflows. Claude cannot connect to live platforms or pull data directly — you bring the data, Claude brings the optimization strategy.
+
 # Customer Onboarding Optimizer
 
 Designs and optimizes customer onboarding sequences to accelerate time-to-value, improve activation rates, and reduce early-stage churn.

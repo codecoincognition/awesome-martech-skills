@@ -105,7 +105,7 @@ Trigger when the user says:
 
 6. **Human checkpoint** — Present the calendar overview. Ask: "Does this topic mix look right? Any topics to swap, add, or remove?"
 
-7. **Generate XLSX output** with calendar view + topic detail sheets.
+7. **Generate structured output** with calendar view + topic detail tables in Markdown (ready to paste into Google Sheets or Excel).
 
 
 > **Benchmark Context**: Blog posts averaging 1,500-2,500 words tend to rank highest in search. Content marketing generates 3x more leads than outbound at 62% less cost. Average time to write a 1,500-word blog post is 4-6 hours (research + writing + editing).
@@ -120,7 +120,7 @@ Trigger when the user says:
 
 | Output | Format | Contents |
 |---|---|---|
-| Editorial calendar | XLSX | Two sheets: calendar view + topic briefs |
+| Editorial calendar | Markdown tables + CSV-ready data | Two sections: calendar view + topic briefs — paste into Google Sheets or Excel |
 | Calendar summary | Markdown | Monthly overview with pillar balance |
 
 ### Sheet 1: Calendar View

@@ -121,10 +121,10 @@ url,clicks,clicks_previous,impressions,avg_position,publish_date,word_count,targ
 
 | Output | Format | Contents |
 |---|---|---|
-| Refresh plan | XLSX | Two sheets: priority list + detail |
+| Refresh plan | Markdown tables | Two tables: priority list + detail |
 | Executive summary | Markdown | Top 10 actions with rationale |
 
-### Sheet 1: Priority Action List
+### Table 1: Priority Action List
 
 | Column | Type | Description |
 |---|---|---|
@@ -138,7 +138,7 @@ url,clicks,clicks_previous,impressions,avg_position,publish_date,word_count,targ
 | `effort_level` | string | Low / Medium / High |
 | `specific_tasks` | string | What to do (comma-separated) |
 
-### Sheet 2: Full Detail
+### Table 2: Full Detail
 
 All input columns plus calculated metrics (decay rate, CTR gap, content age, action classification).
 

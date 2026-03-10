@@ -9,6 +9,8 @@ description: >
   Also trigger for competitor homepage analysis, competitive ad copy tracking, or messaging differentiation.
 ---
 
+> **How this skill works:** You manually compile or export competitor messaging data (from web scraping, landing pages, emails, social posts, etc.) as notes or CSV, and Claude tracks patterns. Claude cannot access competitor websites or pull data directly — you bring the source information, Claude brings the analysis.
+
 # Competitor Messaging Tracker
 
 Tracks and analyzes competitor messaging across channels to identify positioning shifts, messaging gaps, and differentiation opportunities.

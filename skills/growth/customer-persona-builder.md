@@ -253,9 +253,11 @@ Budget Authority | $25k-$50k | $5k-$15k | $50k+
 Decision Criterion | Integration capability | Ease of use | Proven ROI
 ```
 
-**XLSX Persona Details Sheet:**
+**Markdown Persona Details Table:**
 - One row per persona
 - Columns: Name, Role, Company Size, Primary Pain, Goal, Timeline, Budget, Channels, Objections, Key Message
+
+Can be pasted into Google Sheets or Excel for further analysis and team reference.
 
 ## Platform Implementation Steps
 
@@ -325,7 +327,55 @@ Decision Criterion | Integration capability | Ease of use | Proven ROI
 8. Who else needs to approve a purchase? [Decision authority]
 ```
 
-## Full Example
+## Example
+
+**Scenario:** GreenLeaf Organics (e-commerce fresh produce delivery) surveyed 32 customers to build personas. Goal: improve product messaging and target audience segmentation.
+
+**Input: Survey Data (5 responses shown):**
+```csv
+respondent_id,age_range,job_title,company_size,industry,pain_point,goal,buying_timeline,budget_range,preferred_channel,objection
+R001,35-44,Marketing Manager,51-200,B2B SaaS,Finding organic suppliers,Reliable food supplier,6-9 months,$5k-$25k,LinkedIn + Email,Needs bulk pricing
+R008,28-34,Nutritionist,Self-employed,Health & Wellness,Meal planning time,Save 8 hours/week,1-3 months,Premium,$0-$200/mo,Instagram + TikTok,Quality consistency
+R015,42-50,CEO,11-50,Food Manufacturing,Supply chain traceability,Third-party verification,3-6 months,$15k-$50k,Industry forums,Needs compliance audit
+R022,26-32,Fitness Coach,Startup,Fitness,Bulk ordering for clients,Cost-effective nutrition,Immediately,<$500/mo,YouTube + Community,Shipping speed concerns
+R031,38-48,Parent,N/A,Household,Organic food access,Shop once/week instead of 3x,1-3 months,$150-$300/mo,Facebook,Freshness guarantee
+```
+
+**Generated Personas:**
+
+### Persona 1: Maya, the Millennial Health Enthusiast (12 respondents, ages 26-34)
+- **Role:** Individual/household buyer, fitness enthusiasts, nutritionists, wellness creators
+- **Budget:** $150-$300/month personal, up to $500/mo for professional use
+- **Primary Pain:** Finding time for healthy eating (meal planning + shopping)
+- **Goal:** Save 8+ hours/week; sustainable, nutrient-dense food
+- **Timeline:** 1-3 months (immediate need, high intent)
+- **Key Objection:** "Will it arrive fresh? How quickly?" (freshness guarantee critical)
+- **Resonant Message:** "Fresh organic delivered when you need it. Done in 10 minutes."
+
+### Persona 2: Robert, the B2B Food Buyer (11 respondents, ages 35-50)
+- **Role:** VP Procurement, CEO, Food Manufacturing, Corporate wellness managers
+- **Budget:** $5k-$50k annually (significant decision, multiple approvers)
+- **Primary Pain:** Finding suppliers meeting organic standards + compliance requirements
+- **Goal:** Reliable, traceable supply chain with certifications
+- **Timeline:** 3-9 months (deliberate, vendor selection process)
+- **Key Objection:** "Can you pass a compliance audit?" (non-negotiable)
+- **Resonant Message:** "Organic suppliers you can verify. Full traceability built in."
+
+**Key Buying Triggers (from survey data):**
+| Pain Point | Buying Trigger | Messaging |
+|-----------|---|---|
+| Organic supply reliability (14 mentions) | New dietary commitment or corporate initiative | "Never run out of the organic you need" |
+| Food safety/traceability (11 mentions) | Regulatory requirement or media coverage | "Track your food from farm to door" |
+| Time savings (9 mentions) | Scaling up usage (family growth, team expansion) | "One order replaces three shopping trips" |
+
+**Content Recommendations:**
+- TikTok: "7-day meal prep for $40" (Persona 1 audience)
+- LinkedIn: "Sourcing audit case study" (Persona 2 audience)
+- Email: Weekly meal plans + shopping list (retention driver)
+
+---
+
+## Full Example (SaaS benchmark)
 
 **Scenario:** SaaS marketing automation platform conducts survey of 47 marketing professionals. Goal: Create 3 personas for product marketing.
 

@@ -11,6 +11,8 @@ description: >
   attribution is wrong" or "which channels should I invest in based on conversion data".
 ---
 
+> **How this skill works:** You export your conversion path data from your analytics platform (GA4, Mixpanel, etc.) as a CSV, and Claude builds attribution models. Claude cannot connect to live analytics platforms or pull data directly — you bring the data, Claude brings the models.
+
 # Attribution Model Builder
 
 Build and compare multiple attribution models (first-touch, last-touch, linear, time-decay, position-based) from conversion path data. Visualize how credit shifts between models and recommend the best fit for your business.
@@ -135,7 +137,7 @@ C003,Direct,4,1000
 
 6. **Human checkpoint** — Present model comparison table. Ask: "Which model aligns best with how you think about marketing's role? Should I adjust the time-decay half-life or position-based weights?"
 
-7. **Generate outputs** — XLSX with model comparison + HTML visualization.
+7. **Generate outputs** — Markdown tables with data ready for spreadsheet pasting + charting instructions.
 
 
 > **Benchmark Context**: Marketing teams typically allocate 5-15% of budget to analytics tools. A well-built dashboard should answer 80% of weekly reporting questions without manual queries. GA4 reports average 24-48 hour data lag for standard processing.
@@ -150,8 +152,8 @@ C003,Direct,4,1000
 
 | Output | Format | Contents |
 |---|---|---|
-| Model comparison | XLSX | Three sheets: comparison, per-channel detail, paths |
-| Visualization | HTML | Interactive chart showing credit shifts |
+| Model comparison | Markdown tables + CSV-ready data | Three data sections: comparison, per-channel detail, paths — paste into Google Sheets or Excel |
+| Visualization | Markdown tables + step-by-step charting instructions | Structured data + guidance for creating charts in Google Sheets |
 | Summary | Markdown | Key insights and model recommendation |
 
 ### Sheet 1: Model Comparison

@@ -10,6 +10,8 @@ description: >
   credits (Clearbit, ZoomInfo, Apollo) and needs to decide where to spend them.
 ---
 
+> **How this skill works:** You export your CRM data (HubSpot, Salesforce, Apollo, etc.) as a CSV, paste or attach it, and Claude analyzes it. Claude cannot connect to live CRMs or pull data directly — you bring the data, Claude brings the analysis.
+
 # Data Enrichment Prioritizer
 
 Scores and ranks CRM records by enrichment priority to maximize ROI on enrichment credits. Combines data gap analysis with value signals to ensure enrichment spend goes to the contacts and accounts most likely to convert.
@@ -102,12 +104,14 @@ Across the dataset, recommend which fields to enrich first:
 
 ## Output Contract
 
-### Deliverable: XLSX (3 sheets)
+### Deliverable: Markdown Tables + CSV-Ready Data (3 sections)
 
-**Sheet 1: Prioritized Records**
-Columns: `email | name | company | lifecycle_stage | value_score | gap_score | priority_score | tier | fields_to_enrich | estimated_cost`
+**Section 1: Prioritized Records**
+Markdown table: `email | name | company | lifecycle_stage | value_score | gap_score | priority_score | tier | fields_to_enrich | estimated_cost`
 
-**Sheet 2: Budget Summary**
+Can be pasted into Google Sheets or Excel.
+
+**Section 2: Budget Summary**
 
 | Metric | Value |
 |---|---|
@@ -118,8 +122,8 @@ Columns: `email | name | company | lifecycle_stage | value_score | gap_score | p
 | Estimated Cost (Tier 1) | $ |
 | Expected Enriched Conversion Rate Lift | % |
 
-**Sheet 3: Field Priority**
-Columns: `field_name | missing_rate | impact_score | priority_rank | records_affected | estimated_value_unlocked`
+**Section 3: Field Priority**
+Markdown table: `field_name | missing_rate | impact_score | priority_rank | records_affected | estimated_value_unlocked`
 
 ## Platform Implementation Steps
 

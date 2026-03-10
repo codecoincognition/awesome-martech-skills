@@ -10,6 +10,8 @@ description: >
   project management tools and wants to optimize the review process.
 ---
 
+> **How this skill works:** You export approval request logs, process data, or workflow history as a CSV, and Claude analyzes it to identify delays and blockers. Claude cannot access live approval systems or pull data directly — you bring the data, Claude brings the analysis.
+
 # Approval Bottleneck Analyzer
 
 Analyzes marketing content approval cycle times from exported workflow data to identify bottlenecks, slow stages, and process improvement opportunities. Produces a data-backed report with specific recommendations to reduce time-to-publish.
@@ -116,9 +118,11 @@ Based on data, recommend:
 
 ## Output Contract
 
-### Deliverable: XLSX Report (3 sheets)
+### Deliverable: Structured Analysis Tables in Markdown
 
-**Sheet 1: Summary Dashboard**
+Claude generates three detailed analysis tables in Markdown format that you can copy directly into Google Sheets, Excel, or any spreadsheet tool
+
+**Table 1: Summary Dashboard**
 
 | Metric | Value |
 |---|---|
@@ -129,11 +133,13 @@ Based on data, recommend:
 | SLA Compliance | X% |
 | #1 Bottleneck | [stage or approver] |
 
-**Sheet 2: Stage Analysis**
+**Table 2: Stage Analysis**
 Columns: `stage_name | avg_days | median_days | p90_days | request_count | sla_target | compliance_rate | bottleneck_rank`
 
-**Sheet 3: Recommendations**
+**Table 3: Recommendations**
 Columns: `priority | recommendation | expected_time_savings | effort | details`
+
+Simply copy these Markdown tables into Google Sheets (paste as-is, then use Data > Text to Columns), Excel (paste and use "Convert to Table"), or any other spreadsheet tool. All analysis is formatted for easy import with no file download needed.
 
 ## Platform Implementation Steps
 

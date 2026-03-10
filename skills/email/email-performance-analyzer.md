@@ -9,6 +9,8 @@ description: >
   for email revenue attribution, campaign-level analysis, or email program health assessment.
 ---
 
+> **How this skill works:** You export your email campaign performance data from your ESP (Mailchimp, Klaviyo, HubSpot, Braze, etc.) as a CSV, and Claude analyzes it. Claude cannot connect to live email platforms or pull data directly — you bring the data, Claude brings the analysis.
+
 # Email Performance Analyzer
 
 Analyzes email campaign performance with metric benchmarking, trend identification, segment-level insights, and actionable optimization recommendations for improving email program ROI.

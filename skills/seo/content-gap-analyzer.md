@@ -115,10 +115,10 @@ sprint planning template,,3,,1900,18
 
 | Output | Format | Contents |
 |---|---|---|
-| Gap analysis | XLSX | Three sheets: summary, details, action plan |
+| Gap analysis | Markdown tables | Three tables: summary, details, action plan |
 | Quick wins | Markdown | Top 5 immediate opportunities |
 
-### Sheet 1: Gap Summary
+### Table 1: Gap Summary
 
 | Column | Type | Description |
 |---|---|---|
@@ -131,7 +131,7 @@ sprint planning template,,3,,1900,18
 | `recommended_format` | string | Blog / Landing page / Guide / etc. |
 | `effort_estimate` | string | Low / Medium / High |
 
-### Sheet 2: Keyword Details
+### Table 2: Keyword Details
 
 | Column | Type | Description |
 |---|---|---|
@@ -143,7 +143,7 @@ sprint planning template,,3,,1900,18
 | `opportunity_score` | float | Priority score |
 | `topic_cluster` | string | Assigned gap cluster |
 
-### Sheet 3: Action Plan
+### Table 3: Action Plan
 
 | Column | Type | Description |
 |---|---|---|

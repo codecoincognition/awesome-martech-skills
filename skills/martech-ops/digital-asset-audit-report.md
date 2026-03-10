@@ -9,6 +9,8 @@ description: >
   has a CSV export from a DAM (Bynder, Brandfolder, Canto, Google Drive) and wants to assess quality.
 ---
 
+> **How this skill works:** You export your digital asset inventory (from DAM systems, shared drives, or other platforms) as a CSV or provide a list, and Claude audits it. Claude cannot connect to live asset management systems or pull data directly — you bring the data, Claude brings the analysis.
+
 # Digital Asset Audit Report
 
 Audits an exported digital asset inventory for naming convention violations, missing metadata, potential duplicates, orphaned files, and organizational gaps. Produces a prioritized cleanup action plan.
@@ -111,9 +113,11 @@ hero-banner-v3-FINAL-v2.png,image,/marketing/campaigns/q1-launch,2025-09-22,2025
 
 ## Output Contract
 
-### Deliverable: XLSX Audit Report (3 sheets)
+### Deliverable: Structured Analysis Tables in Markdown
 
-**Sheet 1: Audit Summary**
+Claude generates three detailed analysis tables in Markdown format that you can copy directly into Google Sheets, Excel, or any spreadsheet tool
+
+**Table 1: Audit Summary**
 
 | Metric | Value | Status |
 |---|---|---|
@@ -124,10 +128,10 @@ hero-banner-v3-FINAL-v2.png,image,/marketing/campaigns/q1-launch,2025-09-22,2025
 | Stale Assets (12+ months) | count | ⚠️ |
 | Orphaned Assets | count | ⚠️ |
 
-**Sheet 2: Issue Details**
+**Table 2: Issue Details**
 Columns: `filename | issue_type | severity | description | recommended_action | new_filename`
 
-**Sheet 3: Action Plan**
+**Table 3: Action Plan**
 Columns: `priority | action | asset_count | effort_estimate | impact`
 
 ## Platform Implementation Steps

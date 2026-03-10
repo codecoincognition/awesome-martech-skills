@@ -114,10 +114,10 @@ project management methodology comparison,880,28,1.20,
 
 | Output | Format | Contents |
 |---|---|---|
-| Cluster analysis | XLSX | Two sheets: summary + detail |
+| Cluster analysis | Markdown tables | Two tables: summary + detail |
 | Quick summary | Markdown | Top 5 clusters with recommendations |
 
-### Sheet 1: Cluster Summary
+### Table 1: Cluster Summary
 
 | Column | Type | Description |
 |---|---|---|
@@ -130,7 +130,7 @@ project management methodology comparison,880,28,1.20,
 | `content_type` | string | Recommended content format |
 | `priority` | string | High / Medium / Low |
 
-### Sheet 2: Keyword Details
+### Table 2: Keyword Details
 
 | Column | Type | Description |
 |---|---|---|

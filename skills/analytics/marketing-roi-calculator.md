@@ -89,8 +89,8 @@ Organic,0,1200,20,Jan 2026,60
    - **Human Checkpoint:** Approve budget reallocation recommendations
 
 5. **Output Generation**
-   - Compile metrics into XLSX workbook with multiple sheets
-   - Create visualizations (charts, trend lines)
+   - Compile metrics into Markdown tables (ready to paste into Google Sheets or Excel)
+   - Provide step-by-step charting instructions for visualizations
    - Add actionable recommendations
    - Generate summary narrative
 
@@ -103,9 +103,9 @@ Organic,0,1200,20,Jan 2026,60
 
 ## Output Contract
 
-**XLSX Workbook Structure:**
+**Markdown Tables + CSV-Ready Data Structure:**
 
-**Sheet 1: Channel Summary**
+**Table 1: Channel Summary**
 ```
 Channel | Spend | Revenue | Conversions | ROI % | ROAS | CAC | Efficiency Score
 Google Ads | 2500 | 8500 | 12 | 240% | 3.40 | $208.33 | 92
@@ -116,14 +116,14 @@ Organic | 0 | 1200 | 20 | ∞ | ∞ | $0 | 100
 TOTAL | 7700 | 25000 | 100 | 224% | 3.25 | $77 | 88
 ```
 
-**Sheet 2: Break-even & Profitability**
+**Table 2: Break-even & Profitability**
 ```
 Channel | Break-even Revenue | Current Revenue | Days to Break-even | Profit Margin %
 Google Ads | 2500 | 8500 | 8 (of 30) | 71%
 ...
 ```
 
-**Sheet 3: Budget Reallocation**
+**Table 3: Budget Reallocation**
 ```
 Current Channel | Current Budget | ROI Ranking | Rec. Budget (+10%) | Projected Revenue | Notes
 Email | 200 | 1st | 350 | 5250 | Scale proven winner
@@ -131,7 +131,9 @@ Google | 2500 | 2nd | 3000 | 10200 | Solid performer
 LinkedIn | 3200 | 4th | 2450 | 4900 | Reduce underperformer
 ```
 
-**Sheet 4: Recommendations**
+All tables are provided in Markdown format and can be pasted directly into Google Sheets or Excel. Step-by-step instructions included for formatting and chart creation.
+
+**Recommendations Summary**
 - Text-based action items
 - Quick wins
 - Channel-specific insights
@@ -192,7 +194,46 @@ If no BI tool available, create analysis in Google Sheets or Excel:
 - Match revenue to marketing channel via UTM parameters
 - Cross-reference with ad platform data
 
-## Full Example
+## Example
+
+**Scenario:** TaskFlow (project management SaaS) runs 5 paid marketing channels and wants to evaluate Q1 performance. Budget allocation decision: scale winners or pause underperformers?
+
+**Input CSV (March 2026 data):**
+```csv
+channel,spend,revenue,conversions,period,customer_lifetime_value
+Google Ads,5000,18500,25,March 2026,740
+Meta Ads,4200,8400,28,March 2026,300
+LinkedIn Ads,8500,10200,17,March 2026,600
+Email Newsletter,800,8500,85,March 2026,100
+Organic Search,0,2400,48,March 2026,50
+```
+
+**Output Analysis:**
+
+| Channel | Spend | Revenue | ROI % | ROAS | CAC | Payback | Efficiency |
+|---------|-------|---------|-------|------|-----|---------|------------|
+| Google Ads | $5,000 | $18,500 | 270% | 3.70 | $200 | 12 days | 94 |
+| Meta Ads | $4,200 | $8,400 | 100% | 2.00 | $150 | 18 days | 68 |
+| LinkedIn Ads | $8,500 | $10,200 | 20% | 1.20 | $500 | 50 days | 42 |
+| Email Newsletter | $800 | $8,500 | 962% | 10.63 | $9.41 | 2.8 days | 98 |
+| **TOTAL** | **$18,500** | **$48,000** | **159%** | **2.59** | **$91** | **14 days** | **80** |
+
+**Key Findings & Recommendations:**
+
+**Scale Immediately (Cash Cows):**
+- Email: 962% ROI + $9.41 CAC. Increase $800 → $2,000/month.
+- Google Ads: 270% ROI + $200 CAC. Increase $5,000 → $7,000/month.
+
+**Restructure (Problem Children):**
+- LinkedIn: Only 20% ROI with $500 CAC. Reduce to $3,000/month; test ABM.
+- Meta: 100% ROI is breakeven. Test new segments or pause.
+
+**Proposed Q2 Budget Reallocation (+$10K increase):**
+Expected monthly revenue impact: $48K → $62K (+29%), blended ROI 159% → 205%.
+
+---
+
+## Full Example (e-commerce benchmark)
 
 **Scenario:** An e-commerce brand runs 4 paid channels + email + organic. Wants to understand true efficiency and how to allocate next month's $10,000 budget.
 

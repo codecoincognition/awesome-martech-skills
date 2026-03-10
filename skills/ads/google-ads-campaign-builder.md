@@ -119,7 +119,7 @@ Goal: Free trial sign-ups
 
 7. **Human checkpoint** — Present campaign structure overview. Ask: "Does this ad group structure make sense? Any keywords to add/remove?"
 
-8. **Generate XLSX output** — Google Ads Editor-compatible format.
+8. **Generate structured output** — Data tables in Markdown with step-by-step instructions to paste into Google Sheets or Excel for formatting.
 
 
 > **Benchmark Context**: Average Google Ads CTR across industries is 3.17% (search) and 0.46% (display). B2B averages 2.41% search CTR. Top-performing responsive search ads have 8+ unique headlines. Meta Ads average CTR is 0.90% across industries, with 1.5%+ considered strong.
@@ -134,7 +134,7 @@ Goal: Free trial sign-ups
 
 | Output | Format | Contents |
 |---|---|---|
-| Campaign structure | XLSX | Four sheets: ad groups, keywords, ads, negatives |
+| Campaign structure | Markdown tables + CSV-ready data | Four data sections: ad groups, keywords, ads, negatives — paste into Google Sheets or Excel for formatting |
 | Campaign summary | Markdown | Overview + recommendations |
 
 ### Sheet 1: Ad Group Structure

@@ -9,6 +9,8 @@ description: >
   dashboard audience customization.
 ---
 
+> **How this skill works:** You export your CRM data (HubSpot, Salesforce, Pipedrive, etc.) or describe your reporting needs, and Claude designs a dashboard strategy. Claude cannot build dashboards directly in your CRM or pull live data — you provide the requirements and data, Claude brings the blueprint.
+
 # Reporting Dashboard Designer
 
 Designs CRM reporting dashboards with the right KPIs, metrics, visualizations, and update cadences for different stakeholder audiences.

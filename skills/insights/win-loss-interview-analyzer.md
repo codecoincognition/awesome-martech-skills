@@ -10,6 +10,8 @@ description: >
   across multiple conversations.
 ---
 
+> **How this skill works:** You export or paste win-loss interview transcripts, notes, or structured feedback data, and Claude analyzes patterns. Claude cannot conduct interviews or pull data from repositories directly — you bring the interview data, Claude brings the analysis.
+
 # Win/Loss Interview Analyzer
 
 Analyzes win/loss interview transcripts or structured notes to extract recurring themes, competitive insights, product gaps, and actionable recommendations. Turns qualitative interview data into quantitative patterns.

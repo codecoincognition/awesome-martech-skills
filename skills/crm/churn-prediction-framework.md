@@ -9,6 +9,8 @@ description: >
   renewal risk assessment, or proactive retention playbook design.
 ---
 
+> **How this skill works:** You export your CRM or customer data (HubSpot, Salesforce, or any platform) as a CSV with customer activity history, and Claude analyzes it to identify churn risk patterns. Claude cannot connect to live platforms or pull data directly — you bring the data, Claude brings the predictive analysis.
+
 # Churn Prediction Framework
 
 Identifies at-risk customers using engagement, usage, and behavioral signals, then designs proactive retention strategies to reduce churn.

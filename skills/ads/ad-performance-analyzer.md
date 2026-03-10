@@ -9,6 +9,8 @@ description: >
   performance comparison, or ad spend efficiency review.
 ---
 
+> **How this skill works:** You export your ad platform data (Google Ads, Facebook Ads, LinkedIn Ads, etc.) as a CSV or describe your ad performance questions, and Claude analyzes it. Claude cannot connect to live ad platforms or pull data directly — you bring the data, Claude brings the analysis.
+
 # Ad Performance Analyzer
 
 Analyzes ad campaign performance data across platforms to identify top performers, diagnose underperformers, surface optimization opportunities, and generate actionable recommendations.

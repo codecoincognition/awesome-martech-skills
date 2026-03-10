@@ -9,6 +9,8 @@ description: >
   content engagement data from Highspot, Seismic, Showpad, or Google Drive analytics.
 ---
 
+> **How this skill works:** You export sales engagement data (email opens, document views, call activity, etc.) from your CRM or sales tools as a CSV, and Claude analyzes it. Claude cannot connect to live CRM platforms or pull data directly — you bring the data, Claude brings the analysis.
+
 # Sales Content Usage Analyzer
 
 Analyzes sales content usage data to identify which assets reps actually use, which correlate with won deals, and which are gathering dust. Produces a content effectiveness report with recommendations for what to create, retire, or promote.
@@ -122,16 +124,18 @@ Prioritized action plan:
 
 ## Output Contract
 
-### Deliverable: XLSX Report (3 sheets)
+### Deliverable: Markdown Tables + CSV-Ready Data (3 sections)
 
-**Sheet 1: Content Scorecard**
-Columns: `asset_name | asset_type | usage_score | win_correlation | effectiveness_score | quadrant | recommendation`
+**Section 1: Content Scorecard**
+Markdown table: `asset_name | asset_type | usage_score | win_correlation | effectiveness_score | quadrant | recommendation`
 
-**Sheet 2: Gap Analysis**
-Columns: `gap_type | description | deal_stage | priority | recommended_content`
+Can be pasted into Google Sheets, Excel, or any spreadsheet tool.
 
-**Sheet 3: Action Plan**
-Columns: `priority | action | assets | expected_impact | effort`
+**Section 2: Gap Analysis**
+Markdown table: `gap_type | description | deal_stage | priority | recommended_content`
+
+**Section 3: Action Plan**
+Markdown table: `priority | action | assets | expected_impact | effort`
 
 ## Platform Implementation Steps
 

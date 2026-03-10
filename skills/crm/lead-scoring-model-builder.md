@@ -126,10 +126,10 @@ L-005,1-50,Retail,Marketing Coordinator,paid,3,1,0,0,0
 
 | Output | Format | Contents |
 |---|---|---|
-| Scoring model | XLSX | Point values + thresholds |
+| Scoring model | Markdown tables + CSV-ready data | Point values + thresholds (paste into Google Sheets or Excel) |
 | Implementation guide | Markdown | CRM setup instructions |
 
-### XLSX Sheet 1: Scoring Card
+### Scoring Card Table
 
 | Column | Type | Description |
 |---|---|---|
@@ -139,7 +139,7 @@ L-005,1-50,Retail,Marketing Coordinator,paid,3,1,0,0,0
 | `conversion_rate` | float | Conversion rate for this value |
 | `category` | string | Demographic / Behavioral |
 
-### XLSX Sheet 2: Threshold Definitions
+### Threshold Definitions Table
 
 | Column | Type | Description |
 |---|---|---|
@@ -149,7 +149,7 @@ L-005,1-50,Retail,Marketing Coordinator,paid,3,1,0,0,0
 | `action` | string | What to do with leads in this tier |
 | `historical_conversion` | float | Conversion rate of leads in this tier historically |
 
-### XLSX Sheet 3: Model Validation
+### Model Validation Table
 
 | Column | Type | Description |
 |---|---|---|

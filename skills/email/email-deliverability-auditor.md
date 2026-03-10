@@ -9,6 +9,8 @@ description: >
   review, sending domain reputation, or inbox placement testing.
 ---
 
+> **How this skill works:** You provide your sending domain information and email performance metrics (from your ESP or tools like Google Postmaster Tools, or by sharing exported data), and Claude audits it. Claude cannot connect to live email platforms or pull data directly — you bring the data, Claude brings the audit.
+
 # Email Deliverability Auditor
 
 Audits email deliverability with sender reputation analysis, authentication verification (SPF/DKIM/DMARC), spam trigger identification, and inbox placement optimization recommendations.

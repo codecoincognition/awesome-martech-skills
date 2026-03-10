@@ -111,9 +111,11 @@ Based on overall score and trend:
 
 ## Output Contract
 
-### Deliverable: XLSX Scorecard (4 sheets)
+### Deliverable: Structured Analysis Tables in Markdown
 
-**Sheet 1: Executive Summary**
+Claude generates four detailed analysis tables in Markdown format that you can copy directly into Google Sheets, Excel, or any spreadsheet tool
+
+**Table 1: Executive Summary**
 | Field | Value |
 |---|---|
 | Vendor | [name] |
@@ -125,13 +127,13 @@ Based on overall score and trend:
 | Top Strength | [dimension] |
 | Top Weakness | [dimension] |
 
-**Sheet 2: Detailed Scorecard**
+**Table 2: Detailed Scorecard**
 Columns: `dimension | weight | score_1to5 | weighted_score | evidence | notes`
 
-**Sheet 3: Trend Analysis**
+**Table 3: Trend Analysis**
 Columns: `dimension | current_score | prior_score | delta | trajectory | commentary`
 
-**Sheet 4: Action Plan**
+**Table 4: Action Plan**
 Columns: `priority | area | current_state | target_state | deadline | success_metric`
 
 ## Platform Implementation Steps

@@ -9,6 +9,8 @@ description: >
   trigger for platform-specific engagement analysis or social A/B test results.
 ---
 
+> **How this skill works:** You export your social platform analytics data (from Meta Insights, TweetDeck, LinkedIn Analytics, TikTok Creator Studio, etc.) or a social management tool as a CSV, and Claude analyzes it. Claude cannot connect to social platforms or pull live data directly — you bring the data, Claude brings the analysis.
+
 # Social Engagement Analyzer
 
 Analyzes social media post performance data to identify winning content patterns, optimal posting times, and engagement drivers. Produces an actionable report with content strategy recommendations.
@@ -97,15 +99,15 @@ Analyzes social media post performance data to identify winning content patterns
 
 ## Output Contract
 
-### Deliverable: XLSX (3 sheets) + Markdown Summary
+### Deliverable: Structured Analysis Tables in Markdown + Summary
 
-**Sheet 1: Post Scorecard**
+**Table 1: Post Scorecard**
 Columns: `date | platform | post_type | topic | impressions | reach | engagement_rate | performance_tier | key_driver`
 
-**Sheet 2: Pattern Analysis**
+**Table 2: Pattern Analysis**
 Columns: `dimension | value | avg_engagement_rate | post_count | recommendation`
 
-**Sheet 3: Action Plan**
+**Table 3: Action Plan**
 Columns: `priority | action | expected_impact | effort | timeline`
 
 **Markdown: Executive Summary**

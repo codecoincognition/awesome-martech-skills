@@ -9,6 +9,8 @@ description: >
   Also trigger for content portfolio analysis, content investment ROI, or content decay tracking.
 ---
 
+> **How this skill works:** You export your content analytics data (from Google Analytics, CMS, content management platforms, etc.) as a CSV or spreadsheet, and Claude scores it. Claude cannot connect to live content platforms or pull data directly — you bring the data, Claude brings the scoring and analysis.
+
 # Content Performance Scorecard
 
 Scores and ranks content across engagement, SEO, conversion, and business impact metrics to identify top performers, underperformers, and optimization opportunities.
