@@ -2,7 +2,7 @@
 
 The definitive open-source collection of Marketing Technology skills for Claude Code & Claude Cowork.
 
-**148 skills** across **15 categories** — from UTM tracking to attribution modeling, from email sequences to ad copy generation.
+**156 skills** across **15 categories** — from UTM tracking to attribution modeling, from email sequences to ad copy generation.
 
 Built by [CodeCoinCognition LLC](https://github.com/CodeCoinCognitionLLC) and the community.
 
@@ -32,23 +32,23 @@ No API keys. No MCP connectors. Just CSV in, results out.
 
 | Category | Skills | Description |
 |---|---|---|
-| [SEO](skills/seo/) | 14 | Keyword research, technical audits, content briefs, SERP analysis |
-| [Email](skills/email/) | 11 | Sequences, subject lines, deliverability, list management |
-| [Social](skills/social/) | 12 | Content calendars, engagement analysis, short-form video, social commerce |
-| [Ads](skills/ads/) | 12 | Google/Meta/LinkedIn ads, copy generation, budget optimization |
-| [Analytics](skills/analytics/) | 10 | GA4 setup, dashboards, attribution, funnel analysis |
+| [SEO](skills/seo/) | 16 | Keyword research, technical audits, content briefs, SERP analysis |
+| [Email](skills/email/) | 12 | Sequences, subject lines, deliverability, list management |
+| [Social](skills/social/) | 13 | Content calendars, engagement analysis, short-form video, social commerce |
+| [Ads](skills/ads/) | 13 | Google/Meta/LinkedIn ads, copy generation, budget optimization |
+| [Analytics](skills/analytics/) | 11 | GA4 setup, dashboards, attribution, funnel analysis, cohort analysis |
 | [CRM](skills/crm/) | 9 | Lead scoring, data hygiene, enrichment prioritization, lifecycle management |
 | [CRO](skills/cro/) | 9 | A/B testing, landing pages, form optimization, friction detection |
-| [Content](skills/content/) | 12 | Blog outlines, content repurposing, editorial calendars, SEO writing |
+| [Content](skills/content/) | 13 | Blog outlines, content repurposing, editorial calendars, SEO writing |
 | [PR & Events](skills/pr-events/) | 8 | Press releases, media lists, event planning, crisis comms |
 | [MarTech Ops](skills/martech-ops/) | 9 | UTM tracking, compliance, contracts, vendor scoring, SLA docs |
-| [Video & Podcast](skills/video-podcast/) | 10 | Scripts, YouTube SEO, show notes, short-form video |
+| [Video & Podcast](skills/video-podcast/) | 10 | Scripts, YouTube SEO, show notes, short-form video, webinar promotion |
 | [Growth](skills/growth/) | 9 | Experiments, channel mix, personas, GTM planning, referral programs |
 | [Insights](skills/insights/) | 11 | Voice of customer, win/loss analysis, competitive positioning, trend radar |
 | [AI Marketing](skills/ai-marketing/) | 7 | AI image prompts, personalization, prompt libraries, content quality |
 | [B2B & ABM](skills/b2b/) | 6 | Account research, buying committees, sales decks, RFP responses |
 
-## Built Skills (57)
+## Built Skills (156)
 
 ### Phase 1 — Foundation (15 skills)
 
@@ -117,15 +117,176 @@ No API keys. No MCP connectors. Just CSV in, results out.
 | [campaign-brief-synthesizer](skills/content/campaign-brief-synthesizer.md) | Content | Synthesize multi-stakeholder inputs into unified campaign briefs |
 | [win-loss-interview-analyzer](skills/insights/win-loss-interview-analyzer.md) | Insights | Analyze win/loss interview transcripts for patterns and recommendations |
 
-### Phase 4 — Video & Podcast (5 skills)
+### Phase 4 — Full Expansion (99 skills)
 
-| Skill | Category | Description |
-|---|---|---|
-| [video-script-writer](skills/video-podcast/video-script-writer.md) | Video & Podcast | Write structured video scripts with hooks, segments, CTAs, and timing |
-| [youtube-seo-optimizer](skills/video-podcast/youtube-seo-optimizer.md) | Video & Podcast | Optimize YouTube titles, descriptions, tags, and chapters for search |
-| [podcast-show-notes-generator](skills/video-podcast/podcast-show-notes-generator.md) | Video & Podcast | Generate show notes with timestamps, takeaways, and SEO descriptions |
-| [short-form-video-planner](skills/video-podcast/short-form-video-planner.md) | Video & Podcast | Plan TikTok, Reels, and Shorts content calendars with scripts |
-| [video-thumbnail-concept-generator](skills/video-podcast/video-thumbnail-concept-generator.md) | Video & Podcast | Generate thumbnail design briefs with layout, text, and A/B variants |
+#### SEO (11 new)
+
+| Skill | Description |
+|---|---|
+| [technical-seo-auditor](skills/seo/technical-seo-auditor.md) | Crawl-level technical SEO audits for indexation, speed, and structure |
+| [backlink-analysis-report](skills/seo/backlink-analysis-report.md) | Analyze backlink profiles for authority, toxicity, and opportunities |
+| [local-seo-optimizer](skills/seo/local-seo-optimizer.md) | Optimize Google Business Profiles and local search presence |
+| [serp-feature-optimizer](skills/seo/serp-feature-optimizer.md) | Win featured snippets, PAA boxes, and rich results |
+| [seo-competitor-analysis](skills/seo/seo-competitor-analysis.md) | Deep-dive SEO competitor benchmarking and gap analysis |
+| [ecommerce-seo-optimizer](skills/seo/ecommerce-seo-optimizer.md) | Product page and category SEO for e-commerce sites |
+| [international-seo-strategy](skills/seo/international-seo-strategy.md) | Multi-market hreflang, content, and domain strategy |
+| [site-migration-seo-plan](skills/seo/site-migration-seo-plan.md) | SEO migration checklists for domain, platform, or redesign moves |
+| [page-speed-optimizer](skills/seo/page-speed-optimizer.md) | Core Web Vitals diagnosis and page speed improvements |
+| [seo-content-strategy](skills/seo/seo-content-strategy.md) | Build topic authority with pillar-cluster content architecture |
+| [seo-reporting-dashboard](skills/seo/seo-reporting-dashboard.md) | Create SEO reporting dashboards from Search Console and GA4 data |
+
+#### Email (6 new)
+
+| Skill | Description |
+|---|---|
+| [email-deliverability-auditor](skills/email/email-deliverability-auditor.md) | Diagnose and fix email deliverability issues (SPF, DKIM, reputation) |
+| [email-list-segmentation](skills/email/email-list-segmentation.md) | Build behavioral and demographic email segments |
+| [email-template-designer](skills/email/email-template-designer.md) | Design responsive email templates with HTML/CSS best practices |
+| [email-performance-analyzer](skills/email/email-performance-analyzer.md) | Analyze email campaign metrics and identify optimization opportunities |
+| [email-copywriting-framework](skills/email/email-copywriting-framework.md) | Write high-converting email copy by type (promo, nurture, re-engage) |
+| [email-ab-testing-framework](skills/email/email-ab-testing-framework.md) | Design and analyze email A/B tests with statistical rigor |
+| [email-compliance-checker](skills/email/email-compliance-checker.md) | Audit emails for CAN-SPAM, GDPR, and CASL compliance |
+| [email-automation-workflow](skills/email/email-automation-workflow.md) | Design triggered email automation workflows with branching logic |
+| [transactional-email-optimizer](skills/email/transactional-email-optimizer.md) | Optimize transactional emails for engagement and brand consistency |
+
+#### Social (9 new)
+
+| Skill | Description |
+|---|---|
+| [hashtag-strategy-builder](skills/social/hashtag-strategy-builder.md) | Research and optimize hashtag strategies per platform |
+| [linkedin-post-optimizer](skills/social/linkedin-post-optimizer.md) | Optimize LinkedIn posts for algorithm reach and engagement |
+| [twitter-thread-writer](skills/social/twitter-thread-writer.md) | Write compelling Twitter/X threads with hooks and formatting |
+| [instagram-caption-writer](skills/social/instagram-caption-writer.md) | Write Instagram captions optimized for engagement and discovery |
+| [tiktok-content-strategy](skills/social/tiktok-content-strategy.md) | Plan TikTok content strategy with trends and creator tactics |
+| [social-listening-report](skills/social/social-listening-report.md) | Analyze social listening data for brand mentions and sentiment |
+| [influencer-outreach-brief](skills/social/influencer-outreach-brief.md) | Create influencer collaboration briefs with deliverables and terms |
+| [social-ad-creative-brief](skills/social/social-ad-creative-brief.md) | Write creative briefs for paid social ad campaigns |
+| [community-management-playbook](skills/social/community-management-playbook.md) | Build community management playbooks with response frameworks |
+| [social-commerce-optimizer](skills/social/social-commerce-optimizer.md) | Optimize social commerce storefronts and shoppable content |
+| [social-crisis-response-plan](skills/social/social-crisis-response-plan.md) | Create social media crisis response plans with escalation protocols |
+| [social-engagement-analyzer](skills/social/social-engagement-analyzer.md) | Analyze social engagement metrics to optimize content strategy |
+
+#### Ads (10 new)
+
+| Skill | Description |
+|---|---|
+| [meta-ads-campaign-builder](skills/ads/meta-ads-campaign-builder.md) | Build Meta/Facebook/Instagram ad campaigns end-to-end |
+| [linkedin-ads-campaign-builder](skills/ads/linkedin-ads-campaign-builder.md) | Build LinkedIn advertising campaigns for B2B targeting |
+| [ad-performance-analyzer](skills/ads/ad-performance-analyzer.md) | Analyze paid ad performance across platforms with optimization recs |
+| [ad-budget-optimizer](skills/ads/ad-budget-optimizer.md) | Optimize ad budget allocation across campaigns and platforms |
+| [retargeting-campaign-builder](skills/ads/retargeting-campaign-builder.md) | Design retargeting campaigns with audience segmentation |
+| [ppc-keyword-strategy](skills/ads/ppc-keyword-strategy.md) | Build PPC keyword strategies with match types and bid recommendations |
+| [ad-creative-testing-framework](skills/ads/ad-creative-testing-framework.md) | Design ad creative testing programs with statistical methodology |
+| [display-ad-network-optimizer](skills/ads/display-ad-network-optimizer.md) | Optimize display and programmatic ad network campaigns |
+| [audience-targeting-builder](skills/ads/audience-targeting-builder.md) | Build audience targeting strategies across ad platforms |
+| [ad-compliance-checker](skills/ads/ad-compliance-checker.md) | Check ad copy and landing pages for platform policy compliance |
+
+#### Content (7 new)
+
+| Skill | Description |
+|---|---|
+| [content-brief-writer](skills/content/content-brief-writer.md) | Write comprehensive content briefs for writers and agencies |
+| [content-pillar-strategy](skills/content/content-pillar-strategy.md) | Build content pillar architectures for topical authority |
+| [content-distribution-strategy](skills/content/content-distribution-strategy.md) | Plan multi-channel content distribution for maximum reach |
+| [content-performance-scorecard](skills/content/content-performance-scorecard.md) | Score and rank content pieces by performance metrics |
+| [content-localization-planner](skills/content/content-localization-planner.md) | Plan content localization for multi-market expansion |
+| [content-governance-framework](skills/content/content-governance-framework.md) | Build content governance policies, workflows, and quality standards |
+| [ugc-curation-strategy](skills/content/ugc-curation-strategy.md) | Curate and leverage user-generated content at scale |
+| [content-personalization-engine](skills/content/content-personalization-engine.md) | Design content personalization strategies by segment and journey stage |
+
+#### AI Marketing (7 new)
+
+| Skill | Description |
+|---|---|
+| [ai-content-generator](skills/ai-marketing/ai-content-generator.md) | Generate marketing content with AI prompt engineering best practices |
+| [chatbot-conversation-designer](skills/ai-marketing/chatbot-conversation-designer.md) | Design chatbot conversation flows for marketing and support |
+| [predictive-lead-scoring](skills/ai-marketing/predictive-lead-scoring.md) | Build predictive lead scoring models from behavioral data |
+| [sentiment-analysis-monitor](skills/ai-marketing/sentiment-analysis-monitor.md) | Monitor and analyze brand sentiment across channels |
+| [personalization-recommendation-engine](skills/ai-marketing/personalization-recommendation-engine.md) | Design product and content recommendation engines |
+| [customer-segmentation-engine](skills/ai-marketing/customer-segmentation-engine.md) | Build data-driven customer segmentation models |
+| [marketing-attribution-modeler](skills/ai-marketing/marketing-attribution-modeler.md) | Build multi-touch attribution models with AI/ML approaches |
+
+#### Growth (8 new)
+
+| Skill | Description |
+|---|---|
+| [growth-experiment-designer](skills/growth/growth-experiment-designer.md) | Design growth experiments with hypotheses, metrics, and analysis plans |
+| [channel-mix-optimizer](skills/growth/channel-mix-optimizer.md) | Optimize marketing channel mix based on performance data |
+| [onboarding-flow-optimizer](skills/growth/onboarding-flow-optimizer.md) | Optimize user onboarding flows for activation and retention |
+| [viral-loop-designer](skills/growth/viral-loop-designer.md) | Design viral and referral loop mechanics for product growth |
+| [retention-analysis-framework](skills/growth/retention-analysis-framework.md) | Analyze and improve user retention with cohort and behavioral data |
+| [pricing-page-optimizer](skills/growth/pricing-page-optimizer.md) | Optimize pricing pages for conversion and revenue |
+| [referral-program-designer](skills/growth/referral-program-designer.md) | Design referral programs with incentive structures and tracking |
+| [gtm-launch-planner](skills/growth/gtm-launch-planner.md) | Plan go-to-market launches with timeline, channels, and messaging |
+
+#### CRO (7 new)
+
+| Skill | Description |
+|---|---|
+| [form-optimization-toolkit](skills/cro/form-optimization-toolkit.md) | Optimize web forms for completion rate and lead quality |
+| [checkout-funnel-optimizer](skills/cro/checkout-funnel-optimizer.md) | Diagnose and fix e-commerce checkout abandonment |
+| [cta-optimization-framework](skills/cro/cta-optimization-framework.md) | Optimize CTAs for click-through rate and conversion |
+| [pricing-page-optimizer](skills/cro/pricing-page-optimizer.md) | Optimize pricing page layout, tiers, and conversion elements |
+| [heatmap-analysis-toolkit](skills/cro/heatmap-analysis-toolkit.md) | Interpret heatmap and scroll map data for UX improvements |
+| [social-proof-optimizer](skills/cro/social-proof-optimizer.md) | Optimize social proof elements (testimonials, reviews, badges) |
+| [mobile-conversion-optimizer](skills/cro/mobile-conversion-optimizer.md) | Optimize mobile web experiences for conversion |
+
+#### Insights (6 new)
+
+| Skill | Description |
+|---|---|
+| [competitor-messaging-tracker](skills/insights/competitor-messaging-tracker.md) | Track and analyze competitor messaging changes over time |
+| [customer-journey-mapper](skills/insights/customer-journey-mapper.md) | Map customer journeys with touchpoints, emotions, and opportunities |
+| [market-trend-scanner](skills/insights/market-trend-scanner.md) | Scan and analyze emerging market trends for strategic planning |
+| [audience-persona-builder](skills/insights/audience-persona-builder.md) | Build data-driven audience personas from analytics and research |
+| [survey-design-analyzer](skills/insights/survey-design-analyzer.md) | Design surveys and analyze response data for insights |
+| [pricing-research-framework](skills/insights/pricing-research-framework.md) | Conduct pricing research with conjoint analysis and willingness-to-pay |
+
+#### CRM (6 new)
+
+| Skill | Description |
+|---|---|
+| [lifecycle-stage-designer](skills/crm/lifecycle-stage-designer.md) | Design customer lifecycle stages with transition criteria |
+| [segmentation-rule-builder](skills/crm/segmentation-rule-builder.md) | Build CRM segmentation rules for targeted marketing |
+| [automation-workflow-designer](skills/crm/automation-workflow-designer.md) | Design CRM automation workflows with triggers and branching |
+| [churn-prediction-framework](skills/crm/churn-prediction-framework.md) | Build churn prediction frameworks from CRM behavioral data |
+| [customer-onboarding-optimizer](skills/crm/customer-onboarding-optimizer.md) | Optimize customer onboarding sequences for activation |
+| [reporting-dashboard-designer](skills/crm/reporting-dashboard-designer.md) | Design CRM reporting dashboards with KPIs and drill-downs |
+
+#### Video & Podcast (5 new)
+
+| Skill | Description |
+|---|---|
+| [podcast-guest-research-brief](skills/video-podcast/podcast-guest-research-brief.md) | Research and prepare briefs for podcast guest interviews |
+| [video-repurposing-engine](skills/video-podcast/video-repurposing-engine.md) | Repurpose long-form video/podcast content into multi-platform assets |
+| [webinar-promotion-playbook](skills/video-podcast/webinar-promotion-playbook.md) | Plan and execute webinar promotion campaigns for max registration |
+| [live-stream-engagement-toolkit](skills/video-podcast/live-stream-engagement-toolkit.md) | Plan and optimize live stream events for audience engagement |
+| [video-analytics-interpreter](skills/video-podcast/video-analytics-interpreter.md) | Interpret video and podcast analytics for content optimization |
+
+#### Analytics (5 new)
+
+| Skill | Description |
+|---|---|
+| [cohort-analysis-builder](skills/analytics/cohort-analysis-builder.md) | Build cohort analyses for retention, revenue, and LTV tracking |
+| [marketing-mix-modeler](skills/analytics/marketing-mix-modeler.md) | Model marketing channel contributions and optimize budget allocation |
+| [funnel-drop-off-analyzer](skills/analytics/funnel-drop-off-analyzer.md) | Diagnose conversion funnel drop-offs with root cause analysis |
+| [ab-test-result-analyzer](skills/analytics/ab-test-result-analyzer.md) | Analyze A/B test results with statistical significance assessment |
+| [campaign-performance-benchmarker](skills/analytics/campaign-performance-benchmarker.md) | Benchmark campaign performance against industry standards |
+
+#### PR & Events (4 new)
+
+| Skill | Description |
+|---|---|
+| [media-pitch-builder](skills/pr-events/media-pitch-builder.md) | Craft personalized media pitches with newsworthiness scoring |
+| [crisis-comms-playbook](skills/pr-events/crisis-comms-playbook.md) | Build crisis communications plans with response frameworks |
+| [event-roi-calculator](skills/pr-events/event-roi-calculator.md) | Calculate and optimize event ROI across all cost and revenue factors |
+| [speaker-proposal-writer](skills/pr-events/speaker-proposal-writer.md) | Write compelling conference CFP submissions and speaking proposals |
+
+#### B2B & ABM (1 new)
+
+| Skill | Description |
+|---|---|
+| [partner-co-marketing-planner](skills/b2b/partner-co-marketing-planner.md) | Plan co-marketing campaigns with partners for shared lead generation |
 
 ### Quality Revision v1
 
