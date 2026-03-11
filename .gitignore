@@ -18,6 +18,10 @@ venv/
 # Office lock files
 .~lock.*
 
+# Secrets / environment
+.env
+.env.*
+
 # Internal planning docs (not for public repo)
 *-plan.md
 

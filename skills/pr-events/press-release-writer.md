@@ -31,7 +31,7 @@ description: "Write professional press releases in AP style format. Need a press
 | `primary_quote` | text | Founder/CEO quote | "This funding validates our mission to make sustainability accessible to millions..." |
 | `quote_attribution` | text | Who said it | "Jane Smith, Co-founder & CEO, EcoBlend" |
 | `boilerplate` | text | Company description | "EcoBlend is a sustainable beverage company..." |
-| `media_contact` | text | PR contact name & email | "John Doe, PR Manager, john@ecoblend.com, (555) 123-4567" |
+| `media_contact` | text | PR contact name & email | "John Doe, PR Manager, john@example.com, (555) 123-4567" |
 | `embargo_date` | date (optional) | Release embargo time | "2026-04-15 9:00 AM ET" |
 
 **Optional Fields:**
@@ -73,9 +73,9 @@ Key Facts:
 
 Primary Quote: "This funding validates our belief that consumers will choose sustainability when given access. We're not just building a beverage company—we're building a movement toward regenerative business." — Jane Smith, Co-founder & CEO, EcoBlend
 
-Boilerplate: EcoBlend is a venture-backed sustainable beverage company founded in 2021. We craft plant-based drinks from ethically sourced ingredients and package everything in 95% recycled materials. Today, EcoBlend is available in 5 states, with plans to reach 50M consumers by 2028. Learn more at ecoblend.com.
+Boilerplate: EcoBlend is a venture-backed sustainable beverage company founded in 2021. We craft plant-based drinks from ethically sourced ingredients and package everything in 95% recycled materials. Today, EcoBlend is available in 5 states, with plans to reach 50M consumers by 2028. Learn more at example.com.
 
-Media Contact: John Doe, PR Manager, john@ecoblend.com, (555) 123-4567, mobile: (555) 987-6543
+Media Contact: John Doe, PR Manager, john@example.com, (555) 123-4567, mobile: (555) 987-6543
 
 Embargo: 2026-04-15 9:00 AM ET
 
@@ -242,7 +242,7 @@ Available for interview/comment: [Name, Title, Contact Info]
 | Titles | Capitalize formal titles before names (CEO Jane Smith); lowercase after name (Jane Smith, chief executive officer) |
 | Dates | Month Day, Year format (April 15, 2026); not April 15th |
 | Companies | Use official legal name first mention, then acceptable short name; capitalize all formal names |
-| URLs | Remove "https://www." — use "ecoblend.com" not "https://www.ecoblend.com" |
+| URLs | Remove "https://www." — use "example.com" not "https://www.example.com" |
 | Quotes | Use double quotes for direct quotes; single for quotes within quotes. Attribution after quote: "Quote," said Person. |
 | Punctuation | No serial comma (Oxford comma avoided in AP); em dashes for clarity; semicolons sparingly |
 | Hyphens | Use for compound adjectives before noun: "revenue-generating product" but "product generates revenue" |
@@ -440,7 +440,7 @@ The funding will be allocated toward: 30% supply chain scaling, 25% marketing an
 
 "This partnership validates our product-market fit and gives us access to [number] shoppers," Smith added. "We'll move from a regional brand to a national household name in under 12 months."
 
-EcoBlend will host a live Q&A with investors and the media on April 22, 2026, at 2 p.m. PT. Registration available at ecoblend.com/press.
+EcoBlend will host a live Q&A with investors and the media on April 22, 2026, at 2 p.m. PT. Registration available at example.com/press.
 
 ### About EcoBlend
 
@@ -451,7 +451,7 @@ EcoBlend is a venture-backed sustainable beverage company founded in 2021 by [Fo
 John Doe
 VP of Communications
 EcoBlend Inc.
-john@ecoblend.com
+john@example.com
 (555) 123-4567
 Mobile: (555) 987-6543
 
