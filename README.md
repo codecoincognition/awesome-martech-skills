@@ -469,6 +469,10 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines 
 
 The granularity rule: **"One skill, one decision."** Each skill should help you make one specific marketing decision in a single Claude session.
 
+## Disclaimer
+
+These skills are provided as-is for informational and educational purposes. Results will vary based on your data quality, industry, and business context. Benchmark statistics are sourced from named, published reports (verified as of 2025) but may not reflect your specific market segment — always consult the original source for current figures. Nothing in this repository constitutes professional marketing, financial, or legal advice. Case studies and example outputs are fictional and illustrative.
+
 ## License
 
 MIT — Use these skills however you want. Attribution appreciated but not required.
