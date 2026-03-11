@@ -76,6 +76,7 @@ Prefer to browse instead of asking? We've got you covered:
 | Guide | Best For | How It Works |
 |---|---|---|
 | **[Skill Router](skills/router/SKILL.md)** | Everyone | Describe your problem → get matched to skills |
+| **[Workflow Chains](WORKFLOWS.md)** | "How do I combine skills?" | 4 pre-built chains + build-your-own guide |
 | **[Starter Packs](STARTER-PACKS.md)** | Industry-specific needs | Curated bundles for SaaS, E-commerce, Agency, Enterprise, Media, Non-Profit |
 | **[Maturity Model](MATURITY-MODEL.md)** | "Where do I start?" | 5-level progression from 10 essentials → all 156 |
 | **[Skill Picker](SKILL-PICKER.md)** | Power users | Channel × stage matrix for precise lookup |
@@ -156,16 +157,18 @@ Don't take our word for it — see complete walkthroughs of marketers using thes
 
 ## Workflow Chains
 
-Skills are designed to chain together — the output of one becomes the input for the next. Pre-built workflows connect skills into complete marketing processes:
+**The power isn't in any single skill. It's in the chain.** Skills are designed to chain together — the output of one becomes the input for the next.
 
-| Workflow | Skills Chained | What It Builds |
+| Workflow | Skills | What It Builds |
 |---|---|---|
 | [SEO Content Flywheel](workflows/seo-content-flywheel.md) | 5 | keyword research → brief → outline → write → optimize |
 | [Content Engine](workflows/content-engine.md) | 6 | keywords → gaps → brief → outline → expand → SEO audit |
 | [Paid Acquisition](workflows/paid-acquisition.md) | 5 | personas → campaign → ad copy → landing page → A/B test |
 | [Brand Positioning](workflows/brand-positioning.md) | 4 | VoC research → whitespace → narrative → campaign angles |
 
-Every skill also includes a **Related Skills** section suggesting 2-4 natural next steps, so you always know what to chain next.
+Every skill includes a **Related Skills** section suggesting 2-4 natural next steps, so you always know what to chain next. Plus a quick-reference cheat sheet for 10 common chains across email, analytics, video, CRO, and more.
+
+**[Read the full Chaining Guide →](WORKFLOWS.md)** — includes a "Build Your Own Chain" tutorial and a real example from our case studies.
 
 ---
 

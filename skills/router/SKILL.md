@@ -288,7 +288,19 @@ No API keys required. No setup. Just CSV in, results out.
 | "Audit my landing page copy" | landing-page-optimizer | Scored audit with conversion recommendations |
 | "Plan my Q3 content calendar" | editorial-calendar-builder | 3-month editorial calendar with topics |
 
-### What Would you like help with?
+### Chaining Skills Together
+
+Skills are designed to chain — the output of one feeds into the next. We have 4 pre-built workflow chains:
+- SEO Content Flywheel (5 skills) — keywords → brief → outline → optimize
+- Content Engine (6 skills) — keywords → gaps → draft → SEO audit
+- Paid Acquisition (5 skills) — personas → campaign → ad copy → landing page → test
+- Brand Positioning (4 skills) — VoC → whitespace → brief → campaign angles
+
+Every skill also has a "Related Skills" section suggesting natural next steps.
+
+See the full chaining guide: WORKFLOWS.md
+
+### What would you like help with?
 ```
 
 ## Important Behavior Rules
