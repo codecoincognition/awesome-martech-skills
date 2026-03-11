@@ -39,7 +39,7 @@ You don't need to browse 156 skills. Just **describe your problem** and the [Mar
 
 **New here? Just say "help"** and the router will walk you through everything — what skills are available, how they work, and how to get started based on your situation.
 
-> *"I built my entire Q2 content strategy in 90 minutes using 5 skills chained together. That used to take my team two weeks."* — [Read the full case study →](SHOWCASE.md#case-study-1-from-zero-to-content-pipeline-in-one-afternoon)
+> **Example scenario:** A fictional SaaS founder chains 5 skills to build an entire Q2 content strategy in 90 minutes — from persona research to a 30-day social calendar. [Read the case study →](SHOWCASE.md#case-study-1-from-zero-to-content-pipeline-in-one-afternoon)
 
 ---
 

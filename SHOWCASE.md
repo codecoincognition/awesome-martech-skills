@@ -1,6 +1,8 @@
-# Marketing Skills Showcase: Real-World Case Studies
+# Marketing Skills Showcase: Case Studies
 
-These are illustrative examples showing how the skills in this repository chain together to solve complete marketing challenges. Each case study walks through a real-world scenario, showing actual CSV data, Claude prompts, and sample outputs.
+> **Disclaimer:** All case studies below are fictional. Names, companies, data, and results are entirely made up to illustrate how skills chain together. These are not testimonials, endorsements, or real customer stories.
+
+These are illustrative examples showing how the skills in this repository chain together to solve complete marketing challenges. Each case study walks through a fictional scenario with sample CSV data, Claude prompts, and example outputs.
 
 **Use these as inspiration for your own workflows.** Every marketer's situation is different, but the patterns here — identify opportunities, plan strategically, execute systematically — apply across industries.
 
