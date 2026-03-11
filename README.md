@@ -51,25 +51,28 @@ git clone https://github.com/CodeCoinCognitionLLC/awesome-martech-skills.git
 claude install skill path/to/skill.md
 ```
 
-**Not sure which skill to start with?** Use the [Skill Picker](SKILL-PICKER.md) — answer 3 questions, get the right skill in under 30 seconds:
+**Not sure which skill to start with?** Just describe your problem — the [MarTech Skill Router](skills/router/SKILL.md) will recommend the right skills and the order to use them:
 
 ```
- Question 1                Question 2                 Result
- ──────────               ──────────                 ──────
- What channel?     →      What stage?         →      Your skill(s)
+ You say:                                     You get:
+ ────────                                     ────────
+ "My email open rates                         Step 1: email-subject-line-tester
+  dropped 20% this quarter"          →        Step 2: email-deliverability-auditor
+                                              Step 3: email-list-segmentation
+                                              + what data to export, time estimate
 
- · SEO                    · Planning & Strategy       "Use keyword-cluster-analyzer
- · Email                  · Building & Creating        to group 500 keywords into
- · Ads                    · Optimizing & Testing       intent-based topic clusters"
- · Social                 · Measuring & Reporting
- · Content                · Troubleshooting
- · CRO
- · ... (15 channels)
+ "I need to launch a product                  Step 1: customer-persona-builder
+  in 6 weeks"                        →        Step 2: gtm-launch-planner
+                                              Step 3: campaign-brief-synthesizer
+                                              Step 4: content-distribution-strategy
+
+ "My boss wants a dashboard                   Step 1: dashboard-requirement-gatherer
+  by Friday"                         →        Step 2: marketing-dashboard-builder
 ```
 
-For example: you pick **Email** → **Optimizing & Testing** → and the Skill Picker routes you to [email-ab-testing-framework](skills/email/email-ab-testing-framework.md) and [email-deliverability-auditor](skills/email/email-deliverability-auditor.md). No scrolling through 156 skills.
+The router matches your *outcome* to skills — no need to know which category or channel to look in. Just say "help" to get started.
 
-[Open the Skill Picker →](SKILL-PICKER.md)
+You can also browse skills manually: [Skill Picker](SKILL-PICKER.md) (channel × stage matrix) · [Industry Starter Packs](STARTER-PACKS.md) · [Maturity Model](MATURITY-MODEL.md)
 
 ---
 
