@@ -393,7 +393,7 @@ james@greenleaforganics.com
 **Distribution Recommendations:**
 
 **Tier 1 (Day 1 — Release):**
-- TechCrunch (Sarah Johnson) — Funding angle
+- TechCrunch ([Contact Name]) — Funding angle
 - Forbes (sustainability + startup beat) — Leadership, consumer trend
 - Fast Company (climate tech editor) — Sustainability innovation
 - Sustainable Food News (editor) — Agricultural partnerships
