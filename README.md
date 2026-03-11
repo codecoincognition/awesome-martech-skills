@@ -2,24 +2,42 @@
   <h1 align="center">awesome-martech-skills</h1>
   <p align="center"><strong>Turn Claude into your marketing team's secret weapon.</strong></p>
   <p align="center">156 ready-to-use skills that transform raw marketing data into strategies, audits, campaigns, and copy — in minutes, not days.</p>
-  <p align="center">
-    <a href="SKILL-PICKER.md">Find Your Skill →</a> · <a href="STARTER-PACKS.md">Industry Starter Packs →</a> · <a href="SHOWCASE.md">See It In Action →</a>
-  </p>
+  <p align="center">No API keys. No vendor lock-in. No setup. Just CSV in, results out.</p>
 </p>
 
 ---
 
-## The Problem
+## 🎯 Just Tell Claude What You Need
 
-You're sitting on a goldmine of marketing data — Google Analytics exports, email campaign reports, CRM dumps, ad platform CSVs — but turning that data into *decisions* takes hours of spreadsheet wrestling, agency fees, or expensive tools you'll use twice.
+You don't need to browse 156 skills. Just **describe your problem** and the [MarTech Skill Router](skills/router/SKILL.md) recommends the right skills, in the right order, with the data you'll need to prepare.
 
-Meanwhile, your competitors ship campaigns faster, test more, and optimize relentlessly.
+```
+ You say:                                     Claude recommends:
+ ────────                                     ──────────────────
 
-## The Solution
+ "My email open rates                    →    Step 1: email-subject-line-tester
+  dropped 20% this quarter"                   Step 2: email-deliverability-auditor
+                                              Step 3: email-list-segmentation
+                                              + what data to export, time estimate
 
-**awesome-martech-skills** is a free, open-source collection of 156 Claude AI skills that do the heavy lifting for you. Each skill is a battle-tested prompt template that takes your CSV data and produces actionable marketing output — keyword strategies, email sequences, ROI calculations, competitor analyses, content calendars, and more.
+ "I need to launch a product             →    Step 1: customer-persona-builder
+  in 6 weeks"                                 Step 2: gtm-launch-planner
+                                              Step 3: campaign-brief-synthesizer
+                                              Step 4: content-distribution-strategy
 
-**No API keys. No vendor lock-in. No setup.** Just export a CSV from any tool you already use, paste it into Claude, and get results you'd normally pay an agency $5K+ to deliver.
+ "My boss wants a marketing              →    Step 1: dashboard-requirement-gatherer
+  dashboard by Friday"                        Step 2: marketing-dashboard-builder
+
+ "We're losing customers and             →    Step 1: churn-prediction-framework
+  I don't know why"                           Step 2: retention-analysis-framework
+                                              Step 3: customer-journey-mapper
+
+ "I have 500 keywords and                →    Step 1: keyword-cluster-analyzer
+  don't know what to do with them"            Step 2: content-gap-analyzer
+                                              Step 3: content-brief-generator
+```
+
+**New here? Just say "help"** and the router will walk you through everything — what skills are available, how they work, and how to get started based on your situation.
 
 > *"I built my entire Q2 content strategy in 90 minutes using 5 skills chained together. That used to take my team two weeks."* — [Read the full case study →](SHOWCASE.md#case-study-1-from-zero-to-content-pipeline-in-one-afternoon)
 
@@ -39,7 +57,7 @@ Meanwhile, your competitors ship campaigns faster, test more, and optimize relen
 2. **Tell Claude what you need** in plain language — each skill has 10+ trigger phrases so Claude knows what to do
 3. **Get production-ready output** — scored analyses, prioritized recommendations, ready-to-implement strategies
 
-Every skill includes honest time estimates, confidence levels, industry benchmarks with sources, and clear "what this can't do" disclaimers. No black boxes.
+Every skill includes honest time estimates, confidence levels, industry benchmarks with sources, and clear "what this can't do" disclaimers. No black boxes. [Read our design philosophy →](METHODOLOGY.md)
 
 ## Quick Start
 
@@ -51,28 +69,17 @@ git clone https://github.com/CodeCoinCognitionLLC/awesome-martech-skills.git
 claude install skill path/to/skill.md
 ```
 
-**Not sure which skill to start with?** Just describe your problem — the [MarTech Skill Router](skills/router/SKILL.md) will recommend the right skills and the order to use them:
+### Other Ways to Find Skills
 
-```
- You say:                                     You get:
- ────────                                     ────────
- "My email open rates                         Step 1: email-subject-line-tester
-  dropped 20% this quarter"          →        Step 2: email-deliverability-auditor
-                                              Step 3: email-list-segmentation
-                                              + what data to export, time estimate
+Prefer to browse instead of asking? We've got you covered:
 
- "I need to launch a product                  Step 1: customer-persona-builder
-  in 6 weeks"                        →        Step 2: gtm-launch-planner
-                                              Step 3: campaign-brief-synthesizer
-                                              Step 4: content-distribution-strategy
-
- "My boss wants a dashboard                   Step 1: dashboard-requirement-gatherer
-  by Friday"                         →        Step 2: marketing-dashboard-builder
-```
-
-The router matches your *outcome* to skills — no need to know which category or channel to look in. Just say "help" to get started.
-
-You can also browse skills manually: [Skill Picker](SKILL-PICKER.md) (channel × stage matrix) · [Industry Starter Packs](STARTER-PACKS.md) · [Maturity Model](MATURITY-MODEL.md)
+| Guide | Best For | How It Works |
+|---|---|---|
+| **[Skill Router](skills/router/SKILL.md)** | Everyone | Describe your problem → get matched to skills |
+| **[Starter Packs](STARTER-PACKS.md)** | Industry-specific needs | Curated bundles for SaaS, E-commerce, Agency, Enterprise, Media, Non-Profit |
+| **[Maturity Model](MATURITY-MODEL.md)** | "Where do I start?" | 5-level progression from 10 essentials → all 156 |
+| **[Skill Picker](SKILL-PICKER.md)** | Power users | Channel × stage matrix for precise lookup |
+| **[Showcase](SHOWCASE.md)** | "Show me it works" | 3 case studies with real data and outputs |
 
 ---
 
