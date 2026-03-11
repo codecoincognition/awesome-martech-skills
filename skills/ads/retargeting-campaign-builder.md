@@ -107,7 +107,7 @@ Design creative per segment and time window:
 ### ⚠️ Human Checkpoint
 > Review audience exclusions to avoid annoying converted customers. Verify frequency caps are set to prevent ad fatigue. Check creative for compliance with platform policies and privacy regulations (GDPR/CCPA consent requirements for retargeting).
 
-> **Benchmark Context**: Retargeting CTR is 10x higher than prospecting display ads (WordStream 2024 Industry Benchmarks) Cart abandonment retargeting recovers 10-15% of abandoned carts. . Retargeting converts 70% of visitors who would otherwise leave forever. . Optimal retargeting window is 7-14 days for e-commerce, 14-30 days for B2B. . Ad fatigue sets in after 5-7 impressions per user without creative rotation (WordStream 2024 Industry Benchmarks) (WordStream 2024 Industry Benchmarks).
+> **Benchmark Context**: See WordStream 2024 Industry Benchmarks for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Retargeting Blueprint

@@ -96,7 +96,7 @@ Prioritized action list:
 ### ⚠️ Human Checkpoint
 > Review pause/scale recommendations against business context — some campaigns serve strategic goals (brand, new market entry) that CPA alone doesn't capture. Verify attribution model consistency across platforms before comparing cross-channel performance.
 
-> **Benchmark Context**: Average Google Search ads CTR is 3-5%, Display is 0 (WordStream 2024 Industry Benchmarks). 5-1% (WordStream 2024 Industry Benchmarks) Average Meta ads CTR is 1-2% (Meta 2024 Advertising Benchmarks) Top 10% of ads outperform median by 3-5x. . Creative refreshes typically needed every 2-4 weeks. . A 20% CPA variance week-over-week is normal; investigate sustained 4+ week trends. . (Meta 2024 Advertising Benchmarks).
+> **Benchmark Context**: See WordStream 2024 Industry Benchmarks, and Meta 2024 Advertising Benchmarks for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Analysis Report

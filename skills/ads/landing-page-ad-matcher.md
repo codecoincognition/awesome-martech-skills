@@ -140,7 +140,7 @@ CTA: Start Free Trial
 6. **Generate output** — Audit report with rewrites.
 
 
-> **Benchmark Context**: Average Google Ads CTR across industries is 3.17% (search) and 0.46% (display) (WordStream 2024 Industry Benchmarks). B2B averages 2.41% search CTR (LinkedIn 2024 B2B Marketing Benchmark). Top-performing responsive search ads have 8+ unique headlines.. Meta Ads average CTR is 0.90% across industries, with 1.5%+ considered strong (Meta 2024 Advertising Benchmarks). (Google Ads 2024 Performance Benchmarks)
+> **Benchmark Context**: See WordStream 2024 Industry Benchmarks, LinkedIn 2024 B2B Marketing Benchmark, Meta 2024 Advertising Benchmarks, and Google Ads 2024 Performance Benchmarks for current industry benchmarks relevant to this analysis.
 
 
 ### Confidence & Sample Size.

@@ -118,7 +118,7 @@ Document all synthesis decisions:
 > Share the synthesized brief with all contributing stakeholders before execution. Unresolved conflicts should be flagged for a decision meeting, not silently resolved.
 
 
-> **Benchmark Context**: Blog posts averaging 1,500-2,500 words tend to rank highest in search (Content Marketing Institute 2024 B2B Research). Content marketing generates 3x more leads than outbound at 62% less cost (Semrush 2024 State of Content Marketing). Average time to write a 1,500-word blog post is 4-6 hours (research + writing + editing. (Semrush 2024 State of Content Marketing).
+> **Benchmark Context**: See Content Marketing Institute 2024 B2B Research, Semrush 2024 State of Content Marketing, and research + writing + editing. (Semrush 2024 State of Content Marketing for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Campaign Brief

@@ -120,7 +120,7 @@ Per segment:
 ### ⚠️ Human Checkpoint
 > Validate segment definitions with sales and customer success teams. Verify segment sizes are large enough for statistically significant campaigns. Review targeting strategies for fairness and compliance.
 
-> **Benchmark Context**: Segmented email campaigns generate 760% more revenue than non-segmented (Salesforce 2024 State of Marketing) Top 20% of customers typically generate 60-80% of revenue. . Companies using behavioral segmentation see 20% higher conversion rates (McKinsey 2024 State of AI Report). . 77% of marketing ROI comes from segmented, targeted campaigns (Salesforce 2024 State of Marketing) Customer retention increases by 25-95% when companies focus on their most valuable segments. . (Salesforce 2024 State of Marketing).
+> **Benchmark Context**: See Salesforce 2024 State of Marketing, and McKinsey 2024 State of AI Report for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Segmentation Model

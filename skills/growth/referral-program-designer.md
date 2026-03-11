@@ -106,7 +106,7 @@ Map the complete referral journey:
 ### ⚠️ Human Checkpoint
 > Review incentive structure with finance team (cost modeling). Verify terms and conditions with legal (anti-spam compliance, tax implications of rewards). Test the complete referral flow as a user before launching. Ensure fraud prevention measures don't create false positives.
 
-> **Benchmark Context**: Referred customers have 25% higher LTV than non-referred (ProfitWell 2024 SaaS Benchmarks) Referral programs reduce CAC by 30-50% vs (OpenView 2024 Product Benchmarks) paid channels. . Average referral program participation rate is 5-15% of active users (ProfitWell 2024 SaaS Benchmarks) Two-sided incentives generate 2-3x more referrals (ProfitWell 2024 SaaS Benchmarks) Dropbox's referral program drove 60% of signups (ProfitWell 2024 SaaS Benchmarks) 92% of consumers trust referrals from people they know (ProfitWell 2024 SaaS Benchmarks) (OpenView 2024 Product Benchmarks).
+> **Benchmark Context**: See ProfitWell 2024 SaaS Benchmarks, and OpenView 2024 Product Benchmarks for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Referral Program Design

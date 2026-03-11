@@ -118,7 +118,7 @@ Optimizes pricing page design, layout, psychological triggers, and plan presenta
 ### ⚠️ Human Checkpoint
 > Verify pricing accuracy before publishing any changes. Review with sales team for enterprise pricing messaging. Test all CTAs lead to correct signup flows. Ensure mobile experience is fully tested.
 
-> **Benchmark Context**: Best-in-class SaaS pricing pages convert at 3-5% of visitors. 80% of SaaS companies use 3 pricing tiers. Showing annual pricing default increases ARPU by 15-25%. "Most Popular" badges increase selection of that plan by 20-30%. Adding a money-back guarantee increases conversion by 15-20% (Unbounce 2024 Conversion Benchmark Report). Pricing pages with customer testimonials convert 34% higher (VWO 2024 A/B Testing Report).
+> **Benchmark Context**: See Unbounce 2024 Conversion Benchmark Report, and VWO 2024 A/B Testing Report for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Pricing Page Optimization

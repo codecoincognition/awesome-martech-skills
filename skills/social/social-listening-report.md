@@ -93,7 +93,7 @@ Analyzes social media mention data to surface sentiment trends, conversation the
 ### ⚠️ Human Checkpoint
 > Review sentiment classifications for accuracy — automated sentiment analysis is ~70-80% accurate. Context, sarcasm, and industry jargon can be misclassified.
 
-> **Benchmark Context**: Average brand mention sentiment splits roughly 60% neutral, 25% positive, 15% negative. Response rate to social mentions averages 25% across brands (Hootsuite 2024 Social Trends Report). Responding within 1 hour increases positive sentiment by 20%.
+> **Benchmark Context**: See Hootsuite 2024 Social Trends Report for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Report

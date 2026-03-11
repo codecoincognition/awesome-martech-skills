@@ -114,7 +114,7 @@ Designs AI-powered content generation workflows with prompt engineering, quality
 ### ⚠️ Human Checkpoint
 > Every piece of AI-generated content must be reviewed by a human before publication. Verify all facts, statistics, and claims. Check for hallucinations, especially in technical or industry-specific content. Review for brand voice consistency.
 
-> **Benchmark Context**: 73% of marketers use AI for content creation (Salesforce 2024 State of Marketing). AI-assisted content production is 3-5x faster than fully manual (Salesforce 2024 State of Marketing). Teams using AI with human editing report 40% more content output with same headcount (Salesforce 2024 State of Marketing). 85% of consumers can't distinguish well-edited AI content from human-written (Salesforce 2024 State of Marketing). Companies with AI content governance policies report 60% fewer quality incidents (Salesforce 2024 State of Marketing). (Salesforce 2024 State of Marketing).
+> **Benchmark Context**: See Salesforce 2024 State of Marketing for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown AI Content Workflow

@@ -112,7 +112,7 @@ Designs and implements marketing attribution models to accurately measure channe
 ### ⚠️ Human Checkpoint
 > Review model assumptions with stakeholders before implementation. Validate attribution data against finance-reported revenue. Run incrementality tests before making major budget shifts based on attribution alone.
 
-> **Benchmark Context**: Companies using multi-touch attribution allocate budgets 15-25% more efficiently. 76% of marketers say attribution is important but only 36% are confident in their model. Data-driven attribution in GA4 redistributes 10-30% of credit compared to last-touch. Marketing mix modeling captures 20-30% more marketing impact than digital attribution alone. Average B2B buyer has 27 touchpoints before conversion.
+> **Benchmark Context**: Consult current industry reports for up-to-date benchmarks relevant to this analysis.
 
 ## Output Contract
 

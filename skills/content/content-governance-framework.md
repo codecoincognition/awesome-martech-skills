@@ -111,7 +111,7 @@ Builds comprehensive content governance policies covering editorial standards, a
 ### ⚠️ Human Checkpoint
 > Have all stakeholders (content, legal, leadership) review and sign off on governance policies before implementation. Pilot the workflow with 5-10 content pieces before full rollout. Collect team feedback after 30 days and adjust.
 
-> **Benchmark Context**: Companies with documented content governance produce 3x more consistent brand messaging. Editorial workflows reduce revision cycles by 40% (Content Marketing Institute 2024 B2B Research). Content with proper taxonomies gets 2x more internal reuse. 65% of marketers say lack of process is their biggest content challenge. Governance frameworks reduce content-related compliance incidents by 70%.
+> **Benchmark Context**: See Content Marketing Institute 2024 B2B Research for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Governance Framework

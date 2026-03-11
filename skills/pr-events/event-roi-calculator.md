@@ -135,7 +135,7 @@ Calculates and optimizes ROI for marketing events by tracking costs, attributing
 ### ⚠️ Human Checkpoint
 > Validate event attribution with sales team — CRM data alone may miss event influence on existing deals. Ensure costs include ALL categories (staff time is commonly 30-40% of true event cost and often excluded). Compare event ROI to the same investment in other channels before making budget decisions.
 
-> **Benchmark Context**: B2B events generate 24% of total marketing pipeline on average (Bizzabo 2024 Event Marketing Report). The average B2B event ROI is 3-5:1 (revenue to spend) when measured over 12 months (Bizzabo 2024 Event Marketing Report). 68% of event leads require 3+ follow-up touches to convert (Bizzabo 2024 Event Marketing Report). Companies that follow up within 24 hours of an event convert leads at 2-3x the rate of those who wait a week (Bizzabo 2024 Event Marketing Report). The cost of NOT attending a key industry event is hard to quantify but real — competitors meeting your prospects is a hidden cost. (Bizzabo 2024 Event Marketing Report).
+> **Benchmark Context**: See Bizzabo 2024 Event Marketing Report for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Event ROI Report

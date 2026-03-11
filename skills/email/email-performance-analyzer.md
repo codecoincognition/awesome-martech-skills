@@ -64,12 +64,12 @@ Analyzes email campaign performance with metric benchmarking, trend identificati
 ### Step 1: Metric Overview
 | Metric | Formula | Your Rate | Industry Avg | Status |
 |---|---|---|---|---|
-| Open Rate | Opens / Delivered | [%] | 21.3% | [above/below] |
-| Click Rate | Clicks / Delivered | [%] | 2.6% | [above/below] |
-| CTOR | Clicks / Opens | [%] | 12.2% | [above/below] |
-| Unsubscribe Rate | Unsubs / Delivered | [%] | 0.1% | [above/below] |
-| Bounce Rate | Bounces / Sent | [%] | 0.4% | [above/below] |
-| Conversion Rate | Conversions / Clicks | [%] | 15.2% | [above/below] |
+| Open Rate | Opens / Delivered | [%] | [see benchmarks] | [above/below] |
+| Click Rate | Clicks / Delivered | [%] | [see benchmarks] | [above/below] |
+| CTOR | Clicks / Opens | [%] | [see benchmarks] | [above/below] |
+| Unsubscribe Rate | Unsubs / Delivered | [%] | [see benchmarks] | [above/below] |
+| Bounce Rate | Bounces / Sent | [%] | [see benchmarks] | [above/below] |
+| Conversion Rate | Conversions / Clicks | [%] | [see benchmarks] | [above/below] |
 
 ### Step 2: Trend Analysis
 - Month-over-month metric trends (3-6 month view)
@@ -104,7 +104,7 @@ Prioritize by impact and effort:
 ### ⚠️ Human Checkpoint
 > Verify data accuracy before sharing reports with stakeholders. Context matters: algorithm changes, seasonal effects, and list growth affect metrics independently of campaign quality.
 
-> **Benchmark Context**: Average email ROI is $36-42 per dollar spent (Litmus 2024 State of Email). Top-performing email programs achieve 25%+ open rates and 4%+ click rates (Mailchimp 2024 Email Marketing Benchmarks). Automated emails outperform campaigns 3x on click rate (Mailchimp 2024 Email Marketing Benchmarks). Lists that grow organically outperform purchased lists by 5x on engagement. The optimal sending frequency is 1-3 emails per week for most B2C brands. (Mailchimp 2024 Email Marketing Benchmarks).
+> **Benchmark Context**: See Litmus 2024 State of Email, and Mailchimp 2024 Email Marketing Benchmarks for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Performance Analysis

@@ -103,7 +103,7 @@ Plans multi-channel content distribution across organic, paid, earned, and owned
 ### ⚠️ Human Checkpoint
 > Review distribution plan for brand safety (which communities/platforms align with your brand). Verify budget allocation against actual channel performance before committing spend.
 
-> **Benchmark Context**: Companies that distribute content across 3+ channels see 3.5x more engagement than single-channel. Email drives 33% of content traffic for B2B. LinkedIn organic reach has declined 50% since 2020 — personal profiles now outperform company pages. Paid social CTR averages 1.3% for content promotion. Content syndication generates 30% of B2B leads.
+> **Benchmark Context**: Consult current industry reports for up-to-date benchmarks relevant to this analysis.
 
 ## Output Contract
 

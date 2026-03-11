@@ -115,7 +115,7 @@ Match formats to goals and resources:
 ### ⚠️ Human Checkpoint
 > Review content for platform guidelines compliance (music licensing, claims, disclosures for sponsored content). Verify all product claims and disclaimers before posting.
 
-> **Benchmark Context**: Average TikTok engagement rate is 4-6% (highest of any social platform) (Sprout Social 2024 Index) Videos under 30 seconds have 2x the completion rate. . TikTok's algorithm can surface content from accounts with 0 followers. . 67% of TikTok users say the platform inspires them to shop (Buffer 2024 State of Social) Posting 3-5x/week correlates with 2x faster follower growth vs (Buffer 2024 State of Social) 1-2x/week. . (Sprout Social 2024 Index).
+> **Benchmark Context**: See Sprout Social 2024 Index, and Buffer 2024 State of Social for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Strategy Document

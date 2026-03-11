@@ -105,7 +105,7 @@ Per transactional email:
 ### ⚠️ Human Checkpoint
 > Verify all order and transaction data accuracy in email templates. Review cross-sell recommendations for appropriateness. Ensure transactional emails maintain their primary transactional purpose (legal classification). Test delivery speed — transactional emails should arrive within seconds.
 
-> **Benchmark Context**: Transactional emails have 80-85% open rates vs (Mailchimp 2024 Email Marketing Benchmarks). 20-25% for marketing emails. Cross-sell in order confirmations generates 20% of transactional email revenue. Shipping confirmation clicks are 2-3x higher than marketing emails. 64% of consumers consider order confirmation the most valuable email they receive. Post-delivery review requests get 4x the response rate of random timing. (Mailchimp 2024 Email Marketing Benchmarks).
+> **Benchmark Context**: See Mailchimp 2024 Email Marketing Benchmarks for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Transactional Email Plan

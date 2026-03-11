@@ -110,7 +110,7 @@ Structure each test as:
 ### ⚠️ Human Checkpoint
 > Review test results for statistical significance before implementing winners. Don't cherry-pick metrics — declare your primary metric before the test starts. Ensure test variants don't violate brand guidelines or compliance requirements.
 
-> **Benchmark Context**: Companies that A/B test every email achieve 37% higher ROI (Mailchimp 2024 Email Marketing Benchmarks). Subject line tests show the widest performance variance (up to 40% open rate difference. Personalized subject lines increase opens by 26% on average (HubSpot 2024 State of Marketing). Send time optimization typically yields 5-15% improvement (Campaign Monitor 2024 Email Benchmarks). The average A/B test needs 2,500 subscribers per variant for reliable results at 95% confidence (Mailchimp 2024 Email Marketing Benchmarks). (HubSpot 2024 State of Marketing).
+> **Benchmark Context**: See Mailchimp 2024 Email Marketing Benchmarks, HubSpot 2024 State of Marketing, and Campaign Monitor 2024 Email Benchmarks for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Testing Framework

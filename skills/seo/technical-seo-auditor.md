@@ -105,7 +105,7 @@ Performs a comprehensive technical SEO audit covering crawlability, indexing, si
 ### ⚠️ Human Checkpoint
 > Have a developer review all recommended changes before implementation. Robots.txt and canonical tag changes can accidentally deindex pages. Always test in staging before deploying site-wide changes.
 
-> **Benchmark Context**: 60% of websites have technical SEO issues affecting rankings (Semrush 2024 State of Search) Pages passing all Core Web Vitals are 24% less likely to be abandoned (Google 2024 Marketing Measurement Guide) Proper structured data increases CTR by 20-30% via rich results (Ahrefs 2024 Search Traffic Study) Sites with XML sitemaps get indexed 3x faster. . Pages beyond 3 clicks from homepage receive 76% less organic traffic (Ahrefs 2024 Search Traffic Study) (Ahrefs 2024 Search Traffic Study).
+> **Benchmark Context**: See Semrush 2024 State of Search, Google 2024 Marketing Measurement Guide, and Ahrefs 2024 Search Traffic Study for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Technical SEO Audit

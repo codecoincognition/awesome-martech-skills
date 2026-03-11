@@ -111,7 +111,7 @@ Designs email templates with optimal layout, visual hierarchy, mobile responsive
 ### ⚠️ Human Checkpoint
 > Test all templates across major email clients before deploying. Verify links work and tracking is configured. Review accessibility with a screen reader. Check dark mode rendering in Apple Mail, Gmail, and Outlook dark mode.
 
-> **Benchmark Context**: Emails with a clear visual hierarchy have 47% higher click rates (Mailchimp 2024 Email Marketing Benchmarks). Mobile-optimized emails generate 15% higher click rates (Mailchimp 2024 Email Marketing Benchmarks). Single-column layouts have 30% higher engagement on mobile. CTA buttons outperform text links by 28%. Emails that take >3 seconds to load lose 53% of mobile readers. Dark mode is used by 80%+ of mobile email readers. (Mailchimp 2024 Email Marketing Benchmarks).
+> **Benchmark Context**: See Mailchimp 2024 Email Marketing Benchmarks for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Template Specs

@@ -109,7 +109,7 @@ Build 4 negative keyword lists:
 ### ⚠️ Human Checkpoint
 > Review keyword lists for brand safety (avoid bidding on sensitive terms), trademark compliance (competitor brand bidding rules), and negative keyword over-blocking (don't accidentally exclude good traffic).
 
-> **Benchmark Context**: Average Google Search CPC across industries is $1-3. Top 3 ad positions capture 75% of search ad clicks. Quality Score 7+ reduces CPC by 30-50% vs. QS 5. Long-tail keywords (4+ words) have 2-3x higher conversion rates than head terms. Negative keywords save 10-20% of wasted spend on average.
+> **Benchmark Context**: Consult current industry reports for up-to-date benchmarks relevant to this analysis.
 
 ## Output Contract
 

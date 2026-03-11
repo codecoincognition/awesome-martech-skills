@@ -125,7 +125,7 @@ Per clip:
 ### ⚠️ Human Checkpoint
 > Review all clips for context — ensure excerpts don't misrepresent the full conversation. Verify clips don't include guest statements taken out of context. Check that music/audio in clips doesn't violate platform copyright rules.
 
-> **Benchmark Context**: Short-form video is the highest-ROI content format for social media. Repurposed content generates 3x more engagement per dollar than original content (Vidyard 2024 Video in Business Report). Videos with captions get 80% more views (Wistia 2024 State of Video). The average podcast episode can generate 15-25 content pieces (Edison Research 2024 Podcast Consumer Report). LinkedIn video posts get 5x more engagement than text-only posts (Vidyard 2024 Video in Business Report). (Vidyard 2024 Video in Business Report).
+> **Benchmark Context**: See Vidyard 2024 Video in Business Report, Wistia 2024 State of Video, and Edison Research 2024 Podcast Consumer Report for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Repurposing Plan

@@ -112,7 +112,7 @@ Audience size guidelines:
 ### ⚠️ Human Checkpoint
 > Review audience targeting for relevance (avoid targeting too broad or too narrow), verify Lead Gen Form fields for GDPR/CCPA compliance, and ensure content offers match the audience's funnel stage.
 
-> **Benchmark Context**: Average LinkedIn ads CTR is 0.4-0.6% (LinkedIn 2024 B2B Marketing Benchmark). Average CPL is $50-100 for gated content, $100-200 for demo requests. Lead Gen Forms convert 2-3x higher than landing pages. Thought Leader Ads have 2x the CTR of standard Sponsored Content. Document Ads average 3-5x the engagement of single image ads. LinkedIn audience is 4x more likely to be in a buying role than other platforms. (LinkedIn 2024 B2B Marketing Benchmark).
+> **Benchmark Context**: See LinkedIn 2024 B2B Marketing Benchmark for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Campaign Blueprint

@@ -114,7 +114,7 @@ Per content touchpoint:
 ### ⚠️ Human Checkpoint
 > Review personalization rules for privacy compliance before implementation. Test all fallback experiences — most visitors will see the default. Verify personalization doesn't create accessibility issues. Get legal review for data usage in personalization.
 
-> **Benchmark Context**: Personalized CTAs convert 202% better than default CTAs. 80% of consumers are more likely to purchase from brands offering personalized experiences. Personalized email generates 6x higher transaction rates. Companies using advanced personalization see 20% increase in sales. 74% of customers feel frustrated when website content is not personalized.
+> **Benchmark Context**: Consult current industry reports for up-to-date benchmarks relevant to this analysis.
 
 ## Output Contract
 

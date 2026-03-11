@@ -120,7 +120,7 @@ Recommend dashboard structure:
 > Review the KPI framework with stakeholders before building. Dashboards built without stakeholder input get ignored. Ask: "If you could only see 3 numbers every morning, what would they be?"
 
 
-> **Benchmark Context**: Marketing teams typically allocate 5-15% of budget to analytics tools (Google 2024 Marketing Measurement Guide). A well-built dashboard should answer 80% of weekly reporting questions without manual queries (Google 2024 Marketing Measurement Guide). GA4 reports average 24-48 hour data lag for standard processing.
+> **Benchmark Context**: See Google 2024 Marketing Measurement Guide for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Dashboard Specification

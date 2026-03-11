@@ -102,7 +102,7 @@ For each channel, check:
 ### ⚠️ Human Checkpoint
 > Review recommendations against strategic context — some channels serve brand/awareness goals not captured by CAC alone. Verify no contractual commitments (agency retainers, media buys) would be violated by reallocation. Consider team skills — shifting to a channel requires expertise to execute well.
 
-> **Benchmark Context**: Best-in-class companies attribute revenue across 5-7 channels (ProfitWell 2024 SaaS Benchmarks). . Over-reliance on one channel (>50% of revenue) is high-risk (ProfitWell 2024 SaaS Benchmarks). . Organic channels (SEO, content, community) have 5-10x better LTV-to-CAC ratios than paid channels but take 6-12 months to build (OpenView 2024 Product Benchmarks) Testing a new channel requires minimum 3-month commitment and $5,000-10,000 investment to evaluate. . (OpenView 2024 Product Benchmarks).
+> **Benchmark Context**: See ProfitWell 2024 SaaS Benchmarks, and OpenView 2024 Product Benchmarks for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Channel Strategy

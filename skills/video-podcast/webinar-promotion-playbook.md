@@ -138,7 +138,7 @@ Plans and executes multi-channel webinar promotion campaigns optimized for regis
 ### ⚠️ Human Checkpoint
 > Verify all speaker details, date/time across timezones, and registration links before launching promotion. Test the full registration flow (form → confirmation email → calendar invite → reminder) before sending any promotional emails.
 
-> **Benchmark Context**: B2B webinars average 260 registrants and 40-50% attendance. Top-performing webinars get 55-65% attendance with proper reminder sequences. Post-webinar follow-up emails get 2-3x higher open rates than regular marketing emails. 84% of webinar attendees say Q&A is the most valuable part. Webinar recordings generate 20-30% additional views in the 30 days after the live event (Wistia 2024 State of Video).
+> **Benchmark Context**: See Wistia 2024 State of Video for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Promotion Plan

@@ -108,7 +108,7 @@ Optimizes e-commerce SEO across product pages, category pages, site architecture
 ### ⚠️ Human Checkpoint
 > Review product data accuracy before implementing schema (price, availability, ratings). Verify faceted navigation changes don't break user experience. Ensure product descriptions are accurate and compliant with regulations.
 
-> **Benchmark Context**: E-commerce category pages rank for 3x more keywords than product pages (Semrush 2024 State of Search). Product pages with unique descriptions rank 83% better than those using manufacturer copy (Semrush 2024 State of Search). Product schema increases CTR by 30% via rich results (price, availability, stars. Sites with optimized faceted navigation see 20-40% more indexed pages. 70% of e-commerce clicks go to the first page of results. (Ahrefs 2024 Search Traffic Study).
+> **Benchmark Context**: See Semrush 2024 State of Search, and Ahrefs 2024 Search Traffic Study for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown E-commerce SEO Plan

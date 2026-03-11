@@ -95,7 +95,7 @@ First line determines 90% of whether someone reads the full caption:
 ### ⚠️ Human Checkpoint
 > Review captions for authenticity and brand alignment. Add personal details or real experiences to avoid generic-sounding content.
 
-> **Benchmark Context**: Average Instagram feed post engagement rate is 0.60-0.80% (Sprout Social 2024 Index) Carousel posts get 1.4x more reach than single images (Hootsuite 2024 Social Trends Report) Reels average 2-3x more reach than feed posts (Hootsuite 2024 Social Trends Report) Captions under 150 characters get 15% more engagement (Sprout Social 2024 Index) Posting 3-7x/week is optimal (Buffer 2024 State of Social) (Sprout Social 2024 Index).
+> **Benchmark Context**: See Sprout Social 2024 Index, Hootsuite 2024 Social Trends Report, and Buffer 2024 State of Social for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown with Caption Variants

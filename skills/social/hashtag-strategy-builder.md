@@ -92,7 +92,7 @@ Creates platform-specific hashtag strategies with researched sets organized by s
 ### ⚠️ Human Checkpoint
 > Verify hashtags are not banned, offensive, or associated with content that conflicts with your brand. Search each hashtag manually before using.
 
-> **Benchmark Context**: Instagram posts with 20-30 hashtags get 12 (Later 2024 Social Media Industry Report). 6% more engagement than those with none (Later 2024 Social Media Industry Report) TikTok posts with 3-5 hashtags outperform those with 10+ (Buffer 2024 State of Social) LinkedIn posts with 3 hashtags get the highest reach. . Hashtag-driven discovery accounts for 30-40% of Instagram impressions for accounts under 10K followers (Later 2024 Social Media Industry Report) (Later 2024 Social Media Industry Report).
+> **Benchmark Context**: See Later 2024 Social Media Industry Report, and Buffer 2024 State of Social for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Hashtag Strategy

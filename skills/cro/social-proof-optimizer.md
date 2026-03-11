@@ -122,7 +122,7 @@ High-converting testimonials include:
 ### ⚠️ Human Checkpoint
 > Verify all testimonials have documented permission from the customer. Ensure trust badges represent current, valid certifications. Check that usage stats are accurate and updated regularly. Review FOMO notifications for authenticity — fake activity notifications erode trust if discovered.
 
-> **Benchmark Context**: 92% of consumers read reviews before purchasing. Products with 5+ reviews are 270% more likely to be purchased than those with none. Testimonials with photos are 34% more effective than text-only (VWO 2024 A/B Testing Report). Displaying trust seals near checkout increases conversion by 42% (Baymard Institute 2024 Cart Abandonment Statistics). Case studies with specific metrics are 68% more persuasive than those without. Social proof is 12x more trusted than manufacturer descriptions (Contentsquare 2024 Digital Experience Benchmark). (Contentsquare 2024 Digital Experience Benchmark).
+> **Benchmark Context**: See VWO 2024 A/B Testing Report, Baymard Institute 2024 Cart Abandonment Statistics, and Contentsquare 2024 Digital Experience Benchmark for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Social Proof Plan

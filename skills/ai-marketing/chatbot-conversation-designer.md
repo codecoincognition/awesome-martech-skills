@@ -114,7 +114,7 @@ Designs conversational AI flows for marketing chatbots — lead qualification pa
 ### ⚠️ Human Checkpoint
 > Test all conversation paths end-to-end before go-live. Review scripts for brand voice, accuracy, and edge cases. Verify CRM integration passes correct data. Monitor first 100 conversations for unexpected patterns.
 
-> **Benchmark Context**: Chatbots generate 35-40% more leads than forms on high-intent pages (McKinsey 2024 State of AI Report). Average chatbot conversation rate is 5-15% of site visitors (McKinsey 2024 State of AI Report). Chatbots reduce lead response time from 42 hours to under 5 minutes. 73% of leads expect a response within 5 minutes (McKinsey 2024 State of AI Report). Companies using chatbots report 67% increase in sales-qualified meetings (McKinsey 2024 State of AI Report). Chatbot ROI is typically 3-5x within 6 months (McKinsey 2024 State of AI Report).
+> **Benchmark Context**: See McKinsey 2024 State of AI Report for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Conversation Design

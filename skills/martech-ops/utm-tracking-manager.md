@@ -80,7 +80,7 @@ User describes the campaign in plain text. Example: "I'm running a spring sale a
 5. **Build output spreadsheet** — Create XLSX with tracking URLs, naming convention reference, and a quick-reference card.
 
 
-> **Benchmark Context**: Average enterprise has 91 marketing tools in its stack. Brand compliance violations occur in 60% of co-branded partner materials (Gartner 2024 Marketing Technology Survey). UTM tracking is implemented on only 40-50% of marketing URLs on average. (Gartner 2024 Marketing Technology Survey)
+> **Benchmark Context**: See Gartner 2024 Marketing Technology Survey for current industry benchmarks relevant to this analysis.
 
 
 ### Confidence & Sample Size.

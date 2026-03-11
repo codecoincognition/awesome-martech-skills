@@ -93,7 +93,7 @@ Creates a detailed blog post outline with H2/H3 hierarchy, key points per sectio
 7. **Add writing notes** — For each section, add 2-3 bullet points of key things to cover, data points to include, or angles to take.
 
 
-> **Benchmark Context**: Blog posts averaging 1,500-2,500 words tend to rank highest in search (Content Marketing Institute 2024 B2B Research). Content marketing generates 3x more leads than outbound at 62% less cost (Semrush 2024 State of Content Marketing). Average time to write a 1,500-word blog post is 4-6 hours (research + writing + editing. (Semrush 2024 State of Content Marketing)
+> **Benchmark Context**: See Content Marketing Institute 2024 B2B Research, Semrush 2024 State of Content Marketing, and research + writing + editing. (Semrush 2024 State of Content Marketing for current industry benchmarks relevant to this analysis.
 
 
 ### Confidence & Sample Size.

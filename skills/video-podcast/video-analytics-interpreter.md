@@ -133,7 +133,7 @@ Interprets video and podcast analytics data to identify performance patterns, au
 ### ⚠️ Human Checkpoint
 > Validate analytics insights against your own content knowledge — data alone can miss context like seasonal topics, one-time viral moments, or algorithm experiments. Before making major strategy changes based on data, test with 3-5 videos/episodes to confirm the pattern holds.
 
-> **Benchmark Context**: Average YouTube CTR across all channels is 2-10% depending on category (YouTube Creator Academy 2024) Average audience retention is 50-60% for videos under 10 minutes and 40-50% for longer content (Wistia 2024 State of Video) Channels posting 1-3x per week grow subscribers 2-4x faster than monthly posters (YouTube Creator Academy 2024) The top 10% of podcast episodes account for 50% of total downloads (Edison Research 2024 Podcast Consumer Report) 70% of YouTube views come from algorithmic recommendations (Browse, Suggested, Shorts feed), not search (YouTube Creator Academy 2024) (Edison Research 2024 Podcast Consumer Report).
+> **Benchmark Context**: See YouTube Creator Academy 2024, Wistia 2024 State of Video, and Edison Research 2024 Podcast Consumer Report for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Analytics Report

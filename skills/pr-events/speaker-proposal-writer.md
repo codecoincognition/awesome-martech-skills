@@ -138,7 +138,7 @@ What review committees look for:
 ### ⚠️ Human Checkpoint
 > Verify all data points and claims in your proposal are accurate and can be supported in the talk. Ensure you have permission to share case studies or company data publicly. Check that your talk doesn't overlap with your employer's confidentiality requirements.
 
-> **Benchmark Context**: Conferences receive 3-10x more proposals than available speaking slots (Cision 2024 State of the Media Report). Proposals with specific, quantified outcomes in the title get 40% more committee votes (Cision 2024 State of the Media Report). 90% of rejected proposals fail because they're too vague, too salesy, or don't match the audience (Cision 2024 State of the Media Report). Speakers who attend the conference before proposing have 2x higher acceptance rates (they understand the audience. Workshop and hands-on session proposals have higher acceptance rates than standard talks due to lower submission volume. (Cision 2024 State of the Media Report).
+> **Benchmark Context**: See Cision 2024 State of the Media Report, and they understand the audience. Workshop and hands-on session proposals have higher acceptance rates than standard talks due to lower submission volume. (Cision 2024 State of the Media Report for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Speaking Proposal

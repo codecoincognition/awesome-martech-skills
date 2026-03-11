@@ -113,7 +113,7 @@ Per email:
 ### ⚠️ Human Checkpoint
 > Have legal counsel review compliance findings, especially for GDPR, CCPA, and industry-specific regulations. Verify consent records are legally sufficient for your jurisdiction. Test unsubscribe process end-to-end before relying on compliance.
 
-> **Benchmark Context**: 85% of marketing emails have at least one compliance issue. Google and Yahoo now require one-click unsubscribe for bulk senders (5,000+/day). GDPR fines for email violations have increased 50% year-over-year. Companies with documented consent records reduce regulatory risk by 80%. Average cost of a data breach involving email data is $4.45 million.
+> **Benchmark Context**: Consult current industry reports for up-to-date benchmarks relevant to this analysis.
 
 ## Output Contract
 

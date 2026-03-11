@@ -95,7 +95,7 @@ Red flags to investigate:
 ### ⚠️ Human Checkpoint
 > Review placement exclusion list before applying — some legitimate sites may appear as poor performers due to attribution gaps. Verify brand safety categories align with your policies. Check that creative meets platform specs before uploading.
 
-> **Benchmark Context**: Average display CTR is 0.1-0.5% (WordStream 2024 Industry Benchmarks). Average display viewability is 50-60% (WordStream 2024 Industry Benchmarks). Google estimates 10-15% of display impressions are invalid traffic (WordStream 2024 Industry Benchmarks). Responsive display ads generate 10-15% more conversions than static uploaded ads (WordStream 2024 Industry Benchmarks). Top 10% of placements typically drive 80% of conversions. (WordStream 2024 Industry Benchmarks).
+> **Benchmark Context**: See WordStream 2024 Industry Benchmarks for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Optimization Report

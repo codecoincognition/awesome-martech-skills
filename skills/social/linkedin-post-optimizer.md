@@ -98,7 +98,7 @@ The hook appears before "...see more" and determines 80% of engagement:
 ### ⚠️ Human Checkpoint
 > Review the post for authenticity — LinkedIn audiences detect and penalize overly formulaic or AI-generated content. Add personal details, specific numbers, or named experiences to make it genuinely yours.
 
-> **Benchmark Context**: Average LinkedIn post engagement rate is 0.35-0.50% (Sprout Social 2024 Index) Posts with images get 2x engagement vs (Sprout Social 2024 Index) text-only. . Carousel posts average 3-5x higher engagement than single images (Sprout Social 2024 Index) Top 1% of LinkedIn posts get 50+ comments (Buffer 2024 State of Social) Posting 3-5x/week is optimal for growth (Buffer 2024 State of Social) (Sprout Social 2024 Index).
+> **Benchmark Context**: See Sprout Social 2024 Index, and Buffer 2024 State of Social for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown with Optimized Post Variants

@@ -120,7 +120,7 @@ Structure:
 ### ⚠️ Human Checkpoint
 > Verify that field reductions don't eliminate data needed for lead routing or qualification. Test form changes across devices and browsers. Confirm CRM integration still works after form modifications.
 
-> **Benchmark Context**: Reducing form fields from 11 to 4 increases conversion by 120% (Contentsquare 2024 Digital Experience Benchmark). Forms with 3 fields have 25% conversion; forms with 6+ fields have 15% conversion (Contentsquare 2024 Digital Experience Benchmark). Multi-step forms convert 300% higher than single-step when fields exceed 5 (Contentsquare 2024 Digital Experience Benchmark). Inline validation reduces form errors by 22% (Contentsquare 2024 Digital Experience Benchmark). \"Submit\" as CTA text converts 3% lower than action-specific text (Unbounce 2024 Conversion Benchmark Report). Forms above the fold convert 20% higher than below-fold (Contentsquare 2024 Digital Experience Benchmark). (Contentsquare 2024 Digital Experience Benchmark).
+> **Benchmark Context**: See Contentsquare 2024 Digital Experience Benchmark, and Unbounce 2024 Conversion Benchmark Report for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Form Optimization Plan

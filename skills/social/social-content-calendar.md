@@ -125,7 +125,7 @@ Visual Style: Bright, natural photography, minimalist design, green/cream color 
    - Generate accompanying strategy document
 
 
-> **Benchmark Context**: Average LinkedIn engagement rate is 0.35-0.50% (LinkedIn 2024 B2B Marketing Benchmark) Instagram average engagement rate is 0.60-0.80% (declining from 1.2% in 2022) (Sprout Social 2024 Index) Posting frequency sweet spot: LinkedIn 3-5x/week, Instagram 3-7x/week (Buffer 2024 State of Social) Video content gets 2-3x more engagement than static images (Sprout Social 2024 Index) (LinkedIn 2024 B2B Marketing Benchmark)
+> **Benchmark Context**: See LinkedIn 2024 B2B Marketing Benchmark, Sprout Social 2024 Index, and Buffer 2024 State of Social for current industry benchmarks relevant to this analysis.
 
 
 ### Confidence & Sample Size.

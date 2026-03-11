@@ -110,7 +110,7 @@ Monitors and analyzes brand sentiment across social media, reviews, support tick
 ### ⚠️ Human Checkpoint
 > Review sentiment classification for accuracy — automated tools misclassify 15-25% of complex sentiment. Verify that negative themes are escalated appropriately. Check that competitor analysis uses comparable data sources.
 
-> **Benchmark Context**: Companies that actively monitor sentiment reduce churn by 15-25%. Negative reviews cost businesses 22% of potential customers when 1 negative article is found. 4+ stars is the minimum threshold for most consumers. Responding to negative reviews increases customer advocacy by 25%. 95% of unhappy customers will return if their issue is resolved quickly. Brand sentiment impacts stock price by up to 30% for publicly traded companies.
+> **Benchmark Context**: Consult current industry reports for up-to-date benchmarks relevant to this analysis.
 
 ## Output Contract
 

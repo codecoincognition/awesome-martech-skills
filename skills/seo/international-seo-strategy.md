@@ -107,7 +107,7 @@ Creates international SEO strategies with site structure decisions, hreflang imp
 ### ⚠️ Human Checkpoint
 > Have native speakers review all localized content and keyword targeting. Verify hreflang tags with a validation tool before deployment. Confirm business readiness (payment, legal, support) before launching in new markets.
 
-> **Benchmark Context**: 75% of international SEO implementations have hreflang errors. Localized content (not just translated) ranks 47% better than direct translations (Semrush 2024 State of Search). Subfolders consolidate domain authority better than ccTLDs for most businesses. Local link building is 3x more important for international rankings than domestic (Semrush 2024 State of Search). Sites with correct hreflang see 25-40% less duplicate content issues in GSC.
+> **Benchmark Context**: See Semrush 2024 State of Search for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown International SEO Plan

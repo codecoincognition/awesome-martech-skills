@@ -152,7 +152,7 @@ Proof points: 34% reduction in missed deadlines, 500+ agencies, NPS 72
 6. **Generate output** — Complete angle library.
 
 
-> **Benchmark Context**: Win/loss analysis requires minimum 20 interviews per segment for reliable patterns. Survey response rates average 10-15% for email surveys, 30-50% for in-app (McKinsey 2024 State of AI Report). Qualitative research saturation typically occurs at 12-15 interviews (McKinsey 2024 State of AI Report). ### Confidence & Sample Size.
+> **Benchmark Context**: See McKinsey 2024 State of AI Report for current industry benchmarks relevant to this analysis.
 > **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract

@@ -140,7 +140,7 @@ Plans and optimizes live stream events for maximum audience engagement, real-tim
 ### ⚠️ Human Checkpoint
 > Test all technical setup (camera, audio, screen share, overlays) in a private stream before going live. Have a backup plan for technical failures (phone as backup camera, pre-recorded segments). Assign a moderator for chat management if audience exceeds 50 concurrent viewers.
 
-> **Benchmark Context**: LinkedIn Live generates 24x more comments and 7x more reactions than native video (Wistia 2024 State of Video). YouTube Live streams get 10x more engagement than pre-recorded uploads (Wistia 2024 State of Video). Average live stream viewer watches for 10-20 minutes (vs (Wistia 2024 State of Video). 2-3 minutes for recorded video. Live commerce conversion rates are 10-20% vs. 1-3% for traditional e-commerce. Streams with at least one interactive element every 5 minutes have 40% higher average watch time. (Wistia 2024 State of Video).
+> **Benchmark Context**: See Wistia 2024 State of Video, and vs (Wistia 2024 State of Video for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Live Stream Plan

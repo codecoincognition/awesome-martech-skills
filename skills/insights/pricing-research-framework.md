@@ -128,7 +128,7 @@ Tier design rules:
 ### ⚠️ Human Checkpoint
 > Pricing decisions affect revenue directly — validate research findings with actual market tests before full rollout. Survey-stated WTP is typically 15-20% higher than actual purchase behavior — adjust accordingly. Get finance team input on margin implications.
 
-> **Benchmark Context**: Companies using data-driven pricing earn 2-7% more revenue than those using cost-plus or competitive pricing alone. 85% of pricing decisions are based on cost-plus despite research showing value-based pricing generates 20-30% more revenue. SaaS companies that optimize pricing annually grow 2x faster than those that set-and-forget. Annual billing with a discount (typically 15-20%) increases LTV by 30-40% vs. monthly-only.
+> **Benchmark Context**: Consult current industry reports for up-to-date benchmarks relevant to this analysis.
 
 ## Output Contract
 

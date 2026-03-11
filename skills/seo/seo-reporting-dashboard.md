@@ -111,7 +111,7 @@ Builds comprehensive SEO performance reports with rankings, traffic trends, conv
 ### ⚠️ Human Checkpoint
 > Review data accuracy before sharing reports with stakeholders. Verify conversion data attribution is correct. Add qualitative context (algorithm updates, site changes, market events) that data alone doesn't explain.
 
-> **Benchmark Context**: Average organic CTR for position 1 is 27.6%, position 2 is 15.8%, position 3 is 11% (Ahrefs 2024 Search Traffic Study). Year-over-year comparison is more reliable than month-over-month for SEO. Pages ranking 4-10 with high impressions are the biggest CTR optimization opportunities (Semrush 2024 State of Search). Organic search drives 53% of all website traffic on average (Ahrefs 2024 Search Traffic Study). SEO ROI typically appears 6-12 months after investment begins. (Ahrefs 2024 Search Traffic Study).
+> **Benchmark Context**: See Ahrefs 2024 Search Traffic Study, and Semrush 2024 State of Search for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown SEO Report

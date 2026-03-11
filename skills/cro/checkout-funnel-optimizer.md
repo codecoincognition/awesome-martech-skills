@@ -119,7 +119,7 @@ Analyzes and optimizes checkout and purchase funnels to reduce abandonment, elim
 ### ⚠️ Human Checkpoint
 > Have QA test entire checkout flow on all devices before launching changes. Verify payment processing works correctly after any checkout modifications. Review abandonment email content for accuracy (pricing, product images, links).
 
-> **Benchmark Context**: Average cart abandonment rate is 70% (Baymard Institute 2024 Cart Abandonment Statistics). Top reason for abandonment: unexpected shipping costs (48%). Guest checkout increases conversion 14% vs (Baymard Institute 2024 Cart Abandonment Statistics). required account creation. Express checkout (Apple Pay, etc.) increases mobile conversion by 20-30% (Unbounce 2024 Conversion Benchmark Report). Cart abandonment emails recover 5-15% of abandoned carts (Baymard Institute 2024 Cart Abandonment Statistics). BNPL increases AOV by 20-30% and conversion by 20% (Unbounce 2024 Conversion Benchmark Report). (Unbounce 2024 Conversion Benchmark Report).
+> **Benchmark Context**: See Baymard Institute 2024 Cart Abandonment Statistics, and Unbounce 2024 Conversion Benchmark Report for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Checkout Optimization Plan

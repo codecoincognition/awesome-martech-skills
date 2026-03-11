@@ -125,7 +125,7 @@ Translate patterns into specific actions:
 > Small sample sizes can produce misleading patterns. Flag confidence levels based on sample size. Recommendations from fewer than 10 interviews should be labeled as directional, not definitive.
 
 
-> **Benchmark Context**: Win/loss analysis requires minimum 20 interviews per segment for reliable patterns. Survey response rates average 10-15% for email surveys, 30-50% for in-app (McKinsey 2024 State of AI Report). Qualitative research saturation typically occurs at 12-15 interviews (McKinsey 2024 State of AI Report).
+> **Benchmark Context**: See McKinsey 2024 State of AI Report for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Win/Loss Analysis Report

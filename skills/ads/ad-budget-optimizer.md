@@ -97,7 +97,7 @@ Model 3 scenarios:
 ### ⚠️ Human Checkpoint
 > Review reallocation recommendations against business context — some channels serve brand/awareness goals that CPA alone doesn't capture. Verify no contractual minimum spends would be violated. Consider attribution model differences before making large shifts.
 
-> **Benchmark Context**: Top advertisers allocate 60-70% of budget to proven channels and 15-20% to testing (Statista 2024 Digital Advertising Report). Optimal reallocation frequency is monthly (weekly is too reactive, quarterly is too slow). Diminishing returns typically set in when you increase spend by 50%+ in a single channel (Statista 2024 Digital Advertising Report). Cross-channel attribution shows 15-25% conversion overlap between Google and Meta (Forrester 2024 Marketing Attribution Study).
+> **Benchmark Context**: See Statista 2024 Digital Advertising Report, and Forrester 2024 Marketing Attribution Study for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Optimization Report

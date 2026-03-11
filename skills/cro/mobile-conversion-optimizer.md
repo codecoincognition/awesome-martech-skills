@@ -127,7 +127,7 @@ Optimizes mobile web and app experiences for higher conversion rates through mob
 ### ⚠️ Human Checkpoint
 > Test all mobile changes on actual devices (iOS and Android, multiple screen sizes). Browser dev tools mobile emulation misses real-world issues like touch behavior, keyboard interactions, and network conditions. Get QA to test on the 5 most common devices in your analytics.
 
-> **Benchmark Context**: Mobile commerce accounts for 60%+ of e-commerce traffic but only 40-45% of revenue — the conversion gap is real and fixable (Unbounce 2024 Conversion Benchmark Report). 53% of mobile users abandon sites that take longer than 3 seconds to load. Mobile cart abandonment rate averages 85% vs (Baymard Institute 2024 Cart Abandonment Statistics). 70% on desktop. Every 0.1s improvement in mobile page speed increases conversion by 8% (Unbounce 2024 Conversion Benchmark Report). Mobile-optimized checkout with express payment options increases conversion by 20-35% (Baymard Institute 2024 Cart Abandonment Statistics). (Baymard Institute 2024 Cart Abandonment Statistics).
+> **Benchmark Context**: See Unbounce 2024 Conversion Benchmark Report, and Baymard Institute 2024 Cart Abandonment Statistics for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Mobile Optimization Plan

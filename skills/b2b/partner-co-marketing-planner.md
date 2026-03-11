@@ -154,7 +154,7 @@ Co-branding rules:
 ### ⚠️ Human Checkpoint
 > Review all co-branded content with legal — ensure no conflicting claims or competitive issues. Get written agreement on lead sharing, usage rights, and campaign ownership before starting. Clarify data privacy requirements: GDPR and CAN-SPAM apply to shared leads.
 
-> **Benchmark Context**: B2B companies with active partner marketing programs generate 28% more revenue than those without (Gartner 2024 B2B Buying Journey Report). Co-marketing webinars average 2-3x the registration of solo webinars (Demand Gen Report 2024 B2B Buyer Survey). 65% of co-marketing campaigns fail due to unequal partner commitment — establishing clear responsibilities upfront is critical (Demand Gen Report 2024 B2B Buyer Survey). Integration partners generate leads at 40-60% lower CPL than paid channels. The average co-marketing campaign takes 4-6 weeks from concept to launch (Demand Gen Report 2024 B2B Buyer Survey). (Gartner 2024 B2B Buying Journey Report).
+> **Benchmark Context**: See Gartner 2024 B2B Buying Journey Report, and Demand Gen Report 2024 B2B Buyer Survey for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Co-Marketing Plan

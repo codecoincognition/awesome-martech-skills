@@ -98,7 +98,7 @@ Generates 10+ ad copy variants per platform (Google Ads, Meta Ads, LinkedIn Ads)
 5. **Finalize** — Deliver complete variant set with A/B testing recommendations.
 
 
-> **Benchmark Context**: Average Google Ads CTR across industries is 3.17% (search) and 0.46% (display. B2B averages 2.41% search CTR (LinkedIn 2024 B2B Marketing Benchmark). Top-performing responsive search ads have 8+ unique headlines. Meta Ads average CTR is 0.90% across industries, with 1.5%+ considered strong (Meta 2024 Advertising Benchmarks). ### Confidence & Sample Size.
+> **Benchmark Context**: See LinkedIn 2024 B2B Marketing Benchmark, and Meta 2024 Advertising Benchmarks for current industry benchmarks relevant to this analysis.
 > **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract

@@ -111,7 +111,7 @@ Map SERP features present for each target keyword:
 ### ⚠️ Human Checkpoint
 > Verify all schema markup with Google's Rich Results Test before deploying. Incorrect schema can result in manual actions. Review content accuracy before targeting featured snippets — Google prioritizes authoritative answers.
 
-> **Benchmark Context**: Featured snippets get 8.6% of clicks (but steal clicks from position 1). . Pages in positions 1-5 are most likely to win snippets. . PAA boxes appear in 65% of searches. . FAQ rich results increase CTR by 20-30% (Ahrefs 2024 Search Traffic Study) Proper schema markup makes pages eligible for 2.7x more SERP features (Semrush 2024 State of Search) Zero-click searches account for 65% of Google searches. . (Ahrefs 2024 Search Traffic Study).
+> **Benchmark Context**: See Ahrefs 2024 Search Traffic Study, and Semrush 2024 State of Search for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown SERP Feature Plan

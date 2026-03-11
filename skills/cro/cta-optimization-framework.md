@@ -114,7 +114,7 @@ Optimizes calls-to-action across web, email, and ads through copy testing, desig
 ### ⚠️ Human Checkpoint
 > Verify all CTA links work and go to correct destinations. Test CTAs on all devices and browsers. Ensure CTA text aligns with destination page content (don't promise what the landing page doesn't deliver).
 
-> **Benchmark Context**: Personalized CTAs convert 202% better than default (Unbounce 2024 Conversion Benchmark Report). First-person phrasing increases CTR by 25-30%. Single CTA emails increase clicks by 371% (Unbounce 2024 Conversion Benchmark Report). CTAs above the fold get 80% of attention (Unbounce 2024 Conversion Benchmark Report). Red and green buttons perform similarly — contrast with surroundings matters more than specific color. Anchor text CTAs in blog posts generate 47-93% of leads for inbound marketing (Unbounce 2024 Conversion Benchmark Report). (Unbounce 2024 Conversion Benchmark Report).
+> **Benchmark Context**: See Unbounce 2024 Conversion Benchmark Report for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown CTA Optimization Plan

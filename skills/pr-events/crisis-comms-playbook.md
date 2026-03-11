@@ -142,7 +142,7 @@ What NOT to say:
 ### ⚠️ Human Checkpoint
 > All crisis communications MUST be reviewed by legal counsel before publication — especially for data breaches, product safety issues, or regulatory matters. Never speculate about cause, blame, or impact without confirmed facts. Ensure your spokesperson is media-trained and aligned on key messages before any interviews.
 
-> **Benchmark Context**: 53% of consumers expect brands to respond to a crisis within 1 hour on social media (Muck Rack 2024 State of PR). Companies with a crisis plan respond 2x faster and recover reputation 3x faster. 70% of consumers say a brand's crisis response affects their purchase decisions. Post-crisis transparency (sharing what went wrong and how you fixed it) increases trust by 15-20%. Companies that handle crises well can end up with higher brand trust than before the crisis. (Muck Rack 2024 State of PR).
+> **Benchmark Context**: See Muck Rack 2024 State of PR for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Crisis Response Plan

@@ -103,7 +103,7 @@ Generate templates for:
 ### ⚠️ Human Checkpoint
 > Review all templates for brand voice alignment, legal compliance (especially in regulated industries), and cultural sensitivity before distributing to your team.
 
-> **Benchmark Context**: Average brand response time on social is 5 hours; top brands respond in under 1 hour. Responding to complaints publicly increases brand favorability by 25%. Communities with active moderation retain 40% more members. 71% of consumers who have a positive social media experience recommend the brand (Hootsuite 2024 Social Trends Report). (Hootsuite 2024 Social Trends Report).
+> **Benchmark Context**: See Hootsuite 2024 Social Trends Report for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Playbook

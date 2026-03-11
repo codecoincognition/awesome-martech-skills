@@ -105,7 +105,7 @@ Creates detailed, actionable content briefs for writers that include SEO require
 ### ⚠️ Human Checkpoint
 > Review brief for accuracy of SEO data and competitive analysis. Verify internal linking targets are correct and relevant. Ensure brief reflects current brand voice and content strategy.
 
-> **Benchmark Context**: Content produced from detailed briefs ranks 50% faster than unbriefed content (Content Marketing Institute 2024 B2B Research). Briefs with competitive analysis produce content that ranks in the top 10 for 3x more keywords (Content Marketing Institute 2024 B2B Research). Writers who receive structured briefs produce 30% fewer revision rounds (Content Marketing Institute 2024 B2B Research). Content that answers People Also Ask questions earns featured snippets 2x more often.
+> **Benchmark Context**: See Content Marketing Institute 2024 B2B Research for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Content Brief

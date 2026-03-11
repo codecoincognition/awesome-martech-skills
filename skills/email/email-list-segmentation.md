@@ -109,7 +109,7 @@ Map segments to content variations:
 ### ⚠️ Human Checkpoint
 > Review segment definitions with your team to ensure alignment with business goals. Verify that segment criteria are technically achievable in your ESP. Check compliance with data privacy regulations (GDPR, CAN-SPAM) for data usage in segmentation.
 
-> **Benchmark Context**: Segmented campaigns generate 760% more revenue than non-segmented. Segmented emails have 14.3% higher open rates and 100% higher click rates (Mailchimp 2024 Email Marketing Benchmarks). The average marketer uses 3-5 segments. Engagement-based segmentation is the highest-impact first step. Over-emailing is the #1 reason for unsubscribes — segmentation lets you send more to engaged users and less to passive ones. (Mailchimp 2024 Email Marketing Benchmarks).
+> **Benchmark Context**: See Mailchimp 2024 Email Marketing Benchmarks for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Segmentation Strategy

@@ -126,7 +126,7 @@ Designs, reviews, and optimizes marketing surveys for higher response rates, red
 ### ⚠️ Human Checkpoint
 > Pilot survey with 5-10 people before full launch to catch confusing questions. Review open-ended responses for unintended interpretations. Ensure survey complies with data privacy regulations (GDPR consent for EU respondents).
 
-> **Benchmark Context**: Average email survey response rate is 10-30% (McKinsey 2024 State of AI Report) Every question added beyond 10 drops completion by 5-10%. . Personalized survey invitations increase response rates by 48% (Gartner 2024 Marketing Technology Survey) Mobile-optimized surveys see 30% higher completion (McKinsey 2024 State of AI Report) Surveys sent within 24 hours of an interaction get 2-3x higher response rates (McKinsey 2024 State of AI Report) (Gartner 2024 Marketing Technology Survey).
+> **Benchmark Context**: See McKinsey 2024 State of AI Report, and Gartner 2024 Marketing Technology Survey for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Survey Design

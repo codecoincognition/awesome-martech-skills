@@ -104,7 +104,7 @@ Audits and optimizes local SEO performance — Google Business Profile, local ci
 ### ⚠️ Human Checkpoint
 > Verify all business information (hours, phone, address) is accurate before updating across platforms. Incorrect NAP data can trigger GBP suspension. Never incentivize reviews with discounts or rewards (violates Google policy).
 
-> **Benchmark Context**: 46% of all Google searches have local intent. The top 3 map pack results get 75% of local search clicks. Businesses with 40+ Google reviews earn 15% more revenue than average. GBP listings with 100+ photos get 520% more calls. Responding to reviews increases conversion by 16%. 88% of local mobile searches result in a call or visit within 24 hours.
+> **Benchmark Context**: Consult current industry reports for up-to-date benchmarks relevant to this analysis.
 
 ## Output Contract
 

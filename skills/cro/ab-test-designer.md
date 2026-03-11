@@ -87,7 +87,7 @@ Designs statistically sound A/B tests with hypothesis, variant descriptions, sam
 7. **Add guardrail metrics** — Identify metrics that should NOT decrease during the test.
 
 
-> **Benchmark Context**: Average landing page conversion rate is 2.35% across industries, with the top 25% converting at 5.31%+ (Unbounce 2024 Conversion Benchmark Report). Adding social proof increases conversions by 12-15% on average (Contentsquare 2024 Digital Experience Benchmark). Reducing form fields from 4 to 3 can increase conversions by 25% (Contentsquare 2024 Digital Experience Benchmark). (Unbounce 2024 Conversion Benchmark Report)
+> **Benchmark Context**: See Unbounce 2024 Conversion Benchmark Report, and Contentsquare 2024 Digital Experience Benchmark for current industry benchmarks relevant to this analysis.
 
 
 ### Confidence & Sample Size.

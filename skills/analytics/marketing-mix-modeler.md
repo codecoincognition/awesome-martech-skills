@@ -129,7 +129,7 @@ Saturation indicators:
 ### ⚠️ Human Checkpoint
 > Validate channel contribution estimates with channel managers — the data may not capture offline or relationship-driven conversions. Before making large budget shifts (>20%), run a 4-6 week test in one market or segment to verify the model's predictions hold.
 
-> **Benchmark Context**: The average enterprise allocates marketing budget as: 25-35% paid media, 15-25% content/SEO, 10-15% events, 10-15% email/CRM, 5-10% social, 10-15% tools/technology. Companies that reallocate budget quarterly outperform those with annual fixed budgets by 15-20%. The typical marketing budget is 5-15% of revenue (B2B: 5-10%, B2C: 10-15%). Over-allocating to a single channel (>50% of budget) increases risk without proportional return.
+> **Benchmark Context**: Consult current industry reports for up-to-date benchmarks relevant to this analysis.
 
 ## Output Contract
 

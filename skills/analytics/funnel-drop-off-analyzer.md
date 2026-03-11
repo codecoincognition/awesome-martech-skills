@@ -138,7 +138,7 @@ Velocity fixes:
 ### ⚠️ Human Checkpoint
 > Validate funnel definitions with all stakeholders (marketing, sales, product) — misaligned stage definitions will produce misleading analysis. Test proposed fixes with A/B tests before making permanent changes. Ensure tracking is consistent across stages — gaps in tracking look like drop-offs.
 
-> **Benchmark Context**: Average SaaS free-to-paid conversion is 2-5% (freemium) or 15-25% (free trial). Average e-commerce visit-to-purchase conversion is 2-3%. B2B MQL-to-SQL conversion averages 13-25%. Average B2B sales cycle is 3-6 months for enterprise, 2-4 weeks for SMB. Reducing funnel friction by one click or one form field typically improves conversion by 5-10%. Speed of follow-up is the single biggest factor in MQL→SQL conversion: 5-minute response converts 8x better than 30-minute response.
+> **Benchmark Context**: Consult current industry reports for up-to-date benchmarks relevant to this analysis.
 
 ## Output Contract
 

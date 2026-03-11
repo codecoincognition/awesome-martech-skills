@@ -116,7 +116,7 @@ For each critical risk:
 > Review the run-of-show with all key stakeholders (venue, AV, speakers) at least 1 week before the event. Walk the venue if possible.
 
 
-> **Benchmark Context**: Average press release pickup rate is 1-3% of targeted journalists (Cision 2024 State of the Media Report). Event email invitation open rates average 20-25%, with 2-5% registration conversion (Bizzabo 2024 Event Marketing Report). Best press release send times: Tuesday-Thursday, 9-10 AM in the journalist's time zone (Cision 2024 State of the Media Report). (Cision 2024 State of the Media Report).
+> **Benchmark Context**: See Cision 2024 State of the Media Report, and Bizzabo 2024 Event Marketing Report for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Logistics Plan

@@ -109,7 +109,7 @@ Score each content piece on:
 ### ⚠️ Human Checkpoint
 > Review topic clusters for brand relevance — not every high-volume keyword is worth targeting. Verify content accuracy with subject matter experts. Ensure content meets E-E-A-T standards (Experience, Expertise, Authoritativeness, Trustworthiness) for your industry.
 
-> **Benchmark Context**: Sites with topic cluster architecture rank for 3x more keywords than unstructured blogs (BrightEdge 2024 Organic Search Report) Pillar pages with 10+ internal cluster links rank 68% higher for competitive terms (BrightEdge 2024 Organic Search Report) Content targeting commercial intent keywords generates 5x more leads than informational content (Ahrefs 2024 Search Traffic Study) Publishing 2-4x/week correlates with 3.5x more traffic than 1x/week. . Updating existing content can increase traffic to that page by 106%. . (BrightEdge 2024 Organic Search Report).
+> **Benchmark Context**: See BrightEdge 2024 Organic Search Report, and Ahrefs 2024 Search Traffic Study for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Content Strategy

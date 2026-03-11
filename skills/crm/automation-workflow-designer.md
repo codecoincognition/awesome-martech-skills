@@ -135,7 +135,7 @@ Common branching patterns:
 ### ⚠️ Human Checkpoint
 > Test all workflows with internal contacts before activating for real leads/customers. Review email content in workflow sequences for accuracy and brand consistency. Verify timing and delays work as expected across time zones. Check that workflows don't conflict with each other (e.g., contact enrolled in two competing sequences).
 
-> **Benchmark Context**: Marketing automation increases sales productivity by 14.5% and reduces overhead by 12.2%. Companies using lead nurture workflows generate 50% more sales-ready leads at 33% lower cost. Automated email workflows have 70.5% higher open rates than one-off emails. 80% of automation users see increased leads, 77% see increased conversions. The average company automates only 25% of automatable marketing processes.
+> **Benchmark Context**: Consult current industry reports for up-to-date benchmarks relevant to this analysis.
 
 ## Output Contract
 

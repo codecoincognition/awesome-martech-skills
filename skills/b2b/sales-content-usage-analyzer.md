@@ -120,7 +120,7 @@ Prioritized action plan:
 > Correlation ≠ causation. High-performing content may simply be used by top reps. Cross-reference with rep performance data before drawing conclusions.
 
 
-> **Benchmark Context**: Average B2B sales cycle is 102 days. Win rates average 20-30% for qualified opportunities (Gartner 2024 B2B Buying Journey Report). Top-performing sales orgs use 5-7 pieces of content per deal cycle (Gartner 2024 B2B Buying Journey Report). Sales reps spend ~30% of their time searching for content (Gartner 2024 B2B Buying Journey Report). (Gartner 2024 B2B Buying Journey Report).
+> **Benchmark Context**: See Gartner 2024 B2B Buying Journey Report for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Tables + CSV-Ready Data (3 sections)

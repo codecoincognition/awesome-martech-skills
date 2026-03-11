@@ -105,7 +105,7 @@ Comprehensive competitor SEO analysis — keyword overlap, content gaps, backlin
 ### ⚠️ Human Checkpoint
 > Verify competitor identification with the business team — SEO competitors may not be business competitors. Review attack strategy for feasibility given your resources (team size, content budget, link building capacity).
 
-> **Benchmark Context**: The top 3 organic results get 68% of all clicks. A 10-position improvement (e.g., #15 to #5) can increase traffic 10x. Sites with more content covering a topic cluster rank higher for all related terms. Competitor analysis should be repeated quarterly as the landscape shifts. (BrightEdge 2024 Organic Search Report)
+> **Benchmark Context**: See BrightEdge 2024 Organic Search Report for current industry benchmarks relevant to this analysis.
 
 ## Output Contract
 

@@ -113,7 +113,7 @@ Identify natural moments users want to share:
 ### ⚠️ Human Checkpoint
 > Review sharing mechanics for user experience impact — aggressive invite prompts can damage retention. Ensure sharing doesn't expose private user data. Legal review for incentivized referrals in regulated industries.
 
-> **Benchmark Context**: Average SaaS k-factor is 0.2-0.4 (ProfitWell 2024 SaaS Benchmarks) Top viral products achieve k-factor of 0.7-1.5. (First Round 2024 State of Startups). Personalized invite messages convert 3x better than generic ones. . Users who arrive via referral have 25% higher LTV (ProfitWell 2024 SaaS Benchmarks) The best viral loops feel like product features, not marketing — Calendly's scheduling link is both the product and the acquisition channel. . Optimal invite prompt timing is at the "aha moment," not at signup. . (ProfitWell 2024 SaaS Benchmarks).
+> **Benchmark Context**: See ProfitWell 2024 SaaS Benchmarks, and First Round 2024 State of Startups for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Viral Loop Blueprint

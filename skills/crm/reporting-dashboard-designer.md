@@ -150,7 +150,7 @@ Design rules:
 ### ⚠️ Human Checkpoint
 > Verify metric definitions with all stakeholders before building — the same word (e.g., "lead") often means different things to different teams. Test dashboards with real data before sharing. Ensure filters work correctly (date ranges, team, source). Validate calculations against manual spot-checks.
 
-> **Benchmark Context**: Companies with well-defined KPIs are 3x more likely to exceed revenue goals. 73% of data in CRM systems is inaccurate within 12 months. Executives who review dashboards weekly make faster strategic decisions. Marketing teams that track attribution see 15-20% improvement in budget efficiency. Only 30% of companies trust their marketing data quality.
+> **Benchmark Context**: Consult current industry reports for up-to-date benchmarks relevant to this analysis.
 
 ## Output Contract
 

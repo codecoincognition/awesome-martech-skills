@@ -103,7 +103,7 @@ Evaluate current setup per platform:
 ### ⚠️ Human Checkpoint
 > Review product catalog for pricing accuracy, inventory availability, and platform policy compliance (prohibited products vary by platform) before publishing.
 
-> **Benchmark Context**: Social commerce global revenue reached $700B in 2024. . Average conversion rate for shoppable posts is 1-3% (Buffer 2024 State of Social) Products under $50 convert 2-3x better on TikTok Shop (Buffer 2024 State of Social) Instagram Shopping drives 130M product tag taps per month. . Live shopping conversion rates are 10-20x higher than traditional e-commerce. . (Later 2024 Social Media Industry Report).
+> **Benchmark Context**: See Buffer 2024 State of Social, and Later 2024 Social Media Industry Report for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Optimization Report

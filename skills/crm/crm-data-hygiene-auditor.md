@@ -116,7 +116,7 @@ Score each incomplete record by enrichment priority:
 > Review duplicate groups before merging. Confirm merge rules (which record becomes master, which fields survive). Never auto-merge without human approval.
 
 
-> **Benchmark Context**: Average CRM data decay rate is 30% per year. Enriched leads convert at 2-3x the rate of non-enriched leads. Data enrichment typically costs $0.10-$0.50 per record depending on provider and depth.
+> **Benchmark Context**: Consult current industry reports for up-to-date benchmarks relevant to this analysis.
 
 ## Output Contract
 

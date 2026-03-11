@@ -103,7 +103,7 @@ Principles:
 ### ⚠️ Human Checkpoint
 > Review redesigned flow with actual users (5 user tests minimum) before full rollout. Verify that removed steps don't break downstream features. Ensure onboarding emails comply with CAN-SPAM/GDPR. Test on mobile if applicable.
 
-> **Benchmark Context**: Average SaaS activation rate is 20-40% (ProfitWell 2024 SaaS Benchmarks) Top products achieve 60%+. . Reducing onboarding from 8 steps to 3 increases completion by 50-100% (OpenView 2024 Product Benchmarks) Personalized onboarding flows convert 2x better than generic (OpenView 2024 Product Benchmarks) Onboarding emails have 4x the engagement rate of regular marketing emails (OpenView 2024 Product Benchmarks) 86% of users say they'd be more likely to stay loyal to a product that invests in onboarding (OpenView 2024 Product Benchmarks) (ProfitWell 2024 SaaS Benchmarks).
+> **Benchmark Context**: See ProfitWell 2024 SaaS Benchmarks, and OpenView 2024 Product Benchmarks for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Optimization Plan

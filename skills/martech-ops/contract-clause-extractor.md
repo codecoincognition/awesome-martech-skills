@@ -109,7 +109,7 @@ For CRITICAL and HIGH risk clauses, provide:
 > This is contract analysis assistance, NOT legal advice. Have qualified legal counsel review any contract before signing. Do not rely solely on this analysis for legal decisions.
 
 
-> **Benchmark Context**: Average enterprise has 91 marketing tools in its stack. Brand compliance violations occur in 60% of co-branded partner materials (Gartner 2024 Marketing Technology Survey). UTM tracking is implemented on only 40-50% of marketing URLs on average. (Gartner 2024 Marketing Technology Survey).
+> **Benchmark Context**: See Gartner 2024 Marketing Technology Survey for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Contract Summary

@@ -114,7 +114,7 @@ Define review cadence and metrics:
 > Both marketing and sales leadership must review and agree to the SLA. A one-sided SLA will fail. Schedule a joint review meeting before finalizing.
 
 
-> **Benchmark Context**: Average enterprise has 91 marketing tools in its stack. Brand compliance violations occur in 60% of co-branded partner materials (Gartner 2024 Marketing Technology Survey). UTM tracking is implemented on only 40-50% of marketing URLs on average. (Gartner 2024 Marketing Technology Survey).
+> **Benchmark Context**: See Gartner 2024 Marketing Technology Survey for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown SLA Document

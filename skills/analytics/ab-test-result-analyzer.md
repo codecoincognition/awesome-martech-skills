@@ -139,7 +139,7 @@ Formula factors: 95% confidence, 80% power, two-tailed test.
 ### ⚠️ Human Checkpoint
 > Verify that test groups had comparable traffic quality (same sources, no campaign overlap). Check that the test didn't overlap with other site changes or campaigns that could confound results. Review segment-level results before implementing — a winner overall can be a loser for your most valuable segment.
 
-> **Benchmark Context**: Only 1 in 7 A/B tests produces a significant winner — most tests are inconclusive or flat. The average conversion rate lift from a winning test is 12-15% (VWO 2024 A/B Testing Report). High-velocity testing programs (2-4 tests per month) improve conversion 2-3x faster than low-velocity programs (VWO 2024 A/B Testing Report). Tests that change the value proposition (headline, offer) outperform design-only tests by 3x (VWO 2024 A/B Testing Report). 80% of test ideas come from analyzing user behavior data (heatmaps, recordings, surveys).
+> **Benchmark Context**: See VWO 2024 A/B Testing Report for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Test Analysis

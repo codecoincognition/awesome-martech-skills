@@ -122,7 +122,7 @@ Per competitor, capture:
 ### ⚠️ Human Checkpoint
 > Verify competitive intelligence with sales team and customer feedback. Messaging on a website doesn't always reflect what sales reps say in conversations. Cross-reference with win/loss data for accuracy.
 
-> **Benchmark Context**: 74% of buyers choose the vendor that first helps them understand the problem. Companies that differentiate messaging see 36% higher win rates. Competitor messaging changes correlate with product launches or strategy shifts 80% of the time. 65% of B2B companies struggle to articulate clear differentiation.
+> **Benchmark Context**: Consult current industry reports for up-to-date benchmarks relevant to this analysis.
 
 ## Output Contract
 

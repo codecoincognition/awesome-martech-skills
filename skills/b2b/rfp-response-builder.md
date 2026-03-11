@@ -109,7 +109,7 @@ Draft a 1-page executive summary for the RFP response:
 > Review all responses before submission. Verify technical accuracy, confirm pricing with finance, ensure legal has approved compliance claims. Never submit without internal review.
 
 
-> **Benchmark Context**: Average B2B sales cycle is 102 days. Win rates average 20-30% for qualified opportunities (Gartner 2024 B2B Buying Journey Report). Top-performing sales orgs use 5-7 pieces of content per deal cycle (Gartner 2024 B2B Buying Journey Report). Sales reps spend ~30% of their time searching for content (Gartner 2024 B2B Buying Journey Report). (Gartner 2024 B2B Buying Journey Report).
+> **Benchmark Context**: See Gartner 2024 B2B Buying Journey Report for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown RFP Response

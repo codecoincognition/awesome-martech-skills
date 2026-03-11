@@ -109,7 +109,7 @@ Flag common violations across all platforms:
 ### ⚠️ Human Checkpoint
 > This skill provides a first-pass compliance check. It does NOT replace legal review for regulated industries. Always consult legal counsel for healthcare, financial services, alcohol, cannabis, or political advertising. Platform policies change frequently — verify current policies before launch.
 
-> **Benchmark Context**: 10-20% of ads are initially rejected across major platforms. Most common rejection reasons: misleading claims (30%), personal attributes (20%), prohibited content (15%), landing page issues (15%). Appeal success rate is 40-60% when the ad is actually compliant. Average review time: 24 hours (Meta), 1-3 business days (Google).
+> **Benchmark Context**: Consult current industry reports for up-to-date benchmarks relevant to this analysis.
 
 ## Output Contract
 

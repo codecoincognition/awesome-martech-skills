@@ -104,7 +104,7 @@ Researches podcast guests and creates comprehensive interview briefs with backgr
 ### ⚠️ Human Checkpoint
 > Review guest's recent public statements for any sensitive topics to navigate. Confirm pronunciation of guest's name and company. Share a brief topic outline with the guest before recording for their comfort.
 
-> **Benchmark Context**: Podcasts with well-researched interviews see 40% higher completion rates (Edison Research 2024 Podcast Consumer Report) Episodes with unique guest insights get 3x more shares. . Pre-interview prep reduces editing time by 30% (Wistia 2024 State of Video) Listeners rank "quality of questions" as the #2 factor in podcast quality (after audio quality). . (Edison Research 2024 Podcast Consumer Report).
+> **Benchmark Context**: See Edison Research 2024 Podcast Consumer Report, and Wistia 2024 State of Video for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Guest Brief

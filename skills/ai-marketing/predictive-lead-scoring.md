@@ -114,7 +114,7 @@ Builds predictive lead scoring models combining behavioral signals, firmographic
 ### ⚠️ Human Checkpoint
 > Validate scoring model with sales team before go-live. Review scoring rules quarterly against actual conversion data. Ensure scoring doesn't introduce bias (geographic, company size, or demographic biases that exclude good leads).
 
-> **Benchmark Context**: Companies with lead scoring see 77% lift in lead generation ROI. Sales teams using lead scoring spend 30% less time on unqualified leads (McKinsey 2024 State of AI Report). Predictive scoring models outperform rule-based by 25-40% when sufficient training data exists (Salesforce 2024 State of Marketing). Only 44% of companies use lead scoring despite its proven impact. Companies that align scoring with sales feedback see 20% higher win rates. (Salesforce 2024 State of Marketing).
+> **Benchmark Context**: See McKinsey 2024 State of AI Report, and Salesforce 2024 State of Marketing for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Lead Scoring Model

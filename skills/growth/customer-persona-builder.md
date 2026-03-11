@@ -125,7 +125,7 @@ R005,33-39,Product Marketing,51-200,MarTech,ROI measurement,Campaign performance
    - Produce implementation guide for marketing use
 
 
-> **Benchmark Context**: Companies with documented buyer personas are 2-4x more effective at content marketing. Average NPS for SaaS is 31. Customer acquisition cost (CAC) benchmarks: B2B SaaS $200-$500 (SMB), $1,000-$5,000 (enterprise. (ProfitWell 2024 SaaS Benchmarks)
+> **Benchmark Context**: See enterprise. (ProfitWell 2024 SaaS Benchmarks for current industry benchmarks relevant to this analysis.
 
 
 ### Confidence & Sample Size.

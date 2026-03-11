@@ -118,7 +118,7 @@ Always suppress:
 ### ⚠️ Human Checkpoint
 > Review all segmentation rules for GDPR/CAN-SPAM compliance before activating. Verify suppression lists are working correctly (test with known contacts). Check segment overlap to ensure contacts aren't receiving duplicate communications.
 
-> **Benchmark Context**: Segmented email campaigns see 14.3% higher open rates and 100.9% higher click rates than non-segmented (Salesforce 2024 State of Marketing). Companies using 3+ data points for segmentation see 2x conversion improvement (Salesforce 2024 State of Marketing). 77% of marketing ROI comes from targeted, segmented campaigns (Salesforce 2024 State of Marketing). Behavioral segments outperform demographic segments by 3x for email engagement (Salesforce 2024 State of Marketing). List decay rate averages 22.5% per year — regular hygiene is essential. (Salesforce 2024 State of Marketing).
+> **Benchmark Context**: See Salesforce 2024 State of Marketing for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Segmentation Architecture

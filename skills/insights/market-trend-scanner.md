@@ -118,7 +118,7 @@ Per trend:
 ### ⚠️ Human Checkpoint
 > Validate trend relevance with customer conversations before building campaigns around them. Quantitative signals (search volume, social mentions) should be confirmed with qualitative evidence (customer interviews, sales team insights). Be cautious of "trends" that are actually echo chambers within your professional bubble.
 
-> **Benchmark Context**: Companies that act on trends early see 2-3x better content performance on trend-related topics. 73% of trend-based content outperforms evergreen content in the first 30 days. Early adopters of platform trends (e.g., Reels, Threads) see 3-5x organic reach vs. late adopters. 68% of marketers say identifying trends early is their biggest challenge (McKinsey 2024 State of AI Report). (McKinsey 2024 State of AI Report).
+> **Benchmark Context**: See McKinsey 2024 State of AI Report for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Trend Analysis

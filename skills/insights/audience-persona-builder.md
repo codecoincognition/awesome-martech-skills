@@ -125,7 +125,7 @@ Per persona:
 ### ⚠️ Human Checkpoint
 > Validate persona profiles with sales team and customer success before using for targeting. Ensure personas represent actual customer patterns, not internal assumptions or wishful thinking. Test persona-based messaging with real customers before full rollout.
 
-> **Benchmark Context**: Companies using personas see 2-5x improvement in email open rates and ad CTR (Gartner 2024 Marketing Technology Survey). Persona-based content generates 18x more revenue than broadcast content (Gartner 2024 Marketing Technology Survey). 71% of companies that exceed revenue goals have documented personas (Gartner 2024 Marketing Technology Survey). Only 44% of B2B marketers actually use their personas for content decisions (Gartner 2024 Marketing Technology Survey). Companies with 3-4 active personas outperform those with 1 or 7+ (Gartner 2024 Marketing Technology Survey). (Gartner 2024 Marketing Technology Survey).
+> **Benchmark Context**: See Gartner 2024 Marketing Technology Survey for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Persona Profiles

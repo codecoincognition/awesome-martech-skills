@@ -104,7 +104,7 @@ Essential exclusions:
 ### ⚠️ Human Checkpoint
 > Review audience definitions for inadvertent discrimination (housing, employment, credit ads have legal restrictions). Verify exclusion lists don't violate platform policies. Ensure custom audience uploads comply with privacy regulations (GDPR/CCPA consent).
 
-> **Benchmark Context**: Lookalike audiences typically outperform interest targeting by 20-40% on CPA. Narrower audiences have higher CPMs but lower CPA. Broad targeting with strong creative often outperforms hyper-targeted campaigns on Meta. First-party data audiences are 2-5x more effective than third-party data segments. Customer Match rates: Google 30-50%, Meta 50-75%, LinkedIn 30-70%.
+> **Benchmark Context**: Consult current industry reports for up-to-date benchmarks relevant to this analysis.
 
 ## Output Contract
 

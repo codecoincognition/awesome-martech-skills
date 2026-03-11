@@ -99,7 +99,7 @@ For each concept, define:
 ### ⚠️ Human Checkpoint
 > Review concepts for brand safety, legal compliance (disclaimers, disclosures), and platform-specific ad policies before production.
 
-> **Benchmark Context**: UGC-style ads outperform polished branded content by 2-4x on Meta and TikTok (Buffer 2024 State of Social). Video ads convert 20-30% better than static on Meta. Average ad creative fatigue sets in after 2-4 weeks. Top-performing ads use a strong hook in the first 1-3 seconds. (Buffer 2024 State of Social).
+> **Benchmark Context**: See Buffer 2024 State of Social for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Creative Brief

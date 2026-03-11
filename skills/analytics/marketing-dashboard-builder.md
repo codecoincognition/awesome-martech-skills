@@ -125,7 +125,7 @@ date,channel,sessions,leads,mqls,opportunities,revenue,spend
 7. **Generate self-contained HTML** — Single file with embedded CSS, JS, Chart.js, and data.
 
 
-> **Benchmark Context**: Marketing teams typically allocate 5-15% of budget to analytics tools (Google 2024 Marketing Measurement Guide). A well-built dashboard should answer 80% of weekly reporting questions without manual queries (Google 2024 Marketing Measurement Guide). GA4 reports average 24-48 hour data lag for standard processing. ### Confidence & Sample Size.
+> **Benchmark Context**: See Google 2024 Marketing Measurement Guide for current industry benchmarks relevant to this analysis.
 > **Confidence Note**: Results are only as reliable as your input data. Small datasets (<50 records or <30 days of data) produce directional insights, not statistically significant conclusions. Always note your sample size when sharing results with stakeholders. Recommendations should be validated with A/B testing or additional data before making major strategic changes.
 
 ## Output Contract

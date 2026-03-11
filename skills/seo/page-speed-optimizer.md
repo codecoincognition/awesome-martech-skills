@@ -109,7 +109,7 @@ Common LCP issues and fixes:
 ### ⚠️ Human Checkpoint
 > Have a developer review all optimization recommendations before implementation. Test changes in staging environment first. Performance optimizations can occasionally break functionality — verify all features work after changes.
 
-> **Benchmark Context**: Pages passing all Core Web Vitals are 24% less likely to be abandoned (Google 2024 Marketing Measurement Guide). Improving LCP by 1 second can increase conversions by 27%. Sites in the top CWV bracket rank higher than those failing. 53% of mobile site visitors leave if a page takes longer than 3 seconds to load. Brotli compression reduces file sizes 15-20% more than Gzip.
+> **Benchmark Context**: See Google 2024 Marketing Measurement Guide for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Speed Optimization Plan

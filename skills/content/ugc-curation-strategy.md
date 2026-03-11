@@ -113,7 +113,7 @@ Plans user-generated content programs — collection mechanisms, curation workfl
 ### ⚠️ Human Checkpoint
 > Have legal review rights management templates and terms of use. Verify FTC compliance for incentivized content and endorsements. Review moderation policy with customer support team.
 
-> **Benchmark Context**: UGC-based ads get 4x higher click-through rates than brand-created ads. 92% of consumers trust UGC more than traditional advertising. Products with UGC on product pages see 29% higher conversion rates. UGC photos are 5x more likely to convert than professional photos. Brands using UGC see 50% reduction in cost-per-acquisition.
+> **Benchmark Context**: Consult current industry reports for up-to-date benchmarks relevant to this analysis.
 
 ## Output Contract
 

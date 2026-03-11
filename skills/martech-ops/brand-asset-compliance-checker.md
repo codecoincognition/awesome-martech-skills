@@ -118,7 +118,7 @@ For each violation, provide:
 > Review severity classifications before sharing with stakeholders. Context matters — a minor font inconsistency in an internal deck is different from a logo violation on a billboard.
 
 
-> **Benchmark Context**: Average enterprise has 91 marketing tools in its stack. Brand compliance violations occur in 60% of co-branded partner materials (Gartner 2024 Marketing Technology Survey). UTM tracking is implemented on only 40-50% of marketing URLs on average. (Gartner 2024 Marketing Technology Survey).
+> **Benchmark Context**: See Gartner 2024 Marketing Technology Survey for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Compliance Report

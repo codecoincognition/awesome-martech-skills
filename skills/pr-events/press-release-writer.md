@@ -27,7 +27,7 @@ description: "Write professional press releases in AP style format. Need a press
 | `company_name` | text | Your organization name | "EcoBlend Inc." |
 | `announcement_date` | date | When news goes public | "2026-04-15" |
 | `announcement_type` | select | News category | Product Launch / Funding / Partnership / Award / Event / Other |
-| `key_facts` | list | 3-5 critical data points | ["$3M funding", "Led by Sequoia", "Expansion to 15 states", "95% recycled packaging"] |
+| `key_facts` | list | 3-5 critical data points | ["$3M funding", "Led by [Investor Name]", "Expansion to 15 states", "95% recycled packaging"] |
 | `primary_quote` | text | Founder/CEO quote | "This funding validates our mission to make sustainability accessible to millions..." |
 | `quote_attribution` | text | Who said it | "Jane Smith, Co-founder & CEO, EcoBlend" |
 | `boilerplate` | text | Company description | "EcoBlend is a sustainable beverage company..." |
@@ -65,10 +65,10 @@ Announcement Type: Funding
 Announcement Date: 2026-04-15
 
 Key Facts:
-  1. $3M Series A led by Sequoia Capital
+  1. $3M Series A led by [Lead Investor]
   2. 95% recycled plastic bottles, 100% compostable materials
   3. Expanding from 5 to 15 states by EOY 2026
-  4. Partnering with Whole Foods for national shelf space
+  4. Partnering with [Retail Partner] for national shelf space
   5. 45% YoY revenue growth since Series Seed
 
 Primary Quote: "This funding validates our belief that consumers will choose sustainability when given access. We're not just building a beverage company—we're building a movement toward regenerative business." — Jane Smith, Co-founder & CEO, EcoBlend
@@ -80,10 +80,10 @@ Media Contact: John Doe, PR Manager, john@ecoblend.com, (555) 123-4567, mobile: 
 Embargo: 2026-04-15 9:00 AM ET
 
 Secondary Quotes:
-  - "Sustainability is no longer optional—it's table stakes. EcoBlend is leading the charge in beverage innovation." — Michael Chen, Partner, Sequoia Capital
-  - "When we met Jane and the team, we saw the future of food. EcoBlend is already outperforming category benchmarks." — Regional Director, Whole Foods
+  - "[Investor quote praising the company vision and market opportunity]" — [Investor Name], Partner, [Lead Investor]
+  - "[Retail partner quote validating product-market fit]" — [Regional Director], [Retail Partner]
 
-Target Media: TechCrunch, Forbes, Sustainability Today, Fast Company
+Target Media: [Industry Publication 1], [Industry Publication 2], [Trade Publication], [Business Publication]
 ```
 
 ### If You Don't Have This Data
@@ -145,7 +145,7 @@ Target Media: TechCrunch, Forbes, Sustainability Today, Fast Company
    - **Human Checkpoint:** Approve distribution recommendations
 
 
-> **Benchmark Context**: Average press release pickup rate is 1-3% of targeted journalists (Cision 2024 State of the Media Report). Event email invitation open rates average 20-25%, with 2-5% registration conversion (Bizzabo 2024 Event Marketing Report). Best press release send times: Tuesday-Thursday, 9-10 AM in the journalist's time zone (Cision 2024 State of the Media Report). (Cision 2024 State of the Media Report)
+> **Benchmark Context**: See Cision 2024 State of the Media Report, and Bizzabo 2024 Event Marketing Report for current industry benchmarks relevant to this analysis.
 
 
 ### Confidence & Sample Size.
@@ -201,9 +201,9 @@ CITY, STATE — Month Date, Year — [COMPANY NAME] today announced [core news].
 
 | Publication | Contact Name | Email | Phone | Relevance | Timing | Follow-up Notes |
 |-------------|--------------|-------|-------|-----------|--------|-----------------| 
-| TechCrunch | Sarah Johnson | news@techcrunch.com | (415) 555-0100 | Funding, startup | Tier 1: Day 1 | Sent Apr 15, 9 AM |
-| Forbes | Michael Chen | editorial@forbes.com | (212) 555-0200 | Leadership, funding | Tier 1: Day 1 | Follow up if no response |
-| Sustainability Today | Lisa Garcia | editor@sustain.com | (415) 555-0300 | ESG, climate | Tier 2: Day 2 | Industry angle |
+| [Industry Pub] | [Contact Name] | [email] | [phone] | Funding, startup | Tier 1: Day 1 | Sent Apr 15, 9 AM |
+| [Business Pub] | [Contact Name] | [email] | [phone] | Leadership, funding | Tier 1: Day 1 | Follow up if no response |
+| [Trade Pub] | [Contact Name] | [email] | [phone] | ESG, climate | Tier 2: Day 2 | Industry angle |
 
 You can copy this table directly into Google Sheets, Excel, or any spreadsheet tool. Simply paste the Markdown table, and your spreadsheet application will automatically convert it to columns.
 
@@ -424,7 +424,7 @@ james@greenleaforganics.com
 
 **FOR IMMEDIATE RELEASE**
 
-SAN FRANCISCO, CA — April 15, 2026 — EcoBlend, the venture-backed sustainable beverage company, today announced it has raised $3 million in Series A funding led by Sequoia Capital. The round will accelerate EcoBlend's expansion from 5 to 15 states by the end of 2026 and fund a strategic partnership with Whole Foods Market for national distribution.
+SAN FRANCISCO, CA — April 15, 2026 — EcoBlend, the venture-backed sustainable beverage company, today announced it has raised $3 million in Series A funding led by [Lead Investor]. The round will accelerate EcoBlend's expansion from 5 to 15 states by the end of 2026 and fund a strategic partnership with [Retail Partner] for national distribution.
 
 EcoBlend crafts plant-based drinks from ethically sourced ingredients and packages everything in 95% recycled materials and 100% compostable components. Since launch in 2021, the company has achieved 45% year-over-year revenue growth and expanded to 50,000+ retail locations across the West Coast.
 
@@ -432,19 +432,19 @@ EcoBlend crafts plant-based drinks from ethically sourced ingredients and packag
 
 The Series A round comes as consumer demand for sustainable food and beverage options reaches an all-time high, with market research showing 73% of millennial and Gen Z consumers willing to pay a premium for eco-friendly products. EcoBlend's Series A valuation reflects investor confidence in the company's market fit, brand strength, and operational efficiency.
 
-"Sustainability is no longer optional—it's table stakes," said Michael Chen, Partner at Sequoia Capital. "EcoBlend is leading the charge in beverage innovation. When we met Jane and the team, we saw the future of food. EcoBlend is already outperforming category benchmarks in customer retention and unit economics."
+"[Investor quote praising vision, market opportunity, and team strength]," said [Investor Name], Partner at [Lead Investor]. "[Additional color on why this company stands out in the market and what attracted the investment.]"
 
 The funding will be allocated toward: 30% supply chain scaling, 25% marketing and brand expansion, 20% product development (2 new flavors launching Q3 2026), and 25% team expansion and operations.
 
-Whole Foods Regional Director Tom Anderson noted, "EcoBlend represents the next generation of consumer brands. Their commitment to transparency, sustainability, and taste has earned a place in 150 of our stores, with national expansion beginning June 1, 2026."
+[Retail Partner] Regional Director [Name] noted, "[Partner quote validating product-market fit and customer reception, with expansion details.]"
 
-"This partnership validates our product-market fit and gives us access to 10 million Whole Foods shoppers," Smith added. "We'll move from a West Coast regional brand to a national household name in under 12 months."
+"This partnership validates our product-market fit and gives us access to [number] shoppers," Smith added. "We'll move from a regional brand to a national household name in under 12 months."
 
 EcoBlend will host a live Q&A with investors and the media on April 22, 2026, at 2 p.m. PT. Registration available at ecoblend.com/press.
 
 ### About EcoBlend
 
-EcoBlend is a venture-backed sustainable beverage company founded in 2021 by Jane Smith and Robert Chen. The company crafts plant-based drinks from ethically sourced ingredients—partnering directly with farmers in Peru, Colombia, and Vietnam—and packages everything in 95% recycled materials. EcoBlend is available in 5,000+ retail locations across California, Oregon, Washington, and Colorado, with expansion to 15 states underway. Learn more at ecoblend.com, or follow @EcoBlendbev on Instagram and TikTok.
+EcoBlend is a venture-backed sustainable beverage company founded in 2021 by [Founder Names]. The company crafts plant-based drinks from ethically sourced ingredients and packages everything in 95% recycled materials. EcoBlend is available in 5,000+ retail locations across [regions], with expansion to 15 states underway. Learn more at [website].
 
 ### Media Contact
 
@@ -464,23 +464,23 @@ Mobile: (555) 987-6543
 ## DISTRIBUTION RECOMMENDATIONS
 
 **Tier 1 (Day 1 — 9 AM PT Release):**
-- TechCrunch (Sarah Johnson, sarah@techcrunch.com) — Funding angle
-- Forbes (Michael Chen, michael@forbes.com) — Leadership, consumer trend
-- WSJ (Jennifer Lee, jlee@wsj.com) — Business, funding
-- Whole Foods Magazine (Editor) — Retail partnership angle
+- [Top Industry Publication] ([Contact Name], [email]) — Funding angle
+- [Top Business Publication] ([Contact Name], [email]) — Leadership, consumer trend
+- [National Business Publication] ([Contact Name], [email]) — Business, funding
+- [Partner Trade Publication] (Editor) — Partnership angle
 
 **Tier 2 (Day 2 — Journalist follow-up):**
-- Fast Company (Sustainability beat reporter)
-- Food & Wine (James Park, james@foodandwine.com) — Product, trend
-- Sustainability Today (Lisa Garcia, lisa@sustain.com) — ESG angle
+- [Innovation Publication] (Beat reporter)
+- [Vertical Trade Publication] ([Contact Name], [email]) — Product, trend
+- [Industry Trade Publication] ([Contact Name], [email]) — Industry angle
 
 **Tier 3 (Day 3-5 — Regional media):**
-- San Francisco Chronicle, LA Times, Seattle Times (Business sections)
-- Bay Area business journals and podcasts
+- [Regional newspapers] (Business sections)
+- [Local business journals and podcasts]
 
 **Outreach Timing:**
 - 9 AM PT: Release to Tier 1 journalists simultaneously
-- 10 AM PT: Alert Sequoia Capital PR team (partner validation)
+- 10 AM PT: Alert [Lead Investor] PR team (partner validation)
 - 12 PM PT: Publish on EcoBlend website + social media
 - Day 2, 9 AM: Follow-up emails to Tier 2 journalists
 - Week 2: Pitch features and deep-dive stories

@@ -109,7 +109,7 @@ url,clicks,clicks_previous,impressions,avg_position,publish_date,word_count,targ
 6. **Generate output** — XLSX with prioritized action list + Markdown summary.
 
 
-> **Benchmark Context**: Average time to rank on page 1 for a new page is 3-6 months (Semrush 2024 State of Search). Long-tail keywords (3+ words) have 3-5% CTR vs (Ahrefs 2024 Search Traffic Study). 1-2% for head terms. The #1 organic result gets ~27.6% of clicks. Content updates on existing pages show ranking improvements within 2-4 weeks (Semrush 2024 State of Search). (Ahrefs 2024 Search Traffic Study)
+> **Benchmark Context**: See Semrush 2024 State of Search, and Ahrefs 2024 Search Traffic Study for current industry benchmarks relevant to this analysis.
 
 
 ### Confidence & Sample Size.

@@ -134,7 +134,7 @@ Calculate per cohort:
 ### ⚠️ Human Checkpoint
 > Validate cohort definitions with your product and data teams — inconsistent user definitions will invalidate the entire analysis. Ensure your "active user" definition is meaningful (logged in ≠ engaged). Check for data quality issues like duplicate users, test accounts, or incomplete event tracking.
 
-> **Benchmark Context**: Average SaaS Month 1 retention is 40-60%. By Month 12, average SaaS retention is 15-25%. Best-in-class SaaS products retain 35-45% at Month 12. B2C mobile app Day 1 retention averages 25-30%, Day 30 averages 5-10%. Improving Month 1 retention by 5% typically increases LTV by 15-25% due to compounding effects. Companies that track cohort metrics grow 2-3x faster than those using only aggregate metrics.
+> **Benchmark Context**: Consult current industry reports for up-to-date benchmarks relevant to this analysis.
 
 ## Output Contract
 

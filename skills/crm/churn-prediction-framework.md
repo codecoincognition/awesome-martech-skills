@@ -130,7 +130,7 @@ For churned customers:
 ### ⚠️ Human Checkpoint
 > Validate health scores with CSM team — they often have qualitative insights that data misses (e.g., "this customer is fine, they're just on vacation"). Review retention offers with finance — retention discounts affect margins. Ensure win-back campaigns comply with opt-out preferences.
 
-> **Benchmark Context**: It costs 5-7x more to acquire a new customer than to retain an existing one. A 5% increase in retention increases profits by 25-95% (Bain & Company 2024 Customer Loyalty Report). Companies with proactive churn prediction reduce churn by 10-30% (Bain & Company 2024 Customer Loyalty Report). Average SaaS monthly churn: 3-8% for SMB, 1-2% for enterprise (Bain & Company 2024 Customer Loyalty Report). 67% of churn is preventable with proactive intervention (Bain & Company 2024 Customer Loyalty Report). Customers who receive proactive outreach during at-risk periods retain at 2x the rate of those who don't. (Bain & Company 2024 Customer Loyalty Report).
+> **Benchmark Context**: See Bain & Company 2024 Customer Loyalty Report for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Churn Prediction Plan

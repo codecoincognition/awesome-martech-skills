@@ -191,13 +191,13 @@ We embed **human checkpoints** everywhere. The skill doesn't just produce output
 Inline, cited benchmarks:
 
 ```
-> Average email open rate is 21.3%, click rate 2.6% (Mailchimp 2024 Email Marketing Benchmarks)
+> **Benchmark Context**: See Mailchimp 2024 Email Marketing Benchmarks for current industry benchmarks relevant to this analysis.
 ```
 
-Every metric recommendation is grounded in:
-- Current industry data (the year matters)
-- Specific sources (we prefer published reports over "conventional wisdom")
-- Context on what population it represents
+Every benchmark reference points to a named, published source so users can look up current numbers themselves. We do not hardcode specific statistics because benchmarks change annually. Instead, we:
+- Name the authoritative source (the report or tool matters)
+- Let users consult the original for current figures
+- Provide context on what population or industry it represents
 
 ### Confidence & Sample Size Note
 
@@ -361,10 +361,10 @@ Every recommendation is grounded in evidence. This is non-negotiable.
 We use footnote-style citations within the text:
 
 ```
-Average email open rate is 21.3%, click rate 2.6% [Mailchimp 2024 Email Marketing Benchmarks]
+See Mailchimp 2024 Email Marketing Benchmarks for current open rate and click rate benchmarks.
 ```
 
-Not pretty hyperlinks, but clear source attribution inline.
+We reference the source name inline so users can verify current numbers themselves.
 
 **Source selection criteria:**
 

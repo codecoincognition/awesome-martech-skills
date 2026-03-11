@@ -110,7 +110,7 @@ Hour-by-hour execution plan:
 ### ⚠️ Human Checkpoint
 > Review positioning with actual customers before launch. Verify all legal/compliance requirements (regulatory approvals, terms of service, privacy policy updates). Ensure customer support is staffed for launch-day volume. Test all links, tracking, and landing pages before go-live.
 
-> **Benchmark Context**: 70% of product launches miss their initial targets. Companies that do pre-launch marketing see 2-3x higher launch-day results. Email is the #1 launch channel by conversion rate. Press coverage has a 24-48 hour impact window. The most successful launches combine 3+ channels simultaneously. Post-launch content (case studies, tutorials) drives 40% of first-year revenue (ProfitWell 2024 SaaS Benchmarks).
+> **Benchmark Context**: See ProfitWell 2024 SaaS Benchmarks for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown GTM Plan

@@ -99,7 +99,7 @@ Creates structured influencer collaboration briefs with targeting criteria, outr
 ### ⚠️ Human Checkpoint
 > Review influencer selections for brand safety. Check recent content (last 30 days) for controversial posts, fake follower indicators (engagement rate vs. follower count ratio), and audience authenticity.
 
-> **Benchmark Context**: Micro-influencers (5K-50K) deliver 60% higher engagement rates than macro-influencers (Sprout Social 2024 Index) Instagram Reels collaborations average 2-3x higher reach than feed posts (Later 2024 Social Media Industry Report) Average influencer marketing ROI is $5.78 per $1 spent. . 67% of brands prefer ongoing partnerships over one-off posts (Buffer 2024 State of Social) (Sprout Social 2024 Index).
+> **Benchmark Context**: See Sprout Social 2024 Index, Later 2024 Social Media Industry Report, and Buffer 2024 State of Social for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Brief

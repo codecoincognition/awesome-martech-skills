@@ -117,7 +117,7 @@ Formulas that drive opens:
 ### ⚠️ Human Checkpoint
 > Review all email copy for factual accuracy, brand voice alignment, and legal compliance (especially claims, pricing, and deadlines). Ensure urgency and scarcity claims are genuine — false urgency damages trust.
 
-> **Benchmark Context**: Personalized subject lines increase opens by 26% (HubSpot 2024 State of Marketing). Emails with a single CTA increase clicks by 371%. Subject lines with 6-10 words get the highest open rates (HubSpot 2024 State of Marketing). Using the recipient's first name in the subject line increases opens by 10-14% (HubSpot 2024 State of Marketing). Preview text optimization can increase opens by 7%. Emoji in subject lines increases open rates for some audiences and decreases for others — test. (HubSpot 2024 State of Marketing).
+> **Benchmark Context**: See HubSpot 2024 State of Marketing for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Copy Package

@@ -100,7 +100,7 @@ Build audience layers:
 ### ⚠️ Human Checkpoint
 > Verify Pixel/Conversions API setup, confirm audience exclusions include existing customers (to avoid wasting spend), and review all ad copy for compliance with Meta Advertising Standards before launching.
 
-> **Benchmark Context**: Average Meta ads CPC is $0.50-$2.00 (varies by industry. Average conversion rate is 1-3% for e-commerce, 5-10% for lead gen. Advantage+ Shopping campaigns show 12-20% lower CPA vs. manual campaigns. Broad targeting often outperforms detailed targeting at scale. Consolidating ad sets improves performance by giving the algorithm more data. (Meta 2024 Advertising Benchmarks).
+> **Benchmark Context**: See Meta 2024 Advertising Benchmarks for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Campaign Blueprint

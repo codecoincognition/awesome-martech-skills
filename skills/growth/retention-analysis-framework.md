@@ -104,7 +104,7 @@ Interventions by lifecycle stage:
 ### ⚠️ Human Checkpoint
 > Validate churn reasons with actual user conversations (surveys alone can be misleading). Review health score thresholds with customer success team. Verify that retention interventions don't annoy retained users (frequency caps on re-engagement).
 
-> **Benchmark Context**: Average SaaS monthly churn is 3-7% (monthly contracts) or 5-10% annually (annual contracts. Good Day 1 retention: 40%+ for apps, 60%+ for SaaS (OpenView 2024 Product Benchmarks). Good Day 30 retention: 15%+ for apps, 40%+ for SaaS (OpenView 2024 Product Benchmarks). Reactivating a churned user costs 5-25x less than acquiring a new one (ProfitWell 2024 SaaS Benchmarks). A 5% improvement in retention can increase profits by 25-95% (OpenView 2024 Product Benchmarks). (OpenView 2024 Product Benchmarks).
+> **Benchmark Context**: See OpenView 2024 Product Benchmarks, and ProfitWell 2024 SaaS Benchmarks for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Retention Report

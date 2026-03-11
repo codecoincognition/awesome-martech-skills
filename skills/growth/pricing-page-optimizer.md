@@ -105,7 +105,7 @@ Must-have elements:
 ### ⚠️ Human Checkpoint
 > Verify pricing accuracy with finance team before publishing. Review feature comparisons with product team for accuracy. Ensure compliance with any contractual pricing agreements. Test the complete purchase flow after changes.
 
-> **Benchmark Context**: Average SaaS pricing page conversion rate is 2-5% (ProfitWell 2024 SaaS Benchmarks). Highlighting a "recommended" plan increases its selection by 20-30%. Showing annual savings increases annual plan adoption by 15-25%. FAQ sections reduce support inquiries by 20-30%. Mobile pricing page conversion is typically 30-50% lower than desktop — optimize for mobile. 3 plans convert better than 2 or 4+ plans. (ProfitWell 2024 SaaS Benchmarks).
+> **Benchmark Context**: See ProfitWell 2024 SaaS Benchmarks for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Pricing Page Audit

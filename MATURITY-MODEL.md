@@ -98,9 +98,9 @@ By completing Level 1 skills, your organization will have:
 - ✅ Repeatable processes for content, emails, and ads
 - ✅ Data structure that allows you to scale without starting over
 
-**Expected ROI Impact:**
-- 40-60% improvement in content discovery (via SEO fundamentals)
-- 15-25% improvement in email open rates (via subject line optimization)
+**Expected Impact:**
+- Improved content discovery via SEO fundamentals
+- Better email engagement via subject line optimization
 - Clear visibility into which marketing activities actually drive revenue
 
 ---
@@ -183,11 +183,11 @@ By completing Level 2 skills, your organization will have:
 - ✅ CRM clean enough for reliable lead scoring and segmentation
 - ✅ Multi-touch attribution model (not just last-click)
 
-**Expected ROI Impact:**
-- 30-50% reduction in marketing operations time (via automation and dashboards)
-- 25-40% increase in lead volume (via scaled content and paid channels)
-- 20-35% improvement in email engagement (via segmentation and sequences)
-- 15-25% higher win rates (via better lead scoring and qualification)
+**Expected Impact:**
+- Significant reduction in marketing operations time (via automation and dashboards)
+- Increased lead volume (via scaled content and paid channels)
+- Better email engagement (via segmentation and sequences)
+- Higher win rates (via better lead scoring and qualification)
 
 ---
 
@@ -283,12 +283,12 @@ By completing Level 3 skills, your organization will have:
 - ✅ Brand and DAM governance enabling consistent execution at scale
 - ✅ Vendor relationships actively managed and optimized
 
-**Expected ROI Impact:**
-- 20-30% improvement in CAC efficiency (via audience targeting and testing)
-- 25-35% increase in deal sizes (via ABM and account research)
-- 30-40% improvement in form completion rates (via CRO)
-- 15-25% faster sales cycles (via account research and sales content)
-- 40-50% reduction in compliance and brand issues
+**Expected Impact:**
+- Improved CAC efficiency (via audience targeting and testing)
+- Larger deal sizes (via ABM and account research)
+- Better form completion rates (via CRO)
+- Faster sales cycles (via account research and sales content)
+- Fewer compliance and brand issues
 
 ---
 
@@ -400,12 +400,12 @@ By completing Level 4 skills, your organization will have:
 - ✅ Mature influencer and social programs aligned to business goals
 - ✅ Complex ad programs across Google, Meta, and LinkedIn with layered targeting
 
-**Expected ROI Impact:**
-- 25-40% improvement in overall marketing efficiency (via optimization)
-- 15-25% improvement in email deliverability (via technical fixes)
-- 30-45% improvement in CRO metrics (via scientific testing)
-- 20-35% reduction in churn (via predictive intervention)
-- 40-60% improvement in time-to-insight (via automation)
+**Expected Impact:**
+- Measurably improved marketing efficiency (via optimization)
+- Better email deliverability (via technical fixes)
+- Stronger CRO metrics (via scientific testing)
+- Reduced churn (via predictive intervention)
+- Faster time-to-insight (via automation)
 
 ---
 
@@ -557,12 +557,12 @@ By completing Level 5 skills, your organization will have:
 - ✅ Global marketing operations scaled across regions, products, and segments
 - ✅ Innovation pipeline generating new capabilities and competitive advantages
 
-**Expected ROI Impact:**
-- 30-50% improvement in overall marketing efficiency (vs. Level 4)
-- 25-40% improvement in time-to-insight for decision-making
-- 20-35% reduction in time-to-scale for new initiatives
-- 40-60% improvement in experimentation speed and learning velocity
-- 50%+ improvement in marketing's strategic business impact
+**Expected Impact:**
+- Step-change improvement in overall marketing efficiency (vs. Level 4)
+- Dramatically faster time-to-insight for decision-making
+- Reduced time-to-scale for new initiatives
+- Faster experimentation speed and learning velocity
+- Meaningful improvement in marketing's strategic business impact
 
 ---
 

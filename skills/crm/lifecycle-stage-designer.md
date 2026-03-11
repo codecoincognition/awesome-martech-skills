@@ -129,7 +129,7 @@ MQL threshold: 50+ points. SQL threshold: 80+ points OR explicit request.
 ### ⚠️ Human Checkpoint
 > Get buy-in from both marketing and sales leadership before implementing lifecycle changes. CRM stage changes affect reporting, automation, and team workflows. Test new stages with a subset of leads before full rollout.
 
-> **Benchmark Context**: Companies with defined lifecycle stages convert MQLs to SQLs at 2-3x the rate of those without (HubSpot 2024 State of Marketing) Average MQL-to-SQL conversion: 13% (varies by industry). . Average SQL-to-close: 20-30% for B2B SaaS. . Leads contacted within 5 minutes are 9x more likely to convert (Salesforce 2024 State of Marketing) Companies with sales-marketing SLAs see 36% higher customer retention (Salesforce 2024 State of Marketing) (Salesforce 2024 State of Marketing).
+> **Benchmark Context**: See HubSpot 2024 State of Marketing, and Salesforce 2024 State of Marketing for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Lifecycle Architecture

@@ -109,7 +109,7 @@ Plans content localization strategy for international markets — prioritizing w
 ### ⚠️ Human Checkpoint
 > Have in-market native speakers review all localized content before publication. Verify legal/regulatory compliance per market. Test all localized user flows end-to-end.
 
-> **Benchmark Context**: Localized websites convert 70% better than English-only for non-English markets. 75% of consumers prefer to buy products in their native language. Companies that localize content see 1.5x faster international revenue growth. Only 20% of internet users speak English. Proper hreflang implementation increases international organic traffic by 20-30%.
+> **Benchmark Context**: Consult current industry reports for up-to-date benchmarks relevant to this analysis.
 
 ## Output Contract
 

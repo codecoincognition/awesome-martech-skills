@@ -119,7 +119,7 @@ For each experiment, define:
 ### ⚠️ Human Checkpoint
 > Review experiment priorities with the team before committing engineering resources. Verify that success metrics are tracked correctly before launch. Ensure experiments don't negatively impact user experience in ways that outweigh potential gains.
 
-> **Benchmark Context**: High-growth companies run 10-30 experiments per month (ProfitWell 2024 SaaS Benchmarks). Average experiment success rate is 20-30%. 1 in 10 experiments produces a 10%+ improvement. Experiment velocity (experiments per week) is a better predictor of growth than any single experiment result. The best growth teams have a 4:1 ratio of quick tests to big bets (ProfitWell 2024 SaaS Benchmarks). (ProfitWell 2024 SaaS Benchmarks).
+> **Benchmark Context**: See ProfitWell 2024 SaaS Benchmarks for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Experiment Backlog

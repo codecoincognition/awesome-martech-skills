@@ -104,7 +104,7 @@ Per workflow:
 ### ⚠️ Human Checkpoint
 > Review all automated email content for accuracy, brand voice, and compliance before activating. Test the complete flow with internal addresses first. Set up alerts for unusual unsubscribe rates in automated flows. Verify suppression rules prevent over-emailing.
 
-> **Benchmark Context**: Cart abandonment emails recover 5-15% of abandoned carts. Welcome series generate 320% more revenue per email than promotional campaigns. Automated emails generate 29% of email marketing revenue with only 2% of sends (Mailchimp 2024 Email Marketing Benchmarks). Post-purchase flows increase repeat purchase rate by 20-40%. Optimal cart abandonment timing: first email within 1 hour, second at 24 hours, third at 72 hours.
+> **Benchmark Context**: See Mailchimp 2024 Email Marketing Benchmarks for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Workflow Blueprint

@@ -106,7 +106,7 @@ Analyzes backlink profiles to assess authority, identify toxic links, discover c
 ### ⚠️ Human Checkpoint
 > Review disavow file carefully before submitting to Google — incorrectly disavowing good links can hurt rankings. Verify outreach targets are legitimate sites before contacting. Never pay for links from link farms or PBNs.
 
-> **Benchmark Context**: Top-ranking pages have 3.8x more backlinks than positions 2-10 (Backlinko 2024 SEO Statistics). Sites with 40+ referring domains rank for significantly more keywords. Average outreach response rate is 5-15%. Quality of linking domain matters more than quantity — one link from a DA 60+ site outweighs 100 links from DA 10 sites. Natural link profiles have 50-70% branded anchor text. (Backlinko 2024 SEO Statistics).
+> **Benchmark Context**: See Backlinko 2024 SEO Statistics for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Backlink Analysis

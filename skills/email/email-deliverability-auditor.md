@@ -5,7 +5,7 @@ description: >
   Use this skill when the user says "email deliverability audit", "why are emails going to spam",
   "inbox placement rate", "sender reputation check", "email authentication setup", "SPF DKIM DMARC
   audit", "email bounce rate high", "email spam score", "email deliverability best practices",
-  "warmup sending domain", or "email blacklist check". Also trigger for email infrastructure
+  "warmup sending domain", or "email blocklist check". Also trigger for email infrastructure
   review, sending domain reputation, or inbox placement testing.
 ---
 
@@ -28,7 +28,7 @@ Audits email deliverability with sender reputation analysis, authentication veri
 - "Our sender reputation is low" (reputation)
 - "Email warmup strategy for new domain" (warmup)
 - "Inbox placement rate is dropping" (decline)
-- "Are we on any email blacklists?" (blacklist)
+- "Are we on any email blocklists?" (blocklist)
 - "Email deliverability best practices" (best practices)
 - "Our open rates suddenly dropped" (diagnosis)
 
@@ -46,7 +46,7 @@ Audits email deliverability with sender reputation analysis, authentication veri
 
 - **No deliverability metrics?** Check your ESP dashboard for open rates, bounce rates, and spam complaints. Most ESPs show this data by default.
 - **No authentication records?** Claude walks you through checking your DNS records and provides exact records to add.
-- **No blacklist info?** Use free tools like MXToolbox or mail-tester.com. Claude provides the full checklist.
+- **No blocklist info?** Use free tools like MXToolbox or mail-tester.com. Claude provides the full checklist.
 - **New domain?** Claude provides a complete warmup plan from scratch.
 
 ### Optional Inputs
@@ -111,7 +111,7 @@ Audits email deliverability with sender reputation analysis, authentication veri
 ### ⚠️ Human Checkpoint
 > Have your DNS administrator review all authentication record changes before publishing. Incorrect SPF/DKIM/DMARC records can block ALL email (including transactional). Test changes with a small segment before full deployment.
 
-> **Benchmark Context**: Average inbox placement rate is 83%. DMARC enforcement (p=reject) improves deliverability by 10%. Spam complaint rate above 0.3% triggers reputation issues at major providers (Litmus 2024 State of Email). Emails authenticated with SPF+DKIM+DMARC have 10% higher inbox placement. Google requires bulk senders (5,000+/day) to have one-click unsubscribe and maintain complaint rate below 0.1% (Litmus 2024 State of Email).
+> **Benchmark Context**: See Litmus 2024 State of Email for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Deliverability Audit
@@ -167,7 +167,7 @@ Audits email deliverability with sender reputation analysis, authentication veri
 ### Monitoring Tools
 1. Google Postmaster Tools (free): domain reputation and spam rate
 2. Microsoft SNDS: Outlook deliverability data
-3. MXToolbox: blacklist monitoring and DNS checks
+3. MXToolbox: blocklist monitoring and DNS checks
 4. Mail-tester.com: per-email spam score testing
 
 ## Failure Modes

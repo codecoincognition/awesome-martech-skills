@@ -108,7 +108,7 @@ Trigger when the user says:
 6. **Generate output** — Full sequence document with all copy + CSV for platform import.
 
 
-> **Benchmark Context**: Average B2B email open rate is 21.3%, click rate 2 (Mailchimp 2024 Email Marketing Benchmarks). 6% (Mailchimp 2024 Email Marketing Benchmarks) Welcome emails average 50-60% open rates — the highest of any email type (Mailchimp 2024 Email Marketing Benchmarks) Segmented campaigns see 14% higher open rates than non-segmented (Mailchimp 2024 Email Marketing Benchmarks) Best send times: B2B Tuesday-Thursday 9-11 AM local time (Campaign Monitor 2024 Email Benchmarks) (Mailchimp 2024 Email Marketing Benchmarks)
+> **Benchmark Context**: See Mailchimp 2024 Email Marketing Benchmarks, and Campaign Monitor 2024 Email Benchmarks for current industry benchmarks relevant to this analysis.
 
 
 ### Confidence & Sample Size.

@@ -117,7 +117,7 @@ Per friction point:
 ### ⚠️ Human Checkpoint
 > Validate journey maps with real customers through interviews or surveys. Internal stakeholders often have blind spots about customer experience. Test journey changes with a subset of customers before rolling out broadly.
 
-> **Benchmark Context**: Companies with documented customer journey maps are 2.4x more likely to exceed revenue goals. 89% of customers switch brands after a poor experience. Reducing customer effort by one point on a 7-point scale increases repurchase likelihood by 94%. Companies that optimize for moments of truth see 20-30% improvement in customer satisfaction. Cross-channel customers have 30% higher lifetime value than single-channel customers.
+> **Benchmark Context**: Consult current industry reports for up-to-date benchmarks relevant to this analysis.
 
 ## Output Contract
 

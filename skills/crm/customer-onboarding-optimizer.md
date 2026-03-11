@@ -127,7 +127,7 @@ Designs and optimizes customer onboarding sequences to accelerate time-to-value,
 ### ⚠️ Human Checkpoint
 > Test onboarding sequences with new users and collect qualitative feedback. Automated emails should be reviewed for relevance as product changes. In-app messages should be tested for mobile compatibility. Enterprise onboarding plans should be customizable by CSM.
 
-> **Benchmark Context**: 40-60% of free trial users log in once and never return. Users who activate in the first 3 days retain at 3x the rate of those who take 7+ days. Onboarding emails have 4x higher open rates than marketing emails. Companies with structured onboarding see 50% greater new-hire productivity (same principle applies to customers). 86% of customers say they'd be more loyal if they received better onboarding content.
+> **Benchmark Context**: Consult current industry reports for up-to-date benchmarks relevant to this analysis.
 
 ## Output Contract
 

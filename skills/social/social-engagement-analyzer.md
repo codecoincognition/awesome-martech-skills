@@ -95,7 +95,7 @@ Analyzes social media post performance data to identify winning content patterns
 ### ⚠️ Human Checkpoint
 > Check if top-performing posts had external amplification (paid boost, influencer share, news cycle) that skews organic performance data.
 
-> **Benchmark Context**: Average engagement rates by platform (2025-2026): Instagram 0.60-0.80%, LinkedIn 0.35-0.50%, Twitter/X 0 (Sprout Social 2024 Index). 03-0.05%, Facebook 0 (Meta 2024 Advertising Benchmarks). 06-0.08%, TikTok 3-6% (Sprout Social 2024 Index) Engagement rates decline as follower count increases. . Video content averages 2-3x higher engagement than static images across all platforms (Sprout Social 2024 Index) (Sprout Social 2024 Index).
+> **Benchmark Context**: See 2025-2026, Sprout Social 2024 Index, and Meta 2024 Advertising Benchmarks for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Structured Analysis Tables in Markdown + Summary

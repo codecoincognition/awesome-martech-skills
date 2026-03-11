@@ -103,7 +103,7 @@ Rules for controlled testing:
 ### ⚠️ Human Checkpoint
 > Review test variants for brand consistency, legal compliance, and unintended messaging before launch. Verify that the test audience is large enough to reach significance within your timeline and budget.
 
-> **Benchmark Context**: Systematic creative testing improves CPA by 20-40% over 3-6 months. Top advertisers test 10-20 creative variants per month. The #1 creative variable that drives performance is the concept/angle (not colors or fonts). 80% of ad spend should go to proven creative, 20% to testing (Statista 2024 Digital Advertising Report). Creative fatigue sets in 30-50% faster on TikTok vs. Meta.
+> **Benchmark Context**: See Statista 2024 Digital Advertising Report for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Testing Plan

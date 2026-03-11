@@ -102,7 +102,7 @@ Per content piece:
 ### ⚠️ Human Checkpoint
 > Verify data accuracy before sharing scorecards with stakeholders. Context matters: seasonal content, campaign-specific pieces, and brand-building content may score low on conversion but serve other strategic purposes.
 
-> **Benchmark Context**: Top 10% of content generates 90% of traffic for most sites. Average blog post takes 6-12 months to reach full SEO potential (Content Marketing Institute 2024 B2B Research). Content with 10+ internal links gets 40% more organic traffic. Updated content sees an average 106% traffic increase. 60-70% of content published by companies gets zero organic traffic. (Content Marketing Institute 2024 B2B Research).
+> **Benchmark Context**: See Content Marketing Institute 2024 B2B Research for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Content Scorecard

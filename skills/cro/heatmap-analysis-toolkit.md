@@ -116,7 +116,7 @@ Priority framework:
 ### ⚠️ Human Checkpoint
 > Validate heatmap findings with actual user feedback before major redesigns. Heatmaps can be misinterpreted — a hot zone doesn't always mean satisfaction, and cold zones don't always mean failure. Test changes with A/B tests, don't just implement based on heatmap data alone.
 
-> **Benchmark Context**: Users spend 80% of attention above the fold. F-pattern scanning means left side of page gets 2x more attention than right. Users spend 57% more time above the fold than below. Rage clicks affect 5-10% of sessions on poorly designed pages. Mobile users tap 30% less accurately than desktop users click — 48px minimum tap targets are essential.
+> **Benchmark Context**: Consult current industry reports for up-to-date benchmarks relevant to this analysis.
 
 ## Output Contract
 

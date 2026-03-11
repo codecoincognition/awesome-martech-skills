@@ -121,7 +121,7 @@ Designs product and content recommendation systems — algorithm selection, plac
 ### ⚠️ Human Checkpoint
 > Review recommendation output for relevance and appropriateness before launch. Verify business rules (margin, inventory) are properly applied. Test cold-start experience for new users. Monitor for filter bubble effects (users seeing same recommendations repeatedly).
 
-> **Benchmark Context**: Product recommendations drive 10-30% of e-commerce revenue (McKinsey 2024 State of AI Report) Personalized recommendations increase conversion by 150-300% vs (McKinsey 2024 State of AI Report) non-personalized. . Cart page recommendations increase AOV by 10-15% (McKinsey 2024 State of AI Report) "Frequently bought together" has 2-3x higher conversion than "similar products. " Recommendation engines provide 35% of Amazon's revenue (McKinsey 2024 State of AI Report) Email product recommendations increase click rates by 300% (Salesforce 2024 State of Marketing) (Salesforce 2024 State of Marketing).
+> **Benchmark Context**: See McKinsey 2024 State of AI Report, and Salesforce 2024 State of Marketing for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Recommendation Strategy

@@ -101,7 +101,7 @@ If testing requested, create variant pairs that change only ONE element:
 > These are design briefs, not finished thumbnails. Hand to a designer or use Canva/Photoshop. Test multiple variants — even small changes in text or expression can swing CTR 20%+.
 
 
-> **Benchmark Context**: Average YouTube CTR is 2-10% (4-5% is good for most niches) (YouTube Creator Academy 2024) Videos over 10 minutes can include mid-roll ads. . Podcast episode completion rate averages 60-80% (Edison Research 2024 Podcast Consumer Report) YouTube Shorts average 2-5% CTR (YouTube Creator Academy 2024) Chapters increase average view duration by 5-10% (Wistia 2024 State of Video) (Edison Research 2024 Podcast Consumer Report).
+> **Benchmark Context**: See YouTube Creator Academy 2024, Edison Research 2024 Podcast Consumer Report, and Wistia 2024 State of Video for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Thumbnail Brief

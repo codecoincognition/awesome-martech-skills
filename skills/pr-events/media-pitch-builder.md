@@ -143,7 +143,7 @@ Follow-up rules:
 ### ⚠️ Human Checkpoint
 > Have your spokesperson or company leadership review all pitches before sending — especially for sensitive topics, financial data, or competitive claims. Verify all data points and claims in the pitch are accurate and attributable. Ensure your story timing doesn't conflict with major industry events or competing news.
 
-> **Benchmark Context**: 75% of journalists say they prefer pitches under 200 words (Cision 2024 State of the Media Report). 68% say personalization is the most important factor in whether they read a pitch. Only 3% of pitches result in coverage — the rest are ignored or declined. Journalists are most responsive to pitches with original data or research (28% response rate vs. 6% for product announcements. Morning pitches (6-10am) get 2x the response rate of afternoon pitches. (Cision 2024 State of the Media Report).
+> **Benchmark Context**: See Cision 2024 State of the Media Report for current industry benchmarks relevant to this analysis.
 ## Output Contract
 
 ### Deliverable: Markdown Pitch Strategy
