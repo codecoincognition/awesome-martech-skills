@@ -191,6 +191,16 @@ Use this map to match user problems to skills. The user won't use these exact ph
 4. social-engagement-analyzer → Measure what works
 5. influencer-outreach-brief → Scale through partnerships
 
+### "I want to start a podcast / YouTube channel / create video content"
+
+1. video-script-writer → Script your videos with hooks and CTAs
+2. youtube-seo-optimizer → Optimize titles, descriptions, and tags for search
+3. video-thumbnail-concept-generator → Design click-worthy thumbnails
+4. podcast-show-notes-generator → Generate structured show notes with timestamps
+5. short-form-video-planner → Plan TikTok, Reels, and YouTube Shorts
+6. video-repurposing-engine → Turn long-form into multi-platform clips
+7. video-analytics-interpreter → Measure what's working
+
 ### "I want to use AI in my marketing"
 
 1. ai-content-generator → AI-assisted content creation

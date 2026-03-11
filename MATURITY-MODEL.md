@@ -448,12 +448,17 @@ Progress to Level 5 when you observe:
 
 ## Level 5 Skills (60 Additional Optimization & Advanced Skills)
 
-### Video & Podcast (5 skills)
+### Video & Podcast (10 skills)
 - **[podcast-guest-research-brief](skills/video-podcast/podcast-guest-research-brief.md)** — Research and prep briefs for podcast guests
 - **[video-repurposing-engine](skills/video-podcast/video-repurposing-engine.md)** — Repurpose long-form video into multi-platform assets
 - **[webinar-promotion-playbook](skills/video-podcast/webinar-promotion-playbook.md)** — Plan webinar promotion for max registration
 - **[live-stream-engagement-toolkit](skills/video-podcast/live-stream-engagement-toolkit.md)** — Optimize live streams for engagement
 - **[video-analytics-interpreter](skills/video-podcast/video-analytics-interpreter.md)** — Interpret video metrics for optimization
+- **[podcast-show-notes-generator](skills/video-podcast/podcast-show-notes-generator.md)** — Generate structured show notes with timestamps and SEO descriptions
+- **[short-form-video-planner](skills/video-podcast/short-form-video-planner.md)** — Plan TikTok, Reels, and YouTube Shorts content
+- **[video-script-writer](skills/video-podcast/video-script-writer.md)** — Write video scripts with hooks, segments, CTAs, and timing
+- **[video-thumbnail-concept-generator](skills/video-podcast/video-thumbnail-concept-generator.md)** — Generate thumbnail concepts with layout and expression direction
+- **[youtube-seo-optimizer](skills/video-podcast/youtube-seo-optimizer.md)** — Optimize YouTube metadata for search and CTR
 
 ### Analytics Advanced (5 skills)
 - **[cohort-analysis-builder](skills/analytics/cohort-analysis-builder.md)** — Build cohort analyses for retention and LTV tracking

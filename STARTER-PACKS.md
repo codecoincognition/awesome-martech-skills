@@ -310,7 +310,17 @@ Add nurture sequences and content in weeks 5-6.
 
 18. **[Video Repurposing Engine](skills/video-podcast/video-repurposing-engine.md)** → Turn long-form video/podcast content into articles, clips, social posts, and show notes.
 
-19. **[Audience Persona Builder](skills/insights/audience-persona-builder.md)** → Build reader personas. Understand what your audience cares about.
+19. **[Video Script Writer](skills/video-podcast/video-script-writer.md)** → Write structured video scripts with hooks, segments, and CTAs for YouTube and social.
+
+20. **[YouTube SEO Optimizer](skills/video-podcast/youtube-seo-optimizer.md)** → Optimize video titles, descriptions, and tags for search rankings and click-through.
+
+21. **[Podcast Show Notes Generator](skills/video-podcast/podcast-show-notes-generator.md)** → Generate structured show notes with timestamps, takeaways, and SEO descriptions.
+
+22. **[Short-Form Video Planner](skills/video-podcast/short-form-video-planner.md)** → Plan TikTok, Reels, and YouTube Shorts content with trends and hooks.
+
+23. **[Video Thumbnail Concept Generator](skills/video-podcast/video-thumbnail-concept-generator.md)** → Generate click-worthy thumbnail concepts with layout and expression direction.
+
+24. **[Audience Persona Builder](skills/insights/audience-persona-builder.md)** → Build reader personas. Understand what your audience cares about.
 
 ### Expected Outcomes
 

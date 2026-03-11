@@ -376,8 +376,11 @@ All 156 skills organized by category. Click any category to expand.
 | [webinar-promotion-playbook](skills/video-podcast/webinar-promotion-playbook.md) | Plan and execute webinar promotion campaigns for max registration |
 | [live-stream-engagement-toolkit](skills/video-podcast/live-stream-engagement-toolkit.md) | Plan and optimize live stream events for audience engagement |
 | [video-analytics-interpreter](skills/video-podcast/video-analytics-interpreter.md) | Interpret video and podcast analytics for content optimization |
-
-> *5 additional Video & Podcast skills in the [skills/video-podcast/](skills/video-podcast/) directory.*
+| [podcast-show-notes-generator](skills/video-podcast/podcast-show-notes-generator.md) | Generate structured show notes with timestamps, takeaways, and SEO descriptions |
+| [short-form-video-planner](skills/video-podcast/short-form-video-planner.md) | Plan short-form video content for TikTok, Reels, and YouTube Shorts |
+| [video-script-writer](skills/video-podcast/video-script-writer.md) | Write structured video scripts with hooks, segments, CTAs, and timing |
+| [video-thumbnail-concept-generator](skills/video-podcast/video-thumbnail-concept-generator.md) | Generate thumbnail concepts with layout, text, colors, and expression direction |
+| [youtube-seo-optimizer](skills/video-podcast/youtube-seo-optimizer.md) | Optimize YouTube video metadata for search rankings and click-through rate |
 
 </details>
 
