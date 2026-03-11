@@ -113,7 +113,7 @@ Per email:
 ### ⚠️ Human Checkpoint
 > Have legal counsel review compliance findings, especially for GDPR, CCPA, and industry-specific regulations. Verify consent records are legally sufficient for your jurisdiction. Test unsubscribe process end-to-end before relying on compliance.
 
-> **Benchmark Context**: Consult current industry reports for up-to-date benchmarks relevant to this analysis.
+> **Benchmark Context**: Average email open rate is 42.35% and click-through rate is 2.09% (MailerLite 2025 Email Marketing Benchmarks). Average email ROI is $36 per $1 spent (Forbes Advisor, 2025). Automated emails achieve 42.1% open rates and 5.4% click rates, generating 320% more revenue than manual campaigns (Genesys Growth, 2025).
 
 ## Output Contract
 

@@ -105,7 +105,7 @@ Performs a comprehensive technical SEO audit covering crawlability, indexing, si
 ### ⚠️ Human Checkpoint
 > Have a developer review all recommended changes before implementation. Robots.txt and canonical tag changes can accidentally deindex pages. Always test in staging before deploying site-wide changes.
 
-> **Benchmark Context**: See Semrush 2024 State of Search, Google 2024 Marketing Measurement Guide, and Ahrefs 2024 Search Traffic Study for current industry benchmarks relevant to this analysis.
+> **Benchmark Context**: Average time to rank on page 1 for a new page is 6-12 months, with only 1.74% of new pages reaching the top 10 within a year (Ahrefs 2025 Study). The #1 organic result gets ~27.6% of clicks (First Page Sage 2025 Google CTR Report).
 ## Output Contract
 
 ### Deliverable: Markdown Technical SEO Audit

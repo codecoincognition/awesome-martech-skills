@@ -106,7 +106,7 @@ Map the complete referral journey:
 ### ⚠️ Human Checkpoint
 > Review incentive structure with finance team (cost modeling). Verify terms and conditions with legal (anti-spam compliance, tax implications of rewards). Test the complete referral flow as a user before launching. Ensure fraud prevention measures don't create false positives.
 
-> **Benchmark Context**: See ProfitWell 2024 SaaS Benchmarks, and OpenView 2024 Product Benchmarks for current industry benchmarks relevant to this analysis.
+> **Benchmark Context**: Good Day 1 retention is 20-30% for mobile apps and 40%+ for strong SaaS products (Amplitude/Mixpanel 2025 Benchmarks). Median net revenue retention for SaaS is ~110% (Bessemer Venture Partners 2025).
 ## Output Contract
 
 ### Deliverable: Markdown Referral Program Design

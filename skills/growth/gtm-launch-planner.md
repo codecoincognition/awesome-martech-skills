@@ -110,7 +110,7 @@ Hour-by-hour execution plan:
 ### ⚠️ Human Checkpoint
 > Review positioning with actual customers before launch. Verify all legal/compliance requirements (regulatory approvals, terms of service, privacy policy updates). Ensure customer support is staffed for launch-day volume. Test all links, tracking, and landing pages before go-live.
 
-> **Benchmark Context**: See ProfitWell 2024 SaaS Benchmarks for current industry benchmarks relevant to this analysis.
+> **Benchmark Context**: Good Day 1 retention is 20-30% for mobile apps and 40%+ for strong SaaS products (Amplitude/Mixpanel 2025 Benchmarks). Median net revenue retention for SaaS is ~110% (Bessemer Venture Partners 2025).
 ## Output Contract
 
 ### Deliverable: Markdown GTM Plan

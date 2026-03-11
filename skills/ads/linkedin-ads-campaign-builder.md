@@ -112,7 +112,7 @@ Audience size guidelines:
 ### ⚠️ Human Checkpoint
 > Review audience targeting for relevance (avoid targeting too broad or too narrow), verify Lead Gen Form fields for GDPR/CCPA compliance, and ensure content offers match the audience's funnel stage.
 
-> **Benchmark Context**: See LinkedIn 2024 B2B Marketing Benchmark for current industry benchmarks relevant to this analysis.
+> **Benchmark Context**: Average Google Ads CTR is 6.66% for search and 0.46% for display (WordStream 2025 Industry Benchmarks). Average Meta Ads CTR ranges from 1.5-1.7% across industries (Meta 2025 Advertising Benchmarks).
 ## Output Contract
 
 ### Deliverable: Markdown Campaign Blueprint

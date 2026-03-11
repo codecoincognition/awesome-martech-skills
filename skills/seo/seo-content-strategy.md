@@ -109,7 +109,7 @@ Score each content piece on:
 ### ⚠️ Human Checkpoint
 > Review topic clusters for brand relevance — not every high-volume keyword is worth targeting. Verify content accuracy with subject matter experts. Ensure content meets E-E-A-T standards (Experience, Expertise, Authoritativeness, Trustworthiness) for your industry.
 
-> **Benchmark Context**: See BrightEdge 2024 Organic Search Report, and Ahrefs 2024 Search Traffic Study for current industry benchmarks relevant to this analysis.
+> **Benchmark Context**: Average time to rank on page 1 for a new page is 6-12 months, with only 1.74% of new pages reaching the top 10 within a year (Ahrefs 2025 Study). The #1 organic result gets ~27.6% of clicks (First Page Sage 2025 Google CTR Report).
 ## Output Contract
 
 ### Deliverable: Markdown Content Strategy

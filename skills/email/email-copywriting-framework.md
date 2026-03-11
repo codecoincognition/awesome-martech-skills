@@ -117,7 +117,7 @@ Formulas that drive opens:
 ### ⚠️ Human Checkpoint
 > Review all email copy for factual accuracy, brand voice alignment, and legal compliance (especially claims, pricing, and deadlines). Ensure urgency and scarcity claims are genuine — false urgency damages trust.
 
-> **Benchmark Context**: See HubSpot 2024 State of Marketing for current industry benchmarks relevant to this analysis.
+> **Benchmark Context**: Average email open rate is 42.35% and click-through rate is 2.09% (MailerLite 2025 Email Marketing Benchmarks). Average email ROI is $36 per $1 spent (Forbes Advisor, 2025). Automated emails achieve 42.1% open rates and 5.4% click rates, generating 320% more revenue than manual campaigns (Genesys Growth, 2025).
 ## Output Contract
 
 ### Deliverable: Markdown Copy Package

@@ -108,7 +108,7 @@ Optimizes e-commerce SEO across product pages, category pages, site architecture
 ### ⚠️ Human Checkpoint
 > Review product data accuracy before implementing schema (price, availability, ratings). Verify faceted navigation changes don't break user experience. Ensure product descriptions are accurate and compliant with regulations.
 
-> **Benchmark Context**: See Semrush 2024 State of Search, and Ahrefs 2024 Search Traffic Study for current industry benchmarks relevant to this analysis.
+> **Benchmark Context**: Average time to rank on page 1 for a new page is 6-12 months, with only 1.74% of new pages reaching the top 10 within a year (Ahrefs 2025 Study). The #1 organic result gets ~27.6% of clicks (First Page Sage 2025 Google CTR Report). Average e-commerce conversion rate is 1.9-3%, varying by industry and product type (Klaviyo 2025 Benchmarks).
 ## Output Contract
 
 ### Deliverable: Markdown E-commerce SEO Plan

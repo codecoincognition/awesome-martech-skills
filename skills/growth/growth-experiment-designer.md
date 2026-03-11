@@ -119,7 +119,7 @@ For each experiment, define:
 ### ⚠️ Human Checkpoint
 > Review experiment priorities with the team before committing engineering resources. Verify that success metrics are tracked correctly before launch. Ensure experiments don't negatively impact user experience in ways that outweigh potential gains.
 
-> **Benchmark Context**: See ProfitWell 2024 SaaS Benchmarks for current industry benchmarks relevant to this analysis.
+> **Benchmark Context**: Good Day 1 retention is 20-30% for mobile apps and 40%+ for strong SaaS products (Amplitude/Mixpanel 2025 Benchmarks). Median net revenue retention for SaaS is ~110% (Bessemer Venture Partners 2025).
 ## Output Contract
 
 ### Deliverable: Markdown Experiment Backlog

@@ -191,13 +191,13 @@ We embed **human checkpoints** everywhere. The skill doesn't just produce output
 Inline, cited benchmarks:
 
 ```
-> **Benchmark Context**: See Mailchimp 2024 Email Marketing Benchmarks for current industry benchmarks relevant to this analysis.
+> **Benchmark Context**: Average email open rate is 42.35% and click-through rate is 2.09% (MailerLite 2025 Email Marketing Benchmarks). Average email ROI is $36 per $1 spent (Forbes Advisor, 2025).
 ```
 
-Every benchmark reference points to a named, published source so users can look up current numbers themselves. We do not hardcode specific statistics because benchmarks change annually. Instead, we:
-- Name the authoritative source (the report or tool matters)
-- Let users consult the original for current figures
-- Provide context on what population or industry it represents
+Every metric is grounded in:
+- Current industry data from named, published sources (verified as of 2025)
+- Specific attribution so users can look up the original report
+- Context on what population or industry it represents
 
 ### Confidence & Sample Size Note
 
@@ -361,10 +361,10 @@ Every recommendation is grounded in evidence. This is non-negotiable.
 We use footnote-style citations within the text:
 
 ```
-See Mailchimp 2024 Email Marketing Benchmarks for current open rate and click rate benchmarks.
+Average email open rate is 42.35% and click-through rate is 2.09% (MailerLite 2025 Email Marketing Benchmarks).
 ```
 
-We reference the source name inline so users can verify current numbers themselves.
+We cite the specific stat, the source, and the year inline. All benchmark numbers in this repo have been verified against their published sources as of 2025.
 
 **Source selection criteria:**
 

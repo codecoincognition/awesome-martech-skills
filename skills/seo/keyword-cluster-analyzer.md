@@ -102,7 +102,7 @@ project management methodology comparison,880,28,1.20,
 7. **Add content recommendations** — For each cluster, suggest content type (blog post, landing page, comparison page, guide), target word count, and priority level.
 
 
-> **Benchmark Context**: See Semrush 2024 State of Search, and Ahrefs 2024 Search Traffic Study for current industry benchmarks relevant to this analysis.
+> **Benchmark Context**: Average time to rank on page 1 for a new page is 6-12 months, with only 1.74% of new pages reaching the top 10 within a year (Ahrefs 2025 Study). The #1 organic result gets ~27.6% of clicks (First Page Sage 2025 Google CTR Report).
 
 
 ### Confidence & Sample Size.

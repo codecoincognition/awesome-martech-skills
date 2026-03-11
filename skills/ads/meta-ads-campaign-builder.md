@@ -100,7 +100,7 @@ Build audience layers:
 ### ⚠️ Human Checkpoint
 > Verify Pixel/Conversions API setup, confirm audience exclusions include existing customers (to avoid wasting spend), and review all ad copy for compliance with Meta Advertising Standards before launching.
 
-> **Benchmark Context**: See Meta 2024 Advertising Benchmarks for current industry benchmarks relevant to this analysis.
+> **Benchmark Context**: Average Google Ads CTR is 6.66% for search and 0.46% for display (WordStream 2025 Industry Benchmarks). Average Meta Ads CTR ranges from 1.5-1.7% across industries (Meta 2025 Advertising Benchmarks).
 ## Output Contract
 
 ### Deliverable: Markdown Campaign Blueprint

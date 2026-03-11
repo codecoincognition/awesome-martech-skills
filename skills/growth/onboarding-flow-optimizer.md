@@ -103,7 +103,7 @@ Principles:
 ### ⚠️ Human Checkpoint
 > Review redesigned flow with actual users (5 user tests minimum) before full rollout. Verify that removed steps don't break downstream features. Ensure onboarding emails comply with CAN-SPAM/GDPR. Test on mobile if applicable.
 
-> **Benchmark Context**: See ProfitWell 2024 SaaS Benchmarks, and OpenView 2024 Product Benchmarks for current industry benchmarks relevant to this analysis.
+> **Benchmark Context**: Good Day 1 retention is 20-30% for mobile apps and 40%+ for strong SaaS products (Amplitude/Mixpanel 2025 Benchmarks). Median net revenue retention for SaaS is ~110% (Bessemer Venture Partners 2025).
 ## Output Contract
 
 ### Deliverable: Markdown Optimization Plan

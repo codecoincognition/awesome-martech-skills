@@ -111,7 +111,7 @@ Audits email deliverability with sender reputation analysis, authentication veri
 ### ⚠️ Human Checkpoint
 > Have your DNS administrator review all authentication record changes before publishing. Incorrect SPF/DKIM/DMARC records can block ALL email (including transactional). Test changes with a small segment before full deployment.
 
-> **Benchmark Context**: See Litmus 2024 State of Email for current industry benchmarks relevant to this analysis.
+> **Benchmark Context**: Average email open rate is 42.35% and click-through rate is 2.09% (MailerLite 2025 Email Marketing Benchmarks). Average email ROI is $36 per $1 spent (Forbes Advisor, 2025). Automated emails achieve 42.1% open rates and 5.4% click rates, generating 320% more revenue than manual campaigns (Genesys Growth, 2025).
 ## Output Contract
 
 ### Deliverable: Markdown Deliverability Audit

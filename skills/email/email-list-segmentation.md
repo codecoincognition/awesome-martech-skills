@@ -109,7 +109,7 @@ Map segments to content variations:
 ### ⚠️ Human Checkpoint
 > Review segment definitions with your team to ensure alignment with business goals. Verify that segment criteria are technically achievable in your ESP. Check compliance with data privacy regulations (GDPR, CAN-SPAM) for data usage in segmentation.
 
-> **Benchmark Context**: See Mailchimp 2024 Email Marketing Benchmarks for current industry benchmarks relevant to this analysis.
+> **Benchmark Context**: Average email open rate is 42.35% and click-through rate is 2.09% (MailerLite 2025 Email Marketing Benchmarks). Average email ROI is $36 per $1 spent (Forbes Advisor, 2025). Automated emails achieve 42.1% open rates and 5.4% click rates, generating 320% more revenue than manual campaigns (Genesys Growth, 2025).
 ## Output Contract
 
 ### Deliverable: Markdown Segmentation Strategy

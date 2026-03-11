@@ -110,7 +110,7 @@ Structure each test as:
 ### ⚠️ Human Checkpoint
 > Review test results for statistical significance before implementing winners. Don't cherry-pick metrics — declare your primary metric before the test starts. Ensure test variants don't violate brand guidelines or compliance requirements.
 
-> **Benchmark Context**: See Mailchimp 2024 Email Marketing Benchmarks, HubSpot 2024 State of Marketing, and Campaign Monitor 2024 Email Benchmarks for current industry benchmarks relevant to this analysis.
+> **Benchmark Context**: Average email open rate is 42.35% and click-through rate is 2.09% (MailerLite 2025 Email Marketing Benchmarks). Average email ROI is $36 per $1 spent (Forbes Advisor, 2025). Automated emails achieve 42.1% open rates and 5.4% click rates, generating 320% more revenue than manual campaigns (Genesys Growth, 2025).
 ## Output Contract
 
 ### Deliverable: Markdown Testing Framework

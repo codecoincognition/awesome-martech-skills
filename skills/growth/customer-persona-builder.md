@@ -125,7 +125,7 @@ R005,33-39,Product Marketing,51-200,MarTech,ROI measurement,Campaign performance
    - Produce implementation guide for marketing use
 
 
-> **Benchmark Context**: See enterprise. (ProfitWell 2024 SaaS Benchmarks for current industry benchmarks relevant to this analysis.
+> **Benchmark Context**: Good Day 1 retention is 20-30% for mobile apps and 40%+ for strong SaaS products (Amplitude/Mixpanel 2025 Benchmarks). Median net revenue retention for SaaS is ~110% (Bessemer Venture Partners 2025).
 
 
 ### Confidence & Sample Size.

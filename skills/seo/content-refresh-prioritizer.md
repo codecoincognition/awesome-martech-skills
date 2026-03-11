@@ -109,7 +109,7 @@ url,clicks,clicks_previous,impressions,avg_position,publish_date,word_count,targ
 6. **Generate output** — XLSX with prioritized action list + Markdown summary.
 
 
-> **Benchmark Context**: See Semrush 2024 State of Search, and Ahrefs 2024 Search Traffic Study for current industry benchmarks relevant to this analysis.
+> **Benchmark Context**: Average time to rank on page 1 for a new page is 6-12 months, with only 1.74% of new pages reaching the top 10 within a year (Ahrefs 2025 Study). The #1 organic result gets ~27.6% of clicks (First Page Sage 2025 Google CTR Report).
 
 
 ### Confidence & Sample Size.

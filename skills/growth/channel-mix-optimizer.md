@@ -102,7 +102,7 @@ For each channel, check:
 ### ⚠️ Human Checkpoint
 > Review recommendations against strategic context — some channels serve brand/awareness goals not captured by CAC alone. Verify no contractual commitments (agency retainers, media buys) would be violated by reallocation. Consider team skills — shifting to a channel requires expertise to execute well.
 
-> **Benchmark Context**: See ProfitWell 2024 SaaS Benchmarks, and OpenView 2024 Product Benchmarks for current industry benchmarks relevant to this analysis.
+> **Benchmark Context**: Good Day 1 retention is 20-30% for mobile apps and 40%+ for strong SaaS products (Amplitude/Mixpanel 2025 Benchmarks). Median net revenue retention for SaaS is ~110% (Bessemer Venture Partners 2025).
 ## Output Contract
 
 ### Deliverable: Markdown Channel Strategy

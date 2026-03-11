@@ -122,7 +122,7 @@ Goal: Free trial sign-ups
 8. **Generate structured output** — Data tables in Markdown with step-by-step instructions to paste into Google Sheets or Excel for formatting.
 
 
-> **Benchmark Context**: See WordStream 2024 Industry Benchmarks, LinkedIn 2024 B2B Marketing Benchmark, Meta 2024 Advertising Benchmarks, and Google Ads 2024 Performance Benchmarks for current industry benchmarks relevant to this analysis.
+> **Benchmark Context**: Average Google Ads CTR is 6.66% for search and 0.46% for display (WordStream 2025 Industry Benchmarks). Average Meta Ads CTR ranges from 1.5-1.7% across industries (Meta 2025 Advertising Benchmarks).
 
 
 ### Confidence & Sample Size.

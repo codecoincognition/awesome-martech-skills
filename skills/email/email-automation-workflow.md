@@ -104,7 +104,7 @@ Per workflow:
 ### ⚠️ Human Checkpoint
 > Review all automated email content for accuracy, brand voice, and compliance before activating. Test the complete flow with internal addresses first. Set up alerts for unusual unsubscribe rates in automated flows. Verify suppression rules prevent over-emailing.
 
-> **Benchmark Context**: See Mailchimp 2024 Email Marketing Benchmarks for current industry benchmarks relevant to this analysis.
+> **Benchmark Context**: Average email open rate is 42.35% and click-through rate is 2.09% (MailerLite 2025 Email Marketing Benchmarks). Average email ROI is $36 per $1 spent (Forbes Advisor, 2025). Automated emails achieve 42.1% open rates and 5.4% click rates, generating 320% more revenue than manual campaigns (Genesys Growth, 2025).
 ## Output Contract
 
 ### Deliverable: Markdown Workflow Blueprint

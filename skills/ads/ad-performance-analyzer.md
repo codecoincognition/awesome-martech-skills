@@ -96,7 +96,7 @@ Prioritized action list:
 ### ⚠️ Human Checkpoint
 > Review pause/scale recommendations against business context — some campaigns serve strategic goals (brand, new market entry) that CPA alone doesn't capture. Verify attribution model consistency across platforms before comparing cross-channel performance.
 
-> **Benchmark Context**: See WordStream 2024 Industry Benchmarks, and Meta 2024 Advertising Benchmarks for current industry benchmarks relevant to this analysis.
+> **Benchmark Context**: Average Google Ads CTR is 6.66% for search and 0.46% for display (WordStream 2025 Industry Benchmarks). Average Meta Ads CTR ranges from 1.5-1.7% across industries (Meta 2025 Advertising Benchmarks).
 ## Output Contract
 
 ### Deliverable: Markdown Analysis Report

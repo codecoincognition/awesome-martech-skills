@@ -113,7 +113,7 @@ Identify natural moments users want to share:
 ### ⚠️ Human Checkpoint
 > Review sharing mechanics for user experience impact — aggressive invite prompts can damage retention. Ensure sharing doesn't expose private user data. Legal review for incentivized referrals in regulated industries.
 
-> **Benchmark Context**: See ProfitWell 2024 SaaS Benchmarks, and First Round 2024 State of Startups for current industry benchmarks relevant to this analysis.
+> **Benchmark Context**: Good Day 1 retention is 20-30% for mobile apps and 40%+ for strong SaaS products (Amplitude/Mixpanel 2025 Benchmarks). Median net revenue retention for SaaS is ~110% (Bessemer Venture Partners 2025).
 ## Output Contract
 
 ### Deliverable: Markdown Viral Loop Blueprint

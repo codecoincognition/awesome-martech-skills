@@ -104,7 +104,7 @@ Interventions by lifecycle stage:
 ### ⚠️ Human Checkpoint
 > Validate churn reasons with actual user conversations (surveys alone can be misleading). Review health score thresholds with customer success team. Verify that retention interventions don't annoy retained users (frequency caps on re-engagement).
 
-> **Benchmark Context**: See OpenView 2024 Product Benchmarks, and ProfitWell 2024 SaaS Benchmarks for current industry benchmarks relevant to this analysis.
+> **Benchmark Context**: Good Day 1 retention is 20-30% for mobile apps and 40%+ for strong SaaS products (Amplitude/Mixpanel 2025 Benchmarks). Median net revenue retention for SaaS is ~110% (Bessemer Venture Partners 2025).
 ## Output Contract
 
 ### Deliverable: Markdown Retention Report

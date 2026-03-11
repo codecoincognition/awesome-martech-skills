@@ -105,7 +105,7 @@ Must-have elements:
 ### ⚠️ Human Checkpoint
 > Verify pricing accuracy with finance team before publishing. Review feature comparisons with product team for accuracy. Ensure compliance with any contractual pricing agreements. Test the complete purchase flow after changes.
 
-> **Benchmark Context**: See ProfitWell 2024 SaaS Benchmarks for current industry benchmarks relevant to this analysis.
+> **Benchmark Context**: Good Day 1 retention is 20-30% for mobile apps and 40%+ for strong SaaS products (Amplitude/Mixpanel 2025 Benchmarks). Median net revenue retention for SaaS is ~110% (Bessemer Venture Partners 2025).
 ## Output Contract
 
 ### Deliverable: Markdown Pricing Page Audit

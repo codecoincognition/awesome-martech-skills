@@ -107,7 +107,7 @@ Design creative per segment and time window:
 ### ⚠️ Human Checkpoint
 > Review audience exclusions to avoid annoying converted customers. Verify frequency caps are set to prevent ad fatigue. Check creative for compliance with platform policies and privacy regulations (GDPR/CCPA consent requirements for retargeting).
 
-> **Benchmark Context**: See WordStream 2024 Industry Benchmarks for current industry benchmarks relevant to this analysis.
+> **Benchmark Context**: Average Google Ads CTR is 6.66% for search and 0.46% for display (WordStream 2025 Industry Benchmarks). Average Meta Ads CTR ranges from 1.5-1.7% across industries (Meta 2025 Advertising Benchmarks).
 ## Output Contract
 
 ### Deliverable: Markdown Retargeting Blueprint

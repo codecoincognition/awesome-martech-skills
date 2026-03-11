@@ -95,7 +95,7 @@ Red flags to investigate:
 ### ⚠️ Human Checkpoint
 > Review placement exclusion list before applying — some legitimate sites may appear as poor performers due to attribution gaps. Verify brand safety categories align with your policies. Check that creative meets platform specs before uploading.
 
-> **Benchmark Context**: See WordStream 2024 Industry Benchmarks for current industry benchmarks relevant to this analysis.
+> **Benchmark Context**: Average Google Ads CTR is 6.66% for search and 0.46% for display (WordStream 2025 Industry Benchmarks). Average Meta Ads CTR ranges from 1.5-1.7% across industries (Meta 2025 Advertising Benchmarks).
 ## Output Contract
 
 ### Deliverable: Markdown Optimization Report
